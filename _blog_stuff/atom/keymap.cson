@@ -1,0 +1,151 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+
+
+# atom 大致原则是, 小窗口>大窗口, 然后才是客户配置>插件配置>系统配置
+# 因此优先级 'body' < 'atom-workspace' < 'atom-text-editor' < 'atom-text-editor:not([mini])'
+
+'atom-text-editor[data-grammar~=python]:not(.mini)':
+  'f4': 'autocomplete-python:go-to-definition'
+  'shift-f4': 'autocomplete-python:go-to-definition'
+  'alt-shift-s': 'autocomplete-python:override-method'
+
+'atom-text-editor[data-grammar~=c]:not(.mini)':
+  'f4': 'atom-gtags:get-definitions'
+  'shift-f4': 'atom-gtags:get-references'
+
+'.platform-win32 atom-workspace atom-text-editor:not([mini])':
+# character
+  'ctrl-b': 'atom-beautify:beautify-editor'
+  'ctrl-d': 'core:delete'
+  'ctrl-shift-d': 'editor:delete-line'
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
+  'ctrl-l': 'core:move-right'
+  'ctrl-h': 'core:move-left'
+  'ctrl-shift-j': 'editor:move-line-down'
+  'ctrl-shift-k': 'editor:move-line-up'
+  'ctrl-shift-l': 'editor:move-to-end-of-word'
+  'ctrl-shift-h': 'editor:move-to-beginning-of-word'
+  'alt-shift-j': 'editor:join-lines'
+  'ctrl-m': 'bookmarks:toggle-bookmark'
+  'ctrl-r': 'core:redo'
+  'ctrl-u': 'core:undo'
+  'ctrl-shift-v': 'editor:duplicate-lines'
+  'ctrl-shift-W': 'tabs:close-other-tabs'
+  'ctrl-shift-x': 'editor:select-line'
+  'ctrl-shift-y': 'last-cursor-position:next'
+  'ctrl-shift-z': 'last-cursor-position:previous'
+# special
+  'ctrl-4': 'editor:move-to-end-of-screen-line'         # ctrl-$
+  'ctrl-6': 'editor:move-to-first-character-of-line'    # ctrl-^
+  'ctrl-$': 'editor:select-to-end-of-line'              # ctrl-shift-$
+  'ctrl-^': 'editor:select-to-first-character-of-line'  # ctrl-shift-^
+  'ctrl-?': 'block-comment-plus:toggle'                 # ctrl-shift-/
+  'ctrl-|': 'block-comment-plus:toggle'                 # ctrl-shift-\
+  'ctrl-]': 'bracket-matcher:select-inside-brackets'
+  'ctrl-[': 'bracket-matcher:go-to-matching-bracket'
+  'ctrl-.': 'tabs-to-spaces:untabify-all'
+  'ctrl->': 'tabs-to-spaces:tabify'                     # ctrl-shift-.
+# alt
+  'alt-0': 'editor:fold-all'
+  'alt-)': 'editor:unfold-all'                          # alt-shift-0
+  'alt-!': 'editor:unfold-all'                          # alt-shift-1
+  'alt-1': 'editor:fold-at-indent-level-1'
+  'alt-2': 'editor:fold-at-indent-level-2'
+  'alt-3': 'editor:fold-at-indent-level-3'
+  'alt-4': 'editor:fold-at-indent-level-4'
+  'alt-5': 'editor:fold-at-indent-level-5'
+  'alt-6': 'editor:fold-at-indent-level-6'
+  'alt-7': 'editor:fold-at-indent-level-7'
+  'alt-8': 'editor:fold-at-indent-level-8'
+  'alt-9': 'editor:fold-at-indent-level-9'
+# f1-f6
+  'f1': 'dash:shortcut'
+  'ctrl-f2': 'bookmarks:view-all'
+  'ctrl-shift-f2': 'bookmarks:clear-bookmarks'
+  'ctrl-f3': 'find-and-replace:select-all'
+  'f5': 'script:run'
+  'f6': 'git-time-machine:toggle'
+  'ctrl-f6': 'merge-conflicts:detect'
+  'shift-f6': 'merge-conflicts:next-unresolved'
+  'ctrl-shift-f6': 'merge-conflicts:previous-unresolved'
+
+'body':
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
+  'ctrl-r': 'core:redo'
+  'ctrl-u': 'core:undo'
+  'ctrl-shift-S': 'window:save-all'
+# unset ctrl-k *
+  'ctrl-k up': 'unset!'
+  'ctrl-k down': 'unset!'
+  'ctrl-k left': 'unset!'
+  'ctrl-k right': 'unset!'
+  'ctrl-k ctrl-w': 'unset!'
+  'ctrl-k ctrl-alt-w': 'unset!'
+  'ctrl-k ctrl-p': 'unset!'
+  'ctrl-k ctrl-n': 'unset!'
+  'ctrl-k ctrl-up': 'unset!'
+  'ctrl-k ctrl-down': 'unset!'
+  'ctrl-k ctrl-left': 'unset!'
+  'ctrl-k ctrl-right': 'unset!'
+'atom-workspace atom-text-editor':
+  'ctrl-k ctrl-u': 'unset!'
+  'ctrl-k ctrl-l': 'unset!'
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-k ctrl-0': 'unset!'
+  'ctrl-k ctrl-1': 'unset!'
+  'ctrl-k ctrl-2': 'unset!'
+  'ctrl-k ctrl-3': 'unset!'
+  'ctrl-k ctrl-4': 'unset!'
+  'ctrl-k ctrl-5': 'unset!'
+  'ctrl-k ctrl-6': 'unset!'
+  'ctrl-k ctrl-7': 'unset!'
+  'ctrl-k ctrl-8': 'unset!'
+  'ctrl-k ctrl-9': 'unset!'
+'.platform-win32, .platform-linux':
+  'ctrl-k ctrl-b': 'unset!'
+'.platform-win32 .tree-view, .platform-linux .tree-view':
+  'ctrl-k right': 'unset!'
+  'ctrl-k l': 'unset!'
+  'ctrl-k left': 'unset!'
+  'ctrl-k h': 'unset!'
+  'ctrl-k up': 'unset!'
+  'ctrl-k k': 'unset!'
+  'ctrl-k down': 'unset!'
+  'ctrl-k j': 'unset!'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-k ctrl-d': 'unset!'
+  'ctrl-u': 'unset!'

@@ -1,0 +1,130 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="42022" Ctrl="yes" Alt="no" Shift="no" Key="191" />
+        <Shortcut id="41005" Ctrl="yes" Alt="no" Shift="yes" Key="87" />
+        <Shortcut id="42029" Ctrl="yes" Alt="no" Shift="yes" Key="67" />
+        <Shortcut id="42014" Ctrl="yes" Alt="no" Shift="no" Key="38" />
+        <Shortcut id="42015" Ctrl="yes" Alt="no" Shift="no" Key="40" />
+        <Shortcut id="42057" Ctrl="yes" Alt="no" Shift="yes" Key="13" />
+        <Shortcut id="42058" Ctrl="yes" Alt="no" Shift="no" Key="13" />
+        <Shortcut id="50001" Ctrl="yes" Alt="yes" Shift="yes" Key="13" />
+        <Shortcut id="42023" Ctrl="yes" Alt="no" Shift="yes" Key="191" />
+        <Shortcut id="42047" Ctrl="yes" Alt="no" Shift="yes" Key="220" />
+        <Shortcut id="43009" Ctrl="yes" Alt="no" Shift="no" Key="219" />
+        <Shortcut id="43053" Ctrl="yes" Alt="no" Shift="no" Key="221" />
+        <Shortcut id="43008" Ctrl="yes" Alt="no" Shift="yes" Key="113" />
+        <Shortcut id="44095" Ctrl="yes" Alt="yes" Shift="no" Key="34" />
+        <Shortcut id="44096" Ctrl="yes" Alt="yes" Shift="no" Key="33" />
+        <Shortcut id="44098" Ctrl="yes" Alt="yes" Shift="yes" Key="34" />
+        <Shortcut id="44099" Ctrl="yes" Alt="yes" Shift="yes" Key="33" />
+        <Shortcut id="50003" Ctrl="yes" Alt="no" Shift="yes" Key="9" />
+        <Shortcut id="43048" Ctrl="yes" Alt="no" Shift="no" Key="114" />
+        <Shortcut id="43049" Ctrl="yes" Alt="no" Shift="yes" Key="114" />
+        <Shortcut id="42013" Ctrl="no" Alt="yes" Shift="yes" Key="74" />
+        <Shortcut id="49000" Ctrl="no" Alt="no" Shift="no" Key="116" />
+        <Shortcut id="42034" Ctrl="yes" Alt="no" Shift="no" Key="220" />
+        <Shortcut id="43005" Ctrl="yes" Alt="no" Shift="no" Key="77" />
+        <Shortcut id="41006" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42017" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42035" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42036" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43003" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43036" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43042" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="47000" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42046" Ctrl="yes" Alt="no" Shift="no" Key="190" />
+        <Shortcut id="42054" Ctrl="yes" Alt="no" Shift="yes" Key="190" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Save with Trim" Ctrl="yes" Alt="no" Shift="no" Key="83">
+            <Action type="2" message="0" wParam="42046" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Line MoveDown" Ctrl="yes" Alt="no" Shift="yes" Key="74">
+            <Action type="2" message="0" wParam="42015" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Line MoveUp" Ctrl="yes" Alt="no" Shift="yes" Key="75">
+            <Action type="2" message="0" wParam="42014" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="help" Ctrl="no" Alt="no" Shift="no" Key="112">zeal.lnk $(CURRENT_WORD)</Command>
+        <Command name="Google" Ctrl="yes" Alt="no" Shift="no" Key="112">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="ConEmu" Ctrl="yes" Alt="no" Shift="no" Key="192">ConEmu.exe -Dir &quot;$(CURRENT_DIRECTORY)&quot;</Command>
+        <Command name="Markdown preview" Ctrl="yes" Alt="no" Shift="yes" Key="77">Typora.lnk &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="117" />
+        <PluginCommand moduleName="FileSwitcher.dll" internalID="0" Ctrl="yes" Alt="no" Shift="yes" Key="79" />
+        <PluginCommand moduleName="LocationNavigate.dll" internalID="0" Ctrl="yes" Alt="no" Shift="yes" Key="90" />
+        <PluginCommand moduleName="LocationNavigate.dll" internalID="1" Ctrl="yes" Alt="no" Shift="yes" Key="89" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2342" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="40" />
+        <ScintKey ScintID="2343" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="38" />
+        <ScintKey ScintID="2391" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="yes" Key="191" />
+        <ScintKey ScintID="2393" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="yes" Key="220" />
+        <ScintKey ScintID="2011" menuCmdID="42004" Ctrl="yes" Alt="no" Shift="no" Key="89">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="82" />
+        </ScintKey>
+        <ScintKey ScintID="2176" menuCmdID="42003" Ctrl="yes" Alt="no" Shift="no" Key="90">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="85" />
+        </ScintKey>
+        <ScintKey ScintID="2469" menuCmdID="42010" Ctrl="no" Alt="yes" Shift="yes" Key="86" />
+        <ScintKey ScintID="2413" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="221" />
+        <ScintKey ScintID="2415" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="219" />
+        <ScintKey ScintID="2414" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="yes" Key="221" />
+        <ScintKey ScintID="2416" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="yes" Key="219" />
+        <ScintKey ScintID="2302" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="38">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="75" />
+        </ScintKey>
+        <ScintKey ScintID="2180" menuCmdID="42006" Ctrl="no" Alt="no" Shift="no" Key="46">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="68" />
+        </ScintKey>
+        <ScintKey ScintID="2327" menuCmdID="42008" Ctrl="no" Alt="no" Shift="no" Key="9" />
+        <ScintKey ScintID="2328" menuCmdID="42009" Ctrl="no" Alt="no" Shift="yes" Key="9" />
+        <ScintKey ScintID="2300" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="40">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="74" />
+        </ScintKey>
+        <ScintKey ScintID="2303" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="38" />
+        <ScintKey ScintID="2301" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="40" />
+        <ScintKey ScintID="2304" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="37">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="72" />
+        </ScintKey>
+        <ScintKey ScintID="2305" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="37" />
+        <ScintKey ScintID="2306" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="39">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="76" />
+        </ScintKey>
+        <ScintKey ScintID="2337" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="88" />
+        <ScintKey ScintID="2307" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="39" />
+        <ScintKey ScintID="2338" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="68" />
+        <ScintKey ScintID="2404" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="86" />
+        <ScintKey ScintID="2326" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="8" />
+        <ScintKey ScintID="2453" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="36">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="54" />
+        </ScintKey>
+        <ScintKey ScintID="2454" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="36">
+            <NextKey Ctrl="yes" Alt="no" Shift="yes" Key="54" />
+        </ScintKey>
+        <ScintKey ScintID="2451" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="35">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="52" />
+        </ScintKey>
+        <ScintKey ScintID="2452" menuCmdID="0" Ctrl="no" Alt="no" Shift="yes" Key="35">
+            <NextKey Ctrl="yes" Alt="no" Shift="yes" Key="52" />
+        </ScintKey>
+        <ScintKey ScintID="2308" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="37">
+            <NextKey Ctrl="yes" Alt="no" Shift="yes" Key="72" />
+        </ScintKey>
+        <ScintKey ScintID="2310" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="39">
+            <NextKey Ctrl="yes" Alt="no" Shift="yes" Key="76" />
+        </ScintKey>
+        <ScintKey ScintID="2325" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="27">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="84" />
+        </ScintKey>
+        <ScintKey ScintID="2390" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2392" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2455" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2339" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
+</NotepadPlus>
