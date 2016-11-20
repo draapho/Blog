@@ -1,5 +1,5 @@
 ---
-title: Git 常用命令
+title: Git 初始设置及常用命令
 date: 2016-10-24
 categories: cheat sheet
 tags: [git]

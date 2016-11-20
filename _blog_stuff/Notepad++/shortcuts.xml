@@ -21,7 +21,7 @@
         <Shortcut id="43048" Ctrl="yes" Alt="no" Shift="no" Key="114" />
         <Shortcut id="43049" Ctrl="yes" Alt="no" Shift="yes" Key="114" />
         <Shortcut id="42013" Ctrl="no" Alt="yes" Shift="yes" Key="74" />
-        <Shortcut id="49000" Ctrl="no" Alt="no" Shift="no" Key="116" />
+        <Shortcut id="49000" Ctrl="yes" Alt="no" Shift="no" Key="116" />
         <Shortcut id="42034" Ctrl="yes" Alt="no" Shift="no" Key="220" />
         <Shortcut id="43005" Ctrl="yes" Alt="no" Shift="no" Key="77" />
         <Shortcut id="41006" Ctrl="no" Alt="no" Shift="no" Key="0" />
@@ -53,6 +53,7 @@
         <Command name="Google" Ctrl="yes" Alt="no" Shift="no" Key="112">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
         <Command name="ConEmu" Ctrl="yes" Alt="no" Shift="no" Key="192">ConEmu.exe -Dir &quot;$(CURRENT_DIRECTORY)&quot;</Command>
         <Command name="Markdown preview" Ctrl="yes" Alt="no" Shift="yes" Key="77">Typora.lnk &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="python run" Ctrl="no" Alt="no" Shift="no" Key="116">cmd /k python &quot;$(FULL_CURRENT_PATH)&quot; &amp; PAUSE &amp; EXIT</Command>
     </UserDefinedCommands>
     <PluginCommands>
         <PluginCommand moduleName="ComparePlugin.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="117" />

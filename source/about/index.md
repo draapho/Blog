@@ -16,33 +16,36 @@ comments: false
 
 
 
-| *python*              |                                     |      |
-| --------------------- | ----------------------------------- | ---- |
-| [Python 中文官方文档][pycn] | [The Python Standard Library][tpsl] | [Python风格规范][psg]    |
-| [PyQt's Modules][pqm] | [Web.py Cookbook][webpy]            | -    |
+| *python*              |                                     |                         |
+| --------------------- | ----------------------------------- | ----------------------- |
+| [Python 中文官方文档][pycn] | [The Python Standard Library][tpsl] | [python3-cookbook][pc]  |
+| [PyQt's Modules][pqm] | [Web.py Cookbook][webpy]            | [Python - Tutorial][pt] |
+| [Python风格规范][psg]     | -                                   | -                       |
 
 
 
 [pycn]: http://python.usyiyi.cn/
 [tpsl]: https://docs.python.org/2.7/library/index.html
-[psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
+[pc]: http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html
 [pqm]: http://pyqt.sourceforge.net/Docs/PyQt4/modules.html
 [webpy]: http://webpy.org/cookbook/
+[pt]: https://www.tutorialspoint.com/python/index.htm
+[psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
 
 
-| *linux*         |      |      |
-| --------------- | ---- | ---- |
-| - | -    | -    |
+| *linux* |      |      |
+| ------- | ---- | ---- |
+| -       | -    | -    |
 
 
 
 
 
-| *software*     |      |      |
-| -------------- | ---- | ---- |
-| [Windows快捷键][win]  |  [Vim快捷键定义][vim]  | -   |
-|  [git常用命令][git] | [STM32选型][stm]  |   -    |
+| *software*        |                 |      |
+| ----------------- | --------------- | ---- |
+| [Windows快捷键][win] | [Vim快捷键定义][vim] | -    |
+| [git常用命令][git]    | [STM32选型][stm]  | -    |
 
 [win]: https://draapho.github.io/2016/10/08/1607-CheatSheet-win/
 [vim]: https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/
@@ -64,9 +67,9 @@ comments: false
 
 
 
-| *other*               |                         |      |
-| --------------------- | ----------------------- | ---- |
-|   [pdf在线转换][pdf]    |   [图标 Font Awesome][fa]       | [图标 ionicons][ionicons]   |
+| *other*        |                       |                         |
+| -------------- | --------------------- | ----------------------- |
+| [pdf在线转换][pdf] | [图标 Font Awesome][fa] | [图标 ionicons][ionicons] |
 
 
 [pdf]: https://smallpdf.com/cn
