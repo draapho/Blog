@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-atom插件
 date: 2016-10-12
-categories: environment
+categories: windows
 tags: [windows, atom, mingw, c, python]
 ---
 

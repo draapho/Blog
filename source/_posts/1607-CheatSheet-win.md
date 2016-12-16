@@ -1,8 +1,8 @@
 ---
 title: Windows快捷键
 date: 2016-10-8
-categories: cheat sheet
-tags: [shortcut, windows, notepad++, atom, eclipse, Listary]
+categories: windows
+tags: [cheat sheet, windows, notepad++, atom, eclipse, Listary]
 ---
 
 # 专用快捷键

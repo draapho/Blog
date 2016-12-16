@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-文本编辑
 date: 2016-09-30
-categories: environment
+categories: windows
 tags: [windows, Notepad++, atom, Typora, utf-8]
 ---
 

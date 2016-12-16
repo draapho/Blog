@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-提高效率
 date: 2016-09-28
-categories: environment
+categories: windows
 tags: [windows, AutoHotKey]
 ---
 

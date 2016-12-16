@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-基于NFS的家庭网
 date: 2016-10-3
-categories: environment
+categories: windows
 tags: [windows, NFS, Hyper-V, NAS, freefilesync]
 ---
 

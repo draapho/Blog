@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-终端
 date: 2016-10-10
-categories: environment
+categories: windows
 tags: [windows, ConEmu, mingw, putty, cygwin]
 ---
 

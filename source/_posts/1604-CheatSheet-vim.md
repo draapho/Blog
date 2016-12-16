@@ -1,7 +1,7 @@
 ---
 title: Vim常用快捷键
 date: 2016-10-1
-categories: cheat sheet
+categories: linux
 tags: [shortcut, vim]
 ---
 

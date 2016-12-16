@@ -1,7 +1,7 @@
 ---
 title: Windows下使用github和hexo建独立博客
 date: 2016-09-24
-categories: environment
+categories: windows
 tags: [windows, hexo]
 ---
 

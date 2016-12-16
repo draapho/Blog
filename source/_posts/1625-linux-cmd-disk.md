@@ -80,25 +80,25 @@ FHS是Filesystem Hierarchy Standard的简称.FHS定义了两层规范:
 | 指令                                       | 说明                             |
 | ---------------------------------------- | ------------------------------ |
 | `df`                                     | **disk free**, 查看磁盘相关信息        |
-| -     **`df -Th`**                       | 查看磁盘容量信息                       |
-| -     **`df -iTh`**                      | 查看磁盘inode信息                    |
+| ...... **`df -Th`**                      | 查看磁盘容量信息                       |
+| ...... **`df -iTh`**                     | 查看磁盘inode信息                    |
 | `du`                                     | **disk usage**, 查看磁盘文件使用情况     |
-| -     **`du -h`**                        | 列出当前文件夹下所有文件的容量                |
-| -     **`du -sh file_dir`**              | 列出指定文件的容量                      |
+| ...... **`du -h`**                       | 列出当前文件夹下所有文件的容量                |
+| ...... **`du -sh file_dir`**             | 列出指定文件的容量                      |
 | `fdisk`                                  | **format disk**, 磁盘查看及分区       |
-| -     **`fdisk -l`**                     | 查看整个系统的分区情况                    |
-| -     **`fdisk /dev/sda6`**              | 对指定磁盘进行配置(进入fdisk命令行模式)        |
+| ...... **`fdisk -l`**                    | 查看整个系统的分区情况                    |
+| ...... **`fdisk /dev/sda6`**             | 对指定磁盘进行配置(进入fdisk命令行模式)        |
 | `mkfs`                                   | **make filesystem**, 分区格式化     |
-| -     **`mkfs -t ext4 /dev/sda6`**       | 格式化sda6分区格式为ext4               |
+| ...... **`mkfs -t ext4 /dev/sda6`**      | 格式化sda6分区格式为ext4               |
 | `fsck`                                   | **filesystem check**, 分区检验和修复  |
-| -     **`unmount /dev/sda6`**            | 要检查的分区必须先umount                |
-| -     **`fsck -y -t ext4 /dev/sda6`**    | 对sda6分区进行检验和修复                 |
+| ...... **`unmount /dev/sda6`**           | 要检查的分区必须先umount                |
+| ...... **`fsck -y -t ext4 /dev/sda6`**   | 对sda6分区进行检验和修复                 |
 | `mount`                                  | **mount** 查看和挂载分区              |
-| -     **`mkdir /mnt/sda_data`**          | 必须先创建挂载点文件夹                    |
-| -     **`mount -t ext4 /dev/sda6 /mnt/sda_data`** | 挂载指定设备sda6到文件夹                 |
+| ...... **`mkdir /mnt/sda_data`**         | 必须先创建挂载点文件夹                    |
+| ...... **`mount -t ext4 /dev/sda6 /mnt/sda_data`** | 挂载指定设备sda6到文件夹                 |
 | `umount`                                 | **umount**, 取消挂载点              |
-| -     **`umount /dev/sda6` **            | 两种写法都可以                        |
-| -     **`umount /mnt/sda_data`**         | 两种写法都可以                        |
+| ...... **`umount /dev/sda6` **           | 两种写法都可以                        |
+| ...... **`umount /mnt/sda_data`**        | 两种写法都可以                        |
 | `quato`                                  | **quato**, 管理普通用户的分区配额,多用于服务器. |
 
 

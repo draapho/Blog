@@ -1,7 +1,7 @@
 ---
 title: Windows 软件系列-自定义环境变量
 date: 2016-10-9
-categories: environment
+categories: windows
 tags: [windows, path]
 ---
 
