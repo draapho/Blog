@@ -12,7 +12,7 @@ comments: false
 
 # 快速索引
 
-`https://draapho.github.io/images/16xx/xxx.jpg`
+`https://draapho.github.io/images/17xx/xxx.jpg`
 
 
 

@@ -5,8 +5,8 @@ categories: python
 tags: [python]
 ---
 
-转载自 [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)
-中文版 [30个有关Python的小技巧](http://blog.jobbole.com/63320/)
+***转载自 [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)***
+***中文版 [30个有关Python的小技巧](http://blog.jobbole.com/63320/)***
 
 ---------------------------
 
@@ -860,5 +860,5 @@ presbyopic          hypermetrope            no                      normal      
 
 ------------------------------
 
-转载自 [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)
-中文版 [30个有关Python的小技巧](http://blog.jobbole.com/63320/)
+***转载自 [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)***
+***中文版 [30个有关Python的小技巧](http://blog.jobbole.com/63320/)***

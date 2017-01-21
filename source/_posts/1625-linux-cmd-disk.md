@@ -59,6 +59,9 @@ FHS是Filesystem Hierarchy Standard的简称.FHS定义了两层规范:
 |                                         | `/var/spool`                             | 是一些数据队列存放的目录,作用为缓冲                       |
 
 
+![LinuxFileSystem](https://draapho.github.io/images/1625/LinuxFileSystem.jpg)
+
+
 
 # linux系统分区建议
 

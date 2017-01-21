@@ -5,7 +5,7 @@ categories: python
 tags: [python]
 ---
 
-转载自 [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)
+***转载自 [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)***
 
 ---------------------------
 
@@ -386,4 +386,4 @@ In[5]: foo(1, 1)
 
 ------------------------------
 
-转载自 [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)
+***转载自 [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)***

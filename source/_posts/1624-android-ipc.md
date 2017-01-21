@@ -5,7 +5,7 @@ categories: android
 tags: [android, ipc]
 ---
 
-转载自[Android中Activity、Service和线程之间的通信](http://blog.sina.com.cn/s/blog_3fe961ae0100xkyt.html)
+***转载自[Android中Activity、Service和线程之间的通信](http://blog.sina.com.cn/s/blog_3fe961ae0100xkyt.html)***
 
 ------------
 
@@ -75,4 +75,4 @@ Service创建Thread后，如果要对线程进行控制（启动，暂停，停�
 
 ----------
 
-转载自[Android中Activity、Service和线程之间的通信](http://blog.sina.com.cn/s/blog_3fe961ae0100xkyt.html)
+***转载自[Android中Activity、Service和线程之间的通信](http://blog.sina.com.cn/s/blog_3fe961ae0100xkyt.html)***

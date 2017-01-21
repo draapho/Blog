@@ -6,6 +6,30 @@ tags: [linux, shell]
 ---
 
 
+# 入门教程
+推荐 [C语言中文网-Shell教程](http://c.biancheng.net/cpp/shell/)
+- [第一个shell脚本](http://c.biancheng.net/cpp/view/6998.html)
+- [shell变量](http://c.biancheng.net/cpp/view/6999.html)
+- [shell特殊变量](http://c.biancheng.net/cpp/view/2739.html)
+- [shell替换](http://c.biancheng.net/cpp/view/2737.html)
+- [shell运算符](http://c.biancheng.net/cpp/view/2736.html)
+- [shell注释](http://c.biancheng.net/cpp/view/7000.html)
+- [shell字符串](http://c.biancheng.net/cpp/view/7001.html)
+- [shell数组](http://c.biancheng.net/cpp/view/7002.html)
+- [shell echo命令](http://c.biancheng.net/cpp/view/7003.html)
+- [shell printf命令](http://c.biancheng.net/cpp/view/1499.html)
+- [shell if else语句](http://c.biancheng.net/cpp/view/7005.html)
+- [shell case esac语句](http://c.biancheng.net/cpp/view/7006.html)
+- [shell for循环](http://c.biancheng.net/cpp/view/7007.html)
+- [shell while循环](http://c.biancheng.net/cpp/view/7008.html)
+- [shell until循环](http://c.biancheng.net/cpp/view/7009.html)
+- [shell跳出循环](http://c.biancheng.net/cpp/view/7010.html)
+- [shell函数](http://c.biancheng.net/cpp/view/7011.html)
+- [shell函数参数](http://c.biancheng.net/cpp/view/2491.html)
+- [shell输入输出重定向](http://c.biancheng.net/cpp/view/2738.html)
+- [shell文件包含](http://c.biancheng.net/cpp/view/2740.html)
+
+
 # Bash Shell基础操作
 
 | 指令                                       | 说明                                      |
@@ -23,12 +47,12 @@ tags: [linux, shell]
 | ...... **`!!`**                          | 执行上一个指令                                 |
 | ...... **`!al`**                         | 执行以al为开头的最后一个指令                         |
 | ...... **`!12`**                         | 执行第12条历史指令(先用history查看历史指令号)            |
-| alias cmd=’command’                      | 设置指令别名, command为指令字符串                   |
+| `alias cmd=’command’`                    | 设置指令别名, command为指令字符串                   |
 | ...... **`alias h=history`**             | 设置指令history的别名为h.不用引号,单双引号皆可            |
 | `unalias cmd`                            | 取消指令别名                                  |
 | `type -a command`                        | 查询指令类型(file外部指令; alias别名指令;builtin内建指令) |
 | `command --help`                         | 获取command内置的帮助信息,较为简短                   |
-| `man command`                            | 获取command的帮助文件. `j``k`上下移动, `q`退出       |
+| `man command`                            | 获取command的帮助文件. `j` `k`上下移动, `q`退出       |
 | `sh file`                                | 创建一个子shell, 执行file内的指令                  |
 | `source file`                            | 在当前shell内,执行file内的指令                    |
 | `. file`                                 | 等同于source file                          |
@@ -98,7 +122,6 @@ tags: [linux, shell]
 | `-` `:-` `+` `:+` `=` `:=` `?` `:?`      | 变量的比较和判断. 常用于判断和确保变量有效                   |
 | ...... **`var=${str-expr}`**             | var为目标变量, str为已有变量, expr为变量值             |
 | ...... **`myname=${myname:-root}`**      | 若myname不存在或为空,则myname=root               |
-| ...... 更多参考                              | [鸟哥的Linux私房菜](http://linux.vbird.org/linux_basic/0320bash.php#variable_other_replace), P381: 额外的变量设定功能 |
 |                                          |                                          |
 | `env`                                    | enviroment, 显示当前环境变量,用的最多!               |
 | `set`                                    | 显示所有变量(环境变量,普通变量)                        |
@@ -157,10 +180,10 @@ tags: [linux, shell]
 | ...... **`cat > catfile < input`**       | 导入input文件信息再写到catfile中                   |
 
 
-- `cmd1 | cmd2`  `pipe`管线命令,将cmd1的处理结果传给cmd2继续处理      
-- 譬如 `ll | more`  将ll获得的数据传给more进一步处理                     
-- `cmd1 || cmd2`  cmd1执行错误($?为!0),则继续执行cmd2, 否则不执行  
-- 譬如 `ls /tmp/test && echo "exist" || echo "nofile"` 如果`/tmp/test`存在显示`exist`,否则`nofile`   
+- `cmd1 | cmd2`  `pipe`管线命令,将cmd1的处理结果传给cmd2继续处理
+- 譬如 `ll | more`  将ll获得的数据传给more进一步处理
+- `cmd1 || cmd2`  cmd1执行错误($?为!0),则继续执行cmd2, 否则不执行
+- 譬如 `ls /tmp/test && echo "exist" || echo "nofile"` 如果`/tmp/test`存在显示`exist`,否则`nofile`
 
 
 ----------

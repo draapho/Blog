@@ -65,7 +65,6 @@ tags: [cheat sheet, windows, notepad++, atom, eclipse, Listary]
 | `ctrl-z` `ctrl-u`       | undo     | 撤销更改          | windows / vim      |
 | `ctrl-shift-y`          |          | 下一个浏览记录    | custom     |
 | `ctrl-shift-z`          |          | 上一个浏览记录    | custom      |
-
 | `alt-鼠标` `alt-\`        |          | 列选模式          | notepad++ / custom |
 | `ctrl-enter`            | enter    | 下面新增一行        | sublime            |
 | `ctrl-shift-enter`      | enter    | 上面新增一行        | sublime            |
