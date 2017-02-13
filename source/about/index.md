@@ -16,12 +16,10 @@ comments: false
 
 
 
-| *python*              |                                     |                         |
-| --------------------- | ----------------------------------- | ----------------------- |
-| [Python 中文官方文档][pycn] | [The Python Standard Library][tpsl] | [python3-cookbook][pc]  |
-| [PyQt's Modules][pqm] | [Web.py Cookbook][webpy]            | [Python - Tutorial][pt] |
-| [Python风格规范][psg]     | -                                   | -                       |
-
+| *python*                            |                       |                          |
+| ----------------------------------- | --------------------- | ------------------------ |
+| [The Python Standard Library][tpsl] | [Python 中文官方文档][pycn] | [python3-cookbook][pc]   |
+| [Python风格规范][psg]                   | [PyQt's Modules][pqm] | [Web.py Cookbook][webpy] |
 
 
 [pycn]: http://python.usyiyi.cn/
@@ -29,26 +27,27 @@ comments: false
 [pc]: http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html
 [pqm]: http://pyqt.sourceforge.net/Docs/PyQt4/modules.html
 [webpy]: http://webpy.org/cookbook/
-[pt]: https://www.tutorialspoint.com/python/index.htm
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
 
 
-| *linux* |      |      |
-| ------- | ---- | ---- |
-| [linux系统及磁盘指令][ldisk] | [linux文件及目录指令][lfile]    | [Bash Shell及环境变量][bash]    |
+| *linux*                 |                       |                         |
+| ----------------------- | --------------------- | ----------------------- |
+| [linux系统及磁盘指令][ldisk]   | [linux文件及目录指令][lfile] | [Bash Shell及环境变量][bash] |
+| [Unix/Linux 命令参考][lcmd] | -                     | -                       |
 
 
 [ldisk]: https://draapho.github.io/2016/12/15/1625-linux-cmd-disk/
 [lfile]: https://draapho.github.io/2016/12/16/1626-linux-cmd-file/
 [bash]: https://draapho.github.io/2016/12/17/1627-linux-cmd-bash/
+[lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
 
 
 
-| *software*        |                 |      |
-| ----------------- | --------------- | ---- |
-| [Windows快捷键][win] | [Vim快捷键定义][vim] | [正则表达式][re]    |
-| [git常用命令][git]    | [STM32选型][stm]  | -    |
+| *software*        |                 |             |
+| ----------------- | --------------- | ----------- |
+| [Windows快捷键][win] | [Vim快捷键定义][vim] | [正则表达式][re] |
+| [git常用命令][git]    | [STM32选型][stm]  | -           |
 
 [win]: https://draapho.github.io/2016/10/08/1607-CheatSheet-win/
 [vim]: https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/
@@ -61,22 +60,23 @@ comments: false
 | *markdown*       |                 |                    |
 | ---------------- | --------------- | ------------------ |
 | [Markdown语法][md] | [mermaid制图][mm] | [LaTeX数学公式][latex] |
-| [Emoji图标][emoji] | -               | -                  |
 
 
 [md]: https://draapho.github.io/about/markdownplus
 [mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
-[emoji]: http://www.webpagefx.com/tools/emoji-cheat-sheet/
 [latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 
 
-| *other*        |                       |                         |
-| -------------- | --------------------- | ----------------------- |
-| [pdf在线转换][pdf] | [图标 Font Awesome][fa] | [图标 ionicons][ionicons] |
+| *other*               |                        |                         |
+| --------------------- | ---------------------- | ----------------------- |
+| [symbolhound][symbol] | [stackoverflow][stack] | [pdf在线转换][pdf]          |
+| [Emoji图标][emoji]      | [图标 Font Awesome][fa]  | [图标 ionicons][ionicons] |
 
-
+[symbol]: http://symbolhound.com/
+[stack]: http://stackoverflow.com/
 [pdf]: https://smallpdf.com/cn
+[emoji]: http://www.webpagefx.com/tools/emoji-cheat-sheet/
 [fa]: http://fontawesome.io/icons/
 [ionicons]: http://ionicons.com/
 
