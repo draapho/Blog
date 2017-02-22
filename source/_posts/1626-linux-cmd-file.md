@@ -95,6 +95,7 @@ tags: [linux, command]
 | ...... **`grep -r “hello” ./*`**         | 在当前文件夹下的所有文件下搜索 “hello”              |
 | ...... **`grep -i “Bye” *`**             | 在当前文件夹下忽略大小写搜索 ”Bye”                 |
 | ...... **`grep -w “Test” aa bb`**        | 在aa, bb文件内,只匹配整个单词搜索 “Test”          |
+| `find ./ -name "*" l(竖杠) xargs grep "key"` | 在当前文件夹下查找包含 "key" 内容的文件       |
 |                                          |                                      |
 | `tar -cvf file.tar /dir`                 | 将/dir打包为file.tar,没有压缩                |
 | `tar -zcvf file.tar.gz /dir`             | 将/dir打包为file.tar.gz,用gzip压缩          |
@@ -105,7 +106,8 @@ tags: [linux, command]
 | `tar -N ‘2005/06/01’ -zcvffile.tar.gz /dir` | 将/dir下比2005/06/01新的文件备份              |
 | `cpio`                                   | 文件/设备的输入输出, 多配合find进行备份              |
 
-譬如, **`find / -print | cpio -covB > /dev/st0`** , 将系统数据全部写入磁带机
+- **`find ./ -name "*" | xargs grep "key"`** 在当前文件夹下查找包含 "key" 内容的文件
+- **`find / -print | cpio -covB > /dev/st0`** , 将系统数据全部写入磁带机
 
 
 

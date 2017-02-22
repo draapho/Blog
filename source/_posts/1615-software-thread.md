@@ -88,8 +88,14 @@ tags: [python, process, ipc]
   - 将子线程设置**后台线程**(setDaemon), 让子线程随主线程一起结束.
   - 提了一下Python的GIL, 参考资料中的一篇对此做了很好的说明: [python 线程，GIL 和 ctypes](http://zhuoqiang.me/python-thread-gil-and-ctypes.html)
 
-- [Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)
-  - 内容如题, 无需多言. 文章最后重点推荐使用Queue
+- [Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](https://draapho.github.io/2016/11/03/1615-python-ipc/)
+  - 线程（Threading）
+  - 锁（Lock）
+  - 可重入锁（RLock）
+  - 条件（Condition）
+  - 信号量（Semaphore）
+  - 事件（Event）
+  - 队列（Queue）, 重点推荐
 
 - [理解 Python 中的多线程](https://my.oschina.net/leejun2005/blog/179265)
   - 示例1, 请求五个不同的url. 比较了单线程和多线程性能上的差别

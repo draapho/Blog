@@ -5,6 +5,12 @@ categories: python
 tags: [python, 线程同步]
 ---
 
+***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)*** 
+***翻译自 [Laurent Luce, Python threads synchronization: Locks, RLocks, Semaphores, Conditions, Events and Queues](http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/)***
+
+---------------------
+
+
 本文详细地阐述了Python线程同步机制。你将学习到以下有关Python线程同步机制：Lock，RLock，Semaphore，Condition，Event和Queue，还有Python的内部是如何实现这些机制的。 本文给出的程序的源代码可以在github上找到。
 
 首先让我们来看一个没有使用线程同步的简单程序。
@@ -841,10 +847,8 @@ def join(self):
 本文到此结束，希望您喜欢这篇文章。欢迎您的留言和反馈。
 
 
+------------------------------
 
-----------
-
-> 转载自 [Zhou's Blog](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)
-> 翻译自Laurent Luce的博客
-> 原文名称：[Python threads synchronization: Locks, RLocks, Semaphores, Conditions, Events and Queues](http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/)
+***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)*** 
+***翻译自 [Laurent Luce, Python threads synchronization: Locks, RLocks, Semaphores, Conditions, Events and Queues](http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/)***
 

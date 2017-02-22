@@ -110,7 +110,7 @@ tags: [cheat sheet, windows, notepad++, atom, eclipse, Listary]
 | `ctrl-shift-c`    | copy               | 复制路径                  |
 | `ctrl+j` `ctrl+k` | vim j,k            | 下一个 / 上一个(需设置)        |
 | **Ditto**         | **助记**             | **文件夹/应用**            |
-| `ctrl-q`          | quick paste        | 打开ditto面板             |
+| `ctrl-1`          | list               | 打开ditto面板             |
 | `enter`           | enter              | 黏贴                    |
 | `shift-enter`     | enter              | 纯文本黏贴                 |
 | **AHK**           | **助记**             | **功能**                |

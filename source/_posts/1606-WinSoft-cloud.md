@@ -32,7 +32,7 @@ tags: [windows, NFS, Hyper-V, NAS, freefilesync]
 
 # [HaneWIN][hanewin]
 
-- [HaneWIN][hanewin]是收费软件, 个人用户收费 EUR 19.80. 只需简单功能可尝试免费的 [Free NFS](http://freenfs.sourceforge.net/)
+- [HaneWIN][hanewin] 2017年开始是免费软件了. 非常适合做win下的nfs服务器
 - 需要支持嵌入式linux端的NFS(只支持NFS v2), 配置见图:
 ![haneWIN_NFS](https://draapho.github.io/images/1606/haneWIN_NFS.PNG)
 - 务必使用`UTF-8 character set`

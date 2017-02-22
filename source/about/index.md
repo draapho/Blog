@@ -34,25 +34,34 @@ comments: false
 | *linux*                 |                       |                         |
 | ----------------------- | --------------------- | ----------------------- |
 | [linux系统及磁盘指令][ldisk]   | [linux文件及目录指令][lfile] | [Bash Shell及环境变量][bash] |
-| [Unix/Linux 命令参考][lcmd] | -                     | -                       |
+| [Unix/Linux 命令参考][lcmd] | [Embedded Linux 学习笔记][el]                     | -                       |
 
 
 [ldisk]: https://draapho.github.io/2016/12/15/1625-linux-cmd-disk/
 [lfile]: https://draapho.github.io/2016/12/16/1626-linux-cmd-file/
 [bash]: https://draapho.github.io/2016/12/17/1627-linux-cmd-bash/
 [lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
+[el]: https://draapho.github.io/2017/01/18/1702-linux-hard/
 
 
 
 | *software*        |                 |             |
 | ----------------- | --------------- | ----------- |
 | [Windows快捷键][win] | [Vim快捷键定义][vim] | [正则表达式][re] |
-| [git常用命令][git]    | [STM32选型][stm]  | -           |
+| [git常用命令][git]    | [Docker初学笔记][docker]  | -           |
 
 [win]: https://draapho.github.io/2016/10/08/1607-CheatSheet-win/
 [vim]: https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/
 [re]: https://draapho.github.io/2016/12/18/1628-soft-regular/
 [git]: https://draapho.github.io/2016/10/24/1614-CheatSheet-git/
+[docker]: https://draapho.github.io/2017/02/23/1708-docker/
+
+
+
+| *mcu & hardware*   |                 |             |
+| ----------------- | --------------- | ----------- |
+| [STM32选型][stm]   |  - | -           |
+
 [stm]: http://www.st.com/content/st_com/en/products/microcontrollers.html
 
 
