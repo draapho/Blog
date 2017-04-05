@@ -10,6 +10,43 @@ tags: [embedded, linux, cheat sheet]
 
 ----------
 
+# 搜索指令 `find` `grep`
+``` bash
+find -name april*                   # 当前目录下查找以april开始的文件
+find -iname april*                  # 忽略大小写
+find /home -size +512k              # 查大于512k的文件
+find /home -size -512k              # 查小于512k的文件
+find /home -links +2                # 查硬连接数大于2的文件或目录
+find /home -perm 0700               # 查权限为700的文件或目录
+
+find -name tom.txt -user kim        # 查找名称为tom.txt且用户为kim的文件
+find -name ap* -or -name may*       # 查找以ap或may开头的文件
+find -name wa* -not -type l         # 查找名为wa开头且类型不为符号链接的文件
+find -name wa* ! -type l            # 查找名为wa开头且类型不为符号链接的文件
+# 对于 -type, 有 b=block, d=dictory, c=character, p=pipe, l=link, f=file
+
+find / -iname "MyCProgram.c" -exec md5sum {} \; # 对所有找到的文件进行MD5验证
+find / -name filename -ok rm -rf {} \;          # 确认删除找到的文件
+find . -mtime +3 | xargs rm -rf                 # 删除3天以前的文件
+find . -size +3000k -exec ls -ld {} \;          # 查找大于3M的文件
+find . -size -3000k | xargs echo "" >./file.log # 查找小于3M的文件并写入file.log
+find . -type f | xargs grep "hostname"          # 在普通文件中搜索hostname这个词
+```
+
+``` bash
+ls -l | grep '^a'                   # 只显示以a开头的文件名。
+grep 'test' d*                      # 显示所有以d开头的文件中包含test的行。
+grep 'test' aa bb cc                # 显示在aa，bb，cc文件中匹配test的行。
+grep -i pattern files               # 不区分大小写地搜索。默认情况区分大小写
+grep -l pattern files               # 只列出匹配的文件名，
+grep -L pattern files               # 列出不匹配的文件名，
+grep -w pattern files               # 只匹配整个单词(如匹配‘magic’，而不是‘magical’)
+grep -C number pattern files        # 匹配的上下文分别显示[number]行，
+grep pattern1 | pattern2 files      # 显示匹配 pattern1 或 pattern2 的行，
+grep pattern1 files | grep pattern2 # 显示既匹配 pattern1 又匹配 pattern2的行
+```
+
+# 常用命令表
 文件命令 | 指令说明
 ------|----------
 `ls`|列出目录
@@ -48,10 +85,6 @@ tags: [embedded, linux, cheat sheet]
 `ssh user@host` | 以 user 用户身份连接到 host
 `ssh -p port user@host` | 在端口 port 以 user 用户身份连接到 host
 `ssh-copy-id user@host` | 将密钥添加到 host 以实现无密码登录
-**搜索**|**指令说明**
-`grep pattern files` | 搜索 files 中匹配 pattern 的内容
-`grep -r pattern dir` | 递归搜索 dir 中匹配 pattern 的内容
-`command l(竖杠) grep pattern` | 搜索 command 输出中匹配 pattern 的内容
 **系统信息**|**指令说明**
 `date` | 显示当前日期和时间
 `cal` | 显示当月的日历
