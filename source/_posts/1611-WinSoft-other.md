@@ -33,7 +33,7 @@ tags: [windows, eclipse, TrueSTUIDO, mingw]
 # [TrueSTUIDO](http://atollic.com/truestudio/)
 - [TrueSTUIDO](http://atollic.com/truestudio/)是一款免费的ARM IDE, 基于eclipse. 免费版有5s广告.
 - 快捷键配置文件
-  - 我的配置文件 [org.eclipse.ui.workbench.prefs](https://github.com/draapho/Blog/tree/master/_blog_stuff/eclipse/org.eclipse.ui.workbench.prefs)
+  - 我的配置文件 [org.eclipse.ui.workbench.prefs](https://github.com/draapho/Blog/tree/master/_blog_stuff/TrueSTUIDIO/org.eclipse.ui.workbench.prefs)
   - 下载后直接覆盖放入 `$workspace$/.metadata/.plugins/org.eclipse.core.runtime/.settings/`
 - [TrueSTUIDO Download and Reset (no debug)](https://www.youtube.com/watch?v=R2hfq4S_-B0)
   - `Run`->`Debug Configurations...`->`Embedded C/C++...`下的文件->`Startup Scripts`
