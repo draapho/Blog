@@ -307,4 +307,4 @@ re.sub('^\w|_\w', lambda x:x.group()[-1].upper(), 'blog_view') # 输出 'BlogVie
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***

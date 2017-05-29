@@ -185,4 +185,4 @@ ERE在BRE上增加了3组元字符的定义：
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***

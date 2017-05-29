@@ -116,4 +116,4 @@ Embedded Linux 是自我学习过程中, 走的最不顺的一条路.
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***

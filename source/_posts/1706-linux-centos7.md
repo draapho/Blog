@@ -155,4 +155,4 @@ config: scripts_basic outputmakefile FORCE
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
