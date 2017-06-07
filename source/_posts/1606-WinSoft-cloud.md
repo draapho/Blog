@@ -32,7 +32,8 @@ tags: [windows, NFS, Hyper-V, NAS, freefilesync]
 
 # [HaneWIN][hanewin]
 
-- [HaneWIN][hanewin] 2017年开始是免费软件了. 非常适合做win下的nfs服务器
+- [HaneWIN][hanewin] 可免费试用30天. 适合做win下的nfs服务器. 
+- 如果要免费软件, 可尝试 [FreeNFS](https://sourceforge.net/projects/freenfs/). 功能较弱. 可参考[FreeNFS简易教程](https://wenku.baidu.com/view/b9dccaedf8c75fbfc77db2c1.html?from=search).
 - 需要支持嵌入式linux端的NFS(只支持NFS v2), 配置见图:
 ![haneWIN_NFS](https://draapho.github.io/images/1606/haneWIN_NFS.PNG)
 - 务必使用`UTF-8 character set`

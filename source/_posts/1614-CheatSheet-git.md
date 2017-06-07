@@ -10,7 +10,7 @@ tags: [git, cheat sheet]
   ![git](https://draapho.github.io/images/1614/git.jpg)
 
 
-  
+
 # 资料和参考
 
 - [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
@@ -24,26 +24,26 @@ tags: [git, cheat sheet]
 - git的核心理解为指针即可, 包括 `workspace`, `index`, `commitHash`
   - `repository`是基于`commitHash`管理版本的.
   - `HEAD`, `HEAD^1`, `HEAD~3`, `branch`, `tags`都是`commitHash`的别名, 便于人们记忆和理解.
-  - 可以基于 `git reset` 来检测是否完全理解git基于指针的设计思路.  
+  - 可以基于 `git reset` 来检测是否完全理解git基于指针的设计思路.
   - `HEAD^1`基于父节点, `HEAD~1`基于层次. 单层结构下没有差别. 复杂多层结构建议直接用 `commitHash`
 
 ```
-       A ---------------------  A =      = A^0                       
-      / \                       
+       A ---------------------  A =      = A^0
+      / \
      B   C                      B = A^   = A^1     = A~1
-    /|\  |                      C = A^2  = A^2     
-   / | \ |                                     
-  D  E   F -------------------  D = A^^  = A^1^1   = A~2  
+    /|\  |                      C = A^2  = A^2
+   / | \ |
+  D  E   F -------------------  D = A^^  = A^1^1   = A~2
  / \    / \                     E = B^2  = A^^2
-/   \  /   \                    F = B^3  = A^^3   
-G   H  I   J -----------------  G = A^^^ = A^1^1^1 = A~3                               
+/   \  /   \                    F = B^3  = A^^3
+G   H  I   J -----------------  G = A^^^ = A^1^1^1 = A~3
                                 H = D^2  = B^^2    = A^^^2  = A~2^2
                                 I = F^   = B^3^    = A^^3^
                                 J = F^2  = B^3^2   = A^^3^2
 ```
 
 - git的命令, 常见格式为 `git diff p1 p2 -- file`. 意为, 比较`p1`与`p2`两处指定file的区别
-  - `p1` 缺省指向workspace, `p2` 缺省指向index. 
+  - `p1` 缺省指向workspace, `p2` 缺省指向index.
   - `--` 接文件或目录, 名字无歧义时可以省去`--`. (如 git checkout name 就可能有歧义, branch OR file?)
   - `.` 表示所有的文件, 如 `git add .`
 - 学会查看帮助, 加上 `-h` 即可. 如 `git checkout -h`
@@ -52,6 +52,7 @@ G   H  I   J -----------------  G = A^^^ = A^1^1^1 = A~3
 
 
 # 初始安装
+
 
 - 新建git仓库
 ``` git
@@ -71,11 +72,11 @@ git clone url                   # <url> like https://... OR ssh://...
 # more cmd about config
 git config --list               # show config
 git config -e                   # edit local config file
+git config -e --global          # edit global config file
 ```
 
-- 单独设置参数, --global表示全局参数, 不写就是仓库自有参数
-- 需要安装 [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools) 用于支持 `difftool` 及 `mergetool`
-- 安装位置以 `D:\Program\Perforce\p4merge.exe` 为例
+
+- 使用命令设置全局参数. (可跳过, 建议使用 `git config -e --global`)
 ``` git
 # global setting
 git config --global user.name "Your Name"
@@ -91,6 +92,7 @@ git config --global alias.cm 'commit -m'
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 git config --global alias.ll "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -10"
 git config --global alias.st 'status'
+git config --global alias.diffname 'diff --name-status'
 
 # set diff color
 git config --global color.diff.old "red normal bold"
@@ -108,11 +110,11 @@ git config --global merge.tool p4merge
 git config --global mergetool.p4merge.cmd '"D:\Program\Perforce\p4merge.exe" "$PWD/$BASE" "$PWD/$REMOTE" "$PWD/$LOCAL" "$PWD/$MERGED"'
 git config --global mergetool.p4merge.trustExitCode false
 git config --global mergetool.keepBackup false
-
 ```
 
-- 也可使用 `git config -e --global` 打开全局配置文件, 直接设置全局参数
-- 需要安装 [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools) 用于支持 `difftool` 及 `mergetool`
+
+- 使用 `git config -e --global` 打开全局配置文件, 设置全局参数.
+- 安装 [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools), 用于支持 `difftool` 和 `mergetool`
 - 安装位置以 `D:\Program\Perforce\p4merge.exe` 为例
 ```
 [user]
@@ -128,25 +130,26 @@ git config --global mergetool.keepBackup false
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -10
     st = status
+    diffname = diff --name-status
 [color "diff"]
-	old = red normal bold
-	new = green normal bold
+    old = red normal bold
+    new = green normal bold
 [core]
     autocrlf = false
     safecrlf = false
 [diff]
-	tool = p4merge
+    tool = p4merge
 [difftool "p4merge"]
-	cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$LOCAL\" \"$REMOTE\"
+    cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$LOCAL\" \"$REMOTE\"
 [difftool]
-	prompt = false
+    prompt = false
 [merge]
-	tool = p4merge
+    tool = p4merge
 [mergetool "p4merge"]
-	cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
-	trustExitCode = false
+    cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
+    trustExitCode = false
 [mergetool]
-	keepBackup = false
+    keepBackup = false
 ```
 
 
@@ -170,7 +173,7 @@ git a *.c *.h                   # <file | dir>          # 添加指定文件
 git reset HEAD [file]           # discard file @index   # add的逆操作 HEAD->index
 git cm "msg"                    # git commit -m "msg"   # index->repository
 git commit --amend -m "message"                         # 修改/替换之前的提交
- 
+
 # 分支操作
 git b name                      # git branch name       # 创建分支
 git b name commit                                       # 基于指定 commit 创建分支
@@ -186,8 +189,8 @@ git co -b name                  # checkout & branch     # 创建并切换分支
 git merge branch                # 合并branch到当前分支
 git mergetool                   # 已图形化工具处理文件冲突 (如 p4merge.exe)
 git cherry-pick commit          # 合并commit到当前分支
-git rebase -i HEAD~3            # 修改/压缩多个提交, 根据提示操作, 第一行不能是squash!  
-git revert commit               # 提交逆操作来实现版本恢复, 不影响任何历史记录!        
+git rebase -i HEAD~3            # 修改/压缩多个提交, 根据提示操作, 第一行不能是squash!
+git revert commit               # 提交逆操作来实现版本恢复, 不影响任何历史记录!
 git push                                                # 推送到默认的远程主机
 git push -f                     # --force               # 忽略冲突, 强制推送
 git pull                        # fetch & merge         # 合并远程分支到当前分支
@@ -198,7 +201,7 @@ git tag v100                    # 创建版本
 git tag -d v100                 # 删除版本
 git push --tags                 # 推送tag
 
-# 查看差异 
+# 查看差异
 git diff                        # workspace VS index (p1缺省指向workspace, p2缺省指向index)
 git diff p1 p2                  # p1 VS p2, 可以是 HEAD~1, commitHash值, TAG, 分支名称
 git diff p1 p2 -- *.c *.h       # -- 指定文件或目录, 可省
