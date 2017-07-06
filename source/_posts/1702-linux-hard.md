@@ -5,12 +5,6 @@ categories: embedded linux
 tags: [embedded linux]
 ---
 
-# 目录
-
-[Linux 0.11 源码阅读笔记](https://draapho.github.io/2017/01/23/1704-linux-source/)
-[嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
-
-
 # 前言
 
 Embedded Linux 是自我学习过程中, 走的最不顺的一条路.

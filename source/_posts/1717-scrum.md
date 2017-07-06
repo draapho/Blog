@@ -1,7 +1,7 @@
 ---
 title: 敏捷开发 Scrum 学习
 date: 2017-05-31
-categories: Software
+categories: software
 tags: [scrum]
 ---
 

@@ -14,7 +14,9 @@ tags: [embedded linux, environment]
    - 第二次尝试, 失败告终, ~~[嵌入式linux环境搭建2-CentOS7](https://draapho.github.io/2017/02/19/1706-linux-centos7/)~~
    - 第三次尝试, 成功! [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 3. Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 其参数设置可参考:
-   - [嵌入式linux-jz2440环境搭建](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
+   - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
+4. 另一种思路:
+   - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
 
 
 整个环境的搭建思路基于尽可能少的文件传输, 系统切换操作, 以便提高效率. 可以选择的方案有NFS方案, windows文件共享方案.

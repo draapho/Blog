@@ -10,17 +10,88 @@ comments: false
     这个 [博客](https://draapho.github.io) 主要用于记录自己在工作领域的所学所思, 属于笔记类型. 同时也用于收集整理工作所需的资料, 以便提高工作效率, 减少重复的搜索工作. 开博的目标就是重内容轻形式, 要求界面简洁, 易于搜索. 博客内的代码, 默认使用MIT License (特别注明的除外). 博客内的转载内容会保留原链接, 图片多摘自网络, 难以一一查明来源, 如有侵权, 请及时联系<draapho@gmail.com>, 我会立刻删除. 望谅解.
 
 
-# 快速索引
+# 博文分类概览
 
 `https://draapho.github.io/images/17xx/xxx.jpg`
 
+## linux 基础知识学习
+- [Bash Shell及环境变量][bash] 
+- [Unix/Linux 命令参考][lcmd] 
+- [linux系统及磁盘指令][ldisk] 
+- [linux文件及目录指令][lfile] 
+- [Vim常用快捷键](https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/)
+- [快速读懂 makefile](https://draapho.github.io/2017/04/04/1709-linux-makefile/)
 
+[ldisk]: https://draapho.github.io/2016/12/15/1625-linux-cmd-disk/
+[lfile]: https://draapho.github.io/2016/12/16/1626-linux-cmd-file/
+[bash]: https://draapho.github.io/2016/12/17/1627-linux-cmd-bash/
+[lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
 
-| *python*                            |                       |                          |
-| ----------------------------------- | --------------------- | ------------------------ |
-| [The Python Standard Library][tpsl] | [Python 中文官方文档][pycn] | [python3-cookbook][pc]   |
-| [Python风格规范][psg]                   | [PyQt's Modules][pqm] | [Web.py Cookbook][webpy] |
+## Linux 0.11 源码阅读笔记
+- [Linux 0.11 源码阅读笔记-总览](https://draapho.github.io/2017/01/23/1704-linux-source/)
+- [Linux 0.11 源码阅读笔记-内存的基础概念](https://draapho.github.io/2017/01/26/1704-linux-source1/)
+- [Linux 0.11 源码阅读笔记-启动程序](https://draapho.github.io/2017/01/28/1704-linux-source2/)
+- [Linux 0.11 源码阅读笔记-内核代码](https://draapho.github.io/2017/01/31/1704-linux-source3/)
+- [Linux 0.11 源码阅读笔记-设备驱动程序](https://draapho.github.io/2017/02/01/1704-linux-source4/)
+- [Linux 0.11 源码阅读笔记-文件系统](https://draapho.github.io/2017/02/13/1704-linux-source5/)
+- [Linux 0.11 源码阅读笔记-内存管理](https://draapho.github.io/2017/02/15/1704-linux-source6/)
 
+## 嵌入式linux的环境搭建
+
+1. 嵌入式linux开发环境搭建综述
+   - [嵌入式linux开发环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
+2. PC windows 所有资料存在windows目录下, 所有操作在windows环境下. NFS设置可参考:
+   - [Windows NFS 环境搭建](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/)
+3. PC linux 装在虚拟机里, 提供交叉编译环境. 其环境搭建可参考:
+   - 第一次尝试, 失败告终, ~~[嵌入式linux环境搭建1-Ubuntu14](https://draapho.github.io/2017/02/18/1706-linux-ubuntu14/)~~
+   - 第二次尝试, 失败告终, ~~[嵌入式linux环境搭建2-CentOS7](https://draapho.github.io/2017/02/19/1706-linux-centos7/)~~
+   - 第三次尝试, 成功! [嵌入式linux环境搭建3-Ubuntu16.04](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
+4. Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 其参数设置可参考:
+   - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
+5. 另一种思路: (可解决文件不兼容问题)
+   - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
+
+## jz2440开发板学习
+- [jz2440 裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
+- [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
+
+## android / other
+- [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
+- [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
+- [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
+- [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
+
+## 通用软件技能
+- [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
+- [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
+- [数据结构资料收集](https://draapho.github.io/2016/11/23/1620-software-data-struct/)
+- [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
+- [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
+- [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
+
+## C / C++ / C#
+- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
+
+## python
+- [python 基础： 深入理解 python 中的赋值、引用、拷贝、作用域](https://draapho.github.io/2016/11/21/1618-python-variable/)
+- [python 字符串处理](https://draapho.github.io/2016/11/24/1621-python-string/)
+- [Python 列表和字典的常见操作](https://draapho.github.io/2017/01/03/1701-python-list-dict/)
+- [30 个有关 Python 的小技巧](https://draapho.github.io/2016/11/22/1619-python-tips/)
+- [python 延时及超时](https://draapho.github.io/2016/11/28/1622-python-time/)
+- [Python 调试及测试](https://draapho.github.io/2016/12/13/1623-python-debug/)
+- [python 调用命令行](https://draapho.github.io/2016/10/21/1613-python-cli/)
+- [PyQt 的交互操作](https://draapho.github.io/2016/10/20/1612-python-pyqtui/)
+- [Python 线程同步机制](https://draapho.github.io/2016/11/03/1615-python-ipc/)
+- [使用python实现BLE通讯](https://draapho.github.io/2016/11/15/1616-python-ble/)
+- [python 的第一个小程序, 蓝牙及串口终端](https://draapho.github.io/2016/11/16/1617-python-terminal/)
+- [使用网络爬虫抓取商品价格并分析](https://draapho.github.io/2017/04/10/1711-web-spider/)
+
+- [The Python Standard Library][tpsl] 
+- [Python 中文官方文档][pycn] 
+- [python3-cookbook][pc]    
+- [Python风格规范][psg]                  
+- [PyQt's Modules][pqm] 
+- [Web.py Cookbook][webpy] |
 
 [pycn]: http://python.usyiyi.cn/
 [tpsl]: https://docs.python.org/2.7/library/index.html
@@ -29,64 +100,30 @@ comments: false
 [webpy]: http://webpy.org/cookbook/
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
+## Windows
+- [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
+- [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
+- [Windows 软件系列-提高效率](https://draapho.github.io/2016/09/28/1602-WinSoft-efficiency/)
+- [Windows 软件系列-文本编辑](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/)
+- [Windows 软件系列-基于NFS的家庭网](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/)
+- [Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
+- [Windows 软件系列-终端](https://draapho.github.io/2016/10/10/1609-WinSoft-terminal/)
+- [Windows 软件系列-atom插件](https://draapho.github.io/2016/10/12/1610-WinSoft-atompack/)
+- [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
 
 
-| *linux*                 |                       |                         |
-| ----------------------- | --------------------- | ----------------------- |
-| [linux系统及磁盘指令][ldisk]   | [linux文件及目录指令][lfile] | [Bash Shell及环境变量][bash] |
-| [Unix/Linux 命令参考][lcmd] | [Embedded Linux 学习笔记][el]                     | -                       |
-
-
-[ldisk]: https://draapho.github.io/2016/12/15/1625-linux-cmd-disk/
-[lfile]: https://draapho.github.io/2016/12/16/1626-linux-cmd-file/
-[bash]: https://draapho.github.io/2016/12/17/1627-linux-cmd-bash/
-[lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
-[el]: https://draapho.github.io/2017/01/18/1702-linux-hard/
-
-
-
-| *software*        |                 |             |
-| ----------------- | --------------- | ----------- |
-| [Windows快捷键][win] | [Vim快捷键定义][vim] | [正则表达式][re] |
-| [git常用命令][git]    | [Docker初学笔记][docker]  | -           |
-
-[win]: https://draapho.github.io/2016/10/08/1607-CheatSheet-win/
-[vim]: https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/
-[re]: https://draapho.github.io/2016/12/18/1628-soft-regular/
-[git]: https://draapho.github.io/2016/10/24/1614-CheatSheet-git/
-[docker]: https://draapho.github.io/2017/02/23/1708-docker/
-
-
-
-| *mcu & hardware*   |                 |             |
-| ----------------- | --------------- | ----------- |
-| [STM32选型][stm]   |  - | -           |
-
-[stm]: http://www.st.com/content/st_com/en/products/microcontrollers.html
-
-
-
-| *markdown*       |                 |                    |
-| ---------------- | --------------- | ------------------ |
-| [Markdown语法][md] | [mermaid制图][mm] | [LaTeX数学公式][latex] |
-
+## Markdown
+- [Markdown语法][md] 
+- [mermaid制图][mm] 
+- [LaTeX数学公式][latex] 
 
 [md]: https://draapho.github.io/about/markdownplus
 [mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
 [latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 
-
-| *other*               |                        |                         |
-| --------------------- | ---------------------- | ----------------------- |
-| [symbolhound][symbol] | [stackoverflow][stack] | [pdf在线转换][pdf]          |
-| [Emoji图标][emoji]      | [图标 Font Awesome][fa]  | [图标 ionicons][ionicons] |
-
-[symbol]: http://symbolhound.com/
-[stack]: http://stackoverflow.com/
-[pdf]: https://smallpdf.com/cn
-[emoji]: http://www.webpagefx.com/tools/emoji-cheat-sheet/
-[fa]: http://fontawesome.io/icons/
-[ionicons]: http://ionicons.com/
-
-
+# Thoughts
+- [开博序](https://draapho.github.io/2016/09/23/1600-Preface/) 
+- [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
+- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
+- [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
