@@ -52,8 +52,11 @@ comments: false
    - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
 
 ## jz2440开发板学习
+- [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
 - [jz2440 裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
+- [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
+- [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
 
 ## android / other
 - [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
