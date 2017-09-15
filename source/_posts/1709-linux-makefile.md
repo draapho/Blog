@@ -6,6 +6,7 @@ tags: [embedded, linux, makefile]
 ---
 
 ***转载自 [怎么看懂和编写makefile](http://lucky521.github.io/blog/design/2015/10/01/makefile.html)***
+***转载自 [跟我一起写Makefile](http://lucky521.github.io/blog/design/2015/10/01/makefile.html)***
 
 ----------
 
@@ -129,9 +130,38 @@ else
 endif
 ```
 
+# 使用函数
+函数调用，很像变量的使用，也是以“$”来标识的，有两种语法, 如下：
+``` makefile
+$(<function> <arguments>)
+${<function> <arguments>}
+```
+
+还是来看一个示例：
+``` makefile
+comma := ,
+empty :=
+space := $(empty) $(empty)
+foo:= a b c
+bar:= $(subst $(space),$(comma),$(foo))
+```
+- `$(bar)`调用了函数一个函数.
+    - 函数    : `$(subst <from>,<to>,<text>)`, 相当于c语言的 `subst(from, to, text)`
+    - 参数from: `$(comma)` 的值是一个逗号
+    - 参数to  : `$(space)` 使用了 `$(empty)` 定义了一个空格
+    - 参数text: `$(foo)`   的值是 "a b c"
+- 这个函数是把$(foo)中的空格替换成逗号，所以$(bar)的值是“a,b,c”。
+    - 这是一个替换函数
+    - 第一个参数是被替换字串
+    - 第二个参数是替换字串
+    - 第三个参数是替换操作作用的字串
+
+
+Makefile 支持的函数有限, 详情可参考 [跟我一起写Makefile:使用函数](http://wiki.ubuntu.org.cn/%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile:%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0)
 
 
 ----------
 
 ***转载自 [怎么看懂和编写makefile](http://lucky521.github.io/blog/design/2015/10/01/makefile.html)***
+***转载自 [跟我一起写Makefile](http://lucky521.github.io/blog/design/2015/10/01/makefile.html)***
 

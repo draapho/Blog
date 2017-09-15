@@ -10,6 +10,9 @@ tags: [embedded linux, uboot]
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
 - [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
 - [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
+- [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
+- [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
+- [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
 
 本文基于 u-boot-1.1.6, 使用jz2440开发板. 若要使用最新的u-boot版本见: [u-boot官网](http://www.denx.de/wiki/U-Boot/WebHome)  [u-boot下载](ftp://ftp.denx.de/pub/u-boot/)
 
@@ -96,7 +99,7 @@ uboot启动后, 首先执行的就是 `cpu/arm920t/start.s`
 
 # 二 板级初始化, board.c
 
-`grep -nr start_armboot *` 或者 `grep -nr "\<start_armboot" *`, 找出 `start_armboot` 源码文件和行号.
+`grep -nwr start_armboot *`, 找出 `start_armboot` 源码文件和行号.
 可知, 其位于 `./lib_arm/board.c` 的236行.
 
 ``` c

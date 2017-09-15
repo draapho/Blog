@@ -172,6 +172,29 @@ sudo chmod +x /bin/mkyaffs2image                    # 增加可执行权限
 mkyaffs2image                                       # 测试是否可用
 ```
 
+# 安装 dnw 工具
+
+该工具用于配合uboot进行烧录, 无需驱动, 无需额外烧录器, 简单方便
+
+``` bash
+sudo cp dnw /bin/                                   # 拷贝到bin
+sudo chmod +x /bin/dnw                              # 增加可执行权限
+dnw                                                 # 测试是否可用
+```
+
+# 安装 ncurses 基本库
+
+ncurses是字符终端下屏幕控制的基本库, `make menuconfig` 需要使用
+
+``` bash
+# 安装ncurses
+sudo apt-get update
+sudo apt-get install libncurses5-dev libncursesw5-dev
+
+# 查看是否成功
+make menuconfig
+```
+
 
 ----------
 

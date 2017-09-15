@@ -10,6 +10,9 @@ tags: [embedded linux, uboot, jz2440]
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
 - [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
 - [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
+- [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
+- [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
+- [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
 
 本文基于 u-boot-1.1.6, 使用jz2440开发板. 若要使用最新的u-boot版本见: [u-boot官网](http://www.denx.de/wiki/U-Boot/WebHome)  [u-boot下载](ftp://ftp.denx.de/pub/u-boot/)
 
@@ -72,7 +75,12 @@ tags: [embedded linux, uboot, jz2440]
 # pwd = u-boot-1.1.6 文件夹下
 grep -n 100ask24x0 ./Makefile       # 在Makefile文件下查找 100ask24x0, 并显示行号
 grep -nr 100ask24x0 *               # 当前目录递归查找 100ask24x0
+grep -nwr 100ask24x0 *              # w=word, 100ask24x0 作为一个单词查找
 grep -nd skip 100ask24x0 *          # 仅在当前目录查找, 不显示子目录信息
+
+# 特别强大的一条指令, 可针对指定文件搜索指定关键字!
+# 先用find找出所有的Makefile文件, 然后在Makefile文件内查找 uImage 关键字.
+find ./ -name "Makefile" | xargs grep -nw --color "uboot"
 ```
 
 ## 'make 100ask24x0_config' 指令分析

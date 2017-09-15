@@ -93,9 +93,11 @@ tags: [linux, command]
 | ...... **`-name`**                       | 表示按文件名搜索. 类似的参数有很多.有需要在查.            |
 | `grep pattern files`                     | 在files中寻找 pattern项,支持正则表达式           |
 | ...... **`grep -r “hello” ./*`**         | 在当前文件夹下的所有文件下搜索 “hello”              |
+| ...... **`grep -n “Test” *`**            | 在当前文件夹下搜索 “hello”, 并显示行号           |
 | ...... **`grep -i “Bye” *`**             | 在当前文件夹下忽略大小写搜索 ”Bye”                 |
 | ...... **`grep -w “Test” aa bb`**        | 在aa, bb文件内,只匹配整个单词搜索 “Test”          |
-| `find ./ -name "*" l(竖杠) xargs grep "key"` | 在当前文件夹下查找包含 "key" 内容的文件       |
+| ...... **`grep -nd skip 100ask24x0 *`**  | 仅在当前目录查找, 不显示子目录信息 |
+| `find ./ -name "*" l(竖杠) xargs grep --color "key"` | 在当前文件夹下查找包含 "key" 内容的文件       |
 |                                          |                                      |
 | `tar -cvf file.tar /dir`                 | 将/dir打包为file.tar,没有压缩                |
 | `tar -zcvf file.tar.gz /dir`             | 将/dir打包为file.tar.gz,用gzip压缩          |
@@ -106,7 +108,7 @@ tags: [linux, command]
 | `tar -N ‘2005/06/01’ -zcvffile.tar.gz /dir` | 将/dir下比2005/06/01新的文件备份              |
 | `cpio`                                   | 文件/设备的输入输出, 多配合find进行备份              |
 
-- **`find ./ -name "*" | xargs grep "key"`** 在当前文件夹下查找包含 "key" 内容的文件
+- **`find ./ -name "*" | xargs grep --color "key"`** 在当前文件夹下查找包含 "key" 内容的文件
 - **`find / -print | cpio -covB > /dev/st0`** , 将系统数据全部写入磁带机
 
 

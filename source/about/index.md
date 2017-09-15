@@ -19,6 +19,7 @@ comments: false
 - [Unix/Linux 命令参考][lcmd] 
 - [linux系统及磁盘指令][ldisk] 
 - [linux文件及目录指令][lfile] 
+- [最实用的 Linux 命令行使用技巧](https://draapho.github.io/2017/09/07/1723-linux-cmd-useful/)
 - [Vim常用快捷键](https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/)
 - [快速读懂 makefile](https://draapho.github.io/2017/04/04/1709-linux-makefile/)
 
@@ -57,6 +58,9 @@ comments: false
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
 - [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
 - [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
+- [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
+- [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
+- [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
 
 ## android / other
 - [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
