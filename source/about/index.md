@@ -71,6 +71,7 @@ comments: false
 ## 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
 - [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
+- [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
 - [数据结构资料收集](https://draapho.github.io/2016/11/23/1620-software-data-struct/)
 - [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
