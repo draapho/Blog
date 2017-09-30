@@ -15,8 +15,10 @@ tags: [embedded linux, environment]
    - 第三次尝试, 成功! [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 3. Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 其参数设置可参考:
    - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
-4. 另一种思路:
+4. **最新补充(2017-09-30). 根据实践, 建议的方式如下**:
    - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
+   - linux下安装NFS服务器, 便于让开发板linux通过网络加载文件系统. [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
+   - 好处是相比于windows下, 源码放在linux下grep搜索以及编译都会更快.
 
 
 整个环境的搭建思路基于尽可能少的文件传输, 系统切换操作, 以便提高效率. 可以选择的方案有NFS方案, windows文件共享方案.
