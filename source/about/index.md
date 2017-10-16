@@ -72,6 +72,7 @@ comments: false
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
 - [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
 - [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
+- [最全的常用正则表达式大全](https://draapho.github.io/2017/10/07/1727-soft-reexample/)
 - [数据结构资料收集](https://draapho.github.io/2016/11/23/1620-software-data-struct/)
 - [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
@@ -99,7 +100,7 @@ comments: false
 - [python3-cookbook][pc]    
 - [Python风格规范][psg]                  
 - [PyQt's Modules][pqm] 
-- [Web.py Cookbook][webpy] |
+- [Web.py Cookbook][webpy]
 
 [pycn]: http://python.usyiyi.cn/
 [tpsl]: https://docs.python.org/2.7/library/index.html
@@ -135,3 +136,5 @@ comments: false
 - [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)

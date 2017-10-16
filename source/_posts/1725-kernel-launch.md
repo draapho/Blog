@@ -139,11 +139,12 @@ tags: [embedded linux, kernel]
 838 }
 
 748 static int noinline init_post(void) {               // 执行应用程序
-756     if (sys_open((const char __user *) "/dev/console", O_RDWR, 0) < 0)
+756     if (sys_open((const char __user *) "/dev/console", O_RDWR, 0) < 0)      
+                                                        // 尝试打开终端设备, 文件0->printf
 757         printk(KERN_WARNING "Warning: unable to open an initial console.\n");
-759	    (void) sys_dup(0);
-760	    (void) sys_dup(0);                              
-        // 以上四句作用为设置标准输入输出流
+759	    (void) sys_dup(0);                              // 赋值文件0, 生成文件1->scanf
+760	    (void) sys_dup(0);                              // 赋值文件0, 生成文件2->err
+        // 以上四句作用为设置标准输入输出流, (printf, scanf, err)
         
 744 	if (execute_command) {
 745	    	run_init_process(execute_command);
@@ -162,6 +163,39 @@ tags: [embedded linux, kernel]
         // 执行首个应用程序失败, 打印内核错误信息!
 785 }
 ```
+
+``` bash
+# 我们擦除开发板文件系统后, 来看一下打印出来的启动信息
+
+OpenJTAG> nand erase root           # uboot 下, 擦除root块
+OpenJTAG> reset                     # uboot 下, 重启系统
+
+Booting Linux ...
+NAND read: device 0 offset 0x60000, size 0x200000
+## Booting image at 30007fc0 ...
+...
+Starting kernel ...
+...
+Kernel command line: noinitrd root=/dev/mtdblock3 init=/linuxrc console=ttySAC0
+loop: module loaded
+...
+Creating 4 MTD partitions on "NAND 256MiB 3,3V 8-bit":
+0x00000000-0x00040000 : "bootloader"
+0x00040000-0x00060000 : "params"
+0x00060000-0x00260000 : "kernel"
+0x00260000-0x10000000 : "root"
+...
+VFS: Mounted root (yaffs filesystem).
+...
+Kernel panic - not syncing: No init found.  Try passing init= option to kernel.
+# 此句就是由./init/main.c文件784行打印出来的. 因为没有文件系统, 第一个应用程序执行失败!
+```
+
+如果正常启动, 会打印如下信息, 可知第一个应用程序名字是 `BusyBox`, 然后启动了 `/bin/sh`!!!
+`init started: BusyBox v1.7.0 (2008-01-22 10:04:09 EST)`
+`starting pid 764, tty '': '/etc/init.d/rcS'`
+`Please press Enter to activate this console.`
+`starting pid 770, tty '/dev/s3c2410_serial0': '/bin/sh'`
 
 
 # 初始化中用到的段 `vmlinux.lds`

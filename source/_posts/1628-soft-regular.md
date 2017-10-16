@@ -5,6 +5,13 @@ categories: software
 tags: [software, regular, linux, python, cheat sheet]
 ---
 
+# 前言
+- [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
+- [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
+- [最全的常用正则表达式大全](https://draapho.github.io/2017/10/07/1727-soft-reexample/)
+
+本文详细介绍了正则表达式的基础内容
+
 
 # 正则表达式基础内容
 

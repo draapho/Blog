@@ -11,11 +11,11 @@ tags: [software, regular]
 
 
 # 前言
+- [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
+- [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
+- [最全的常用正则表达式大全](https://draapho.github.io/2017/10/07/1727-soft-reexample/)
 
 本文有助于快速上手正则表达式, 但语法非常不全, 因此写出的表达式不够简练.
-完整版的正则表达式见:
-[正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
-
 
 编写验证规则最流行和最简单的方法就是正则表达式了，但唯一的一个问题是正则表达式的语法太隐晦了，让人蛋疼无比。
 很多开发者为了在项目中应用复杂的验证，经常要使用一些小抄来记住正则式的复杂语法和各种常用命令。
