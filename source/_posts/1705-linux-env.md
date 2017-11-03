@@ -5,6 +5,19 @@ categories: embedded linux
 tags: [embedded linux, environment]
 ---
 
+# 总览
+- [嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
+- [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
+- [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
+- [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
+- [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
+- [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
+- [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
+- [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
+- [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
+- [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
+
+
 # 嵌入式linux开发环境搭建思路
 
 1. PC windows 所有资料存在windows目录下, 所有操作在windows环境下. NFS设置可参考:
@@ -18,7 +31,8 @@ tags: [embedded linux, environment]
 4. **最新补充(2017-09-30). 根据实践, 建议的方式如下**:
    - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
    - linux下安装NFS服务器, 便于让开发板linux通过网络加载文件系统. [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
-   - 好处是相比于windows下, 源码放在linux下grep搜索以及编译都会更快.
+   - 好处是相比于windows下, 源码放在linux下grep搜索以及编译都会快的多.
+   - 烧录的话, 使用usb, 基于uboot和linux下dnw, 还是挺方便的.
 
 
 整个环境的搭建思路基于尽可能少的文件传输, 系统切换操作, 以便提高效率. 可以选择的方案有NFS方案, windows文件共享方案.
