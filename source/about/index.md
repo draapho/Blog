@@ -85,6 +85,7 @@ comments: false
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 
 ## python
+- [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
 - [python 基础： 深入理解 python 中的赋值、引用、拷贝、作用域](https://draapho.github.io/2016/11/21/1618-python-variable/)
 - [python 字符串处理](https://draapho.github.io/2016/11/24/1621-python-string/)
 - [Python 列表和字典的常见操作](https://draapho.github.io/2017/01/03/1701-python-list-dict/)
