@@ -222,7 +222,7 @@ lrwx------    1 0        0              64 Jan  1 00:10 2 -> /dev/console
 ```
 
 
-### ~~集成到文件系统, 直接`mount` ~~
+### ~~集成到文件系统, 直接 mount ~~
 
 ``` bash
 # Linux主机, Ubuntu终端
@@ -253,7 +253,7 @@ $ chmod +x etc/init.d/rcS
 # - 最终运行 mount -t proc none /proc 指令
 ```
 
-### 集成到文件系统, 使用`mount -a`
+### 集成到文件系统, 使用 `mount -a`
 
 一般的, linux需要mount多个文件, 因此使用更为通用的 `mount -a` 指令,
 然后去读取 `/etc/fstab` 文件内的配置项.
