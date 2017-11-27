@@ -8,7 +8,7 @@ tags: [uboot, embedded linux, error]
 
 # 背景
 
-家用电脑, 环境的搭建思路可参考[嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
+家用电脑, 环境的搭建思路可参考[嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
 
 单位电脑, 没有使用nfs共享文件.
 用的环境是: VMware Ubuntu 16.04 + Windows 7 + VMware 文件共享

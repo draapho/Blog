@@ -6,16 +6,10 @@ tags: [embedded linux, kernel]
 ---
 
 # 总览
-- [嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
-- [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
-- [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
-- [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
-- [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
+- [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
 - [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
 - [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
-- [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
-- [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 

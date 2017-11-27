@@ -8,7 +8,7 @@ tags: [embedded linux, environment]
 
 # 环境及结论
 
-- 大环境的搭建思路可参考[嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
+- 大环境的搭建思路可参考[嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
   - gateway ip `10.0.0.138`
   - PC windows: win10 64bit, ip `10.0.0.98`
   - PC linux(最终版本): ubuntu server 16.04 32 bit, ip `10.0.0.100`
@@ -20,10 +20,6 @@ tags: [embedded linux, environment]
 - 没法直接安装 u-boot-tools
 - 彻底放弃! 转战Ubuntu
 - 不知是 centos 做 2440 的交叉编译兼容性不好, 还是64bit linux的兼容性不好. 或者两者皆有!
-- **最新补充(2017-09-30). 根据实践, 建议的方式如下**:
-  - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
-  - linux下安装NFS服务器, 便于让开发板linux通过网络加载文件系统. [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
-  - 好处是相比于windows下, 源码放在linux下grep搜索以及编译都会快的多.
 
 # 安装必要的软件
 静态ip, 安装向导时, 就设置了.

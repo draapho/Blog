@@ -1,24 +1,43 @@
 ---
-title: 嵌入式linux环境搭建
+title: 嵌入式linux环境搭建-主机端
 date: 2017-02-16
 categories: embedded linux
 tags: [embedded linux, environment]
 ---
 
 # 总览
-- [嵌入式linux环境搭建](https://draapho.github.io/2017/02/16/1705-linux-env/)
+
+- [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
+- [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
 - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
-- [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
-- [uboot之源码分析](https://draapho.github.io/2017/08/25/1720-uboot-source/)
-- [uboot之定制指令](https://draapho.github.io/2017/08/30/1721-uboot-modify/)
-- [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
-- [kernel之Makefile分析](https://draapho.github.io/2017/09/14/1724-kernel-makefile/)
-- [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
-- [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
-- [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
 
 
 # 嵌入式linux开发环境搭建思路
+
+学习过大半, 总结经验后, 得出如下环境搭建的最新思路:
+- 使用32位桌面版Ubuntu, 推荐使用 [ubuntu-16.04.3-desktop-i386.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-i386.iso)
+- linux源码必须放在Linux文件系统下. 如果放在windows下再通过nfs共享给linux, 搜索和编译的速度太慢!
+- 可以纯linux环境工作. 如果基于windows, 虚拟机linux的话, 可以让linux使用samba与windows实现文件共享.
+- Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 这样所需工具最少, 开发最灵活方便.
+- 烧录的话, 使用usb, 基于uboot和linux下dnw, 还是挺方便的.
+- 源码阅读和驱动开发使用 [LinK+](https://sourceforge.net/projects/linkplustest/), 一款linux下基于eclipse开发的Linux内核开发IDE!
+
+
+配置步骤见如下文章:
+- [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
+- [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
+- [LinK+, 一款Linux内核开发IDE](https://draapho.github.io/2017/11/27/1737-linux-ide/)
+- [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
+
+Windows下用虚拟机安装Ubuntu的话, 虚拟机网络类型需要选择为Briged模式. 区别如下:
+- Bridged(桥接模式), 虚拟机在局域网中可见, IP和主机处于同一网段
+- NAT(网络地址转换模式), 主机为双网卡主机, 会建立一个虚拟局域网和虚拟机通讯. 局域网看不到虚拟机的存在
+- Host-only(主机模式), 主机建立一个网络用于和虚拟机通讯, 此网络和真实网络无关. 所以虚拟机无法上外网!
+
+
+**此文到此结束了, 下面的都是历史遗留产物...**
+
+## ~~历史思路~~
 
 1. PC windows 所有资料存在windows目录下, 所有操作在windows环境下. NFS设置可参考:
    - [Windows NFS 环境搭建](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/)
@@ -28,11 +47,6 @@ tags: [embedded linux, environment]
    - 第三次尝试, 成功! [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 3. Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 其参数设置可参考:
    - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
-4. **最新补充(2017-09-30). 根据实践, 建议的方式如下**:
-   - linux下使用samba实现文件共享, [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
-   - linux下安装NFS服务器, 便于让开发板linux通过网络加载文件系统. [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
-   - 好处是相比于windows下, 源码放在linux下grep搜索以及编译都会快的多.
-   - 烧录的话, 使用usb, 基于uboot和linux下dnw, 还是挺方便的.
 
 
 整个环境的搭建思路基于尽可能少的文件传输, 系统切换操作, 以便提高效率. 可以选择的方案有NFS方案, windows文件共享方案.
@@ -46,7 +60,7 @@ tags: [embedded linux, environment]
 而且使用这个方案还有一个好处, 开发文件都存放在熟悉的windows环境下, 修改/维护/备份都很方便.
 
 
-## PC windows, win10
+## ~~PC windows, win10~~
 ip addr: `10.0.0.98`
 gateway: `10.0.0.138`
 
