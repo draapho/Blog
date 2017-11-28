@@ -10,6 +10,7 @@ tags: [embedded linux, environment]
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
 - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
+- [基于DHCP建立嵌入式Linux开发环境](https://draapho.github.io/2017/11/28/1738-dhcp-env/)
 
 
 # 嵌入式linux开发环境搭建思路
@@ -25,7 +26,7 @@ tags: [embedded linux, environment]
 
 配置步骤见如下文章:
 - [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
-- [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
+- [Ubuntu 16.04安装配置NFS](https://draapho.github.io/2017/11/29/1739-ubuntu-nfs/)
 - [LinK+, 一款Linux内核开发IDE](https://draapho.github.io/2017/11/27/1737-linux-ide/)
 - [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 
@@ -44,7 +45,7 @@ Windows下用虚拟机安装Ubuntu的话, 虚拟机网络类型需要选择为Br
 2. PC linux 装在虚拟机里, 提供交叉编译环境. 其环境搭建可参考:
    - 第一次尝试, 失败告终, ~~[嵌入式linux环境搭建1-Ubuntu14](https://draapho.github.io/2017/02/18/1706-linux-ubuntu14/)~~
    - 第二次尝试, 失败告终, ~~[嵌入式linux环境搭建2-CentOS7](https://draapho.github.io/2017/02/19/1706-linux-centos7/)~~
-   - 第三次尝试, 成功! [嵌入式linux环境搭建1-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
+   - 第三次尝试, 成功! [嵌入式linux环境搭建3-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 3. Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 其参数设置可参考:
    - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
 
