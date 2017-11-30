@@ -24,6 +24,7 @@ tags: [embedded linux]
 - [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
 - [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
+- [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 
 
 ----------

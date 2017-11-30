@@ -163,11 +163,20 @@ chmod +x /usr/share/udhcpc/default.script       # 加入可执行属性
 vim /etc/init.d/rcs             # 开机自动执行udhcpc
 # ===== 打开vim, 修改/增加如下内容 =====
 # ifconfig eth0 192.168.1.17
- 
-# 文件末尾, 打开eth0, 然后执行dhcp
 ifconfig eth0 up
 udhcpc eth0
+# 上述两行放在最前面. 这样才能成功自动挂载nfs
+
 # ===== wq保存文件, 退出 =====
+
+
+vim /etc/fstab
+# ===== 打开vim, 增加如下内容 =====
+
+# 文件最后加入这样一句nfs模板, 便于日后修改
+# 192.168.1.111:/home/share /mnt/share nfs rsize=1024,wsize=1024,timeo=14,intr,nolock 0 0
+# ===== wq保存文件, 退出 =====
+
 
 
 # 制作文件系统
@@ -193,17 +202,42 @@ mkyaffs2image fs_mini_mdev_dhcp fs_mini_mdev_dhcp.yaffs2
 主机端 nfs环境搭建参考: [Ubuntu 16.04安装配置NFS](https://draapho.github.io/2017/11/29/1739-ubuntu-nfs/)
 
 
-................
-
 在开发板上挂载服务器共享的目录
-```
-$ mkdir /mnt/share
-$ mount -t nfs -o nolock 192.168.0.124:/home/xuan/tftp/ /mnt/share/
+``` bash
+# pwd = / 
+$ mkdir /mnt/share          # 挂载点
+$ ln -s /mnt/share share    # 创建软连接
+
+$ mount -t nfs -o nolock 192.168.1.100:/home/share /mnt/share/
+$ df -h                     # 查看挂载的文件系统.
+$ ls share                  # 查看一下是否可以看到共享内容了.
 ```
 
-http://blog.csdn.net/wang328452854/article/details/51304217
 
-.................
+每次开机敲一长串 mount 指令也挺麻烦的, 进一步偷懒, 让它开机自启动.
+``` bash
+# 开发板终端, 修改fstab, 让 mount -a 自动加载nfs
+$ vi /etc/fstab
+# ===== 打开vi, 修改/增加如下内容 =====
+192.168.1.111:/home/share /mnt/share nfs rsize=1024,wsize=1024,timeo=14,intr,nolock 0 0
+# ===== wq保存文件, 退出 =====
+
+$ mount -a                  # 重新加载
+$ df -h                     # 查看挂载的文件系统.
+$ ls share                  # 查看一下是否可以看到共享内容了.
+```
+
+下次重启就能自动加载nfs了. **如果加载失败, 看看是不是主机动态IP变掉了**.
+
+## 使用hostname
+这里, 最理想的情况是使用 hostname 而不是IP地址.
+但网上搜索了一下, 没有找到让jz2440支持hostname的方法.
+动态IP也不会更换的太频繁, 所以是一个可以忍受的缺点, 就不去深究了.
+关键点是 `/etc/resolv.conf`, 应该可以由udhcpc自动生成内容的...
+找了如下相关信息:
+- [linux根文件系统 /etc/resolv.conf 文件详解](http://blog.csdn.net/mybelief321/article/details/10049429)
+- [linux系统2440开发板域名解析问题](http://www.voidcn.com/article/p-yruxiyxx-nk.html)
+- [JZ2440开发笔记（4）——设置静态IP](http://www.cnblogs.com/zjzsky/p/3559367.html)
 
 
 
@@ -211,6 +245,8 @@ http://blog.csdn.net/wang328452854/article/details/51304217
 - [ubuntu永久修改主机名](http://blog.csdn.net/ruglcc/article/details/7802077)
 - [BusyBox 應用 – udhcpc](http://felix-lin.com/linux/busybox-%E6%87%89%E7%94%A8-udhcpc/)
 - [jz2440自动获取ip地址](https://wenku.baidu.com/view/bca0c470e418964bcf84b9d528ea81c758f52ed1.html)
+- [Linux NFS Mount Entry In fstab ( /etc/fstab ) With Example](https://linoxide.com/file-system/example-linux-nfs-mount-entry-in-fstab-etcfstab/)
+- [ubuntu下 mini2440的NFS挂载【终极版】](http://blog.sina.com.cn/s/blog_76c545390100sscr.html)
 
 ----------
 
