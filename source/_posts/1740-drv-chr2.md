@@ -365,7 +365,6 @@ LinK+自动生成的框架和jz2440教程的框架主要有如下区别:
     - [class_create(),class_device_create()或device_create()自动创建设备文件结点](http://blog.csdn.net/yuzaipiaofei/article/details/6790689)
 - 子设备号Minor获取上的区别.
     - 使用 private_data 更符合linux的规范
-    - [第一个Linux驱动程序（一）——aMsg的open()、read()和write()（驱动程序的基本结构）](https://zhoujianshi.github.io/articles/2017/%E7%AC%AC%E4%B8%80%E4%B8%AALinux%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94aMsg%E7%9A%84open()%E3%80%81read()%E5%92%8Cwrite()%EF%BC%88%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%EF%BC%89/index.html)
 
 总体而言, jz2440的教程使用的框架比较老, LinK+使用的框架更合适高版本的linux内核.
 
