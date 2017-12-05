@@ -64,10 +64,6 @@ tar -xzvf LinK+\ IDE-linux.gtk.x86.tar.gz.tar.gz
 ![link.JPG](https://draapho.github.io/images/1737/link3.JPG)
 
 
-设置宏定义 `__KERNEL__`, 不影响编译, 只是为了方便查看源码
-![link.JPG](https://draapho.github.io/images/1737/link4.JPG)
-
-
 设定编译指令, `make` 即可
 ![link.JPG](https://draapho.github.io/images/1737/link5.JPG)
 
@@ -103,13 +99,37 @@ Kernel: arch/arm/boot/zImage is ready
 Image arch/arm/boot/uImage is ready
 ```
 
-
-
 但Ecilpse依旧会显示很多警告和错误. 原因不明, 查的如下资料:
 - [What is kernel section mismatch?](https://stackoverflow.com/questions/8563978/what-is-kernel-section-mismatch)
 - [解决编译kernel出现WARNING:Section mismatch(es)](http://www.linuxdiyf.com/linux/24369.html)
 
-先忽略这些错误警告, **此时内核源码已经全部能成功的跳转查看了.**
+先忽略这些错误警告, 但此时, 有些函数依旧不能正常跳转. 原因是 `.\include\linux\autoconf.h` 没有被其它头文件包含, 里面的宏定义linux源码无法识别. 解决办法是我们自己把这些宏定义加入eclipse的SYMBOLS. 手工一个个加入不现实, 我写了一个python代码, 把linux下的config自动转为eclipse可识别的XML格式: 
+**[下载config2xml](https://github.com/draapho/Blog/tree/master/_blog_stuff/linux/config2xml.py)**
+
+
+将这个文件放在linux源码根目录下, 配置好`.config` 文件. 然后在终端运行它
+``` bash
+# pwd = linux内核源码根目录
+$ python config2xml.py
+Generate ../eclipse_SYMBOLS.xml successfully...
+```
+
+成功后, 会在上层目录生成 `eclipse_SYMBOLS.xml` 这么一个文件.
+然后回到eclipse里面, 将其导入. 如图:
+![link.JPG](https://draapho.github.io/images/1737/link9.JPG)
+
+
+另外, 为方便跳转, 可以在eclipse下面把linux源码下不相关的平台代码排除掉.
+![link.JPG](https://draapho.github.io/images/1737/link4.JPG)
+
+**此时内核源码的C语言部分已经能成功的跳转查看了.汇编部分可以用eclipse的搜索功能.**
+
+
+如果跳转依旧问题, 试试如下方法, 让eclipse重置索引
+- 索引文件存储在 `<workspace>/.metadata/plugins/org.eclipse.*.core/*.index`
+- 如果在ubuntu的UI界面下看不到隐藏文件, 按`ctrl+h`即可.
+- 删除 `<workspace>/.metadata/plugins/org.eclipse.*.core`
+- 重启Eclipse即可
 
 
 # 写驱动
