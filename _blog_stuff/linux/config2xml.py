@@ -4,7 +4,7 @@ config_file = ".config"
 eclipse_file = "../eclipse_SYMBOLS.xml"
 
 
-def xmlStartEnd(file, isEnd=False):
+def xml_start_end(file, isEnd=False):
     if (not isEnd):
         file.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
         file.write("<cdtprojectproperties>\n")
@@ -14,6 +14,7 @@ def xmlStartEnd(file, isEnd=False):
         file.write("</section>\n")
         file.write("</cdtprojectproperties>\n")
 
+
 def writexml(file, name, val):
     file.write("<language name=\"Assembly\">\n")
     file.write("<macro>\n<name>{}</name><value>{}</value>\n</macro>\n".format(name,val))
@@ -21,11 +22,15 @@ def writexml(file, name, val):
     file.write("<language name=\"GNU C\">\n")
     file.write("<macro>\n<name>{}</name><value>{}</value>\n</macro>\n".format(name,val))
     file.write("</language>\n\n")
+    file.write("<language name=\"GNU C++\">\n")
+    file.write("<macro>\n<name>{}</name><value>{}</value>\n</macro>\n".format(name,val))
+    file.write("</language>\n\n")
+
 
 def config2xml():
     try:
         with open(config_file, "r") as fin, open(eclipse_file, "w") as fout:
-            xmlStartEnd(fout)
+            xml_start_end(fout)
             writexml(fout, "__KERNEL__", "")
             lines = fin.readlines()
             for l in lines:
@@ -42,11 +47,12 @@ def config2xml():
                         name = name + "_MODULE"
                         val = "1"
                     writexml(fout, name, val)
-            xmlStartEnd(fout, True)
+            xml_start_end(fout, True)
             print("Generate {} successfully...".format(eclipse_file))
 
     except Exception:
             print("read {} file FAILED!".format(config_file))
+
 
 if __name__ == "__main__":
     config2xml()

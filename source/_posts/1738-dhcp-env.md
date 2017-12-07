@@ -116,8 +116,8 @@ busybox包含的udhcpc没有提供运行脚本, 直接运行会报错:
 ``` bash
 # pwd = fs_mini_mdev_dhcp/
 
-mkdir -p /usr/share/udhcpc/     # 自动建立多层目录
-vim /usr/share/udhcpc/default.script
+mkdir -p ./usr/share/udhcpc/     # 自动建立多层目录
+vim ./usr/share/udhcpc/default.script
 
 # ===== 打开vim, 写入如下内容 =====
 #!/bin/sh
@@ -158,9 +158,9 @@ esac
 exit 0
 # ===== wq保存文件, 退出 =====
 
-chmod +x /usr/share/udhcpc/default.script       # 加入可执行属性
+chmod +x ./usr/share/udhcpc/default.script       # 加入可执行属性
 
-vim /etc/init.d/rcs             # 开机自动执行udhcpc
+vim ./etc/init.d/rcS             # 开机自动执行udhcpc. S是大写!
 # ===== 打开vim, 修改/增加如下内容 =====
 # ifconfig eth0 192.168.1.17
 ifconfig eth0 up
@@ -170,7 +170,7 @@ udhcpc eth0
 # ===== wq保存文件, 退出 =====
 
 
-vim /etc/fstab
+vim ./etc/fstab
 # ===== 打开vim, 增加如下内容 =====
 
 # 文件最后加入这样一句nfs模板, 便于日后修改
@@ -185,6 +185,7 @@ mkyaffs2image fs_mini_mdev_dhcp fs_mini_mdev_dhcp.yaffs2
 ```
 
 上述工作完成后, 烧录到开发板即可. 详情可参考:[fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
+
 
 ## 开发板测试
 烧录好内核和文件系统后, 开机测试一下.
@@ -205,8 +206,8 @@ mkyaffs2image fs_mini_mdev_dhcp fs_mini_mdev_dhcp.yaffs2
 在开发板上挂载服务器共享的目录
 ``` bash
 # pwd = / 
-$ mkdir /mnt/share          # 挂载点
-$ ln -s /mnt/share share    # 创建软连接
+$ mkdir mnt/share          # 挂载点
+$ ln -s mnt/share share    # 创建软连接
 
 $ mount -t nfs -o nolock 192.168.1.100:/home/share /mnt/share/
 $ df -h                     # 查看挂载的文件系统.
@@ -228,6 +229,7 @@ $ ls share                  # 查看一下是否可以看到共享内容了.
 ```
 
 下次重启就能自动加载nfs了. **如果加载失败, 看看是不是主机动态IP变掉了**.
+jz2440启动后, 加载nfs失败时, 需要等待一段时间才能进入终端界面! 
 
 ## 使用hostname
 这里, 最理想的情况是使用 hostname 而不是IP地址.

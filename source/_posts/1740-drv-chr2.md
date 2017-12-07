@@ -9,6 +9,7 @@ tags: [linuxembedded linux, drv]
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
+- [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 

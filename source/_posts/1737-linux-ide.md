@@ -118,18 +118,14 @@ Generate ../eclipse_SYMBOLS.xml successfully...
 然后回到eclipse里面, 将其导入. 如图:
 ![link.JPG](https://draapho.github.io/images/1737/link9.JPG)
 
-
 另外, 为方便跳转, 可以在eclipse下面把linux源码下不相关的平台代码排除掉.
 ![link.JPG](https://draapho.github.io/images/1737/link4.JPG)
 
-**此时内核源码的C语言部分已经能成功的跳转查看了.汇编部分可以用eclipse的搜索功能.**
+最后, 需要把项目的index索引重建一下才能正确跳转. 重建耗时较长.
+![link.JPG](https://draapho.github.io/images/1737/link10.JPG)
 
 
-如果跳转依旧问题, 试试如下方法, 让eclipse重置索引
-- 索引文件存储在 `<workspace>/.metadata/plugins/org.eclipse.*.core/*.index`
-- 如果在ubuntu的UI界面下看不到隐藏文件, 按`ctrl+h`即可.
-- 删除 `<workspace>/.metadata/plugins/org.eclipse.*.core`
-- 重启Eclipse即可
+**至此内核源码的C语言部分已经能成功的跳转查看了.汇编部分可以用eclipse的搜索功能.**
 
 
 # 写驱动
