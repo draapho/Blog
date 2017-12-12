@@ -10,6 +10,9 @@ tags: [linuxembedded linux, drv]
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 - [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
+- [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
+- [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
+- [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -34,6 +37,23 @@ tags: [linuxembedded linux, drv]
 **注意** 自动生成的模板中, 函数`device_create`和linux-2.6.22.6不兼容, 需要去掉最后一个NULL!
 不修改的话, 编译时有个警告, 尝试加载模块时会报错: 
 `Unable to handle kernel NULL pointer dereference at virtual address 00000000`
+
+## 加载已有工程
+
+如果已有驱动工程, 需要加入 LinK+. 核心思路就是基于Makefile编译, 而不是用Eclipse自带的工具链编译.
+基本过程可以参考[LinK+, 一款Linux内核开发IDE](https://draapho.github.io/2017/11/27/1737-linux-ide/), 但比内核的设置要简单的多.
+
+- `New Project...` -> `C/C++`下`Makefile Project with Existing Code` -> 选好项目路径, `Finish` 打开
+- 右键工程 `Properties`
+    - 选中`C/C++ Build`->右边`Builder Settings`标签:
+        - 取消 ~~`Use default build command`~~, 编译命令就是 `make`
+        - 确定 `Build directory` 路径是makefile所在的路径, 如 `${workspace_loc:/drv_key/KERN_SRC}`
+    - 选中`C/C++ Build`->右边`Behaviour`标签:
+        - `Build(incremental build)`, 改为 `modules`. 组成编译指令 `make modules`
+    - 展开`C/C++ General`->选中`Paths and Symbols`->右边`Includes`标签
+        - `Add...`, 新增 `/linux-2.6.22.6/include` 路径到所有配置, 所有语言.
+- 右键工程 `Clean Project`, 相当于执行 `make clean`
+- 右键工程 `Build Project`, 相当于执行 `make modules`, 编译完成.
 
 
 # 驱动源码

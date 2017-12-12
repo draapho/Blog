@@ -60,7 +60,9 @@ comments: false
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 - [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
-
+- [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
+- [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
+- [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 
 ## other
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)

@@ -10,6 +10,9 @@ tags: [linuxembedded linux, drv]
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 - [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
+- [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
+- [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
+- [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -298,6 +301,24 @@ module_exit(drv_key_int_exit);
 #include <asm/hardware.h>
 ```
 
+## Makefile
+
+``` makefile
+obj-m		:= drv_key_int.o 
+KERN_SRC	:= /home/draapho/share/kernel/linux-2.6.22.6/
+PWD			:= $(shell pwd)
+
+modules:
+	make -C $(KERN_SRC) M=$(PWD) modules
+
+install:
+	make -C $(KERN_SRC) M=$(PWD) modules_install
+	depmod -a
+
+clean:
+	make -C $(KERN_SRC) M=$(PWD) clean
+```
+
 ## 测试文件 test_drv_key_int.c
 
 ``` c
@@ -314,6 +335,7 @@ int main(int argc, char **argv)
     fd = open("/dev/key_int0", O_RDWR);
     if (fd < 0) {
         printf("can't open!\n");
+        return 0;
     }
 
     while (1) {
@@ -374,7 +396,10 @@ drv_key_int:EXIT
 # 开发板端, 测试驱动功能
 # pwd = /home/draapho/share/drv/drv_key_int/KERN_SRC    # 驱动源码路径, share是nfs共享文件夹
 
-$ ./test_drv_key_int                  # 检测按键中断
+$ insmod drv_key_int.ko             # 加载模块
+drv_key_int:INIT
+
+$ ./test_drv_key_int                # 检测按键中断
 # 可以发现, 打印有时候有点乱, 那是因为中断的关系
 
 # 按ctrl+c 终止进程
@@ -387,5 +412,4 @@ $ top                               # 查看系统资源情况
 分析测试代码, 在死循环里面, 会调用到 `wait_event_interruptible`, 当没有中断发生时, 就会切换用户进程.
 当中断发生后, 驱动通过 `wake_up_interruptible` 唤醒用户进程, 继续执行.
 然后由于, 用户的printf和内核的printk相互独立, 所以最终打印可能会有点乱.
-
 
