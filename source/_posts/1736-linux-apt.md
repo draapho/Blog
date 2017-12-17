@@ -140,6 +140,41 @@ sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
 ```
 
+## X not fully installed or removed
+
+多发生在安装过程中, 发生意外错误, 导致部分软件没有安装好.
+如果在Ubuntu下面修改过`/usr/bin/python`软链接, 改2.7版本到3.5的话, 
+安装某些依赖python软件也会发生这个问题!
+
+``` bash
+# 此错误发生在安装 libsdl1.2-dev 过程中. libsdl1.2-dev 依赖另外两个软件
+# 原因是, 我修改了  /usr/bin/python -> python3.5*
+# 解决方法就是改回来 /usr/bin/python -> python2.7*
+
+$ sudo apt install libsdl1.2-dev
+......
+3 not fully installed or removed
+Do you want to continue? [Y/n]
+......
+Errors were encountered while processing:
+libglib2.0-dev
+libpulse-dev:i386
+libsdl1.2-dev
+ 
+# 先解决没有完全安装或者删除的问题, 方法如下, 按照依赖关系, 倒过来逐一删除:
+$ sudo dpkg -r libsdl1.2-dev
+$ sudo dpkg -r libpulse-dev:i386
+$ sudo dpkg -r libglib2.0-dev
+
+# 然后尝试重新安装. 我这里的问题是python语法错误
+# 只能改回来 /usr/bin/python -> python2.7*
+sudo apt-get -f autoremove
+sudo apt-get -f install
+sudo apt-get update
+sudo apt-get install libglib2.0-dev
+```
+
+
 ## 软件版本问题
 
 先试试指定版本号安装
@@ -153,6 +188,8 @@ apt-get install nautilus=2.2.4-1
 
 如果更复杂的, 譬如依赖的软件需要指定版本, 直接参考stackoverflow吧
 [How do I resolve unmet dependencies after adding a PPA?](https://askubuntu.com/questions/140246/how-do-i-resolve-unmet-dependencies-after-adding-a-ppa)
+
+
 
 
 # 参考

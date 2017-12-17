@@ -269,7 +269,7 @@ static int drv_key_int_open(struct inode *inode,struct file *filp)
         return -EBUSY;
     }
 #else
-    if (file->f_flags & O_NONBLOCK) {               // 非阻塞
+    if (filp->f_flags & O_NONBLOCK) {               // 非阻塞
         if (down_trylock(&key_lock))                // 尝试获取信号量
             return -EBUSY;
     } else {
@@ -292,7 +292,7 @@ static ssize_t drv_key_int_read(struct file *filp,  // 读取函数也需要修�
     if (count != 1)
         return -EINVAL;
     
-    if (file->f_flags & O_NONBLOCK) {               // 非阻塞
+    if (filp->f_flags & O_NONBLOCK) {               // 非阻塞
         if (!ev_press)                              // 无按键, 立刻返回
             return -EAGAIN;
     } else {
@@ -344,7 +344,7 @@ int main(int argc, char **argv)
 
 	while (1) {
 		ret = read(fd, &keys_val, 1);                   // 读取函数是否阻塞取决于open函数
-		printf("key_val=0x%x, ret=%d\n",key_val,ret);
+		printf("keys_val=0x%x, ret=%d\n",keys_val,ret);
         sleep(3);
 	}
 	

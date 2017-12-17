@@ -47,6 +47,7 @@ comments: false
     - [嵌入式linux环境搭建3-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
 - [基于DHCP建立嵌入式Linux开发环境](https://draapho.github.io/2017/11/28/1738-dhcp-env/)
+- [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 - [jz2440裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
 - [jz2440分区及启动的基础概念](https://draapho.github.io/2017/11/24/1735-jz2440-basic/)
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
