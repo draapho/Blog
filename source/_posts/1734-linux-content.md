@@ -5,6 +5,7 @@ categories: embedded linux
 tags: [embedded linux]
 ---
 
+嵌入式开发环境搭建
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
     - [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)
@@ -13,9 +14,9 @@ tags: [embedded linux]
     - [嵌入式linux环境搭建3-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
 - [基于DHCP建立嵌入式Linux开发环境](https://draapho.github.io/2017/11/28/1738-dhcp-env/)
-- [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 
 
+jz2440学习
 - [jz2440裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
 - [jz2440分区及启动的基础概念](https://draapho.github.io/2017/11/24/1735-jz2440-basic/)
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
@@ -32,6 +33,15 @@ tags: [embedded linux]
 - [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
+
+
+QQ物联学习
+- [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
+- [QQ物联基础概念及绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-conception/)
+
+
+其它
+- [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 
 
 ----------

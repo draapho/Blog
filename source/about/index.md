@@ -14,6 +14,7 @@ comments: false
 
 `https://draapho.github.io/images/17xx/xxx.jpg`
 
+
 ## linux 基础知识学习
 - [Bash Shell及环境变量][bash] 
 - [Unix/Linux 命令参考][lcmd] 
@@ -29,6 +30,7 @@ comments: false
 [bash]: https://draapho.github.io/2016/12/17/1627-linux-cmd-bash/
 [lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
 
+
 ## Linux 0.11 源码阅读笔记
 - [Linux 0.11 源码阅读笔记-总览](https://draapho.github.io/2017/01/23/1704-linux-source/)
 - [Linux 0.11 源码阅读笔记-内存的基础概念](https://draapho.github.io/2017/01/26/1704-linux-source1/)
@@ -37,6 +39,7 @@ comments: false
 - [Linux 0.11 源码阅读笔记-设备驱动程序](https://draapho.github.io/2017/02/01/1704-linux-source4/)
 - [Linux 0.11 源码阅读笔记-文件系统](https://draapho.github.io/2017/02/13/1704-linux-source5/)
 - [Linux 0.11 源码阅读笔记-内存管理](https://draapho.github.io/2017/02/15/1704-linux-source6/)
+
 
 ## jz2440开发板学习
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
@@ -47,7 +50,8 @@ comments: false
     - [嵌入式linux环境搭建3-Ubuntu16](https://draapho.github.io/2017/02/20/1706-linux-ubuntu16/)
 - [嵌入式linux环境搭建-jz2440开发板](https://draapho.github.io/2017/02/21/1707-jz2440-env/)
 - [基于DHCP建立嵌入式Linux开发环境](https://draapho.github.io/2017/11/28/1738-dhcp-env/)
-- [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
+
+
 - [jz2440裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
 - [jz2440分区及启动的基础概念](https://draapho.github.io/2017/11/24/1735-jz2440-basic/)
 - [uboot之makefile分析](https://draapho.github.io/2017/07/07/1719-uboot-makefile/)
@@ -64,6 +68,14 @@ comments: false
 - [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
+
+
+- [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
+- [QQ物联基础概念及绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-conception/)
+
+
+- [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
+
 
 ## other
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
@@ -82,6 +94,7 @@ comments: false
 - [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
+
 
 ## python
 - [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
@@ -112,6 +125,7 @@ comments: false
 [pqm]: http://pyqt.sourceforge.net/Docs/PyQt4/modules.html
 [webpy]: http://webpy.org/cookbook/
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
+
 
 ## Windows
 - [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)

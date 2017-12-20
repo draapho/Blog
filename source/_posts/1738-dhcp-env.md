@@ -174,7 +174,7 @@ vim ./etc/fstab
 # ===== 打开vim, 增加如下内容 =====
 
 # 文件最后加入这样一句nfs模板, 便于日后修改
-# 192.168.1.111:/home/share /mnt/share nfs rsize=1024,wsize=1024,timeo=14,intr,nolock 0 0
+# 192.168.1.100:/home/share /mnt/share nfs rsize=1024,wsize=1024,timeo=14,intr,nolock 0 0
 # ===== wq保存文件, 退出 =====
 
 
