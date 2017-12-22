@@ -1,14 +1,16 @@
 ---
 title: 嵌入式linux环境搭建-QQ物联
 date: 2017-12-18
-categories: embedded linux
-tags: [linux, embedded linux]
+categories: qqiot
+tags: [embedded linux, qqiot]
 ---
 
 # 总览
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
-- [QQ物联基础概念及绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-conception/)
+- [QQ物联开发步骤简介](https://draapho.github.io/2017/12/22/1748-qqiot-procedure/)
+- [QQ物联绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-bind/)
+- [QQ物联演示项目](https://draapho.github.io/2017/12/23/1749-qqiot-demo/)
 
 为学习QQ物联而搭建的jz2440开发环境.
 需要升级交叉编译环境, 然后编译和烧录

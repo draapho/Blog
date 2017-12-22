@@ -71,7 +71,9 @@ comments: false
 
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
-- [QQ物联基础概念及绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-conception/)
+- [QQ物联开发步骤简介](https://draapho.github.io/2017/12/22/1748-qqiot-procedure/)
+- [QQ物联绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-bind/)
+- [QQ物联演示项目](https://draapho.github.io/2017/12/23/1749-qqiot-demo/)
 
 
 - [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)

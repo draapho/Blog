@@ -1,87 +1,20 @@
 ---
-title: QQ物联基础概念及绑定分析
+title: QQ物联绑定分析
 date: 2017-12-20
-categories: embedded linux
-tags: [linux, embedded linux]
+categories: qqiot
+tags: [embedded linux, qqiot]
 ---
 
 
 # 总览
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
-- [QQ物联基础概念及绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-conception/)
+- [QQ物联开发步骤简介](https://draapho.github.io/2017/12/22/1748-qqiot-procedure/)
+- [QQ物联绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-bind/)
+- [QQ物联演示项目](https://draapho.github.io/2017/12/23/1749-qqiot-demo/)
 
 本文使用 linux-3.4.2 内核, 使用jz2440开发板.
 
-
-# 基础概念
-
-## 硬件设备概念
-- SN (serial number), 序列号
-    - 由产品开发商提供, 但QQ规定了格式要求
-    - 需要保证唯一性. 即同一种类的单品都有其唯一的SN
-    - 格式: 16个字符长度. 由字母, 数字, 下划线, 连词符, 冒号组成.
-    - 譬如 `ABC-0032-1234567`
-    - 历史原因, 源码里面的名称是 `guid`
-- LICENSE, 数字签名
-    - license 是对sn的数字签名, 所以与sn是一一对应的关系
-    - license由腾讯提供的工具来实现, 输入sn即可
-    - 其目的就是保护设备信息, 避免设备被山寨.
-- PID(product identify), 产品ID.
-    - 即产品类别ID, 类似于超市商品的二维码, 表明产品类别
-    - 有了PID和SN后, QQ就可以唯一确定一台智能设备
-    - QQ物联的设备二维码就是由PID和SN这两个信息组成的
-    - QQ会提供PID值
-- DIN(device identify number), 设备ID
-    - 可以认为就是此设备的QQ号码, 64位长度.
-    - DIN 由 PID + SN + LICENSE 产生.
-    - QQ会保证DIN的唯一性
-- SDK, 开发套件
-    - 分为设备SDK和应用SDK
-    - 设备SDK, 就是给智能硬件使用的开发套件. 以后学习的重点是在这里.
-    - 应用SDK, 如果要开发独立APP, 就需要此SDK. 提供QQ开放接口. 此处略过不表.
-
-## QQ云端概念
-- datapoint, 数据点
-    - 理解为QQ指定的一套数据格式规范即可.
-- PropertyID, 属性ID
-    - 每个datapoint都有自己的id, 用于表明此数值的属性.
-    - 譬如property_id (200001), 表示摄像头分辨率.
-    - 简单的理解, datapoint传输整个键值对. PropertyID是key.
-
-## 轻APP前端
-
-QQ物联轻APP是手机QQ里“我的设备”控制器内嵌的HTML5页面（模板），分为通用/公共模板和开发商自定义模板
-
-- 通用/公共模板
-    - 公共模板的样式不可自定义, 但可以自行配置功能控件.
-    - 可节省软件端的研发和维护成本, 缩短产品研发周期.
-- 自定义模板
-    - 使用Html5, 根据QQ物联提供的设计规范和接口实现定制化用户界面 (内嵌在QQ里)
-    - 自定义模板需要开发者将页面发布到自有的服务器, 然后将url地址提交到平台.
-- deviceAPI
-    - QQ物联提供的给自定义模板调用的JS接口.
-    - 注意, 目前其对视屏功能仅部分支持.
-
-## 手机APP
-手机端概念只有在需要自己开发app, 调用应用SDK时, 才会用到!
-
-- AppID
-    - 标识APP, 此App使用QQ登录组件. 即调用了QQ的应用SDK
-- OpenID
-    - 等同于用户QQ号码的身份. 长度128bit
-    - OpenID 由 appid + qq号码 产生
-- TinyID (Tiny OpenID)
-    - QQ内部由于兼容问题, 对OpenID的一个缩略, 使用64bit长度
-
-## 配网方式(wifi下)
-不少硬件设备是没有屏幕的, 如何接入wifi就成为一个大问题. QQ物联提供如下几种方式
-
-- WiFi Router： 设备自行解决入网问题，适用于有屏幕的智能设备
-- SmartLink： 博通合作方案, 其wifi芯片支持Monitor模式(可实现数据包注入), 内置了AES-CCM加密库
-- SmartLinkEx: 额外采用声波通讯技术协同配网, 提高极端环境下的配网成功率. 适合有麦克风的设备
-- QQLink： SmartLink的弱加密版本, 安全性没有SmartLink方案高.
-- QQLinkEx： 额外采用声波通讯技术协同配网. 适合有麦克风的设备
 
 # demo_bind.c 的分析与测试
 
@@ -144,6 +77,9 @@ sudo tar xzf 1700003137001488.tar.gz
 # 改名后放到测试目录
 sudo mv 1700003137001488/ conf/
 sudo mv conf/ bind_test/
+
+# 改下权限
+sudo chmod -R 777 bind_test/
 ```
 
 然后打开 `./bind_test/demo_bind.c` 文件, 仿照readBufferFromFile进行修改
@@ -160,9 +96,7 @@ struct conf_info {
     char guid_file[128];
     char license_file[128];
 };
-
 struct conf_info configInfo = {0, {0}, {0}, {0}, {0}};
-
 
 bool readConfigFromFile(void) {
     char buf[128]={0};
@@ -171,14 +105,12 @@ bool readConfigFromFile(void) {
     ssize_t read;
     bool ret = true;
     char *pconf[] = {configInfo.pubkey_file, configInfo.guid_file,  configInfo.license_file};
-
     // 尝试打开目录下的配置文件
     FILE * file = fopen("./conf/config", "rb");
     if (!file) {
         printf("open ./conf/config failed...\n");
         return false;
     }
-
     // 读取第一行的数据, PID信息
     read = getline(&line, &len, file);
     if (read > sizeof(buf)) {
@@ -190,7 +122,6 @@ bool readConfigFromFile(void) {
         configInfo.pid = atoi(buf);
         printf("PID=%d\n",configInfo.pid);
     }
-
     // 读取第二行的数据, Name信息
     read = getline(&line, &len, file);
     if (read > sizeof(buf)) {
@@ -200,9 +131,8 @@ bool readConfigFromFile(void) {
         strncpy(buf,line,read-1);
         buf[read]='\0';
         sprintf(configInfo.name, buf);
-        printf("Name=%s\n",configInfo.name);
+        // printf("Name=%s\n",configInfo.name);
     }
-
     // 读取剩下的行, 都是文件数据
     int i;
     for (i=0; i<sizeof(pconf)/sizeof(char *); i++) {
@@ -220,18 +150,16 @@ bool readConfigFromFile(void) {
                 break;
             } else {
                 sprintf(pconf[i], buf);
-                printf("line%d: %s\n", i+2, pconf[i]);
+                // printf("line%d: %s\n", i+2, pconf[i]);
             }
         }
     }
-
     if (ret) {                                  // 调试检查
         printf("NAME=%s\n",configInfo.name);
         printf("PEM =%s\n",configInfo.pubkey_file);
         printf("GUID=%s\n",configInfo.guid_file);
         printf("LICENSE=%s\n",configInfo.license_file);
     }
-
     if (line) free(line);
     fclose(file);
     return ret;
@@ -257,10 +185,17 @@ bool initDevice() {
 
 -   info.device_name            = "demo1";
 +   info.device_name            = configInfo.name;
+    info.device_serial_number   = guid;
+    info.device_license         = license;
+    info.product_version        = 1;
+    info.network_type           = network_type_wifi;
+-   info.product_id             = 1000000004;
++   info.product_id             = configInfo.pid;
+    info.server_pub_key         = svrPubkey;
 }
 ```
 
-然后, 需要修改makefile文件, 用的交叉编译.
+然后, 需要修改makefile文件, 用的交叉编译. (注意空格改为TAB)
 
 ``` makefile
 # 改为交叉编译!
@@ -282,7 +217,7 @@ app1:demo_bind.c
 
 ```
 1700003137
-jz2440_demo
+jz2440_bind_demo
 ./conf/1700003137.pem
 ./conf/GUID_file[1700003137001488].txt
 ./conf/licence.sign.file[1700003137001488].txt
