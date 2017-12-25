@@ -24,7 +24,7 @@ tags: [windows, eclipse, TrueSTUIDO, mingw]
   - 注意, 上述两项需要有git项目并编译后, 才可以成功设置
 - 设置快捷键
   - `Window`->`Preferences`->`General`->`Keys` 可设置快捷键
-  - 快捷键设置要求见 [Windows快捷键](https://draapho.github.io/2016/10/08/1607-Shortcut-win/)
+  - 快捷键设置要求见 [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
   - 配置文件名为 `org.eclipse.ui.workbench.prefs`, 路径如下, $workspace$ 表示 eclipse 的工作路径.
   - `$workspace$\.metadata\.plugins\org.eclipse.core.runtime\.settings`下
   - TrueSTUIDO版的快捷键见TureSTUDIO

@@ -290,7 +290,7 @@ tags: [windows, atom, mingw, c, python]
 # 参考和资料
 - [Atom Flight Manual](http://flight-manual.atom.io/), atom手册
 - [atom Packages](https://atom.io/packages), atom插件中心
-- 我的 [Windows快捷键](https://draapho.github.io/2016/10/08/1607-Shortcut-win/)
+- 我的 [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
 
 
 

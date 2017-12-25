@@ -125,7 +125,7 @@ tags: [windows, Notepad++, atom, Typora, utf-8]
   ```
 
 ## 快捷键设置
-- 需按照[编辑器快捷键](https://draapho.github.io/2016/10/08/1607-Shortcut-win/)设置
+- 需按照[编辑器快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)设置
 - 设置好的[快捷键配置文件](https://github.com/draapho/Blog/tree/master/_blog_stuff/Notepad%2B%2B/shortcuts.xml), 直接替换原有的shortcuts.xml即可
 - 说明一下`run`的设置, 可参考官方说明[Notepad++调用外部程序](http://docs.notepad-plus-plus.org/index.php/External_Programs)
   - `Zeal.lnk $(CURRENT_WORD)` 在Zeal中查询选中内容
@@ -211,7 +211,7 @@ tags: [windows, Notepad++, atom, Typora, utf-8]
     'ctrl-f': 'unset!'
   ```
 - 自定义详情可以参考官网的[Basic Customization](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings)
-- 需按照[编辑器快捷键](https://draapho.github.io/2016/10/08/1607-Shortcut-win/)设置
+- 需按照[编辑器快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)设置
 - 环境变量的配置, 可以参考[Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
 
 
