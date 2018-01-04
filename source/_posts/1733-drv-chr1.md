@@ -13,6 +13,7 @@ tags: [embedded linux, driver]
 - [驱动之poll机制](https://draapho.github.io/2017/12/11/1742-drv-chr4/)
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
+- [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
