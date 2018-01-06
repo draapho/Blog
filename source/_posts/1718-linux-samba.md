@@ -102,7 +102,7 @@ $ sudo vim /etc/samba/smb.conf
 
 注意，创建samba用户之前，必须先确保有一个同名的linux用户，否则samba用户会创建失败。
 ``` bash
-$ sudo smbpasswd -a smbuser
+$ sudo smbpasswd -a $USER
 ```
 
 # 四、重启samba服务

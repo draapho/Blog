@@ -19,6 +19,7 @@ tags: [embedded linux, environment]
 - 使用32位桌面版Ubuntu, 推荐使用 [ubuntu-16.04.3-desktop-i386.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-desktop-i386.iso)
 - linux源码必须放在Linux文件系统下. 如果放在windows下再通过nfs共享给linux, 搜索和编译的速度太慢!
 - 可以纯linux环境工作. 如果基于windows, 虚拟机linux的话, 可以让linux使用samba与windows实现文件共享.
+- 虚拟机强烈推荐使用 vmware, 可以直接在主机和虚拟机之间复制黏贴. 不推荐 Hyper-V!
 - Embedded linux 固化uboot, kernel, 使用nfs加载文件系统. 这样所需工具最少, 开发最灵活方便.
 - 烧录的话, 使用usb, 基于uboot和linux下dnw, 还是挺方便的.
 - 源码阅读和驱动开发使用 [LinK+](https://sourceforge.net/projects/linkplustest/), 一款linux下基于eclipse开发的Linux内核开发IDE!

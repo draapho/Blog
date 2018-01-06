@@ -25,7 +25,7 @@ cd linux-2.6.22.6                           # 进入kernel源码目录
 patch -p1 < ../linux-2.6.22.6_jz2440.patch  # 打补丁文件, p1表忽略patch文件内的1层目录
 
 # pwd = linux-2.6.22.6
-mv ../4.3寸LCD_mach-smdk2440.c arch/arm/mach-s3c2440/mach-smdk2440.c    # 替换为4.3寸屏源码
+cp ../4.3寸LCD_mach-smdk2440.c arch/arm/mach-s3c2440/mach-smdk2440.c    # 替换为4.3寸屏源码
 ```
 
 # 生成配置文件 ".config"

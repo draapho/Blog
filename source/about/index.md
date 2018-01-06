@@ -12,7 +12,7 @@ comments: false
 
 # 博文分类概览
 
-`https://draapho.github.io/images/17xx/xxx.jpg`
+`https://draapho.github.io/images/18xx/xxx.xxx`
 
 
 ## linux 基础知识学习
@@ -69,6 +69,7 @@ comments: false
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 - [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
+- [驱动之input子系统](https://draapho.github.io/2018/01/04/1802-drv-input/)
 
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
