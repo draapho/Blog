@@ -37,7 +37,8 @@ jz2440学习
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 - [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
-- [驱动之input子系统](https://draapho.github.io/2018/01/04/1802-drv-input/)
+- [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
+- [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 
 
 

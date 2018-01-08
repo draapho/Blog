@@ -9,7 +9,8 @@ tags: [linuxembedded linux, drv]
 
 # 总览
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
-- [驱动之input子系统](https://draapho.github.io/2018/01/04/1802-drv-input/)
+- [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
+- [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -250,173 +251,274 @@ static int evdev_connect(struct input_handler *handler, struct input_dev *dev, c
 # 硬件设备端源码
 
 由于input子系统的实际上是帮我们完成了相当一部分的注册工作, 并实现了通用的逻辑功能.
-因此实际写硬件设备驱动时, 反而变得更简单了.
+因此实际写硬件设备驱动时, 反而变得更简单了. 核心步骤如下:
+1. 分配一个input_dev结构体. `input_allocate_device`
+2. 设置事件, 设置事件支持的操作类型
+3. 注册 `input_register_device`
+4. 硬件初始化和逻辑判断
+    - 上报事件: `input_event` `input_sync`
 
 
-## buttons.c
+依旧通过 LinK+ 软件来写驱动. LinK+设置步骤可参考 [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
+
+与input有关的设置页面如下:
+![link+input](https://draapho.github.io/images/1802/link+input.JPG)
+
+
+## input_keys.c
 
 ``` c
-/* 参考drivers\input\keyboard\gpio_keys.c */
-#include <linux/module.h>
-#include <linux/version.h>
+/*
+===============================================================================
+Driver Name     :       input_keys
+Author          :       DRAAPHO
+License         :       GPL
+Description     :       LINUX DEVICE DRIVER PROJECT
+                :       参考drivers\input\keyboard\gpio_keys.c
+===============================================================================
+*/
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/sched.h>
-#include <linux/pm.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/irq.h>
+#include"input_keys.h"
 
-#include <asm/gpio.h>
-#include <asm/io.h>
-#include <asm/arch/regs-gpio.h>
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("DRAAPHO");
 
-struct pin_desc{
+struct keys_desc{                                       // 硬件相关参数
     int irq;
     char *name;
     unsigned int pin;
     unsigned int key_val;
 };
 
-struct pin_desc pins_desc[4] = {
-    {IRQ_EINT0,  "S2", S3C2410_GPF0,   KEY_L},
-    {IRQ_EINT2,  "S3", S3C2410_GPF2,   KEY_S},
-    {IRQ_EINT11, "S4", S3C2410_GPG3,   KEY_ENTER},
-    {IRQ_EINT19, "S5",  S3C2410_GPG11, KEY_LEFTSHIFT},
+struct keys_desc keys_desc_public[4] = {                // 硬件参数初始化
+    {IRQ_EINT0,  "S2", S3C2410_GPF0,  KEY_L},
+    {IRQ_EINT2,  "S3", S3C2410_GPF2,  KEY_S},
+    {IRQ_EINT11, "S4", S3C2410_GPG3,  KEY_ENTER},
+    {IRQ_EINT19, "S5", S3C2410_GPG11, KEY_LEFTSHIFT},
 };
 
-static struct input_dev *buttons_dev;
-static struct pin_desc *irq_pd;
-static struct timer_list buttons_timer;
+struct input_keys_private {                             // 私有变量结构体
+    struct input_dev *dev;
+    struct keys_desc *keysdesc;
+    struct timer_list keys_timer;
+};
 
-static irqreturn_t buttons_irq(int irq, void *dev_id)
+struct input_keys_private *input_keys_priv;             // 私有变量
+
+
+static irqreturn_t keys_irq(int irq, void *dev_id)      // 按键中断函数
 {
-    /* 10ms后启动定时器 */
-    irq_pd = (struct pin_desc *)dev_id;
-    mod_timer(&buttons_timer, jiffies+HZ/100);
+    if (!input_keys_priv)
+        return IRQ_NONE;
+
+    // 10ms后启动定时器, 用于按键防抖动
+    input_keys_priv->keysdesc = (struct keys_desc *)dev_id;
+    mod_timer(&input_keys_priv->keys_timer, jiffies+HZ/100);
     return IRQ_RETVAL(IRQ_HANDLED);
 }
 
-static void buttons_timer_function(unsigned long data)
+static void keys_timer_function(unsigned long data)     // 定时器超时中断函数
 {
-    struct pin_desc * pindesc = irq_pd;
+    struct input_dev *keydev;
+    struct keys_desc *keydesc;
     unsigned int pinval;
 
-    if (!pindesc)
+    if (!input_keys_priv)
         return;
 
-    pinval = s3c2410_gpio_getpin(pindesc->pin);
+    keydesc= input_keys_priv->keysdesc;
+    keydev = input_keys_priv->dev;
+    pinval = s3c2410_gpio_getpin(keydesc->pin);
 
     if (pinval) {
         /* 松开 : 最后一个参数: 0-松开, 1-按下 */
-        input_event(buttons_dev, EV_KEY, pindesc->key_val, 0);
-        input_sync(buttons_dev);
+        input_event(keydev, EV_KEY, keydesc->key_val, 0);   // 触发按键事件
+        input_sync(keydev);                                 // 事件结束, 同步到用户空间
     } else {
         /* 按下 */
-        input_event(buttons_dev, EV_KEY, pindesc->key_val, 1);
-        input_sync(buttons_dev);
+        input_event(keydev, EV_KEY, keydesc->key_val, 1);   // 触发按键事件
+        input_sync(keydev);                                 // 事件结束, 同步到用户空间
     }
 }
 
-static int buttons_init(void)
+static int input_keys_open(struct input_dev *dev)           // 观察用, 初始化代码建议全部放在init函数
 {
-    int i;
-
-    /* 1. 分配一个input_dev结构体 */
-    buttons_dev = input_allocate_device();;
-
-    /* 2. 设置 */
-    /* 2.1 能产生哪类事件 */
-    set_bit(EV_KEY, buttons_dev->evbit);
-    set_bit(EV_REP, buttons_dev->evbit);
-
-    /* 2.2 能产生这类操作里的哪些事件: L,S,ENTER,LEFTSHIT */
-    set_bit(KEY_L, buttons_dev->keybit);
-    set_bit(KEY_S, buttons_dev->keybit);
-    set_bit(KEY_ENTER, buttons_dev->keybit);
-    set_bit(KEY_LEFTSHIFT, buttons_dev->keybit);
-
-    /* 3. 注册 */
-    input_register_device(buttons_dev);
-
-    /* 4. 硬件相关的操作 */
-    init_timer(&buttons_timer);
-    buttons_timer.function = buttons_timer_function;
-    add_timer(&buttons_timer);
-
-    for (i = 0; i < 4; i++) {
-        request_irq(pins_desc[i].irq, buttons_irq, IRQT_BOTHEDGE, pins_desc[i].name, &pins_desc[i]);
-    }
-
+    PINFO("input_keys_open \n");
     return 0;
 }
 
-static void buttons_exit(void)
+static void input_keys_close(struct input_dev *dev)         // 观察用, 退出代码建议全部放在exit函数
 {
-    int i;
-    for (i = 0; i < 4; i++) {
-        free_irq(pins_desc[i].irq, &pins_desc[i]);
-    }
-
-    del_timer(&buttons_timer);
-    input_unregister_device(buttons_dev);
-    input_free_device(buttons_dev);
+    PINFO("input_keys_close \n");
 }
 
-module_init(buttons_init);
-module_exit(buttons_exit);
-MODULE_LICENSE("GPL");
+static int __init input_keys_init(void)
+{
+    int i, res;
+
+    PINFO("input_keys_init\n");
+    input_keys_priv = kzalloc(sizeof(struct input_keys_private),GFP_KERNEL);
+    /*===== 1. 分配一个input_dev结构体, 并初始化 =====*/
+    input_keys_priv->dev = input_allocate_device();
+    // 1.1 初始化后dev的一些内容
+    input_keys_priv->dev->name = DRIVER_NAME;
+    input_keys_priv->dev->open = input_keys_open;           // 可以注释掉
+    input_keys_priv->dev->close = input_keys_close;         // 可以注释掉
+
+    /*===== 2. 设置事件. =====*/
+    // 2.1 设置event事件
+    set_bit(EV_KEY,input_keys_priv->dev->evbit);            // 支持按键事件
+    set_bit(EV_REP,input_keys_priv->dev->evbit);            // 支持按键连发功能
+    // 2.2 设置key事件支持的按键值
+    set_bit(KEY_L, input_keys_priv->dev->keybit);           // 支持按键 l
+    set_bit(KEY_S, input_keys_priv->dev->keybit);           // 支持按键 s
+    set_bit(KEY_ENTER, input_keys_priv->dev->keybit);       // 支持按键 enter
+    set_bit(KEY_LEFTSHIFT, input_keys_priv->dev->keybit);   // shift
+
+    // 1.2 其它初始化, 然后赋值这个私有结构体给 dev->private
+    input_keys_priv->keysdesc = keys_desc_public;
+    input_keys_priv->keys_timer.function = keys_timer_function;
+    input_set_drvdata(input_keys_priv->dev , input_keys_priv);
+
+    /*===== 3. 注册 input_device, 此处会去调用 open 函数 =====*/
+    PINFO("input_keys_init_befor_register\n");
+    res = input_register_device(input_keys_priv->dev);
+    if(res<0) {
+        PERR("input registration failed. error_id=%d\n", res);
+        goto fail1;
+    }
+    PINFO("input_keys_init_after_register\n");
+
+    /*===== 4. 硬件相关的操作, 这部分也可以放在open函数中 =====*/
+    // 4.1 注册中断号, 设置中断类型, 设置中断名称(和设备名称无关), 传入自用的数据指针
+    for (i = 0; i < 4; i++) {
+        res = request_irq(keys_desc_public[i].irq, keys_irq, IRQT_BOTHEDGE, keys_desc_public[i].name, &keys_desc_public[i]);
+        if (res<0) {
+            PERR("request_irq(%d), error_id=%d\n", i, res);
+            goto fail2;
+        }
+    }
+
+    // 4.2 初始化timer, 用于按键延时防抖.
+    init_timer(&input_keys_priv->keys_timer);
+    add_timer(&input_keys_priv->keys_timer);
+    return 0;
+
+    // 错误处理部分.
+fail2:
+    for (i = 0; i < 4; i++) {
+        free_irq(keys_desc_public[i].irq, &keys_desc_public[i]);
+    }
+fail1:
+    input_unregister_device(input_keys_priv->dev);
+    input_free_device(input_keys_priv->dev);
+    kfree(input_keys_priv);
+    return -EBUSY;
+}
+
+static void __exit input_keys_exit(void)
+{
+    int i;
+
+    // exit 是 init 的反操作, 严格按照init的倒序执行!
+    del_timer(&input_keys_priv->keys_timer);
+    for (i = 0; i < 4; i++) {
+        free_irq(keys_desc_public[i].irq, &keys_desc_public[i]);
+    }
+
+    PINFO("input_keys_exit_before_unregister\n");
+    // 此处会调用 close 函数, 因此之前的内容也可以放到close函数中.
+    input_unregister_device(input_keys_priv->dev);
+    PINFO("input_keys_exit_after_unregister\n");
+    input_free_device(input_keys_priv->dev);
+    kfree(input_keys_priv);
+    PINFO("input_keys_exit\n");
+}
+
+module_init(input_keys_init);
+module_exit(input_keys_exit);
+```
+
+## input_keys.h
+``` c
+#define DRIVER_NAME "input_keys"
+#define PDEBUG(fmt,args...) printk(KERN_DEBUG"%s:"fmt,DRIVER_NAME, ##args)
+#define PERR(fmt,args...) printk(KERN_ERR"%s:"fmt,DRIVER_NAME,##args)
+#define PINFO(fmt,args...) printk(KERN_INFO"%s:"fmt,DRIVER_NAME, ##args)
+#include<linux/init.h>
+#include<linux/input.h>
+#include<linux/interrupt.h>
+#include<linux/module.h>
+#include<linux/slab.h>
+
+#include <linux/irq.h>
+#include <asm/gpio.h>
+#include <asm/io.h>
+#include <asm/arch/regs-gpio.h>
 ```
 
 ## Makefile
 
 ``` makefile
-KERN_DIR = /work/system/linux-2.6.22.6
+obj-m       := input_keys.o
+KERN_SRC    := /home/draapho/share/jz2440/kernel/linux-2.6.22.6/
+PWD         := $(shell pwd)
 
-all:
-    make -C $(KERN_DIR) M=`pwd` modules
+modules:
+    make -C $(KERN_SRC) M=$(PWD) modules
+
+install:
+    make -C $(KERN_SRC) M=$(PWD) modules_install
+    depmod -a
 
 clean:
-    make -C $(KERN_DIR) M=`pwd` modules clean
-    rm -rf modules.order
-
-obj-m   += buttons.o
+    make -C $(KERN_SRC) M=$(PWD) clean
 ```
 
 ## 测试
 
 ``` bash
+$ insmod input_keys.ko
+input_keys:input_keys_init
+input_keys:input_keys_init_befor_register
+input: input_keys as /class/input/input1
+input_keys:input_keys_open
+input_keys:input_keys_init_after_register
+
 # 方法一 (没有启动QT):
 $ cat /dev/tty1             # keyboard.c 里面和tty有关联, 不去深究了.
-ls                          # 依次按下 s2,s3,s4, 相当于输入了ls enter
-# 显示文件夹内容
+# 依次按下 s2,s3 相当于输入了ls. 此处没有回显! 输入s4, 终端仅显示ls.
 
 # 方法二 (没有启动QT):
 $ exec 0</dev/tty1          # 将标准输入改为 /dey/tty1. (没有改标准输出, 因此还是会回显$)
 $ ls                        # 依次按下 s2,s3,s4, 相当于输入了ls enter
 # 显示文件夹内容
 
+# 说明, 由于改了标准输入, 只能重启后键盘才会有效
+# ls -l /proc/pid/fd 查看进程的文件描述符. pid值可以由top指令获得.
+
 # 方法三 (有QT)
 # 打开开发板上的记事本, 依次按下 s2,s3,s4, 会看到输入了ls enter.
+
+$ rmmod input_keys.ko
+input_keys:input_keys_exit_before_unregister
+input_keys:input_keys_close
+input_keys:input_keys_exit_after_unregister
+input_keys:input_keys_exit
 ```
 
 额外说一下 `hexdump` 的测试方法
 
 ``` bash
-$ hexdump /dev/event1                              # 相当于执行了 open, read ..., 然后显示用户空间获得的数据
-#字节数|   秒    |  微秒   | 类 |code|  value      # 小端模式, 低位在前!
-0000000 0bb2 0000 0e48 000c 0001 0026 0001 0000    # input_event(buttons_dev, EV_KEY, pindesc->key_val, 1)
-0000010 0bb2 0000 0e54 000c 0000 0000 0000 0000    # input_sync(buttons_dev);
-0000020 0bb2 0000 5815 000e 0001 0026 0000 0000    # input_event(buttons_dev, EV_KEY, pindesc->key_val, 0)
-0000030 0bb2 0000 581f 000e 0000 0000 0000 0000    # input_sync(buttons_dev);
+$ insmod input_keys.ko                             # 加载模块后, 会自动生成 /dev/event1
+$ hexdump /dev/event1                              # 16进制显示event1设备在用户空间获得的数据
+#字节数|   秒    |  微秒   | 类 |code|  value        # 小端模式, 低位在前!
+0000000 0bb2 0000 0e48 000c 0001 0026 0001 0000    # input_event(keydev, EV_KEY, key_val, 1)
+0000010 0bb2 0000 0e54 000c 0000 0000 0000 0000    # input_sync(keydev);
+0000020 0bb2 0000 5815 000e 0001 0026 0000 0000    # input_event(keydev, EV_KEY, key_val, 0)
+0000030 0bb2 0000 581f 000e 0000 0000 0000 0000    # input_sync(keydev);
 
-# 分析这些数值含义的方法: 
+# 分析这些数值含义的方法:
 # 就是从硬件驱动调用了 input_event 开始逐步深入看, 发现会调用 input_handler->event.
 # 于是找到 evdev.c 下的 evdev_event. 看到 client的赋值 和 kill_fasync给用户空间发送异步信号, 可知hexdump显示就是这些数据
 # 然后, 查看 struct input_event, 将数据类型一一对应起来就可以了.
@@ -424,8 +526,8 @@ $ hexdump /dev/event1                              # 相当于执行了 open, re
 
 
 # 参考资料
+- [arm 驱动进阶：输入子系统概念及架构](http://www.cnblogs.com/ITmelody/archive/2012/05/22/2513028.html) 图和流程说明很好
 - [Linux Input子系统之第一篇（input_dev/input_handle/input_handler](http://blog.chinaunix.net/uid-29151914-id-3887032.html)
 - [输入子系统（1）：数据结构总结](http://blog.csdn.net/Golf_research/article/details/53293601)
 - [linux内核input子系统分析](http://www.bijishequ.com/detail/482153)
 - [input_dev结构体分析](http://www.360doc.com/content/12/0606/21/7775902_216485127.shtml) 对结构体的注释比较完整
-
