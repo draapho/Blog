@@ -71,6 +71,7 @@ comments: false
 - [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
 - [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
+- [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
@@ -153,6 +154,9 @@ comments: false
 [mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
 [latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
+
+# 面试集锦
+- [面试之常规问题](https://draapho.github.io/2018/01/10/1805-interview-general/)
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/) 

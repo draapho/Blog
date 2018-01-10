@@ -11,6 +11,7 @@ tags: [linuxembedded linux, drv]
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
+- [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
