@@ -41,6 +41,8 @@ jz2440学习
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 - [驱动之触摸屏驱动框架和实现](https://draapho.github.io/2018/01/11/1806-drv-ts/)
+- [驱动之USB基础概念和框架](https://draapho.github.io/2018/01/18/1807-drv-usb1/)
+- [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
 
 
 

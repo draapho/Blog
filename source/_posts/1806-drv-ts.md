@@ -11,6 +11,8 @@ tags: [embedded linux, driver]
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 - [驱动之触摸屏驱动框架和实现](https://draapho.github.io/2018/01/11/1806-drv-ts/)
+- [驱动之USB基础概念和框架](https://draapho.github.io/2018/01/18/1807-drv-usb1/)
+- [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -298,7 +300,7 @@ clean:
 
 ```
 # Ubuntu 主机端
-# pwd = ./linux-2.6.22.6_no_lcd  借用之前的 no_lcd 内核, 或者自己拷贝一份内核源码
+# pwd = ./linux-2.6.22.6_custom  复制一个新的内核源码目录
 
 $ make clean
 $ make menuconfig                               # 去掉自带的触摸屏驱动程序
@@ -306,9 +308,6 @@ $ make menuconfig                               # 去掉自带的触摸屏驱动
 #   -> Input device support
 #     -> Touchscreens
 #       < > S3C2410/S3C2440 touchscreens        # 取消触摸屏驱动
-# -> Device Drivers
-#   -> Graphics support
-#     <*> S3C2410 LCD framebuffer support       # 加上自带的LCD驱动
 
 $ make uImage
 # 烧录新的uImage

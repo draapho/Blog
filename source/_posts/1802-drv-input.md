@@ -13,6 +13,8 @@ tags: [linuxembedded linux, drv]
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 - [驱动之触摸屏驱动框架和实现](https://draapho.github.io/2018/01/11/1806-drv-ts/)
+- [驱动之USB基础概念和框架](https://draapho.github.io/2018/01/18/1807-drv-usb1/)
+- [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -487,11 +489,11 @@ input: input_keys as /class/input/input1
 input_keys:input_keys_open
 input_keys:input_keys_init_after_register
 
-# 方法一 (没有启动QT):
+# 方法一 (没有LCD):
 $ cat /dev/tty1             # keyboard.c 里面和tty有关联, 不去深究了.
 # 依次按下 s2,s3 相当于输入了ls. 此处没有回显! 输入s4, 终端仅显示ls.
 
-# 方法二 (没有启动QT):
+# 方法二 (没有LCD):
 $ exec 0</dev/tty1          # 将标准输入改为 /dey/tty1. (没有改标准输出, 因此还是会回显$)
 $ ls                        # 依次按下 s2,s3,s4, 相当于输入了ls enter
 # 显示文件夹内容
@@ -499,8 +501,21 @@ $ ls                        # 依次按下 s2,s3,s4, 相当于输入了ls enter
 # 说明, 由于改了标准输入, 只能重启后键盘才会有效
 # ls -l /proc/pid/fd 查看进程的文件描述符. pid值可以由top指令获得.
 
+# 方法三 (有LCD, 没有QT)
+$ vi /etc/inittab
+    # ===== 设置为如下内容 =====
+    ::sysinit:/etc/init.d/rcS
+    s3c2410_serial0::askfirst:-/bin/sh
+    # 增加了下面一行, 用于屏幕打开终端
+    tty1::askfirst:-/bin/sh
+    ::ctrlaltdel:/sbin/reboot
+    ::shutdown:/bin/umount -a -r
+    # ===== wq保存, 退出 =====
+$ reboot                    # 重启终端
+# 这样点击按键就直接能在LCD上查看输入和输出了.
+
 # 方法三 (有QT)
-# 打开开发板上的记事本, 依次按下 s2,s3,s4, 会看到输入了ls enter.
+# 打开开发板上的记事本或终端, 依次按下 s2,s3,s4, 会看到输入了.
 
 $ rmmod input_keys.ko
 input_keys:input_keys_exit_before_unregister
@@ -514,7 +529,7 @@ input_keys:input_keys_exit
 ``` bash
 $ insmod input_keys.ko                             # 加载模块后, 会自动生成 /dev/event1
 $ hexdump /dev/event1                              # 16进制显示event1设备在用户空间获得的数据
-#字节数|   秒    |  微秒   | 类 |code|  value        # 小端模式, 低位在前!
+# 字节数|   秒    |  微秒   | 类  |code|  value      # 小端模式, 低位在前!
 0000000 0bb2 0000 0e48 000c 0001 0026 0001 0000    # input_event(keydev, EV_KEY, key_val, 1)
 0000010 0bb2 0000 0e54 000c 0000 0000 0000 0000    # input_sync(keydev);
 0000020 0bb2 0000 5815 000e 0001 0026 0000 0000    # input_event(keydev, EV_KEY, key_val, 0)

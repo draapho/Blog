@@ -11,6 +11,8 @@ tags: [embedded linux, driver]
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 - [驱动之触摸屏驱动框架和实现](https://draapho.github.io/2018/01/11/1806-drv-ts/)
+- [驱动之USB基础概念和框架](https://draapho.github.io/2018/01/18/1807-drv-usb1/)
+- [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
@@ -107,7 +109,8 @@ fb_read(struct file *file, char __user *buf, size_t count, loff_t *ppos) {
     3.1 配置GPIO用于LCD
     3.2 根据LCD手册设置LCD控制器, 比如VCLK的频率等
     3.3 分配显存(framebuffer), 并把地址告诉LCD控制器
-4. 注册 `register_framebuffer(s3c_lcd);`
+4. 注册 `register_framebuffer(s3c_lcd);`
+
 
 ## 测试, 原系统
 
@@ -128,7 +131,7 @@ $ reboot
 # 重启终端
 
 # 重启后, 屏幕就会显示终端信息了. 提示输入Enter键来触发终端.
-# 加载 驱动之input子系统(https://draapho.github.io/2018/01/05/1802-drv-input/) 里的驱动
+# 加载 "驱动之input子系统" 里的驱动
 $ insmod input_keys.ko
 # 按下S4按键, 相当于输入了 Enter
 # 依次按下 S2, S3, S4, 就是输入了ls指令, 屏幕上会列出文件列表.
