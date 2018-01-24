@@ -5,7 +5,7 @@ categories: embedded linux
 tags: [embedded linux]
 ---
 
-嵌入式开发环境搭建
+# 嵌入式开发环境搭建
 
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
@@ -18,7 +18,7 @@ tags: [embedded linux]
 
 
 
-jz2440学习
+# jz2440学习
 
 - [jz2440裸板程序的开发](https://draapho.github.io/2017/04/05/1710-jz2440-led/)
 - [jz2440分区及启动的基础概念](https://draapho.github.io/2017/11/24/1735-jz2440-basic/)
@@ -30,6 +30,8 @@ jz2440学习
 - [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
 - [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
 - [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
+
+
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 - [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
@@ -37,6 +39,8 @@ jz2440学习
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 - [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
+
+
 - [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
@@ -45,8 +49,12 @@ jz2440学习
 - [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
 
 
+- [驱动之块设备-框架](https://draapho.github.io/2018/01/22/1809-drv-blk/)
+- [驱动之nand flash](https://draapho.github.io/2018/01/22/1809-drv-nand/)
 
-QQ物联学习
+
+
+# QQ物联学习
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
 - [QQ物联开发步骤简介](https://draapho.github.io/2017/12/22/1748-qqiot-procedure/)
@@ -55,7 +63,7 @@ QQ物联学习
 
 
 
-Yocto学习
+# Yocto学习
 
 - [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 

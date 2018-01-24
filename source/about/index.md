@@ -12,8 +12,8 @@ comments: false
 
 # 博文分类概览
 
+`关键字 site:https://draapho.github.io/`
 `https://draapho.github.io/images/18xx/xxx.xxx`
-
 
 ## linux 基础知识学习
 - [Bash Shell及环境变量][bash] 
@@ -62,6 +62,8 @@ comments: false
 - [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/)
 - [fs之Busybox的编译与使用](https://draapho.github.io/2017/11/02/1730-fs-busybox/)
 - [fs之创建文件系统](https://draapho.github.io/2017/11/03/1731-fs-build/)
+
+
 - [驱动之字符设备-框架](https://draapho.github.io/2017/11/22/1733-drv-chr1/)
 - [驱动之基于LinK+设计按键驱动](https://draapho.github.io/2017/11/30/1740-drv-chr2/)
 - [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
@@ -69,12 +71,18 @@ comments: false
 - [驱动之异步通知](https://draapho.github.io/2017/12/12/1743-drv-chr5/)
 - [驱动之同步互斥阻塞](https://draapho.github.io/2017/12/13/1744-drv-chr6/)
 - [驱动之定时器按键防抖](https://draapho.github.io/2018/01/04/1801-drv-chr7/)
+
+
 - [驱动之input子系统](https://draapho.github.io/2018/01/05/1802-drv-input/)
 - [驱动之platform概念](https://draapho.github.io/2018/01/08/1803-drv-platform/)
 - [驱动之LCD驱动框架和实现](https://draapho.github.io/2018/01/09/1804-drv-lcd/)
 - [驱动之触摸屏驱动框架和实现](https://draapho.github.io/2018/01/11/1806-drv-ts/)
 - [驱动之USB基础概念和框架](https://draapho.github.io/2018/01/18/1807-drv-usb1/)
 - [驱动之USB设备驱动程序](https://draapho.github.io/2018/01/19/1808-drv-usb2/)
+
+
+- [驱动之块设备-框架](https://draapho.github.io/2018/01/22/1809-drv-blk/)
+- [驱动之nand flash](https://draapho.github.io/2018/01/22/1809-drv-nand/)
 
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
@@ -159,11 +167,12 @@ comments: false
 
 
 # 面试集锦
+- [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [面试之常规问题](https://draapho.github.io/2018/01/10/1805-interview-general/)
+
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/) 
-- [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
