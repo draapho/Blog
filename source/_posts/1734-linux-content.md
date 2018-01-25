@@ -50,7 +50,9 @@ tags: [embedded linux]
 
 
 - [驱动之块设备-框架](https://draapho.github.io/2018/01/22/1809-drv-blk/)
-- [驱动之nand flash](https://draapho.github.io/2018/01/22/1809-drv-nand/)
+- [驱动之NAND Flash框架](https://draapho.github.io/2018/01/24/1810-drv-nand1/)
+- [驱动之NAND Flash源码](https://draapho.github.io/2018/01/25/1811-drv-nand2/)
+- [驱动之NOR Flash](https://draapho.github.io/2018/01/26/1812-drv-nor/)
 
 
 

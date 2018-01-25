@@ -8,7 +8,7 @@ tags: [embedded linux, driver]
 # 总览
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [驱动之块设备-框架](https://draapho.github.io/2018/01/22/1809-drv-blk/)
-- [驱动之nand flash](https://draapho.github.io/2018/01/22/1809-drv-nand/)
+- [驱动之nand flash](https://draapho.github.io/2018/01/24/1810-drv-nand/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 
