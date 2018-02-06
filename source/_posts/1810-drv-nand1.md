@@ -11,6 +11,7 @@ tags: [embedded linux, driver]
 - [驱动之NAND Flash框架](https://draapho.github.io/2018/01/24/1810-drv-nand1/)
 - [驱动之NAND Flash源码](https://draapho.github.io/2018/01/25/1811-drv-nand2/)
 - [驱动之NOR Flash](https://draapho.github.io/2018/01/26/1812-drv-nor/
+- [驱动之网卡驱动](https://draapho.github.io/2018/02/06/1813-drv-net/)
 
 本文使用 linux-2.6.22.6 内核, 使用jz2440开发板.
 

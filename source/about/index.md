@@ -16,10 +16,10 @@ comments: false
 `https://draapho.github.io/images/18xx/xxx.xxx`
 
 ## linux 基础知识学习
-- [Bash Shell及环境变量][bash] 
-- [Unix/Linux 命令参考][lcmd] 
-- [linux系统及磁盘指令][ldisk] 
-- [linux文件及目录指令][lfile] 
+- [Bash Shell及环境变量][bash]
+- [Unix/Linux 命令参考][lcmd]
+- [linux系统及磁盘指令][ldisk]
+- [linux文件及目录指令][lfile]
 - [linux软件的安装和管理](https://draapho.github.io/2017/11/26/1736-linux-apt/)
 - [最实用的 Linux 命令行使用技巧](https://draapho.github.io/2017/09/07/1723-linux-cmd-useful/)
 - [Vim常用快捷键](https://draapho.github.io/2016/10/01/1604-CheatSheet-vim/)
@@ -85,6 +85,7 @@ comments: false
 - [驱动之NAND Flash框架](https://draapho.github.io/2018/01/24/1810-drv-nand1/)
 - [驱动之NAND Flash源码](https://draapho.github.io/2018/01/25/1811-drv-nand2/)
 - [驱动之NOR Flash](https://draapho.github.io/2018/01/26/1812-drv-nor/)
+- [驱动之网卡驱动](https://draapho.github.io/2018/02/06/1813-drv-net/)
 
 
 - [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
@@ -131,11 +132,11 @@ comments: false
 - [使用网络爬虫抓取商品价格并分析](https://draapho.github.io/2017/04/10/1711-web-spider/)
 
 
-- [The Python Standard Library][tpsl] 
-- [Python 中文官方文档][pycn] 
-- [python3-cookbook][pc]    
-- [Python风格规范][psg]                  
-- [PyQt's Modules][pqm] 
+- [The Python Standard Library][tpsl]
+- [Python 中文官方文档][pycn]
+- [python3-cookbook][pc]
+- [Python风格规范][psg]
+- [PyQt's Modules][pqm]
 - [Web.py Cookbook][webpy]
 
 [pycn]: http://python.usyiyi.cn/
@@ -159,9 +160,9 @@ comments: false
 
 
 ## Markdown
-- [Markdown语法][md] 
-- [mermaid制图][mm] 
-- [LaTeX数学公式][latex] 
+- [Markdown语法][md]
+- [mermaid制图][mm]
+- [LaTeX数学公式][latex]
 
 [md]: https://draapho.github.io/about/markdownplus
 [mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
@@ -174,7 +175,7 @@ comments: false
 
 
 # Thoughts
-- [开博序](https://draapho.github.io/2016/09/23/1600-Preface/) 
+- [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
 - [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
