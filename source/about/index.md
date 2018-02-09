@@ -88,7 +88,10 @@ comments: false
 - [驱动之网卡驱动](https://draapho.github.io/2018/02/06/1813-drv-net/)
 
 
-- [嵌入式linux环境搭建-QQ物联](https://draapho.github.io/2017/12/18/1746-qqiot-env/)
+- [驱动之I2C驱动](https://draapho.github.io/2018/02/09/1815-drv-i2c/)
+
+
+- [嵌入式linux环境搭建-QQ物联](https://draapho.gthub.io/2017/12/18/1746-qqiot-env/)
 - [QQ物联开发步骤简介](https://draapho.github.io/2017/12/22/1748-qqiot-procedure/)
 - [QQ物联绑定分析](https://draapho.github.io/2017/12/20/1747-qqiot-bind/)
 - [QQ物联演示项目](https://draapho.github.io/2017/12/23/1749-qqiot-demo/)
