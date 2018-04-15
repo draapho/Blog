@@ -97,6 +97,8 @@
   'ctrl-shift-f2': 'bookmarks:clear-bookmarks'
   'ctrl-f3': 'find-and-replace:select-all'
   'f5': 'script:run'
+  'ctrl-f5': 'script:run-with-profile'
+  'shift-f5': 'script:run-options'
   'f6': 'git-time-machine:toggle'
   'ctrl-f6': 'merge-conflicts:detect'
   'shift-f6': 'merge-conflicts:next-unresolved'

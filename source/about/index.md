@@ -183,3 +183,4 @@ comments: false
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)
+- [博客暂停更新](https://draapho.github.io/2017/10/16/1815-suspend/)
