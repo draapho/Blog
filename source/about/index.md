@@ -175,7 +175,9 @@ comments: false
 # 面试集锦
 - [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [面试之常规问题](https://draapho.github.io/2018/01/10/1805-interview-general/)
-
+- [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
+- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
+- [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
