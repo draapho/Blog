@@ -5,6 +5,13 @@ categories: thoughts
 tags: [thoughts]
 ---
 
+
+# 总览
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
+- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
+
+
 # 前言
 终极思考, 题目取的很大. 加上"我的"二字后, 就可大可小, 也不用纠结于论证是不是合理, 境界够不够深远之类的问题了.
 此文基本能体现人生至此的三观了. 算是个人思想的一份总结, 此文以后, 不会再去纠结这类哲学问题.

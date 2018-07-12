@@ -5,7 +5,14 @@ categories: thoughts
 tags: [thoughts]
 ---
 
-本博客暂停更新.
+
+# 总览
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
+- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
+
+
+# 本博客暂停更新
 原因的话, 最大的兴趣点始终是在人文和生命本源这一块. 参考 [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 当下可能找到了一种方法, 让生活和兴趣可以两全. 我需要全力去试一试.
 
