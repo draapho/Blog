@@ -248,8 +248,8 @@ c)用来练精气神，亦称"舍己从神跟踪法", 静观神意（或炁）�
 
 ## 大道经典
 1. [《天符經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/69.html)
-2. [《心經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/51.html)
-3. [《道徳經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/68.html)
+2. [《道徳經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/68.html)
+3. [《心經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/51.html)
 4. [《金剛經》](http://jilu.yuanwushi.com/yuedu/2014-11-11/70.html)
 
 ## 修炼方法
@@ -277,17 +277,21 @@ c)用来练精气神，亦称"舍己从神跟踪法", 静观神意（或炁）�
 6. 丹经万卷，不如守一。
 
 ## *笔者的补充*
+- [文言文字典](http://wyw.hwxnet.com/)
 - [佛学电子辞典](http://www.fodian.net/fodict/index.htm)
-- [定慧之路(致光法师)](https://wenku.baidu.com/view/72640dea172ded630b1cb6a0.html)
-- [《阿含经》](http://agama.buddhason.org/index.htm)
-- [个人推荐的一些禅修书籍下载（含阅读指导）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101a70f.html?vt=4)
+
+
+- [道德经](https://www.daodejing.org/)
 - [心經](http://jilu.yuanwushi.com/yuedu/2014-11-11/51.html)
+- [定慧之路(致光法师)](https://wenku.baidu.com/view/72640dea172ded630b1cb6a0.html)
+- [个人推荐的一些禅修书籍下载（含阅读指导）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101a70f.html?vt=4)
+- [阿含经](http://agama.buddhason.org/index.htm)
 - [金剛經](http://jilu.yuanwushi.com/yuedu/2014-11-11/70.html)
 - [楞严经](http://www.liaotuo.org/fojing/lengyanjing/baihuawen.html)
 - [楞伽经](http://www.liaotuo.org/fojing/lengqiejing/baihuawen.html)
 
 
-- 当下的力量
+- 《当下的力量》/《当下的力量2》
 - 《物理学之"道"》（卡普拉）
 	- 此书是此文完成后看的, 算是对自己想法的一种补充和肯定. 
 	- 唯物主义者和唯科学论者建议观看. 科学的最伟大之处不在于理论预测的准确性, 而在于能基于客观实验这个锚, 不断突破自我的相(科学理论的局限性).
