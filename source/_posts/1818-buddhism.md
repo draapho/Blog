@@ -10,6 +10,7 @@ tags: [Thoughts]
 - [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
 - [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
+- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 
 
 
@@ -36,8 +37,9 @@ tags: [Thoughts]
 	- [简述原始佛教核心思想](http://blog.sina.com.cn/s/blog_993e460b01012hsp.html)
 	- [一张简单图片演示的“甚深佛法”](https://www.meiwen.com.cn/subject/twmdsftx.html)
     - [几年来深入思考和佛法禅修实践的总结](http://blog.sina.com.cn/s/blog_6a0da51a0101asxu.html), 对上图的补充说明
-- [莊春江工作站](http://agama.buddhason.org/index.htm)
-	- [杂阿含经](http://agama.buddhason.org/SA/index.htm), 最接近原始佛教的内容, 必看. 
+- [莊春江工作站](http://agama.buddhason.org/index.htm), 最接近原始佛教的内容, 必看. 
+	- [汉译相应部](http://agama.buddhason.org/SN/index.htm), 建议从此处开始看.
+	- [阿含经与尼柯耶的关系](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%90%AB%E7%B6%93)
 - [定慧之路-致光法师](https://wenku.baidu.com/view/72640dea172ded630b1cb6a0.html), 介绍了定慧的关系, 定主要介绍的吐息法. 可看.
 - 大佛顶首楞严经, 心经, 金刚经. 自己还没看, 暂不推荐.
 - [南怀瑾全集](http://www.quanxue.cn/CT_NanHuaiJin/index.html). 太杂, 不成体系, 不推荐

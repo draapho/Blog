@@ -188,3 +188,5 @@ comments: false
 - [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
 - [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
+- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
+
