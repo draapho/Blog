@@ -13,7 +13,90 @@ comments: false
 # 博文分类概览
 
 `关键字 site:https://draapho.github.io/`
-`https://draapho.github.io/images/18xx/xxx.xxx`
+`https://draapho.github.io/images/19xx/xxx.xxx`
+
+# Thoughts
+- [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
+- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
+- [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)
+- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
+- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
+- [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
+- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
+
+
+## 通用软件技能
+- [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
+- [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
+- [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
+- [最全的常用正则表达式大全](https://draapho.github.io/2017/10/07/1727-soft-reexample/)
+- [数据结构资料收集](https://draapho.github.io/2016/11/23/1620-software-data-struct/)
+- [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
+- [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
+- [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
+
+## embedded
+- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
+- [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
+- [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
+- [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
+- [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
+
+## python
+- [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
+- [python 基础： 深入理解 python 中的赋值、引用、拷贝、作用域](https://draapho.github.io/2016/11/21/1618-python-variable/)
+- [python 字符串处理](https://draapho.github.io/2016/11/24/1621-python-string/)
+- [Python 列表和字典的常见操作](https://draapho.github.io/2017/01/03/1701-python-list-dict/)
+- [30 个有关 Python 的小技巧](https://draapho.github.io/2016/11/22/1619-python-tips/)
+- [python 延时及超时](https://draapho.github.io/2016/11/28/1622-python-time/)
+- [Python 调试及测试](https://draapho.github.io/2016/12/13/1623-python-debug/)
+- [python 调用命令行](https://draapho.github.io/2016/10/21/1613-python-cli/)
+- [PyQt 的交互操作](https://draapho.github.io/2016/10/20/1612-python-pyqtui/)
+- [Python 线程同步机制](https://draapho.github.io/2016/11/03/1615-python-ipc/)
+- [使用python实现BLE通讯](https://draapho.github.io/2016/11/15/1616-python-ble/)
+- [python 的第一个小程序, 蓝牙及串口终端](https://draapho.github.io/2016/11/16/1617-python-terminal/)
+- [使用网络爬虫抓取商品价格并分析](https://draapho.github.io/2017/04/10/1711-web-spider/)
+
+
+- [The Python Standard Library][tpsl]
+- [Python 中文官方文档][pycn]
+- [python3-cookbook][pc]
+- [Python风格规范][psg]
+- [PyQt's Modules][pqm]
+- [Web.py Cookbook][webpy]
+
+[pycn]: http://python.usyiyi.cn/
+[tpsl]: https://docs.python.org/2.7/library/index.html
+[pc]: http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html
+[pqm]: http://pyqt.sourceforge.net/Docs/PyQt4/modules.html
+[webpy]: http://webpy.org/cookbook/
+[psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
+
+
+## Windows
+- [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
+- [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
+- [Windows 软件系列-提高效率](https://draapho.github.io/2016/09/28/1602-WinSoft-efficiency/)
+- [Windows 软件系列-文本编辑](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/)
+- [Windows 软件系列-基于NFS的家庭网](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/)
+- [Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
+- [Windows 软件系列-终端](https://draapho.github.io/2016/10/10/1609-WinSoft-terminal/)
+- [Windows 软件系列-atom插件](https://draapho.github.io/2016/10/12/1610-WinSoft-atompack/)
+- [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
+
+
+## Markdown
+- [Markdown语法][md]
+- [mermaid制图][mm]
+- [LaTeX数学公式][latex]
+
+[md]: https://draapho.github.io/about/markdownplus
+[mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
+[latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+
 
 ## linux 基础知识学习
 - [Bash Shell及环境变量][bash]
@@ -100,93 +183,10 @@ comments: false
 - [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 
 
-## other
-- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
-- [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
-- [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
-- [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
-- [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
-
-
-## 通用软件技能
-- [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
-- [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
-- [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
-- [最全的常用正则表达式大全](https://draapho.github.io/2017/10/07/1727-soft-reexample/)
-- [数据结构资料收集](https://draapho.github.io/2016/11/23/1620-software-data-struct/)
-- [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
-- [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
-- [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
-
-
-## python
-- [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
-- [python 基础： 深入理解 python 中的赋值、引用、拷贝、作用域](https://draapho.github.io/2016/11/21/1618-python-variable/)
-- [python 字符串处理](https://draapho.github.io/2016/11/24/1621-python-string/)
-- [Python 列表和字典的常见操作](https://draapho.github.io/2017/01/03/1701-python-list-dict/)
-- [30 个有关 Python 的小技巧](https://draapho.github.io/2016/11/22/1619-python-tips/)
-- [python 延时及超时](https://draapho.github.io/2016/11/28/1622-python-time/)
-- [Python 调试及测试](https://draapho.github.io/2016/12/13/1623-python-debug/)
-- [python 调用命令行](https://draapho.github.io/2016/10/21/1613-python-cli/)
-- [PyQt 的交互操作](https://draapho.github.io/2016/10/20/1612-python-pyqtui/)
-- [Python 线程同步机制](https://draapho.github.io/2016/11/03/1615-python-ipc/)
-- [使用python实现BLE通讯](https://draapho.github.io/2016/11/15/1616-python-ble/)
-- [python 的第一个小程序, 蓝牙及串口终端](https://draapho.github.io/2016/11/16/1617-python-terminal/)
-- [使用网络爬虫抓取商品价格并分析](https://draapho.github.io/2017/04/10/1711-web-spider/)
-
-
-- [The Python Standard Library][tpsl]
-- [Python 中文官方文档][pycn]
-- [python3-cookbook][pc]
-- [Python风格规范][psg]
-- [PyQt's Modules][pqm]
-- [Web.py Cookbook][webpy]
-
-[pycn]: http://python.usyiyi.cn/
-[tpsl]: https://docs.python.org/2.7/library/index.html
-[pc]: http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html
-[pqm]: http://pyqt.sourceforge.net/Docs/PyQt4/modules.html
-[webpy]: http://webpy.org/cookbook/
-[psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
-
-
-## Windows
-- [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
-- [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
-- [Windows 软件系列-提高效率](https://draapho.github.io/2016/09/28/1602-WinSoft-efficiency/)
-- [Windows 软件系列-文本编辑](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/)
-- [Windows 软件系列-基于NFS的家庭网](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/)
-- [Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
-- [Windows 软件系列-终端](https://draapho.github.io/2016/10/10/1609-WinSoft-terminal/)
-- [Windows 软件系列-atom插件](https://draapho.github.io/2016/10/12/1610-WinSoft-atompack/)
-- [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
-
-
-## Markdown
-- [Markdown语法][md]
-- [mermaid制图][mm]
-- [LaTeX数学公式][latex]
-
-[md]: https://draapho.github.io/about/markdownplus
-[mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
-[latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
-
-
 # 面试集锦
 - [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [面试之常规问题](https://draapho.github.io/2018/01/10/1805-interview-general/)
 - [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
-
-# Thoughts
-- [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
-- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
-- [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
-- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
-- [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)
-- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
-- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
-- [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
-- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 
