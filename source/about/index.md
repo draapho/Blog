@@ -25,9 +25,13 @@ comments: false
 - [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
+- [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+
+# Market
+- [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
 
 
-## 通用软件技能
+# 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
 - [正则表达式](https://draapho.github.io/2016/12/18/1628-soft-regular/)
 - [人人都看得懂的正则表达式教程](https://draapho.github.io/2017/09/19/1726-soft-easyre/)
@@ -37,14 +41,16 @@ comments: false
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
 
-## embedded
+# embedded
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
 - [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
 - [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
 - [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
 
-## python
+# python
+- [Pandas Dataframe 入门](https://draapho.github.io/2019/05/20/1905-python-pandas/)
+- [Python 错误及解决方法](https://draapho.github.io/2019/05/19/1904-python-error/)
 - [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
 - [python 基础： 深入理解 python 中的赋值、引用、拷贝、作用域](https://draapho.github.io/2016/11/21/1618-python-variable/)
 - [python 字符串处理](https://draapho.github.io/2016/11/24/1621-python-string/)
@@ -75,7 +81,7 @@ comments: false
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
 
-## Windows
+# Windows
 - [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
 - [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
 - [Windows 软件系列-提高效率](https://draapho.github.io/2016/09/28/1602-WinSoft-efficiency/)
@@ -87,7 +93,7 @@ comments: false
 - [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
 
 
-## Markdown
+# Markdown
 - [Markdown语法][md]
 - [mermaid制图][mm]
 - [LaTeX数学公式][latex]
@@ -98,7 +104,7 @@ comments: false
 
 
 
-## linux 基础知识学习
+# linux 基础知识学习
 - [Bash Shell及环境变量][bash]
 - [Unix/Linux 命令参考][lcmd]
 - [linux系统及磁盘指令][ldisk]
@@ -114,7 +120,7 @@ comments: false
 [lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
 
 
-## Linux 0.11 源码阅读笔记
+# Linux 0.11 源码阅读笔记
 - [Linux 0.11 源码阅读笔记-总览](https://draapho.github.io/2017/01/23/1704-linux-source/)
 - [Linux 0.11 源码阅读笔记-内存的基础概念](https://draapho.github.io/2017/01/26/1704-linux-source1/)
 - [Linux 0.11 源码阅读笔记-启动程序](https://draapho.github.io/2017/01/28/1704-linux-source2/)
@@ -124,7 +130,7 @@ comments: false
 - [Linux 0.11 源码阅读笔记-内存管理](https://draapho.github.io/2017/02/15/1704-linux-source6/)
 
 
-## jz2440开发板学习
+# jz2440开发板学习
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
     - [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)

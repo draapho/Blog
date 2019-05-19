@@ -252,4 +252,4 @@ jz2440启动后, 加载nfs失败时, 需要等待一段时间才能进入终端�
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

@@ -239,4 +239,4 @@ Linux下的环境搭建一直让人比较痛苦, 这也直接使得 `Docker` 优
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

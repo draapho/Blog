@@ -323,4 +323,4 @@ KK在文末总结了一下造物九律:
 
 ------------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

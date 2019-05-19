@@ -58,4 +58,4 @@ linux 0.11的调度思路结合`时间片`和`优先权`调度.
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

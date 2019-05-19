@@ -39,4 +39,4 @@ UI展示方面, 目前的云端应用基本都是基于HTML页面的, 因此可�
 
 ------------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

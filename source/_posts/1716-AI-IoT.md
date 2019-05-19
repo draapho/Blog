@@ -130,4 +130,4 @@ AlphoGo 就是基于人类的过往经验和自我训练, 形成了自己的对�
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

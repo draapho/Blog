@@ -87,4 +87,4 @@ Linux, 允许应用程序像一个字符设备一样读写一个块设备, 允�
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

@@ -142,4 +142,4 @@ sudo python3 -m pip install PackageName
 - [python2.X和python3.X在同一平台下的切换技巧](http://www.cnblogs.com/an9wer/p/5564284.html)
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

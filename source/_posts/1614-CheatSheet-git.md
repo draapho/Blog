@@ -225,6 +225,6 @@ git reset --soft HEAD~3         # HEAD~3->HEAD                  # 版本回滚
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***
 
 

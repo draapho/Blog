@@ -142,7 +142,7 @@ tags: [windows, ConEmu, mingw, putty, cygwin]
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***
 
 
 [ce]: https://conemu.github.io/

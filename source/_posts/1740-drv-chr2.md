@@ -394,4 +394,4 @@ LinK+自动生成的框架和jz2440教程的框架主要有如下区别:
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

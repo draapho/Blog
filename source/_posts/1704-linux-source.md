@@ -54,4 +54,4 @@ Linux操作系统的诞生(1991年),发展和成长过程依赖于以下五个�
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***

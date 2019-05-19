@@ -153,4 +153,4 @@ FHS是Filesystem Hierarchy Standard的简称.FHS定义了两层规范:
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/) E-mail: draapho@gmail.com***
+***原创于 [DRA&PHO](https://draapho.github.io/)***
