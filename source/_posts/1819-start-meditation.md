@@ -1,8 +1,8 @@
 ---
 title: 实修开始
 date: 2018-11-29
-categories: Thoughts
-tags: [Thoughts]
+categories: thoughts
+tags: [thoughts]
 ---
 
 # 总览

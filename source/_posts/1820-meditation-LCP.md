@@ -1,8 +1,8 @@
 ---
 title: 闻思修
 date: 2018-12-27
-categories: Thoughts
-tags: [Thoughts]
+categories: thoughts
+tags: [thoughts]
 ---
 
 # 总览

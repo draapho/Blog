@@ -1,7 +1,7 @@
 ---
 title: uboot之源码分析
 date: 2017-08-25
-categories: embedded linlux
+categories: embedded linux
 tags: [embedded linux, uboot]
 ---
 

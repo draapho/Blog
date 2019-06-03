@@ -1,8 +1,8 @@
 ---
 title: 交易市场思考
 date: 2019-03-26
-categories: Market
-tags: [Market]
+categories: market
+tags: [market]
 ---
 
 # 总览
@@ -167,7 +167,7 @@ tags: [Market]
 
 
 # 我的学习重点
-- 定位: 波段交易.
+- 定位: 绩优股波段交易, 价值投机.
 - 基础知识: 道氏理论, 波浪理论, 缠论, 江恩时空平衡.
     - 铸剑先生, 技术分析, 确认及跟随系统
     - 柳荫解盘, 资金流分析

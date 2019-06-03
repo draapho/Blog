@@ -5,7 +5,7 @@ categories: python
 tags: [python, pandas]
 ---
 
-# 概述
+# 1 创建DataFrame
 对于一个用python做数据处理的人来说，pandas是必须要了解的。
 对于一个数据处理工具来说，读写是最基本的，
 下面是我最近整理的关于pandas一些基本本操作，主要包括以下内容：
@@ -22,7 +22,6 @@ import pandas as pd
 import numpy as np
 ```
 
-# 1 创建DataFrame
 ## 1.1 利用字典创建
 
 利用字典创建DataFrame:

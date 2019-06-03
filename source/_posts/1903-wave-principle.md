@@ -1,8 +1,8 @@
 ---
 title: 波浪理论
 date: 2019-04-26
-categories: Market
-tags: [Market]
+categories: market
+tags: [market]
 ---
 
 # 总览

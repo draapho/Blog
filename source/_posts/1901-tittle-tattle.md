@@ -1,8 +1,8 @@
 ---
 title: 杂谈
 date: 2019-03-19
-categories: Thoughts
-tags: [Thoughts]
+categories: thoughts
+tags: [thoughts]
 ---
 
 # 总览

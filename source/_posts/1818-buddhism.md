@@ -1,8 +1,8 @@
 ---
 title: 佛教学习资料及一些感想
 date: 2018-07-08
-categories: Thoughts
-tags: [Thoughts]
+categories: thoughts
+tags: [thoughts]
 ---
 
 # 总览

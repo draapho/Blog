@@ -1,7 +1,7 @@
 ---
 title: kernel之编译体验
 date: 2017-09-01
-categories: embedded linlux
+categories: embedded linux
 tags: [embedded linux, kernel]
 ---
 

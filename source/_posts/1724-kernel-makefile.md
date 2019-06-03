@@ -1,7 +1,7 @@
 ---
 title: kernel之Makefile分析
 date: 2017-09-14
-categories: embedded linlux
+categories: embedded linux
 tags: [embedded linux, kernel]
 ---
 
@@ -83,16 +83,16 @@ find ./ -name "Makefile" | xargs grep -nw --color "uImage"
     # 顶层Makefile, 位于 "./linux-2.6.22.6/Makefile"
     # 这里就不按文件顺序排列, 而按照分析Makefile的逻辑顺序排列了.
 
-186 ARCH		?= arm                  # arm 架构
-187 CROSS_COMPILE	?= arm-linux-       # 指定编译器
+186 ARCH        ?= arm                  # arm 架构
+187 CROSS_COMPILE   ?= arm-linux-       # 指定编译器
 
-192 KCONFIG_CONFIG	?= .config          # 指定配置文件
+192 KCONFIG_CONFIG  ?= .config          # 指定配置文件
 
-284 LD		= $(CROSS_COMPILE)ld        # 指定一些列指令
-285 CC		= $(CROSS_COMPILE)gcc
+284 LD      = $(CROSS_COMPILE)ld        # 指定一些列指令
+285 CC      = $(CROSS_COMPILE)gcc
 
     # 编译时, 我们使用 make uImage, 因为需要uImage格式.
-    # 但过程和 make all 是一样的, 都需要生成 vmlinux 
+    # 但过程和 make all 是一样的, 都需要生成 vmlinux
 484 all: vmlinux                       # 直接make, 就是生成vmlinux
 
 581 # Build vmlinux. 可以看一行开始的注释, 说明了vmlinux的依赖结构
@@ -107,20 +107,20 @@ find ./ -name "Makefile" | xargs grep -nw --color "uImage"
     # vmlinux-lds:= arch/arm/kernel/vmlinux.lds
     # 此文件由 vmlinux.lds.S 在make时自动生成!
 
-434 init-y		:= init/
-435 drivers-y	:= drivers/ sound/
-436 net-y		:= net/
-437 libs-y		:= lib/
-438 core-y		:= usr/
-562 core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+434 init-y      := init/
+435 drivers-y   := drivers/ sound/
+436 net-y       := net/
+437 libs-y      := lib/
+438 core-y      := usr/
+562 core-y      += kernel/ mm/ fs/ ipc/ security/ crypto/ block/
 
-573 init-y		:= $(patsubst %/, %/built-in.o, $(init-y))
-574 core-y		:= $(patsubst %/, %/built-in.o, $(core-y))
-575 drivers-y	:= $(patsubst %/, %/built-in.o, $(drivers-y))
-576 net-y		:= $(patsubst %/, %/built-in.o, $(net-y))
-577 libs-y1		:= $(patsubst %/, %/lib.a, $(libs-y))
-578 libs-y2		:= $(patsubst %/, %/built-in.o, $(libs-y))
-579 libs-y		:= $(libs-y1) $(libs-y2)
+573 init-y      := $(patsubst %/, %/built-in.o, $(init-y))
+574 core-y      := $(patsubst %/, %/built-in.o, $(core-y))
+575 drivers-y   := $(patsubst %/, %/built-in.o, $(drivers-y))
+576 net-y       := $(patsubst %/, %/built-in.o, $(net-y))
+577 libs-y1     := $(patsubst %/, %/lib.a, $(libs-y))
+578 libs-y2     := $(patsubst %/, %/built-in.o, $(libs-y))
+579 libs-y      := $(libs-y1) $(libs-y2)
 
     # patsubst 是makefile内的字符串替换函数, 替换结果为:
     # init-y    := init/built-in.o
@@ -128,18 +128,18 @@ find ./ -name "Makefile" | xargs grep -nw --color "uImage"
     # drivers-y := drivers/built-in.o sound/built-in.o
     # net-y     := net/built-in.o
     # libs-y    := lib/lib.a lib/built-in.o
-    
+
     # find ./ -name "Makefile" | xargs grep -nw --color "head-y"
     # 查出 head-y 位于 "./arch/arm/Makefile" 以及 "./arch/arm/kernel/Makefile" 内
-    # head-y	:= arch/arm/kernel/head.S arch/arm/kernel/init_task.c, 分析见 架构文件内的Makefile.
-    
+    # head-y    := arch/arm/kernel/head.S arch/arm/kernel/init_task.c, 分析见 架构文件内的Makefile.
 
-    
+
+
     # 此句就是执行指令, 将上述相关文件打包生成vmlinux二进制内核文件. 太难懂, 先略过.
 745 vmlinux: $(vmlinux-lds) $(vmlinux-init) $(vmlinux-main) $(kallsyms.o) FORCE
-749	$(call if_changed_rule,vmlinux__)
-750	$(Q)$(MAKE) -f $(srctree)/scripts/Makefile.modpost $@
-751	$(Q)rm -f .old_version
+749 $(call if_changed_rule,vmlinux__)
+750 $(Q)$(MAKE) -f $(srctree)/scripts/Makefile.modpost $@
+751 $(Q)rm -f .old_version
 ```
 
 ``` makefile
@@ -147,13 +147,13 @@ find ./ -name "Makefile" | xargs grep -nw --color "uImage"
 
     # 查找 .config 文件可知, CONFIG_MMU=y
 26  ifeq ($(CONFIG_MMU),)       # CONFIG_MMU不为空, 条件不成立
-27  MMUEXT		:= -nommu
+27  MMUEXT      := -nommu
 28  endif                       # 因此 $(MMUEXT) 为空
 
-94  head-y		:= arch/arm/kernel/head$(MMUEXT).o arch/arm/kernel/init_task.o
-    # head-y	:= arch/arm/kernel/head.S arch/arm/kernel/init_task.c
+94  head-y      := arch/arm/kernel/head$(MMUEXT).o arch/arm/kernel/init_task.o
+    # head-y    := arch/arm/kernel/head.S arch/arm/kernel/init_task.c
     # 至于 "./arch/arm/kernel/Makefile" 内的head-y, 猜测是为 extra-y 服务的, 不去追究.
-    
+
     # make uImage时, 也需要先生成 vmlinux. 事实上, uImage格式只是比vmlinux多64字节的头.
 227 zImage Image xipImage bootpImage uImage: vmlinux
 ```
@@ -170,9 +170,9 @@ rm vmlinux              # 删除目标文件vmlinux
 make uImage V=1         # 查看生成vmlinux时, 详细的编译指令
 
 # 可以在执行结果中, 找到这么一行:
-# arm-linux-ld -EL  -p --no-undefined -X -o vmlinux -T arch/arm/kernel/vmlinux.lds 
-# arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o 
-# --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s3c2410/built-in.o  arch/arm/mach-s3c2400/built-in.o  arch/arm/mach-s3c2412/built-in.o  arch/arm/mach-s3c2440/built-in.o  arch/arm/mach-s3c2442/built-in.o  arch/arm/mach-s3c2443/built-in.o  arch/arm/nwfpe/built-in.o  arch/arm/plat-s3c24xx/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  net/built-in.o 
+# arm-linux-ld -EL  -p --no-undefined -X -o vmlinux -T arch/arm/kernel/vmlinux.lds
+# arch/arm/kernel/head.o arch/arm/kernel/init_task.o  init/built-in.o
+# --start-group  usr/built-in.o  arch/arm/kernel/built-in.o  arch/arm/mm/built-in.o  arch/arm/common/built-in.o  arch/arm/mach-s3c2410/built-in.o  arch/arm/mach-s3c2400/built-in.o  arch/arm/mach-s3c2412/built-in.o  arch/arm/mach-s3c2440/built-in.o  arch/arm/mach-s3c2442/built-in.o  arch/arm/mach-s3c2443/built-in.o  arch/arm/nwfpe/built-in.o  arch/arm/plat-s3c24xx/built-in.o  kernel/built-in.o  mm/built-in.o  fs/built-in.o  ipc/built-in.o  security/built-in.o  crypto/built-in.o  block/built-in.o  arch/arm/lib/lib.a  lib/lib.a  arch/arm/lib/built-in.o  lib/built-in.o  drivers/built-in.o  sound/built-in.o  net/built-in.o
 # --end-group .tmp_kallsyms2.o
 
 # 分析如下:
