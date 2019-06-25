@@ -26,9 +26,12 @@ comments: false
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [学习计划和资料汇总](https://draapho.github.io/2019/06/26/1908-learning-plan/)
 
 # Market
 - [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
+- [波浪理论](https://draapho.github.io/2019/04/26/1903-wave-principle/)
+- [你将不会成为一个伟大的投资人](https://draapho.github.io/2019/06/25/1907-investor/)
 
 
 # 通用软件技能

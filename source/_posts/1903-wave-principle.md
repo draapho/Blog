@@ -8,6 +8,7 @@ tags: [market]
 # 总览
 - [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
 - [波浪理论](https://draapho.github.io/2019/04/26/1903-wave-principle/)
+- [你将不会成为一个伟大的投资人](https://draapho.github.io/2019/06/25/1907-investor/)
 
 **待完善**
 

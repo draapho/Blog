@@ -12,7 +12,7 @@ tags: [thoughts]
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
-
+- [学习计划和资料汇总](https://draapho.github.io/2019/06/26/1908-learning-plan/)
 
 
 # 世界的本质

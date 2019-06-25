@@ -12,6 +12,7 @@ tags: [thoughts]
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [学习计划和资料汇总](https://draapho.github.io/2019/06/26/1908-learning-plan/)
 
 
 
@@ -31,16 +32,16 @@ tags: [thoughts]
 
 # 佛教参考资料
 - [慧海佛光-基础教学](http://www.hhfg.org/jcjx.html)
-	- [印度佛教史](http://www.hhfg.org/jcjx/f47.html), 必看
+    - [印度佛教史](http://www.hhfg.org/jcjx/f47.html), 必看
 - [Aggavara的博客](http://blog.sina.com.cn/s/articlelist_2570995211_0_1.html)
-	- [原始佛教修学指南（博客导读）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101alhp.html), 实修, 推荐看
-	- [个人推荐的一些禅修书籍下载（含阅读指导）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101a70f.html?vt=4)
-	- [简述原始佛教核心思想](http://blog.sina.com.cn/s/blog_993e460b01012hsp.html)
-	- [一张简单图片演示的“甚深佛法”](https://www.meiwen.com.cn/subject/twmdsftx.html)
+    - [原始佛教修学指南（博客导读）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101alhp.html), 实修, 推荐看
+    - [个人推荐的一些禅修书籍下载（含阅读指导）](http://blog.sina.cn/dpool/blog/s/blog_993e460b0101a70f.html?vt=4)
+    - [简述原始佛教核心思想](http://blog.sina.com.cn/s/blog_993e460b01012hsp.html)
+    - [一张简单图片演示的“甚深佛法”](https://www.meiwen.com.cn/subject/twmdsftx.html)
     - [几年来深入思考和佛法禅修实践的总结](http://blog.sina.com.cn/s/blog_6a0da51a0101asxu.html), 对上图的补充说明
-- [莊春江工作站](http://agama.buddhason.org/index.htm), 最接近原始佛教的内容, 必看. 
-	- [汉译相应部](http://agama.buddhason.org/SN/index.htm), 建议从此处开始看.
-	- [阿含经与尼柯耶的关系](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%90%AB%E7%B6%93)
+- [莊春江工作站](http://agama.buddhason.org/index.htm), 最接近原始佛教的内容, 必看.
+    - [汉译相应部](http://agama.buddhason.org/SN/index.htm), 建议从此处开始看.
+    - [阿含经与尼柯耶的关系](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%90%AB%E7%B6%93)
 - [定慧之路-致光法师](https://wenku.baidu.com/view/72640dea172ded630b1cb6a0.html), 介绍了定慧的关系, 定主要介绍的吐息法. 可看.
 - 大佛顶首楞严经, 心经, 金刚经. 自己还没看, 暂不推荐.
 - [南怀瑾全集](http://www.quanxue.cn/CT_NanHuaiJin/index.html). 太杂, 不成体系, 不推荐
@@ -49,7 +50,7 @@ tags: [thoughts]
 
 # 我对佛教的认识
 
-接触佛教一年不到, 洋洋洒洒粗看了一些佛教相关的书籍, 对佛教的认识肯定是粗浅的. 现在将入门阶段的心得写下一二, 若有缘, 希望能帮助与我有类似背景的人入门能快一些, 少走一些弯路. 
+接触佛教一年不到, 洋洋洒洒粗看了一些佛教相关的书籍, 对佛教的认识肯定是粗浅的. 现在将入门阶段的心得写下一二, 若有缘, 希望能帮助与我有类似背景的人入门能快一些, 少走一些弯路.
 
 通读[印度佛教史](http://www.hhfg.org/jcjx/f47.html). 有助于快速抓住佛教的发展脉络, 大致了解原始佛教, 上座部(小乘), 大众部(发展为大乘)的区别和联系. 两者起源于释迦摩尼时代的原始佛教, 因为一些认知的差别, 分裂了. 小乘是大乘佛教对上座部的称呼, 上座部本身是不承认这个叫法的. 在我看来, 上座部更完整的传承了原始佛教, 大乘则更注重于佛教的发展和进化. 中国是流行大乘佛教的, 可惜大乘佛教资料繁杂, 派别众多, 很容易感觉无从入手, 纵览群书而不得要领. 看看[慧海佛光-基础教学](http://www.hhfg.org/jcjx.html)里佛教的定义及分类, 便可知众人对佛教认知的多样性和复杂性了.
 
@@ -106,8 +107,8 @@ tags: [thoughts]
 
 顺便一提, [一张简单图片演示的“甚深佛法”](https://www.meiwen.com.cn/subject/twmdsftx.html) 的作者提到, 突然体验到`快速的生灭`, 感到`抓也抓不着，躲也躲不掉，无比煎熬`, 其中快速的生灭是客观描述, 无比煎熬是主观描述. 我关注的是, 如果提前说清楚了这么一种状态的存在, 是否就可以减轻这种苦的感觉. 这如同人第一次接触死人, 总是会特别惊悚, 但习惯了也就习惯了, 并不能因为第一次的惊悚, 就觉得人生就是惊悚(我始终对"一切皆苦"存疑). 另外, 猜测这种快速生灭的本质是, 在无我的状态下, 感受到了人体内细胞甚至更底层物质的永不停歇的自主活动. 或者放大一个层面去理解, 在国家层面内观, 一个国家的执政体系往往自我感觉良好, 可以对外战争, 对内收税, 对诸多活动控制的有条不紊, 政治经济发展井井有序, 无一不是自己的功劳(一种我的观念). 如果有一天, 这个执政体系解散(无政府状态), 它会发现所有的人一样在那里忙忙碌碌, 组织有序, 社会运行平稳, 原来一切都不受执政体系影响, 自顾自的运行着. 如果一个执政体系突然意识到自己一点都不重要, 是可有可无的, 多半也会焦虑不堪.
 
- 
-最后, 摘录Aggavara前辈在"原始佛教修学指南（博客导读）"里的语句: 
+
+最后, 摘录Aggavara前辈在"原始佛教修学指南（博客导读）"里的语句:
 > 本人的观点仅供参考 读者应当保持足够的理性与怀疑态度
 > 不要盲信任何观点包括本人的观点
 > 本人观点是否正确, 需要每一位修行者严谨的通过理论学习以及禅修实践来判断
