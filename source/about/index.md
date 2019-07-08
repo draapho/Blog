@@ -17,7 +17,7 @@ comments: false
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
-- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1705-linux-hard/)
+- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1702-linux-hard/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)
@@ -26,7 +26,7 @@ comments: false
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
-- [学习计划和资料汇总](https://draapho.github.io/2019/06/26/1908-learning-plan/)
+- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
 
 # Market
 - [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
