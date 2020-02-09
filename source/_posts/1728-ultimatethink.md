@@ -13,6 +13,7 @@ tags: [thoughts]
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
 
 # 前言
 终极思考, 题目取的很大. 加上"我的"二字后, 就可大可小, 也不用纠结于论证是不是合理, 境界够不够深远之类的问题了.

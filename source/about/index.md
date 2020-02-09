@@ -27,12 +27,15 @@ comments: false
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
 - [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
+- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
+- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
+- [求道之路](https://draapho.github.io/2020/02/10/2002-seeker/)
 
 # Market
 - [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
 - [波浪理论](https://draapho.github.io/2019/04/26/1903-wave-principle/)
 - [你将不会成为一个伟大的投资人](https://draapho.github.io/2019/06/25/1907-investor/)
-
+- [交易市场阶段性探索心得](https://draapho.github.io/2020/02/09/2001-exploration/)
 
 # 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
@@ -199,3 +202,5 @@ comments: false
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
 
+# other
+- [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
