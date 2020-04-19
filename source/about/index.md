@@ -30,6 +30,7 @@ comments: false
 - [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
 - [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
 - [求道之路](https://draapho.github.io/2020/02/10/2002-seeker/)
+- [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 
 # Market
 - [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
