@@ -98,6 +98,7 @@ comments: false
 - [Windows 软件系列-终端](https://draapho.github.io/2016/10/10/1609-WinSoft-terminal/)
 - [Windows 软件系列-atom插件](https://draapho.github.io/2016/10/12/1610-WinSoft-atompack/)
 - [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
+- [Windows 软件系列-新装系统](https://draapho.github.io/2020/05/02/2004-WinSoft-new/)
 
 
 # Markdown
