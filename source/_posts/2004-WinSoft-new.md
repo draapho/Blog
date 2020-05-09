@@ -84,8 +84,6 @@ tags: [windows]
     - 颜色小助手. 取色, 选色.
     - 二维码处理
     - 图床. Markdown图片好帮手
-    - ~~图片转文字~~. 建议用天若OCR开源版
-    - ~~快捷命令~~. 个性化指令. 用起来太复杂
     - JSON编辑器
     - 编码小助手
     - 正则表达式
@@ -129,8 +127,7 @@ tags: [windows]
 - Amazon kindle. 读书软件
 - PDF Reader-Xodo (***Microsoft Store***)
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
-- 天若OCR开源版 (***绿色软件***). 文字识别.
-    - 已停止更新. 作者在开发[树洞 OCR文字识别](https://github.com/AnyListen/tools-ocr)
+- GoldenDict (***绿色软件***). 离线翻译软件.
 - 冰点文库下载器 (***绿色软件***). 免积分下载百度文库、道客巴巴、豆丁网上的资料
 
 
@@ -141,7 +138,9 @@ tags: [windows]
 
 - Audacity (***绿色软件***). 音频编辑
 - 网易云音乐UWP  (***Microsoft Store*** 设置为中国区才有)
-- Snipaste (***绿色软件 / Microsoft Store***). 截图
+- Snipaste (***Microsoft Store / 绿色软件***). 截图
+    - 为了便于quicker调用, 建议用 Microsoft Store.
+    - 用绿色版的话, 需要添加环境变量(譬如快捷方式放入ConEmu下cli文件夹).
 - ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.
 - Lightroom CC
 - Photoshop CC
@@ -154,19 +153,32 @@ tags: [windows]
 
 # 社交网络
 
-
-
 - Chrome. 网页浏览器
-    - 破解右键锁. 需要手动使能, 很好用.
-    - EagleGet Free Download. 设置为点击时启用
+    - 插件可以自动同步, 但需要分别设置!
+    - `chrome://extensions/` 进行安全性设置
+        - 检查权限, 避免高风险应用, 它会要求访问计算机上所有的数据.
+        - 点击时. 低频使用的插件建议此选项, 增加安全性.
+        - 在特定网站上. 针对特定网站的高频插件, 建议选用此选项.
+        - 在所有网站上. 高频通用性插件, 选此选项. 此为Chrome默认选项.
+    - 破解右键锁. 需要手动使能, 点击时启用
+    - EagleGet Free Download. 点击时启用
     - Tampermonkey, 油猴. 脚本方式实现多种功能.
-        脚本网站: [greasy fork](https://greasyfork.org/zh-CN)、[openuserJS](https://openuserjs.org/)
+        - 尽量用Chrome插件代替脚本. 平时只打开常用的脚本. 低频使用的脚本保持关闭状态.
+        - 脚本网站: [greasy fork](https://greasyfork.org/zh-CN)、[openuserJS](https://openuserjs.org/)
+        - 设置->通用->配置模式->初学者
+        - 设置->同步脚本->启用TESLA->浏览器同步.
+        - 这样即可跟随Chrome同步脚本, 但脚本配置不会自动同步!
     - Graphitabs. 多标签整理为思维导图模式
-    - KeePassHttp-Connector
-    - IE tab. 转为IE内核
+    - IE tab. 转为IE内核. 点击时启用
     - Imagus 图片预览, 设置为ctrl使能
     - AdGuard 广告拦截器, 启用隐身模式
-    - Infinity new tab. 自建导航网页, 管理插件
+    - Infinity new tab pro. 自建导航网页, 管理插件. 点击时启用
+    - 网盘助手/集装箱. 在特定网站上启用.
+        - `pan.baidu.com/*`
+        - `yun.baidu.com/*`
+        - `share.weiyun.com/*`
+        - `*.newday.me/*`
+        - `*.lanzous.com/*`
 - eagleget. 下载软件, 网页插件设置为点击时启用
 - 微信PC版. 可用于备份手机微信内容
 - QQ (***Microsoft Store***)
@@ -175,7 +187,6 @@ tags: [windows]
 
 
 # 系统软件
-
 
 
 - eset. 杀毒软件
@@ -187,7 +198,7 @@ tags: [windows]
 - CCleaner (***绿色软件***) 文件清理
 - rufus (***绿色软件***) 制作启动盘
 - UltraISO (***绿色软件***) ISO映像文件
-- 卡硬工具箱 (***绿色软件***)
+- 卡硬工具箱 (***绿色软件***), 包含很多小工具如 Dism++
 - 分区助手 (***绿色软件***)
 - 轻松备份
 
