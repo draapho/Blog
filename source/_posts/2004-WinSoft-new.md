@@ -97,7 +97,6 @@ tags: [windows]
     - 快捷键, 下一项目: `Ctrl+J`
     - 快捷键, 前一项目: `Ctrl+K`
 - 微软输入法
-    - 设置一遍. 导入用户自定义短语
     - 设置->高级键盘设置->反选 使用桌面语言栏(如果可用)
 
 
@@ -160,7 +159,7 @@ tags: [windows]
         - 点击时. 低频使用的插件建议此选项, 增加安全性.
         - 在特定网站上. 针对特定网站的高频插件, 建议选用此选项.
         - 在所有网站上. 高频通用性插件, 选此选项. 此为Chrome默认选项.
-    - 破解右键锁. 需要手动使能, 点击时启用
+    - Clip to OneNote. 点击时启用
     - EagleGet Free Download. 点击时启用
     - Tampermonkey, 油猴. 脚本方式实现多种功能.
         - 尽量用Chrome插件代替脚本. 平时只打开常用的脚本. 低频使用的脚本保持关闭状态.
@@ -168,18 +167,15 @@ tags: [windows]
         - 设置->通用->配置模式->初学者
         - 设置->同步脚本->启用TESLA->浏览器同步.
         - 这样即可跟随Chrome同步脚本, 但脚本配置不会自动同步!
-    - Graphitabs. 多标签整理为思维导图模式
+    - 破解右键锁. 需要手动使能, 点击时启用
     - IE tab. 转为IE内核. 点击时启用
-    - Imagus 图片预览, 设置为ctrl使能
-    - AdGuard 广告拦截器, 启用隐身模式
     - Infinity new tab pro. 自建导航网页, 管理插件. 点击时启用
-    - 网盘助手/集装箱. 在特定网站上启用.
-        - `pan.baidu.com/*`
-        - `yun.baidu.com/*`
-        - `share.weiyun.com/*`
-        - `*.newday.me/*`
-        - `*.lanzous.com/*`
+    - Graphitabs. 多标签整理为思维导图模式
+    - octotree. github扩展. 启用隐身模式
+    - Imagus 图片预览, 设置为ctrl使能. 启用隐身模式
+    - AdGuard 广告拦截器, 启用隐身模式
 - eagleget. 下载软件, 网页插件设置为点击时启用
+    - IDM备用, 配合Tampermonkey脚本用于百度网盘的下载
 - 微信PC版. 可用于备份手机微信内容
 - QQ (***Microsoft Store***)
 - 穿梭或快帆, 翻墙到国内. 收费建议用穿梭.
@@ -213,7 +209,9 @@ tags: [windows]
     - 潜在的替代软件 Windows Terminal (***Microsoft Store***).
 - git
     - p4vinst64, 只需安装 p4merge.
+    - 配置git见: [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
 - Node.js
+    - 配置blog见: [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
 - Ubuntu (***Microsoft Store***)
     - 若安装失败 管理员运行 Powershell `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
     - 不确定稳定性和全功能.
