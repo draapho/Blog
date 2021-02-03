@@ -13,7 +13,7 @@ comments: false
 # 博文分类概览
 
 `关键字 site:https://draapho.github.io/`
-`https://draapho.github.io/images/19xx/xxx.xxx`
+`https://draapho.github.io/images/21xx/xxx.xxx`
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
@@ -31,6 +31,7 @@ comments: false
 - [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
 - [求道之路](https://draapho.github.io/2020/02/10/2002-seeker/)
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
+- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 
 # Market
 
@@ -40,6 +41,7 @@ comments: false
 - [交易市场阶段性探索心得](https://draapho.github.io/2020/02/09/2001-exploration/)
 - [波浪理论口诀](https://draapho.github.io/2020/08/06/2005-wave-mnemonic/)
 - [波浪理论感悟](https://draapho.github.io/2020/08/07/2006-wave-thinking/)
+- [交易市场思路](https://draapho.github.io/2021/02/03/2102-share-skill/)
 
 
 # 通用软件技能
