@@ -6,6 +6,20 @@ tags: [thoughts]
 ---
 
 
+# 总览
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
+- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
+- [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
+- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
+- [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
+- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
+- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
+- [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
+- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
+- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+
 
 ***转载自 [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](http://bbs.tianya.cn/post-free-5088705-1.shtml)***
 ***转载自 [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题（七）连载](http://blog.sina.com.cn/s/blog_7edcb9a10102vjtm.html)***
@@ -382,9 +396,6 @@ B,中国高明的数理科学——一个“阴阳”已涵容“归纳”与“
 
 
 C,中华文明的整体性观念为科学的未来指明了方向
-
-
-
   介绍这些不仅是证明《易经》了不起的数理学，更是为了说明中华文明从本已来的独特性——它完全区别于“西方式科学”的“科学理念”，甚至是“思维模式”。如果你探究它更深的意蕴，你将知道从某种层面上它理念与意识的高度几千年了还在等待西方的成长，这不稀奇，因为从一开始它就是从人类意识的根源与巅峰出来的东西。**它是熟透了的文明。**
 
   是的，世界是一个整体，关于世界的认知也应该是一个整体。应该有西式的“分科之学”。但由于人认知的局限性与片面性，更应该有整体性的视角——那就是中国古代科学推崇的“整体观”，它是“整体”、“根源”性的“通学”。提纲挈领、把握根本，仰观天文，俯察地理，中知人事，是古人的追求。

@@ -6,16 +6,20 @@ tags: [thoughts]
 ---
 
 # 总览
+
+# 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
 - [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
+- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
 - [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
-- [求道之路](https://draapho.github.io/2020/02/10/2002-seeker/)
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
-
+- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
+- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 
 
 # 前言
@@ -71,7 +75,6 @@ tags: [thoughts]
     - 小: 小范围的组织, 参与的人越少越好.
     - 密: 属于桌底下的交易, 只能秘密进行, 不能公之于众.
     - 圈: 形成利益共同体, 由'我'变为了'我们'. 非圈内人难以进入.
-
 - 案例分析:
     - 黄四郎, 城南家族, 当狗的县长
         - 潜规则: 县长上任, 得巧立名目, 拉拢豪绅, 缴税捐款. 得钱之后, 豪绅的钱如数奉还, 百姓的钱三七分成.

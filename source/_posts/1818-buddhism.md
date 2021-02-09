@@ -12,7 +12,13 @@ tags: [thoughts]
 - [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
 - [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
 - [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
+- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
 - [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
+- [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
+- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
+- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+
 
 
 # 传承中的变异
