@@ -7,8 +7,6 @@ tags: [thoughts]
 
 
 # 总览
-
-# 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
 - [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
@@ -21,9 +19,12 @@ tags: [thoughts]
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+
 
 
 ***转载自 [灵天赐的回答](https://www.zhihu.com/people/yuan-chong-76/answers)***
+2021年2月13日注: 作者已在知乎删除了这篇回答. 类似的回答放到了微信公众号: [禅医堂](https://mp.weixin.qq.com/s?src=11&timestamp=1613217925&ver=2888&signature=*gV4LcvM0KxeUyME1TXD*5OdCPEqxZtwtUF9P8rfxHPOUT-6rhpgac0bHP4lIE-eZfgzYFQi7oi5G3OJ64hmDDjAg5bRaxjwUFgQz27LkXzGRyg8G8syO5kSqSnsp3KB&new=1), 由于两篇文章有诸多分别, 我都转载了, 见[修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 
 ------------------------------
 

@@ -15,9 +15,13 @@ comments: false
 `关键字 site:https://draapho.github.io/`
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
+# Zen
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-satori/)
+
+
 # Thoughts
+
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
-- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1702-linux-hard/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [人类简史简图](https://draapho.github.io/2017/10/16/1729-history-of-humankind/)
@@ -29,9 +33,11 @@ comments: false
 - [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
 - [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
 - [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
-- [求道之路](https://draapho.github.io/2020/02/10/2002-seeker/)
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
+- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+
 
 # Market
 
@@ -145,6 +151,7 @@ comments: false
 
 
 # jz2440开发板学习
+- [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1702-linux-hard/)
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
     - [Ubuntu下配置支持Windows访问的samba共享](https://draapho.github.io/2017/07/06/1718-linux-samba/)

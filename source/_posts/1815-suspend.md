@@ -18,6 +18,7 @@ tags: [thoughts]
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 
 
 
@@ -34,7 +35,7 @@ tags: [thoughts]
 
 第二阶段, 兼济天下:
 - 人文学科和生命本源数学化, 理论化.
-- 已有大致思路: 
+- 已有大致思路:
     - 心为本, 物为载体, 心可改变物.
     - 一切出发点是基本生命体的相互关系, 这种相互关系就是本源, 不随级别改变.
     - 环境的影响首先作用于心, 心影响生命体的相互关系, 从而影响整个群体的行为和特性.

@@ -19,6 +19,8 @@ tags: [thoughts]
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+
 
 
 ***转载自 [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://program-think.blogspot.com/2014/09/oversimplification.html?m=1)***
