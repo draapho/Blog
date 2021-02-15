@@ -15,8 +15,8 @@ comments: false
 `关键字 site:https://draapho.github.io/`
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
-# Zen
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-satori/)
+# Dao
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
 
 
 # Thoughts
