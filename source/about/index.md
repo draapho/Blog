@@ -17,7 +17,8 @@ comments: false
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-
+- [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
+- [修道之路-闻道]()
 
 # Thoughts
 
