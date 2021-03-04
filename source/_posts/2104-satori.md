@@ -22,8 +22,7 @@ tags: [thoughts]
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 
 
-***转载自 微信公众号 禅医堂 灵天赐 修行总领——明心见性***, 链接如下:
-> https://mp.weixin.qq.com/s?src=11&timestamp=1613217925&ver=2888&signature=*gV4LcvM0KxeUyME1TXD*5OdCPEqxZtwtUF9P8rfxHPOUT-6rhpgac0bHP4lIE-eZfgzYFQi7oi5G3OJ64hmDDjAg5bRaxjwUFgQz27LkXzGRyg8G8syO5kSqSnsp3KB&new=1
+***转载自 微信公众号 禅医堂 灵天赐 [修行总领——明心见性](https://weixin.sogou.com/weixin?type=2&s_from=input&query=%E4%BF%AE%E8%A1%8C%E6%80%BB%E9%A2%86%E2%80%94%E2%80%94%E6%98%8E%E5%BF%83%E8%A7%81%E6%80%A7)***
 
 另见作者最早在知乎的一篇回答, 由于两篇文章有诸多分别, 我都转载了. 见[开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
 
@@ -501,8 +500,7 @@ tags: [thoughts]
 ------------------------------
 
 
-***转载自 微信公众号 禅医堂 灵天赐 修行总领——明心见性***, 链接如下:
-> https://mp.weixin.qq.com/s?src=11&timestamp=1613217925&ver=2888&signature=*gV4LcvM0KxeUyME1TXD*5OdCPEqxZtwtUF9P8rfxHPOUT-6rhpgac0bHP4lIE-eZfgzYFQi7oi5G3OJ64hmDDjAg5bRaxjwUFgQz27LkXzGRyg8G8syO5kSqSnsp3KB&new=1
+***转载自 微信公众号 禅医堂 灵天赐 [修行总领——明心见性](https://weixin.sogou.com/weixin?type=2&s_from=input&query=%E4%BF%AE%E8%A1%8C%E6%80%BB%E9%A2%86%E2%80%94%E2%80%94%E6%98%8E%E5%BF%83%E8%A7%81%E6%80%A7)***
 
 ------------------------------
 

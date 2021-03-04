@@ -35,11 +35,14 @@ tags: [market]
     - 中线看资金, 主力资金的态度决定行情的可持续性.
     - 长线看业绩, 由于主力资金只能慢进慢出, 必须追求稳定性, 而业绩是这几个要素里面, 确定性和稳定性最高的.
     - 更顶尖的资金, 看的是行业发展和社会发展趋势. 毕竟级别越大, 变化就越缓慢, 确定性越高, 也就能容纳更多的资金.
-    - 投机与投资, 无所谓好坏和高低.
+    - 进入交易市场的人, 全部是以盈利为目的的. 投机与投资, 无所谓好坏和高低.
 
 
-# 均线一
-双均线交叉, 64/256均线交叉.
+# 彩虹均线
+彩虹均线, 黄金比例均线.
+核心思路: 均线即持仓成本, 只有所有均线都顺次排列好了, 才是大概率的见底或见顶.
+
+内含双均线交叉, 60/250均线交叉.
 金叉: 短均线上叉上升趋势中的长均线
 死叉: 短均线下叉下降趋势中的长均线
 买点: 短均线下叉上升趋势中的长均线
@@ -48,42 +51,11 @@ tags: [market]
 ``` C
 #MAINCHART
 INPUT:
-  M(20, 5, 999);
-
-// 显示所属板块
-PE:=DynaInfo(Q_PE),NoDraw;
-VL:=DynaInfo(Q_MARKETVAL)/100000000,NoDraw;
-DRAWTEXTEX(1, 1, 2, 0, STKNAME+' '+STKLABEL+'   市盈:'+NumToStr(PE,2)+' 市值:'+NumToStr(VL,2)+'亿'+'   '+IndustryName),
-    IIF(PE>0 and PE<100 and VL>100,ColorCyan,ColorYellow);
-
-
-M5:MA(C,5), ColorWhite, LineDot;
-PartLine(M5/REF(M5,1)>1.01,M5),ColorWhite, LineThick2;
-PartLine(M5/REF(M5,1)<0.99,M5),ColorWhite, LineThick2;
-
-MM:MA(C,M), ColorYellow;
-
-//M32:MA(C,32), ColorBlue, LineDash;
-M64:MA(C,64), ColorGreen;
-M128:MA(C,128), ColorBrown, LineDash;
-M256:MA(C,256), ColorRed;
-VERTLINE(CROSS(M64,M256) Or CROSS(M256, M64)), ColorGray, LineDot;
-
-// 单K线测顶底
-单阳测顶:=C*C/REF(C,1)/0.9, NoDraw;
-单阴测低:=C*C/REF(C,1)/1.1, NoDraw;
-单K顶底:IF(C>O, 单阳测顶, 单阴测低), NoDraw, ColorWhite;
-```
-
-
-# 均线二
-黄金比例均线, 彩虹均线.
-核心思路: 均线即持仓成本, 只有所有均线都顺次排列好了, 才是大概率的见底或见顶.
-
-``` C
-#MAINCHART
-INPUT:
-  N(5, 1, 7);
+  赤(13, 5, 21),
+  橙(21, 21, 34),
+  黄(34, 34, 89),
+  青(89, 55, 143),
+  蓝(144, 144, 250);
 
 // 显示所属板块
 PE:=DynaInfo(Q_PE),NoDraw;
@@ -97,13 +69,13 @@ PartLine(M5/REF(M5,1)>1.01,M5),ColorWhite, LineThick2;
 PartLine(M5/REF(M5,1)<0.99,M5),ColorWhite, LineThick2;
 
 // 赤橙黄绿青蓝紫
-M13:MA(C,13), ColorRed;
-M21:MA(C,21)*if(n<2,INVALID,1), Color00A5FF;
-M34:MA(C,34)*if(n<3,INVALID,1), ColorYellow;
-M55:MA(C,55)*if(n<4,INVALID,1), ColorGreen;
-M89:MA(C,89)*if(n<5,INVALID,1), ColorCyan;
-M144:MA(C,144)*if(n<6,INVALID,1), ColorBlue;
-M233:MA(C,233)*if(n<7,INVALID,1), Color800080;
+M13:MA(C,赤), ColorLightRed;
+M21:MA(C,橙), Color00A5FF;
+M34:MA(C,黄), ColorYellow;
+M60:MA(C,60), ColorGreen;
+M89:MA(C,青), ColorCyan;
+M144:MA(C,蓝), ColorBlue;
+M250:MA(C,250), ColorRed;
 
 // 单K线测顶底
 单阳测顶:=C*C/REF(C,1)/0.9, NoDraw;
@@ -310,7 +282,7 @@ D1:=ANY(DC AND UD,9);
 D2:=ANY(UC AND DD,9);
 // 9周期内有过买入信号, K值40以下的转折点提示买入
 DRAWNUMBER(DC AND UD, K, 0, 0), ColorGray;
-DRAWNUMBER(D1 AND REF(K,1)/REF(K,2)<=1 AND K/REF(K,1)>=1 AND K<50, K, 0, 0), ColorRed;
+//// DRAWNUMBER(D1 AND REF(K,1)/REF(K,2)<=1 AND K/REF(K,1)>=1 AND K<50, K, 0, 0), ColorRed; ////
 // 9周期内有过卖出信号, K值60以上的减速点提示卖出
 DRAWNUMBER(D2 AND REF(K,1)/REF(K,2)>=1.01 AND K/REF(K,1)<1.01 AND K>60, K, 1, 0), ColorGreen;
 
@@ -570,8 +542,8 @@ UQS:=IF(MQS>REF(MQS,1) and MQS>REF(MQS,N/2) and MQS>REF(MQS,N), 1, 0);
 
 FGMIN:=Min(OFG, CFG);
 QSMIN:=Min(OQS, CQS);
-DrawNumber(DZS and UFG and UQS, FGMIN, 0, 0), ColorRed;
-DrawNumber(UZS and DFG and DQS, QSMIN, 1, 0), ColorGreen;
+//// DrawNumber(DZS and UFG and UQS, FGMIN, 0, 0), ColorRed;   ////
+//// DrawNumber(UZS and DFG and DQS, QSMIN, 1, 0), ColorGreen; ////
 
 
 End Else Begin
@@ -799,7 +771,7 @@ IF (创业K>=0) Then KLine(OCY,CCY,CCY,CCY,0),ColorCyan;
 
 
 # 股价增长模式
-股市波动有两者主要的博弈模式, 增量博弈和存量博弈. 其中增量博弈有明显的生命形式的自增长特征.
+股市波动有两种主要的博弈模式, 增量博弈和存量博弈. 其中增量博弈有明显的生命形式的自增长特征.
 波浪理论里面提到了黄金比例, 但没有将黄金比例应用到高点到高点的预测. 下图例示范:
 
 ![等比增长](https://draapho.github.io/images/2102/ratio.png)
