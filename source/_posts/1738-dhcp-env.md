@@ -3,6 +3,7 @@ title: 基于DHCP建立嵌入式Linux开发环境
 date: 2017-11-28
 categories: embedded linux
 tags: [linuxembedded linux, env]
+description: 如题.
 ---
 
 
@@ -40,12 +41,12 @@ Windows下查看主机名
 
 # 开发板DHCP
 
-开发板要支持dhcp比较复杂一点. 
+开发板要支持dhcp比较复杂一点.
 基本思路如下:
 - 嵌入式linux启动后, 自动启动dhcp联网.
 - 嵌入式linux安装nfs client, 挂载Ubuntu上的nfs文件.
 - 内核和文件系统需要烧录到开发板.
-- 此方法适用于开发驱动和应用层软件. 
+- 此方法适用于开发驱动和应用层软件.
 - 新版本的uboot肯定支持dhcp, 但老版本的不确定, 不去吃螃蟹了.
 - 有兴趣的参考 [
 Using DHCP Client in U-Boot for Loading Linux Images via Network](https://www.emcraft.com/som/using-dhcp)
@@ -60,12 +61,12 @@ cp config_ok .config
 make menuconfig
 
 # 进行如下配置
-Networking  --->    
-    [*] Networking support         
-        Networking options  --->             
-        <* > Packet socket                 # 使能CONFIG_PACKET, socket包           
-        [ * ]     IP: DHCP support         # 使能DHCP           
-        [ * ] Network packet filtering framework (Netfilter)  --->  # 使能 
+Networking  --->
+    [*] Networking support
+        Networking options  --->
+        <* > Packet socket                 # 使能CONFIG_PACKET, socket包
+        [ * ]     IP: DHCP support         # 使能DHCP
+        [ * ] Network packet filtering framework (Netfilter)  --->  # 使能
         # 后面子选项可不选
 # 保存并退回到终端
 
@@ -73,26 +74,26 @@ make clean
 make uImage
 ```
 
-然后烧录新的内核到开发板. 
+然后烧录新的内核到开发板.
 - 内核的编译和烧录可参考 [kernel之编译体验](https://draapho.github.io/2017/09/01/1722-kernel-compile/)
 - 如果内核没有支持上述特性, 后面执行udhcpc时会报错: `Address family not supported by protocol`
 
 ## ~~编译Busybox~~
 
-jz2440提供的文件系统包含udhcpc命令, 所以不用重新配置编译了. 
+jz2440提供的文件系统包含udhcpc命令, 所以不用重新配置编译了.
 **可跳过此步骤**.
 
 
 如果要自己做, 注意勾选下面的选项(有的版本默认支持dhcp指令)
 
 ``` bash
-Busybox Settings  --->  
-    Busybox Library Tuning  ---> 
+Busybox Settings  --->
+    Busybox Library Tuning  --->
     [*]   Tab completion                # 指令自动填充, 非常必要的属性, 默认关闭...
-        
-Networking Utilities  --->           
-    [] udhcp Server (udhcpd)            # 在此不作服务端，故不选。生成udhcpd命令    
-    [*] udhcp Client (udhcpc)           # 生成udhcpc命令   
+
+Networking Utilities  --->
+    [] udhcp Server (udhcpd)            # 在此不作服务端，故不选。生成udhcpd命令
+    [*] udhcp Client (udhcpc)           # 生成udhcpc命令
 ```
 
 针对嵌入式系统, 由于是交叉编译, Busybox编译和安装有特别的要求, 可参考:
@@ -126,26 +127,26 @@ vim ./usr/share/udhcpc/default.script
 RESOLV_CONF="/etc/resolv.conf"
 [ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
 [ -n "$subnet" ] && NETMASK="netmask $subnet"
- 
+
 case "$1" in
   deconfig)
     /sbin/ifconfig $interface 0.0.0.0
     ;;
- 
+
   renew|bound)
     /sbin/ifconfig $interface $ip $BROADCAST $NETMASK
- 
+
     if [ -n "$router" ] ; then
       echo "deleting routers"
       while route del default gw 0.0.0.0 dev $interface ; do
         :
       done
- 
+
       for i in $router ; do
         route add default gw $i dev $interface
       done
     fi
- 
+
     echo -n > $RESOLV_CONF
     [ -n "$domain" ] && echo search $domain >> $RESOLV_CONF
     for i in $dns ; do
@@ -154,7 +155,7 @@ case "$1" in
     done
     ;;
 esac
- 
+
 exit 0
 # ===== wq保存文件, 退出 =====
 
@@ -205,7 +206,7 @@ mkyaffs2image fs_mini_mdev_dhcp fs_mini_mdev_dhcp.yaffs2
 
 在开发板上挂载服务器共享的目录
 ``` bash
-# pwd = / 
+# pwd = /
 $ mkdir mnt/share          # 挂载点
 $ ln -s mnt/share share    # 创建软连接
 
@@ -229,7 +230,7 @@ $ ls share                  # 查看一下是否可以看到共享内容了.
 ```
 
 下次重启就能自动加载nfs了. **如果加载失败, 看看是不是主机动态IP变掉了**.
-jz2440启动后, 加载nfs失败时, 需要等待一段时间才能进入终端界面! 
+jz2440启动后, 加载nfs失败时, 需要等待一段时间才能进入终端界面!
 
 ## 使用hostname
 这里, 最理想的情况是使用 hostname 而不是IP地址.

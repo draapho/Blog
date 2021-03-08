@@ -3,6 +3,7 @@ title: PyQt 的交互操作
 date: 2016-10-20
 categories: python
 tags: [python, pyqt]
+description: 如题.
 ---
 
 
@@ -31,7 +32,7 @@ tags: [python, pyqt]
   - `-x` will generate `if __name__ == '__main__':` then can run directly
   - `pyuic4.bat demo.ui > demo.py` is also OK.
 - ~~the sample of `demo.py`, generated automatically by pyuic4.bat~~
-  
+
 ``` python
 # -*- coding: utf-8 -*-
 

@@ -3,6 +3,7 @@ title: 最实用的 Linux 命令行使用技巧
 date: 2017-09-07
 categories: linux
 tags: [linux, command]
+description: 如题.
 ---
 
 ***转载自 [最实用的 Linux 命令行使用技巧](https://www.oschina.net/translate/most-useful-linux-command-line-tricks#comments)***
@@ -88,7 +89,7 @@ dd if=/dev/zero of=out.txt bs=1M count=10
 
 # 以根目录用户来运行最后一个命令
 
-有时，你会忘记在需要 root 权限的命令之前敲入 sudo。 这时候你没必要去重写命令; 
+有时，你会忘记在需要 root 权限的命令之前敲入 sudo。 这时候你没必要去重写命令;
 只要输入 `sudo !!` 就行了！
 
 ``` bash
@@ -117,7 +118,7 @@ cat typescript      # show what you do
 
 # 用标签符号替换空格符
 
-可以使用 tr 命令替换任何字符，这个用起来非常方便： 
+可以使用 tr 命令替换任何字符，这个用起来非常方便：
 ``` bash
 cat typescript | tr ' ' '\t' > out      # 空格替换为制表符, 保存为out文件
 cat myfile | tr a-z A-Z> output         # 大小写转换

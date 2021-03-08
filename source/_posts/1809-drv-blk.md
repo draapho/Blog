@@ -3,6 +3,7 @@ title: 驱动之块设备-框架
 date: 2018-01-22
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

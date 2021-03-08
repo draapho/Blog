@@ -3,6 +3,7 @@ title: 嵌入式linux环境搭建3-Ubuntu16.04
 date: 2017-02-20
 categories: embedded linux
 tags: [embedded linux, environment]
+description: 如题. 折腾成功了!
 ---
 
 

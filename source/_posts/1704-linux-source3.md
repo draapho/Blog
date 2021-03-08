@@ -3,6 +3,7 @@ title: Linux 0.11 源码阅读笔记-内核代码
 date: 2017-01-31
 categories: linux
 tags: [linux]
+description: 如题.
 ---
 
 # 总览

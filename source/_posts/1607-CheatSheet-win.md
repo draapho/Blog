@@ -2,7 +2,8 @@
 title: Windows快捷键
 date: 2016-10-8
 categories: windows
-tags: [cheat sheet, windows, notepad++, atom, eclipse, Listary]
+tags: [cheat sheet, windows, notepad++, eclipse]
+description: 配置快捷键, 很可能半途而废...
 ---
 
 # 专用快捷键

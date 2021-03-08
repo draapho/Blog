@@ -3,6 +3,7 @@ title: kernel之内核启动分析
 date: 2017-09-15
 categories: embedded linux
 tags: [embedded linux, kernel]
+description: 如题.
 ---
 
 # 总览
@@ -136,18 +137,18 @@ tags: [embedded linux, kernel]
 838 }
 
 748 static int noinline init_post(void) {               // 执行应用程序
-756     if (sys_open((const char __user *) "/dev/console", O_RDWR, 0) < 0)      
+756     if (sys_open((const char __user *) "/dev/console", O_RDWR, 0) < 0)
                                                         // 尝试打开终端设备, 文件0->printf
 757         printk(KERN_WARNING "Warning: unable to open an initial console.\n");
-759	    (void) sys_dup(0);                              // 赋值文件0, 生成文件1->scanf
-760	    (void) sys_dup(0);                              // 赋值文件0, 生成文件2->err
+759     (void) sys_dup(0);                              // 赋值文件0, 生成文件1->scanf
+760     (void) sys_dup(0);                              // 赋值文件0, 生成文件2->err
         // 以上四句作用为设置标准输入输出流, (printf, scanf, err)
-        
-744 	if (execute_command) {
-745	    	run_init_process(execute_command);
-746		    printk(KERN_WARNING "Failed to execute %s.  Attempting "
-747					"defaults...\n", execute_command);
-748  	}
+
+744     if (execute_command) {
+745         run_init_process(execute_command);
+746         printk(KERN_WARNING "Failed to execute %s.  Attempting "
+747                 "defaults...\n", execute_command);
+748     }
         // 传入的启动参数内有 "init=" 启动程序, 则执行! 执行成功的话不会再返回这里!
 
 779     run_init_process("/sbin/init");
@@ -155,7 +156,7 @@ tags: [embedded linux, kernel]
 781     run_init_process("/bin/init");
 782     run_init_process("/bin/sh");
         // 没有配置过启动指令, 依次尝试上述四个默认程序. 某一个执行成功后就不会再返回!
-        
+
 784     panic("No init found.  Try passing init= option to kernel.");
         // 执行首个应用程序失败, 打印内核错误信息!
 785 }

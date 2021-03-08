@@ -3,6 +3,7 @@ title: 面试之嵌入式C语言
 date: 2018-05-07
 categories: interview
 tags: [interview]
+description: 面试题集.
 ---
 
 # 总览
@@ -12,7 +13,7 @@ tags: [interview]
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
 
-我个人面试经验极少, 但这种能力都是需要培养的. 
+我个人面试经验极少, 但这种能力都是需要培养的.
 此系列总结一下面试中常见的技能要点. 侧重于技术面的准备.
 
 
@@ -337,7 +338,7 @@ The NULL is a macro de¡ned in C. Null pointer actually means a pointer that doe
 # Q: What is void pointer and what is its use?
 The void pointer means that it points to a variable that can be of any type. Other pointers points to a speci¡c type of variable while void pointer is a somewhat generic pointer and can be pointed to any data type, be it standard data type(int, char etc) or user de¡ne data type (structure, union etc.). We can pass any kind of pointer and reference it as a void pointer. But to dereference it, we have to type the void pointer to correct data type.
 
-# Q: What is ISR? 
+# Q: What is ISR?
 An ISR(Interrupt Service Routine) is an interrupt handler, a callback subroutine which is called when a interrupt is encountered Interrupt latency is the time required for an ISR responds to an interrupt.
 
 # Q: What is interrupt latency? How to reduce interrupt latency?
@@ -427,7 +428,7 @@ Here c1, c2 and c3 are members of a structure with width 3, 4, and 1 bit respect
 The function will look like this -
 ``` c
 int GetFieldValue(int byte, int field ) {
-	return (byte >> field) & 0x01;
+    return (byte >> field) & 0x01;
 }
 ```
 The byte is right shifted exactly n times where n is same as the field value. That way, our intended value ends up in the 0th bit position. "Bitwise And" with 1 can get the intended value. The function then returns the intended value.

@@ -3,6 +3,7 @@ title: Yocto 的安装与体验
 date: 2017-12-15
 categories: embedded linux
 tags: [linuxembedded linux, yocto]
+description: 如题.
 ---
 
 # 前言
@@ -62,7 +63,7 @@ $ git clone git://git.yoctoproject.org/poky
 ...
 Checking connectivity... done.
 
-# 下载完成后, 有个poky文件夹. 
+# 下载完成后, 有个poky文件夹.
 # 如果是从别处下载再拷贝进Ubuntu的, 可能需要改个权限
 # 因为后面的bitbake命令不允许已root用户操作.
 $ sudo chmod -R +777 poky/
@@ -125,7 +126,7 @@ $ sudo ln -s /usr/bin/python3.5 /usr/bin/python
 $ ll /usr/bin/python*
 lrwxrwxrwx 1 root root       9 Nov 24 07:18 /usr/bin/python -> python3.5*
 $ python
-Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+Python 3.5.2 (default, Nov 23 2017, 16:37:01)
 
 # 这样改完以后, 再去安装 libsdl1.2-dev 会报错! 解决方法是改回来...
 ```

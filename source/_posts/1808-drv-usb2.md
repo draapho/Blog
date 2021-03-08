@@ -3,6 +3,7 @@ title: 驱动之USB设备驱动程序
 date: 2018-01-19
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

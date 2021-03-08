@@ -3,6 +3,7 @@ title: 嵌入式linux环境搭建-QQ物联
 date: 2017-12-18
 categories: qqiot
 tags: [embedded linux, qqiot]
+description: 如题.
 ---
 
 # 总览
@@ -65,7 +66,7 @@ gcc version 4.3.2
 
 tar xjvf u-boot-1.1.6.tar.bz2               # 解压uboot源码
 cd u-boot-1.1.6                             # 进入uboot源码目录
-patch -p1 < ../u-boot-1.1.6_20161226_all.patch 
+patch -p1 < ../u-boot-1.1.6_20161226_all.patch
 make clean
 make 100ask24x0_config                      # uboot config文件
 make                                        # uboot 编译, 得到u-boot.bin文件
@@ -238,26 +239,26 @@ vi /usr/share/udhcpc/default.script
 RESOLV_CONF="/etc/resolv.conf"
 [ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
 [ -n "$subnet" ] && NETMASK="netmask $subnet"
- 
+
 case "$1" in
   deconfig)
     /sbin/ifconfig $interface 0.0.0.0
     ;;
- 
+
   renew|bound)
     /sbin/ifconfig $interface $ip $BROADCAST $NETMASK
- 
+
     if [ -n "$router" ] ; then
       echo "deleting routers"
       while route del default gw 0.0.0.0 dev $interface ; do
         :
       done
- 
+
       for i in $router ; do
         route add default gw $i dev $interface
       done
     fi
- 
+
     echo -n > $RESOLV_CONF
     [ -n "$domain" ] && echo search $domain >> $RESOLV_CONF
     for i in $dns ; do
@@ -266,7 +267,7 @@ case "$1" in
     done
     ;;
 esac
- 
+
 exit 0
 # ===== wq保存文件, 退出 =====
 chmod +x /usr/share/udhcpc/default.script       # 加入可执行属性
@@ -316,9 +317,9 @@ mount -a                        # 不重启挂载, 测试一下
 # jz2440开发板
 mkdir -p /lib/modules/3.4.2
 
-# Ubuntu端firstdrvtest.c 
+# Ubuntu端firstdrvtest.c
 sudo mkdir -p /work/system/
-firstdrvtest.c 
+firstdrvtest.c
 ```
 
 ## LED驱动

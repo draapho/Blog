@@ -3,6 +3,7 @@ title: 我的终极思考
 date: 2017-10-09
 categories: thoughts
 tags: [thoughts]
+description: 放下迷茫和焦虑, 认定方向前行.
 ---
 
 # 总览
@@ -19,6 +20,7 @@ tags: [thoughts]
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [推背图, 马前课, 万年歌, 梅花诗](https://draapho.github.io/2021/03/05/2107-tuibeitu/)
 
 
 

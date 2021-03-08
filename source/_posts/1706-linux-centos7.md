@@ -3,6 +3,7 @@ title: 嵌入式linux环境搭建2-CentOS7
 date: 2017-02-19
 categories: embedded linux
 tags: [embedded linux, environment]
+description: 如题. 折腾.
 ---
 
 
@@ -25,8 +26,8 @@ tags: [embedded linux, environment]
 静态ip, 安装向导时, 就设置了.
 
 ``` bash
-yum install net-tools 	# to use ifconfig  or use ip addr
-yum install bzip2		# bz2压缩格式
+yum install net-tools   # to use ifconfig  or use ip addr
+yum install bzip2       # bz2压缩格式
 yum install patch
 yum install gcc
 
@@ -109,11 +110,11 @@ vi /etc/bashrc
         PATH=/usr/local/arm/gcc-3.4.5-glibc-2.3.6/bin:"${PATH}"
     fi
     # ===== 结束修改, 保存退出vim =====
-    
+
 # 测试安装结果
-source /etc/bashrc							# 不重启更新PATH
-echo $PATH									# 查看PATH
-arm-linux-gcc -v							# 测试是否安装成功
+source /etc/bashrc                          # 不重启更新PATH
+echo $PATH                                  # 查看PATH
+arm-linux-gcc -v                            # 测试是否安装成功
 ```
 
 ## 遇到问题

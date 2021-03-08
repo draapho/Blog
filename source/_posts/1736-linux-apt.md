@@ -3,6 +3,7 @@ title: linux软件的安装和管理
 date: 2017-11-26
 categories: linux
 tags: [linux, apt]
+description: 如题.
 ---
 
 # 背景
@@ -86,7 +87,7 @@ sudo apt-get build-dep apache2
 # 会列出一系列会被安装的软件, 并询问是否要安装.
 # 先回答NO.
 
-sudo apt-get build-dep apache2 | tee apache2.log 
+sudo apt-get build-dep apache2 | tee apache2.log
 # 为了便于日后查看关系包, 建议先做个记录:
 ```
 
@@ -117,7 +118,7 @@ Java向下兼容, 建议直接安装java最新版
 - [Ubuntu: OpenJDK 8 - Unable to locate package](https://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package)
 
 
-## Could not get lock 
+## Could not get lock
 
 `E:Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailable)`
 获取资源锁失败, 说明有另外一个apt-get在运行. 这种情况多发生在新装的Ubuntu中, 他会自动运行apt-get
@@ -143,7 +144,7 @@ sudo rm /var/lib/dpkg/lock
 ## X not fully installed or removed
 
 多发生在安装过程中, 发生意外错误, 导致部分软件没有安装好.
-如果在Ubuntu下面修改过`/usr/bin/python`软链接, 改2.7版本到3.5的话, 
+如果在Ubuntu下面修改过`/usr/bin/python`软链接, 改2.7版本到3.5的话,
 安装某些依赖python软件也会发生这个问题!
 
 ``` bash
@@ -160,7 +161,7 @@ Errors were encountered while processing:
 libglib2.0-dev
 libpulse-dev:i386
 libsdl1.2-dev
- 
+
 # 先解决没有完全安装或者删除的问题, 方法如下, 按照依赖关系, 倒过来逐一删除:
 $ sudo dpkg -r libsdl1.2-dev
 $ sudo dpkg -r libpulse-dev:i386

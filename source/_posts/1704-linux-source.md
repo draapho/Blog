@@ -3,6 +3,7 @@ title: Linux 0.11 源码阅读笔记-总览
 date: 2017-01-23
 categories: linux
 tags: [linux]
+description: 如题.
 ---
 
 # 总览

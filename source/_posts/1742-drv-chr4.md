@@ -3,6 +3,7 @@ title: 驱动之poll机制
 date: 2017-12-11
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 # 总览
@@ -160,19 +161,19 @@ static const struct file_operations drv_key_int_fops= {
 ## Makefile
 
 ``` makefile
-obj-m		:= drv_key_poll.o 
-KERN_SRC	:= /home/draapho/share/kernel/linux-2.6.22.6/
-PWD			:= $(shell pwd)
+obj-m       := drv_key_poll.o
+KERN_SRC    := /home/draapho/share/kernel/linux-2.6.22.6/
+PWD         := $(shell pwd)
 
 modules:
-	make -C $(KERN_SRC) M=$(PWD) modules
+    make -C $(KERN_SRC) M=$(PWD) modules
 
 install:
-	make -C $(KERN_SRC) M=$(PWD) modules_install
-	depmod -a
+    make -C $(KERN_SRC) M=$(PWD) modules_install
+    depmod -a
 
 clean:
-	make -C $(KERN_SRC) M=$(PWD) clean
+    make -C $(KERN_SRC) M=$(PWD) clean
 ```
 
 ## 测试文件 test_drv_key_int.c

@@ -3,6 +3,7 @@ title: python的第一个小程序, 蓝牙及串口终端
 date: 2016-11-16
 categories: python
 tags: [python, pyqt, pyinstaller, BLE]
+description: 项目开发过程记录.
 ---
 
 

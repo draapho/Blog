@@ -3,6 +3,7 @@ title: Linux 0.11 源码阅读笔记-内存管理
 date: 2017-02-15
 categories: linux
 tags: [linux]
+description: 如题.
 ---
 
 # 总览

@@ -3,6 +3,7 @@ title: Embedded Linux 入门有感
 date: 2017-01-18
 categories: embedded linux
 tags: [embedded linux]
+description: 感触就是, 太TM折腾人了...
 ---
 
 # 前言

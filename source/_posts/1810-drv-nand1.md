@@ -3,6 +3,7 @@ title: 驱动之NAND Flash框架
 date: 2018-01-24
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

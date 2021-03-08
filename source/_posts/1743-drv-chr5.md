@@ -3,6 +3,7 @@ title: 驱动之异步通知
 date: 2017-12-12
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 # 总览
@@ -25,21 +26,21 @@ tags: [linuxembedded linux, drv]
 #include <stdio.h>
 #include <signal.h>
 
-void get_signal(int signum) 
+void get_signal(int signum)
 {
-	static int cnt = 0;
-	printf("signal=%d, %d times\n", signum, ++cnt);
+    static int cnt = 0;
+    printf("signal=%d, %d times\n", signum, ++cnt);
 }
 
 int main(int argc, char **argv)
 {
-	printf("main start\n");
-	signal(SIGUSR1, get_signal);
-	printf("wait signal\n");
-	while (1) {
-		sleep(1000);
-	}
-	return 0;
+    printf("main start\n");
+    signal(SIGUSR1, get_signal);
+    printf("wait signal\n");
+    while (1) {
+        sleep(1000);
+    }
+    return 0;
 }
 ```
 
@@ -81,7 +82,7 @@ $ kill -l           # 列出所有signal值, 其中:
 
 # 驱动源码
 
-驱动源码基于 [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/) 
+驱动源码基于 [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/)
 增加fasync函数, 发送SIGIO信号.
 然后应用层的测试文件改动较大.
 
@@ -90,7 +91,7 @@ $ kill -l           # 列出所有signal值, 其中:
 
 为了使设备支持异步通知机制, 驱动程序涉及以下3项工作:
 - 应用程序调用 `fcntl(fd, F_SETOWN, pid)` 时. 能在这个控制命令处理中设置 filp->f_owner为对应进程ID. 此工作已由内核完成
-- 应用程序调用 `fcntl(fd, F_SETFL, oflags | FASYNC)` 后, FASYNC标志改变, 会调用驱动的fasync函数. 驱动需要实现fasync. 
+- 应用程序调用 `fcntl(fd, F_SETFL, oflags | FASYNC)` 后, FASYNC标志改变, 会调用驱动的fasync函数. 驱动需要实现fasync.
 - 在设备资源可获得时, 调用 `kill_fasync()` 函数触发信号.
 
 
@@ -106,8 +107,8 @@ static irqreturn_t keys_irq(int irq, void *dev_id)
 {
     ......
 
-    ev_press = 1;                              
-    wake_up_interruptible(&key_waitq);     
+    ev_press = 1;
+    wake_up_interruptible(&key_waitq);
     kill_fasync(&keys_async, SIGIO, POLL_IN);           // 新增, 发送SIGIO信号
     return IRQ_RETVAL(IRQ_HANDLED);
 }
@@ -119,11 +120,11 @@ static int drv_key_fasync (int fd, struct file *filp, int on)
 }
 
 static const struct file_operations drv_key_int_fops= {
-	.owner				= THIS_MODULE,
-	.open				= drv_key_int_open,
-	.release			= drv_key_int_release,
-	.read				= drv_key_int_read,
-	.fasync             = drv_key_fasync,               // 新增fasync
+    .owner              = THIS_MODULE,
+    .open               = drv_key_int_open,
+    .release            = drv_key_int_release,
+    .read               = drv_key_int_read,
+    .fasync             = drv_key_fasync,               // 新增fasync
 };
 ```
 
@@ -136,22 +137,22 @@ static const struct file_operations drv_key_int_fops= {
 ## Makefile
 
 ``` makefile
-obj-m		:= drv_key_async.o          # 目标名称改一下
+obj-m       := drv_key_async.o          # 目标名称改一下
 ```
 
 
 ## 测试文件 test_drv_key_async.c
 
 为了使设备支持异步通知机制, 应用层程序涉及以下工作:
-- 调用 `fcntl(fd, F_SETOWN, getpid())`, 告诉内核, 发给谁 
+- 调用 `fcntl(fd, F_SETOWN, getpid())`, 告诉内核, 发给谁
 - 调用 `fcntl(fd, F_SETFL, oflags | FASYNC)`, 改变fasync标记.
 - 此时, 内核会调用驱动的fasync函数, 通过 `fasync_helper` 完成初始化.
 
 
 ``` c
-#include <sys/types.h>  
-#include <sys/stat.h>  
-#include <fcntl.h>  
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 #include <stdio.h>
 #include <signal.h>
 #include <sys/types.h>
@@ -170,7 +171,7 @@ int main(int argc, char **argv)
 {
     int ret;
     int oflags;
-    
+
     fd = open("/dev/key_async0", O_RDWR);
     if (fd < 0) {
         printf("can't open!\n");
@@ -183,7 +184,7 @@ int main(int argc, char **argv)
     printf("before fcntl\n");
     fcntl(fd, F_SETFL, oflags | FASYNC);    // 改变fasync标记, 内核会调用驱动fasync, 完成初始化
     printf("after fcntl\n");
-    
+
     while(1) {                              // 开始主任务
         sleep(1000);
     }

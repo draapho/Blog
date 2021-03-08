@@ -3,6 +3,7 @@ title: 驱动之NOR Flash
 date: 2018-01-26
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

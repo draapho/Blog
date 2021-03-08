@@ -3,6 +3,7 @@ title: Bash Shell及环境变量
 date: 2016-12-17
 categories: linux
 tags: [linux, shell]
+description: 如题.
 ---
 
 

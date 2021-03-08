@@ -3,6 +3,7 @@ title: uboot之定制指令
 date: 2017-08-30
 categories: embedded linux
 tags: [embedded linux, uboot]
+description: 如题.
 ---
 
 # 总览

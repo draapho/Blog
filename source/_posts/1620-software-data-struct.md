@@ -3,6 +3,7 @@ title: 数据结构资料收集
 date: 2016-11-23
 categories: software
 tags: [data struct]
+description: 如题.
 ---
 
 
@@ -11,46 +12,46 @@ tags: [data struct]
 
 Operation      | Average Case | Amortized Worst Case
 -------------- | ------------ | --------------------
-Copy           | O(n)         | O(n)                
-Append[1]      | O(1)         | O(1)                
-Insert         | O(n)         | O(n)                
-Get Item       | O(1)         | O(1)                
-Set Item       | O(1)         | O(1)                
-Delete Item    | O(n)         | O(n)                
-Iteration      | O(n)         | O(n)                
-Get Slice      | O(k)         | O(k)                
-Del Slice      | O(n)         | O(n)                
-Set Slice      | O(k+n)       | O(k+n)              
-Extend[1]      | O(k)         | O(k)                
-Sort           | O(n log n)   | O(n log n)          
-Multiply       | O(nk)        | O(nk)               
-x in s         | O(n)         | -                   
-min(s), max(s) | O(n)         | -                   
-Get Length     | O(1)         | O(1)                
+Copy           | O(n)         | O(n)
+Append[1]      | O(1)         | O(1)
+Insert         | O(n)         | O(n)
+Get Item       | O(1)         | O(1)
+Set Item       | O(1)         | O(1)
+Delete Item    | O(n)         | O(n)
+Iteration      | O(n)         | O(n)
+Get Slice      | O(k)         | O(k)
+Del Slice      | O(n)         | O(n)
+Set Slice      | O(k+n)       | O(k+n)
+Extend[1]      | O(k)         | O(k)
+Sort           | O(n log n)   | O(n log n)
+Multiply       | O(nk)        | O(nk)
+x in s         | O(n)         | -
+min(s), max(s) | O(n)         | -
+Get Length     | O(1)         | O(1)
 
 - collections.deque
 
 Operation  | Average Case | Amortized Worst Case
 ---------- | ------------ | --------------------
-Copy       | O(n)         | O(n)                
-append     | O(1)         | O(1)                
-appendleft | O(1)         | O(1)                
-pop        | O(1)         | O(1)                
-popleft    | O(1)         | O(1)                
-extend     | O(k)         | O(k)                
-extendleft | O(k)         | O(k)                
-rotate     | O(k)         | O(k)                
-remove     | O(n)         | O(n)                
+Copy       | O(n)         | O(n)
+append     | O(1)         | O(1)
+appendleft | O(1)         | O(1)
+pop        | O(1)         | O(1)
+popleft    | O(1)         | O(1)
+extend     | O(k)         | O(k)
+extendleft | O(k)         | O(k)
+rotate     | O(k)         | O(k)
+remove     | O(n)         | O(n)
 
 - dict
 
 Operation    | Average Case | Amortized Worst Case
 ------------ | ------------ | --------------------
-Copy[2]      | O(n)         | O(n)                
-Get Item     | O(1)         | O(n)                
-Set Item[1]  | O(1)         | O(n)                
-Delete Item  | O(1)         | O(n)                
-Iteration[2] | O(n)         | O(n)                
+Copy[2]      | O(n)         | O(n)
+Get Item     | O(1)         | O(n)
+Set Item[1]  | O(1)         | O(n)
+Delete Item  | O(1)         | O(n)
+Iteration[2] | O(n)         | O(n)
 
 
 # [教科书风格的数据结构](http://sjjp.tjuci.edu.cn/sjjg/datastructure/ds/web/gailun/gailun1.1.1b.htm)

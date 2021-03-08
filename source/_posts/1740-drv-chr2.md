@@ -3,6 +3,7 @@ title: 驱动之基于LinK+设计按键驱动
 date: 2017-11-30
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 # 总览
@@ -36,7 +37,7 @@ tags: [linuxembedded linux, drv]
 确定后, LinK+IDE会自动生成代码, 基于这个代码模板, 去实现按键功能函数即可.
 
 **注意** 自动生成的模板中, 函数`device_create`和linux-2.6.22.6不兼容, 需要去掉最后一个NULL!
-不修改的话, 编译时有个警告, 尝试加载模块时会报错: 
+不修改的话, 编译时有个警告, 尝试加载模块时会报错:
 `Unable to handle kernel NULL pointer dereference at virtual address 00000000`
 
 ## 加载已有工程
@@ -64,10 +65,10 @@ tags: [linuxembedded linux, drv]
 ``` c
 /*
 ===============================================================================
-Driver Name		:		drv_key
-Author			:		DRAAPHO
-License			:		GPL
-Description		:		LINUX DEVICE DRIVER PROJECT
+Driver Name     :       drv_key
+Author          :       DRAAPHO
+License         :       GPL
+Description     :       LINUX DEVICE DRIVER PROJECT
 ===============================================================================
 */
 
@@ -86,130 +87,130 @@ dev_t drv_key_device_num;
 struct class *drv_key_class;
 
 typedef struct privatedata {
-	int nMinor;
-	char buff[DRV_KEY_BUFF_SIZE];
-	struct cdev cdev;
-	struct device *drv_key_device;
+    int nMinor;
+    char buff[DRV_KEY_BUFF_SIZE];
+    struct cdev cdev;
+    struct device *drv_key_device;
 } drv_key_private;
 
 drv_key_private devices[DRV_KEY_N_MINORS];
 
 static int drv_key_open(struct inode *inode,struct file *filp)
 {
-	/* TODO Auto-generated Function */
-	drv_key_private *priv = container_of(inode->i_cdev ,
-									drv_key_private ,cdev);
-	filp->private_data = priv;
+    /* TODO Auto-generated Function */
+    drv_key_private *priv = container_of(inode->i_cdev ,
+                                    drv_key_private ,cdev);
+    filp->private_data = priv;
 
-	if ((priv->nMinor == 0) || (priv->nMinor == 1))
-		s3c2410_gpio_cfgpin(S3C2410_GPF0, S3C2410_GPF0_INP);
-	if ((priv->nMinor == 0) || (priv->nMinor == 2))
-		s3c2410_gpio_cfgpin(S3C2410_GPF2, S3C2410_GPF2_INP);
-	if ((priv->nMinor == 0) || (priv->nMinor == 3))
-		s3c2410_gpio_cfgpin(S3C2410_GPG3, S3C2410_GPG3_INP);
+    if ((priv->nMinor == 0) || (priv->nMinor == 1))
+        s3c2410_gpio_cfgpin(S3C2410_GPF0, S3C2410_GPF0_INP);
+    if ((priv->nMinor == 0) || (priv->nMinor == 2))
+        s3c2410_gpio_cfgpin(S3C2410_GPF2, S3C2410_GPF2_INP);
+    if ((priv->nMinor == 0) || (priv->nMinor == 3))
+        s3c2410_gpio_cfgpin(S3C2410_GPG3, S3C2410_GPG3_INP);
 
-	PINFO("minor=%d\n", priv->nMinor);
-	PINFO("In char driver open() function\n");
-	return 0;
-}					
+    PINFO("minor=%d\n", priv->nMinor);
+    PINFO("In char driver open() function\n");
+    return 0;
+}
 
 //static int drv_key_release(struct inode *inode,struct file *filp)
 //{
-//	/* TODO Auto-generated Function */
-//	drv_key_private *priv;
-//	priv=filp->private_data;
+//  /* TODO Auto-generated Function */
+//  drv_key_private *priv;
+//  priv=filp->private_data;
 //
-//	PINFO("In char driver release() function\n");
-//	return 0;
+//  PINFO("In char driver release() function\n");
+//  return 0;
 //}
 
-static ssize_t drv_key_read(struct file *filp, 
-	char __user *ubuff,size_t count,loff_t *offp)
+static ssize_t drv_key_read(struct file *filp,
+    char __user *ubuff,size_t count,loff_t *offp)
 {
-	/* TODO Auto-generated Function */
-	int n=0;
-	char key_vals[3]={0};
-	drv_key_private *priv;
-	priv = filp->private_data;
+    /* TODO Auto-generated Function */
+    int n=0;
+    char key_vals[3]={0};
+    drv_key_private *priv;
+    priv = filp->private_data;
 
-	if ((priv->nMinor == 0) || (priv->nMinor == 1))
-		key_vals[0] = !s3c2410_gpio_getpin(S3C2410_GPF0);
-	if ((priv->nMinor == 0) || (priv->nMinor == 2))
-		key_vals[1] = !s3c2410_gpio_getpin(S3C2410_GPF2);
-	if ((priv->nMinor == 0) || (priv->nMinor == 3))
-		key_vals[2] = !s3c2410_gpio_getpin(S3C2410_GPG3);
-	copy_to_user(ubuff, key_vals, sizeof(key_vals));
+    if ((priv->nMinor == 0) || (priv->nMinor == 1))
+        key_vals[0] = !s3c2410_gpio_getpin(S3C2410_GPF0);
+    if ((priv->nMinor == 0) || (priv->nMinor == 2))
+        key_vals[1] = !s3c2410_gpio_getpin(S3C2410_GPF2);
+    if ((priv->nMinor == 0) || (priv->nMinor == 3))
+        key_vals[2] = !s3c2410_gpio_getpin(S3C2410_GPG3);
+    copy_to_user(ubuff, key_vals, sizeof(key_vals));
 
-//	PINFO("In char driver read() function\n");
-	return n;
+//  PINFO("In char driver read() function\n");
+    return n;
 }
 
 static const struct file_operations drv_key_fops= {
-	.owner				= THIS_MODULE,
-	.open				= drv_key_open,
-//	.release			= drv_key_release,
-	.read				= drv_key_read,
+    .owner              = THIS_MODULE,
+    .open               = drv_key_open,
+//  .release            = drv_key_release,
+    .read               = drv_key_read,
 };
 
 static int __init drv_key_init(void)
 {
-	/* TODO Auto-generated Function Stub */
+    /* TODO Auto-generated Function Stub */
 
-	int i;
-	int res;
+    int i;
+    int res;
 
-	res = alloc_chrdev_region(&drv_key_device_num,DRV_KEY_FIRST_MINOR,DRV_KEY_N_MINORS ,DRIVER_NAME);
-	if(res) {
-		PERR("register device no failed\n");
-		return -1;
-	}
-	drv_key_major = MAJOR(drv_key_device_num);
-	drv_key_class = class_create(THIS_MODULE , DRIVER_NAME);
-	if(!drv_key_class) {
-		PERR("class creation failed\n");
-		return -1;
-	}
+    res = alloc_chrdev_region(&drv_key_device_num,DRV_KEY_FIRST_MINOR,DRV_KEY_N_MINORS ,DRIVER_NAME);
+    if(res) {
+        PERR("register device no failed\n");
+        return -1;
+    }
+    drv_key_major = MAJOR(drv_key_device_num);
+    drv_key_class = class_create(THIS_MODULE , DRIVER_NAME);
+    if(!drv_key_class) {
+        PERR("class creation failed\n");
+        return -1;
+    }
 
-	for(i=0;i<DRV_KEY_N_MINORS;i++) {
-		drv_key_device_num= MKDEV(drv_key_major ,DRV_KEY_FIRST_MINOR+i);
-		cdev_init(&devices[i].cdev , &drv_key_fops);
-		cdev_add(&devices[i].cdev,drv_key_device_num,1);
+    for(i=0;i<DRV_KEY_N_MINORS;i++) {
+        drv_key_device_num= MKDEV(drv_key_major ,DRV_KEY_FIRST_MINOR+i);
+        cdev_init(&devices[i].cdev , &drv_key_fops);
+        cdev_add(&devices[i].cdev,drv_key_device_num,1);
 
-		devices[i].drv_key_device  = 
-				// BE CARE, device_create has different parameters...
-//				device_create(drv_key_class , NULL ,drv_key_device_num ,
-//							NULL ,DRV_KEY_NODE_NAME"%d",DRV_KEY_FIRST_MINOR+i);
-				device_create(drv_key_class , NULL ,drv_key_device_num ,
-							DRV_KEY_NODE_NAME"%d",DRV_KEY_FIRST_MINOR+i);
-		if(!devices[i].drv_key_device) {
-			class_destroy(drv_key_class);
-			PERR("device creation failed\n");
-			return -1;
-		}
-		devices[i].nMinor = DRV_KEY_FIRST_MINOR+i;
-	}
+        devices[i].drv_key_device  =
+                // BE CARE, device_create has different parameters...
+//              device_create(drv_key_class , NULL ,drv_key_device_num ,
+//                          NULL ,DRV_KEY_NODE_NAME"%d",DRV_KEY_FIRST_MINOR+i);
+                device_create(drv_key_class , NULL ,drv_key_device_num ,
+                            DRV_KEY_NODE_NAME"%d",DRV_KEY_FIRST_MINOR+i);
+        if(!devices[i].drv_key_device) {
+            class_destroy(drv_key_class);
+            PERR("device creation failed\n");
+            return -1;
+        }
+        devices[i].nMinor = DRV_KEY_FIRST_MINOR+i;
+    }
 
-	PINFO("INIT\n");
-	return 0;
+    PINFO("INIT\n");
+    return 0;
 }
 
 static void __exit drv_key_exit(void)
-{	
-	/* TODO Auto-generated Function Stub */
+{
+    /* TODO Auto-generated Function Stub */
 
-	int i;
-	PINFO("EXIT\n");
+    int i;
+    PINFO("EXIT\n");
 
-	for(i=0;i<DRV_KEY_N_MINORS;i++) {
-		drv_key_device_num= MKDEV(drv_key_major ,DRV_KEY_FIRST_MINOR+i);
+    for(i=0;i<DRV_KEY_N_MINORS;i++) {
+        drv_key_device_num= MKDEV(drv_key_major ,DRV_KEY_FIRST_MINOR+i);
 
-		cdev_del(&devices[i].cdev);
+        cdev_del(&devices[i].cdev);
 
-		device_destroy(drv_key_class ,drv_key_device_num);
+        device_destroy(drv_key_class ,drv_key_device_num);
 
-	}
-	class_destroy(drv_key_class);
-	unregister_chrdev_region(drv_key_device_num ,DRV_KEY_N_MINORS);	
+    }
+    class_destroy(drv_key_class);
+    unregister_chrdev_region(drv_key_device_num ,DRV_KEY_N_MINORS);
 
 }
 
@@ -239,19 +240,19 @@ module_exit(drv_key_exit);
 ## Makefile
 
 ``` makefile
-obj-m		:= drv_key.o 
-KERN_SRC	:= /home/draapho/share/kernel/linux-2.6.22.6/
-PWD			:= $(shell pwd)
+obj-m       := drv_key.o
+KERN_SRC    := /home/draapho/share/kernel/linux-2.6.22.6/
+PWD         := $(shell pwd)
 
 modules:
-	make -C $(KERN_SRC) M=$(PWD) modules
+    make -C $(KERN_SRC) M=$(PWD) modules
 
 install:
-	make -C $(KERN_SRC) M=$(PWD) modules_install
-	depmod -a
+    make -C $(KERN_SRC) M=$(PWD) modules_install
+    depmod -a
 
 clean:
-	make -C $(KERN_SRC) M=$(PWD) clean
+    make -C $(KERN_SRC) M=$(PWD) clean
 ```
 
 ## 测试文件 drv_key_test.c
@@ -285,16 +286,16 @@ int main(int argc, char **argv)
     if (fd < 0) {
         printf("error, can't open %s\n", filename);
     } else {
-    	char key_vals[3];
-    	int cnt = 0;
+        char key_vals[3];
+        int cnt = 0;
 
-    	while(1) {
-        	read(fd, key_vals, sizeof(key_vals));
-    		if (key_vals[0] || key_vals[1] || key_vals[2]) {
-    			printf("%04d key pressed: %d %d %d\n", cnt++, key_vals[0], key_vals[1], key_vals[2]);
-    		}
-    		usleep(100);
-    	}
+        while(1) {
+            read(fd, key_vals, sizeof(key_vals));
+            if (key_vals[0] || key_vals[1] || key_vals[2]) {
+                printf("%04d key pressed: %d %d %d\n", cnt++, key_vals[0], key_vals[1], key_vals[2]);
+            }
+            usleep(100);
+        }
     }
     return 0;
 }
@@ -335,7 +336,7 @@ $ cat /proc/devices     # 查看设备
 251 drv_key
 252 drv_key
 
-$ ls /dev/key*          # 查看设备节点               
+$ ls /dev/key*          # 查看设备节点
 /dev/key0  /dev/key1  /dev/key2  /dev/key3
 
 $ ls /sys/class/drv_key/            # 查看设备的类
@@ -356,7 +357,7 @@ drv_key:EXIT
 $ insmod drv_key.ko     # 加载模块
 
 # key0->all, key1->s2, key2->s3, key3->s4
-$ ./drv_key_test /dev/key0          # 检测所有按键 
+$ ./drv_key_test /dev/key0          # 检测所有按键
 drv_key:minor=0                     # 打印信息
 drv_key:In char driver open() function
 

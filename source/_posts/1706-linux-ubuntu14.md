@@ -3,6 +3,7 @@ title: 嵌入式linux环境搭建1-Ubuntu14.04
 date: 2017-02-18
 categories: embedded linux
 tags: [embedded linux, environment]
+description: 如题. 继续折腾.
 ---
 
 

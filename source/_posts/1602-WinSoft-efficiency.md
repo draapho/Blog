@@ -3,12 +3,13 @@ title: Windows 软件系列-提高效率
 date: 2016-09-28
 categories: windows
 tags: [windows, AutoHotKey]
+description: 如题.
 ---
 
-# [AutoHotKey][AutoHotKey]
+# ~~[AutoHotKey][AutoHotKey]~~
 
 ## AHK 简介
-- [AutoHotkey][AutoHotKey]是一个windows下的开源, 免费, 自动化软件工具. 
+- [AutoHotkey][AutoHotKey]是一个windows下的开源, 免费, 自动化软件工具.
 - 我主要用于绑定快捷键, 便于快速打开应用和文件夹. 以此提高**工作效率**
 - 常用符号含义
   > `#` 代表 Win 键
@@ -64,10 +65,10 @@ tags: [windows, AutoHotKey]
 - [Everything][Everything]是免费软件, 有**便携版**.
 - [Everything][Everything]是**普通搜索工具**, 便于在搜索结果中慢慢查阅.
 
-## [Listary][Listary]
+## ~~[Listary][Listary]~~
 - [Listary][Listary]分为免费版和专业版.
 - 相比于 [Everything][Everything], 索引方式相似,但操作体验完全不同.
-- [Listary][Listary]是**随时随地的查找定位**, 目标明确时很方便. 
+- [Listary][Listary]是**随时随地的查找定位**, 目标明确时很方便.
 - 强烈推荐都尝试一下后决定用哪个, 或和我一样同时使用.
 - Listary 实用快捷键
 
@@ -80,8 +81,8 @@ tags: [windows, AutoHotKey]
 | `ctrl-shift-c`  | copy        | 复制路径       |
 | `ctrl+j` `ctrl+k` | vim j,k           | 下一个 / 上一个(需设置) |
 
-## 使用 `win-r` 快速启动
-- 基本原理是使用 `Run` 来直接运行配置在环境变量中的快捷方式 `.lnk`, 
+## ~~使用 `win-r` 快速启动~~
+- 基本原理是使用 `Run` 来直接运行配置在环境变量中的快捷方式 `.lnk`,
 - 由于是执行命令行, 比快捷键方式有更好的扩展性和灵活性更好. 也可以在任何终端中直接调用!
 - 运行环境的搭建可以参考 [Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
 - 详细介绍可参考 [最绿色最高效，用win+r启动常用程序和文档](https://xbeta.info/win-run.htm#h-6)
@@ -90,7 +91,7 @@ tags: [windows, AutoHotKey]
 
 
 
-# [Ditto][ditto]
+# ~~[Ditto][ditto]~~
 
 - [Ditto][ditto] 一款剪切板增强软件, 免费开源. 有绿色便携版(无法支持部分功能)
 - 对复制黏贴功能多多支持总是好的, 使用频率太高了! 这个软件的功能非常实用.
@@ -105,7 +106,7 @@ tags: [windows, AutoHotKey]
 
 # ~~[Chocolatey][Chocolatey]~~
 
-**[Chocolatey][Chocolatey]可以作为软件安装的补充, 但不做推荐** 
+**[Chocolatey][Chocolatey]可以作为软件安装的补充, 但不做推荐**
 
 ## Chocolatey 简介
 -   [Chocolatey][Chocolatey]是windows下的软件管理工具. 软件源由社区成员提交和维护. 基础版免费.
@@ -134,7 +135,7 @@ tags: [windows, AutoHotKey]
   - `choco uninstall` 删除
   - `choco list -localonly` 查看本地已安装的软件
 - 以nodejs为例
-  - `choco search nodejs` 加 `-all` 会显示所有版本!!! 
+  - `choco search nodejs` 加 `-all` 会显示所有版本!!!
   - 建议网页端搜索 [**软件源列表**](https://chocolatey.org/packages/)
   - `choco install nodejs -version 5.0.0`  安装nodejs 5.0.0这个版本, 默认使用安装 **.install**
   - `choco upgrade nodejs`  升级nodejs到最新版本
@@ -149,12 +150,18 @@ tags: [windows, AutoHotKey]
 - [Why Chocolatey is broken beyond any hope](https://medium.com/@keivan/why-chocolatey-is-broken-beyond-any-hope-d1a4e33b3d23#.jzmj9o5cd)
 
 
-# [Zeal][Zeal]
+# ~~[Zeal][Zeal]~~
 
 - [Zeal][Zeal]是一款在windows和Linux上, 功能类似于Mac上Dash的一款离线文档查看软件.
 - 免费软件, 有绿色便携版, 支持的手册种类和Dash是一样的. 应该是为了跨平台, 基于Qt5开发, 反应有点慢.
 - 下载安装完成后, `Tool`->`Docksets...`->窗口`Docsets`下->`Available`->选择语言->`Download`即可.
 - **软件开发人员必备**. 还可以在atom直接调用查看API, 省去大量的文档搜索时间.
+
+# 方案更新(2021年3月)
+- 配置好以下两个软件就足够了.
+    - [Quicker](https://getquicker.net/) 免费版, 完全使用鼠标的效率提升软件.
+    - [utools](https://u.tools/) 免费版, 完全使用键盘的效率提升软件.
+- 需要部分的第三方软件支持, 如 [Everything]
 
 
 ----------

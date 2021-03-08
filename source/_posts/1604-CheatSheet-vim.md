@@ -3,6 +3,7 @@ title: Vim常用快捷键
 date: 2016-10-1
 categories: linux
 tags: [shortcut, vim]
+description: 如题.
 ---
 
 

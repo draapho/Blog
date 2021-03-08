@@ -3,6 +3,7 @@ title: Android中Activity、Service和线程之间的通信
 date: 2016-12-14
 categories: android
 tags: [android, ipc]
+description: 如题.
 ---
 
 ***转载自[Android中Activity、Service和线程之间的通信](http://blog.sina.com.cn/s/blog_3fe961ae0100xkyt.html)***

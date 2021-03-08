@@ -3,7 +3,12 @@ title: Windows 软件系列-atom插件
 date: 2016-10-12
 categories: windows
 tags: [windows, atom, mingw, c, python]
+description: atom配置. 已不用, 请忽略.
 ---
+
+# 已不用atom
+- 想通用的结果就是: 启动慢, 不稳定, 配置烦.
+
 
 # [atom](https://atom.io/)简介
 - 界面简洁, 基本上手可用, 无需复杂设置
@@ -47,7 +52,7 @@ tags: [windows, atom, mingw, c, python]
 - `linter` 语法检查基础包
 - `minimap` 文件地图
 - `minimap-highlight-selected` 在文件地图中显示匹配的词
-- `platformio-ide-terminal` 终端软件 
+- `platformio-ide-terminal` 终端软件
   - 支持 `ctrl-~` 快速打开, `ctrl-enter` 输入选中的文本
   - `Close Terminal on Exit`
   - `Shell Override`->`git-cmd.exe` 没有配置环境变量则需要使用绝对路径
@@ -83,7 +88,7 @@ tags: [windows, atom, mingw, c, python]
 
 # python 插件
 - 配置 `atom-beautify` 之python语言
-  - 安装 [python](https://www.python.org/) 
+  - 安装 [python](https://www.python.org/)
   - 安装 [autopep8](https://github.com/hhatto/autopep8), 调用 `pip install --upgrade autopep8`
   - 默认就是使用 `autopep8` 优化代码, 也推荐这个使用这个工具. `yapf`的优化结果无法满足`linter-flake8`的检查.
   - 测试. 打开一个 `.py` 文件, 右键选择 `Beautify editor contents` 看是否成功了.
@@ -151,8 +156,8 @@ tags: [windows, atom, mingw, c, python]
   - `Image Uploader`->`sm.ms` 建议这个. `imgur` 有时限
   - `Mermaid Theme`->`mermaid.forest.css`
 
-  
-  
+
+
 # atom快捷键配置
 - 使用 `ctrl-.` 查看按键冲突. 如果无效, 试试点到非编辑区(如目录树)试试.
 - `ctrl-,`->`Settings`->`Keybindings`->`your keymap file`->打开`keymap.cson`
@@ -162,30 +167,30 @@ tags: [windows, atom, mingw, c, python]
   - `Keybindings` -> ~~`Enable`~~. 屏蔽以下插件:
   - `atom-beautify`, `atom-gtags`, `autocomplete-python`
   - `block-comment-plus`, `dash`, `git-time-machine`
-  - `highlight-selected`, `hyperclick`, 
+  - `highlight-selected`, `hyperclick`,
   - `script`, `symbols-tree-view`, `tabs-to-spaces`
 - 我的 `keymap.cson` 配置
 
   ```
   # atom 大致原则是, 小窗口>大窗口, 然后才是客户配置>插件配置>系统配置
   # 因此优先级 'body' < 'atom-workspace' < 'atom-text-editor' < 'atom-text-editor:not([mini])'
-  
+
   'atom-text-editor[data-grammar~=python]:not(.mini)':
     'f4': 'autocomplete-python:go-to-definition'
     'shift-f4': 'autocomplete-python:go-to-definition'
     'alt-shift-s': 'autocomplete-python:override-method'
-  
+
   'atom-text-editor[data-grammar~=c]:not(.mini)':
     'f4': 'atom-gtags:get-definitions'
     'shift-f4': 'atom-gtags:get-references'
-  
+
   '.platform-win32 atom-workspace atom-text-editor:not([mini])':
-  # character                            
+  # character
     'ctrl-b': 'atom-beautify:beautify-editor'
     'ctrl-d': 'core:delete'
     'ctrl-shift-d': 'editor:delete-line'
-    'ctrl-j': 'core:move-down' 
-    'ctrl-k': 'core:move-up'   
+    'ctrl-j': 'core:move-down'
+    'ctrl-k': 'core:move-up'
     'ctrl-l': 'core:move-right'
     'ctrl-h': 'core:move-left'
     'ctrl-shift-j': 'editor:move-line-down'
@@ -193,7 +198,7 @@ tags: [windows, atom, mingw, c, python]
     'ctrl-shift-l': 'editor:move-to-end-of-word'
     'ctrl-shift-h': 'editor:move-to-beginning-of-word'
     'alt-shift-j': 'editor:join-lines'
-    'ctrl-m': 'bookmarks:toggle-bookmark'  
+    'ctrl-m': 'bookmarks:toggle-bookmark'
     'ctrl-r': 'core:redo'
     'ctrl-u': 'core:undo'
     'ctrl-shift-v': 'editor:duplicate-lines'
@@ -237,7 +242,7 @@ tags: [windows, atom, mingw, c, python]
     'ctrl-f6': 'merge-conflicts:detect'
     'shift-f6': 'merge-conflicts:next-unresolved'
     'ctrl-shift-f6': 'merge-conflicts:previous-unresolved'
-  
+
   'body':
     'ctrl-j': 'core:move-down'
     'ctrl-k': 'core:move-up'
@@ -271,7 +276,7 @@ tags: [windows, atom, mingw, c, python]
     'ctrl-k ctrl-7': 'unset!'
     'ctrl-k ctrl-8': 'unset!'
     'ctrl-k ctrl-9': 'unset!'
-  '.platform-win32, .platform-linux': 
+  '.platform-win32, .platform-linux':
     'ctrl-k ctrl-b': 'unset!'
   '.platform-win32 .tree-view, .platform-linux .tree-view':
     'ctrl-k right': 'unset!'
@@ -288,7 +293,7 @@ tags: [windows, atom, mingw, c, python]
   ```
 
 
-  
+
 # 参考和资料
 - [Atom Flight Manual](http://flight-manual.atom.io/), atom手册
 - [atom Packages](https://atom.io/packages), atom插件中心

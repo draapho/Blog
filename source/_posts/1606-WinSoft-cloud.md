@@ -3,6 +3,7 @@ title: Windows 软件系列-基于NFS的家庭网
 date: 2016-10-3
 categories: windows
 tags: [windows, NFS, Hyper-V, NAS, freefilesync]
+description: 家庭组网方案探讨
 ---
 
 
@@ -29,10 +30,14 @@ tags: [windows, NFS, Hyper-V, NAS, freefilesync]
   - 使用 [HaneWIN][hanewin] 向其它设备提供NFS服务
   - 使用 [freefilesync][ffs] 备份资料到移动硬盘(和理想中的备份方式差好多...)
 
+## 方案更新(2021年3月)
+- 基于NUC, 安装OpenMediaVault.
+- 路由器使用 Ubiquiti AmpliFi.
+
 
 # [HaneWIN][hanewin]
 
-- [HaneWIN][hanewin] 可免费试用30天. 适合做win下的nfs服务器. 
+- [HaneWIN][hanewin] 可免费试用30天. 适合做win下的nfs服务器.
 - 如果要免费软件, 可尝试 [FreeNFS](https://sourceforge.net/projects/freenfs/). 功能较弱. 可参考[FreeNFS简易教程](https://wenku.baidu.com/view/b9dccaedf8c75fbfc77db2c1.html?from=search).
 - 需要支持嵌入式linux端的NFS(只支持NFS v2), 配置见图:
 ![haneWIN_NFS](https://draapho.github.io/images/1606/haneWIN_NFS.PNG)
@@ -138,7 +143,7 @@ tags: [windows, NFS, Hyper-V, NAS, freefilesync]
   - 开机进入BIOS, 寻找`wake on lan``resume on lan``power on PME``power on by PCI-E device``Power on by Onboard LAN`等与电源管理和唤醒有关的选项并使能
 - 设置网卡驱动
   - `设备管理器`->`网络适配器`->选择有线网卡设备->右键`属性`->在`高级`和`电源管理`标签下->启用`唤醒模式``唤醒魔包``幻数据包``唤醒计算机`之类的选项
-- 配置 WIN10 WOL(Wake on Lan 远程唤醒) 最大的坑就是要关闭 "启用快速启动(推荐)", 而默认是打开的. 另外, 
+- 配置 WIN10 WOL(Wake on Lan 远程唤醒) 最大的坑就是要关闭 "启用快速启动(推荐)", 而默认是打开的. 另外,
   - `控制面板`->`硬件和声音`->`电源选项`->左边栏`选择电源按钮的功能`->弹出`系统设置`页面->`关机设置`->~~`启用快速启动(推荐)`~~
 - 电脑非正常关机后, 是无法远程唤醒的.
 - 建议分级测试.

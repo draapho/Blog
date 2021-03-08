@@ -3,6 +3,7 @@ title: linux文件与目录相关指令
 date: 2016-12-16
 categories: linux
 tags: [linux, command]
+description: 如题.
 ---
 
 # linux 文件基础

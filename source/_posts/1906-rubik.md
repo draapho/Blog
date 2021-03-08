@@ -3,6 +3,7 @@ title: 魔方简易步骤
 date: 2019-06-03
 categories: other
 tags: [other]
+description: 只求最好记.
 ---
 
 # 前言

@@ -3,6 +3,7 @@ title: 驱动之RTC分析
 date: 2018-02-08
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

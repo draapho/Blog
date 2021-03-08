@@ -3,6 +3,7 @@ title: Windows 软件系列-文本编辑
 date: 2016-09-30
 categories: windows
 tags: [windows, Notepad++, atom, Typora, utf-8]
+description: 重点介绍了NPP的配置 和 Markdown的使用
 ---
 
 
@@ -131,7 +132,7 @@ tags: [windows, Notepad++, atom, Typora, utf-8]
   - `Zeal.lnk $(CURRENT_WORD)` 在Zeal中查询选中内容
   - `Typora.lnk "$(FULL_CURRENT_PATH)"` 在Typora中预览文件
   - `ConEmu.lnk -Dir "$(CURRENT_DIRECTORY)"` 使用当前路径打开ConEmu
-  - 上述三个指令需要配置好全局变量, 或者使用绝对路径. 
+  - 上述三个指令需要配置好全局变量, 或者使用绝对路径.
   - 后缀名为lnk是因为我用了快捷方式放在同一个目录下, 简化设置全局变量的步骤
   - `http://www.google.com/search?q=$(CURRENT_WORD)` 选中的内容直接google搜索
 - 环境变量的配置, 可以参考[Windows 软件系列-自定义环境变量](https://draapho.github.io/2016/10/09/1608-WinSoft-path/)
@@ -145,7 +146,7 @@ tags: [windows, Notepad++, atom, Typora, utf-8]
 [notepad++如何关联到右键菜单](http://jingyan.baidu.com/article/a24b33cd71f2d619ff002b60.html)
 
 
-# [atom][atom]
+# ~~[atom][atom]~~
 
 ## atom简介
 - 界面简洁, 基本上手可用, 无需复杂设置
@@ -252,6 +253,11 @@ tags: [windows, Notepad++, atom, Typora, utf-8]
 - [LaTeX数学公式](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 - [Emoji图标](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
+
+## [Dynalist](https://dynalist.io/)
+- 多平台可用, 自动同步, 稳定可靠.
+- 全文字版的话, 免费版够用.
+- 免费版挂图片不太方便, 需要用到图床.
 
 
 # [google drive][gd]

@@ -3,6 +3,7 @@ title: LinK+, 一款Linux内核开发IDE
 date: 2017-11-27
 categories: embedded linux
 tags: [linuxembedded linux, ide]
+description: 如题.
 ---
 
 
@@ -103,7 +104,7 @@ Image arch/arm/boot/uImage is ready
 - [What is kernel section mismatch?](https://stackoverflow.com/questions/8563978/what-is-kernel-section-mismatch)
 - [解决编译kernel出现WARNING:Section mismatch(es)](http://www.linuxdiyf.com/linux/24369.html)
 
-先忽略这些错误警告, 但此时, 有些函数依旧不能正常跳转. 原因是 `.\include\linux\autoconf.h` 没有被其它头文件包含, 里面的宏定义linux源码无法识别. 解决办法是我们自己把这些宏定义加入eclipse的SYMBOLS. 手工一个个加入不现实, 我写了一个python代码, 把linux下的config自动转为eclipse可识别的XML格式: 
+先忽略这些错误警告, 但此时, 有些函数依旧不能正常跳转. 原因是 `.\include\linux\autoconf.h` 没有被其它头文件包含, 里面的宏定义linux源码无法识别. 解决办法是我们自己把这些宏定义加入eclipse的SYMBOLS. 手工一个个加入不现实, 我写了一个python代码, 把linux下的config自动转为eclipse可识别的XML格式:
 **[下载config2xml](https://github.com/draapho/Blog/tree/master/_blog_stuff/linux/config2xml.py)**
 
 
@@ -152,7 +153,7 @@ Generate ../eclipse_SYMBOLS.xml successfully...
 这个方法的核心是不用Eclipse自己的编译工具链. 所有的编译工具都由Makefile内指定了.
 所以, 这个也适用于编译查看u-boot源码.
 如果是应用层代码, 那么就需要自己写Makefile指定编译工具了.
-另外一个方法是, 另外下载一个 `Eclipse IDE for C/C++`, 单独为应用层代码配置一个环境. 
+另外一个方法是, 另外下载一个 `Eclipse IDE for C/C++`, 单独为应用层代码配置一个环境.
 
 
 

@@ -3,6 +3,7 @@ title: fs之BusyBox的使用与编译
 date: 2017-11-02
 categories: embedded linux
 tags: [embedded linux, fs]
+description: 如题.
 ---
 
 # 总览
@@ -36,14 +37,14 @@ lrwxrwxrwx    1 1000     1000            7 Jan 22  2008 /bin/sh -> busybox
 
 内核启动后, 调用的第一个应用程序就是BusyBox. 而BusyBox的职责如下:
 - 读取配置文件, `/etc/inittab`
-- 解析配置文件, `<id>:<runlevels>:<action>:<process>`  
+- 解析配置文件, `<id>:<runlevels>:<action>:<process>`
     - 指定程序, `<process>`
     - 何时执行, `<action>`
 - 执行程序
 
 
 ## 启动BusyBox
-由 [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/) 可知, 
+由 [kernel之内核启动分析](https://draapho.github.io/2017/09/15/1725-kernel-launch/) 可知,
 `start_kernel` 函数最后会尝试调用: `run_init_process(execute_command);`, 由uboot的传入execute_command.
 查看uboot的bootargs环境变量, `init=/linuxrc`, 所以会执行 `run_init_process("/linuxrc")`
 由于 `/linuxrc` 是 `/bin/busybox` 的软连接, 所以最终调用了busybox.
@@ -115,7 +116,7 @@ make menuconfig                     # 会弹出UI配置界面
 # / %/: 修改为 %/
 ```
 
-BusyBox的配置项也非常多, 在此就不深入研究了. 
+BusyBox的配置项也非常多, 在此就不深入研究了.
 需要注意的是, 因为这里是交叉编译. 所以编译前, 需要修改BusyBox的编译工具链.
 因为没有在Menuconfig界面里找到, 所以通过Makefile文件直接修改
 
@@ -151,7 +152,7 @@ drwxrwxr-x 4 name group 4096 Nov  2 15:46 usr/
 然后, 就可以考虑构建linux的文件系统了
 
 要构建一个最小的linux根文件系统, 至少需要如下文件:
-- `dev/console`, linux内核的标准IO接口 
+- `dev/console`, linux内核的标准IO接口
 - `dev/null`, 相当于一个NULL文件
 - init进程, 即 `bin/busybox`
 - `etc/inittab` 配置文件, (可以省略, busybox会调用其默认值)

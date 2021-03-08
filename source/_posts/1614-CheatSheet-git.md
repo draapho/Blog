@@ -3,6 +3,7 @@ title: Git 初始设置及常用命令
 date: 2016-10-24
 categories: software
 tags: [git, cheat sheet]
+description: 如题.
 ---
 
 # git示意图

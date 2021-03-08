@@ -3,6 +3,7 @@ title: python 字符串处理
 date: 2016-11-24
 categories: python
 tags: [python, string]
+description: 如题.
 ---
 
 # 进制转换 / 编码转换

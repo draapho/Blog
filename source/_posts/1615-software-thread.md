@@ -3,6 +3,7 @@ title: 协程/进程/线程资料收集
 date: 2016-11-14
 categories: software
 tags: [python, process, ipc]
+description: 如题.
 ---
 
 协程(Coroutine), 多线程(Thread), 多进程(Multiprocessing)资料繁多, 学无止境, 就集中在这一篇收集贴中. 便于查阅学习
@@ -17,7 +18,7 @@ tags: [python, process, ipc]
   - 优点, 任务切换的代价非常小. 由于没有抢占, 也就没有复杂的临界区问题. 锁的问题也变得简单.
   - 缺点, 这个世界上总有不讲理的人, 所以, 大型任务和系统不敢这么用...
   - 单片机开发是非常适合使用协程的! (资源有限, 需要减小任务切换的开销. 任务可控, 意味着易于协作)
-  - python 下可用 gevent. 
+  - python 下可用 gevent.
 
 
 - 多线程, 任务之间是竞争关系, 高优先级优先执行, 同时又有时间片限制, 避免高优先级任务霸占CPU
@@ -27,7 +28,7 @@ tags: [python, process, ipc]
   - 优点, 任务的开销比进程小(因为共享内存), 通讯方式多样. 加个水龙头和造个水厂的区别!!!
   - 缺点, 一大帮自私又不讲理的人在一起总是很难管理的... 需要各种锁机制来维持和谐共处...
   - python的多线程, 由于GIL机制的存在, 是无法利用多核的. (意味着不适用于CPU密集型任务)
-  - python有一个类进程版本的线程池 `multiprocessing.pool.ThreadPool`, 可以获取返回值 
+  - python有一个类进程版本的线程池 `multiprocessing.pool.ThreadPool`, 可以获取返回值
     由于本质是线程, Windows下terminate方法是没有用的.
 
 
@@ -150,7 +151,7 @@ tags: [python, process, ipc]
   - 核心部分, 较为详细的介绍了 gevent 的原理和使用方式.
   - 数据结构, 介绍了协程之间的通讯工具
   - 真实世界的应用, 几个实际应用的例子
-  
+
 
 
 ----------

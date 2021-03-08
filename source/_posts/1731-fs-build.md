@@ -3,6 +3,7 @@ title: fs之创建文件系统
 date: 2017-11-03
 categories: embedded linux
 tags: [embedded linux, fs]
+description: 如题.
 ---
 
 # 总览
@@ -346,7 +347,7 @@ mdev -s
 # 这样, 嵌入式linux完成启动后, 会运行init进程.
 # - init进程运行 /etc/inittab 内的指令
 # - 然后调用 /etc/init.d/rcS 脚本
-# - 依次执行rcS脚本内的指令, 
+# - 依次执行rcS脚本内的指令,
 # - 执行"mount -a"时, 会根据 /etc/fstab 的配置挂载文件系统.
 ```
 
@@ -364,7 +365,7 @@ jffs2 是一个压缩的文件系统, 所以体积几乎比yaffs2小一半.
 # 首先需要压缩库zlib-1.2.3的支持
 $ tar xzf zlib-1.2.3.tar.gz
 $ cd zlib-1.2.3
-$ ./configure --shared --prefix=/usr 
+$ ./configure --shared --prefix=/usr
 # 配置为动态库, 放入/usr目录下
 $ make
 $ sudo make install

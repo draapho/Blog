@@ -3,6 +3,7 @@ title: Windows 软件系列-终端
 date: 2016-10-10
 categories: windows
 tags: [windows, ConEmu, mingw, putty, cygwin]
+description: 使用ConEmu打造自己的windows终端.
 ---
 
 

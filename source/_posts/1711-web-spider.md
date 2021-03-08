@@ -3,6 +3,7 @@ title: 使用网络爬虫抓取商品价格并分析
 date: 2017-04-10
 categories: python
 tags: [embedded, linux, jz2440]
+description: 网络爬虫自学案例记录.
 ---
 
 

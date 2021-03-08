@@ -3,6 +3,7 @@ title: 敏捷开发 Scrum 学习
 date: 2017-05-31
 categories: software
 tags: [scrum]
+description: 如题.
 ---
 
 # 学习资源推荐
@@ -101,13 +102,13 @@ tags: [scrum]
 - **Sprint Review Meeting** 评审会议
   1. 一个`Sprint`周期到达后, 就需要开评审会议, 以确定成果. `Development Team` 展示一个可潜在交付的软件版本.
   2. 所有Scrum人员, 以及干系人都可以参加, `Development Team` 进行现场演示以获得干系人的反馈 (不是写文案做报告).
-  3. `Product Owner` 逐条检查在 `Sprint Backlog` 里的 `PBI`, 宣布哪些`Done`, 哪些没有完成(即将完成也是没完成!). 
+  3. `Product Owner` 逐条检查在 `Sprint Backlog` 里的 `PBI`, 宣布哪些`Done`, 哪些没有完成(即将完成也是没完成!).
   4. `Product Owner` 将没完成的 `PBI` 放回 `Product Backlog`, 重新设定优先级
   5. `Product Owner` 配合干系人, 将他们新的意见转换为需求, 放入 `Product Backlog`, 设定优先级
 - **Sprint Retrospective Meeting** 回顾会议
   1. 所有Scrum人员参与, 可以放在`Sprint Review Meeting` 之后, 花费1-3小时.
   2. 回顾上一个 Sprint 执行过程中的经验得失 (譬如交流是否顺畅, 开发工具的使用, 学习心得) . 是否有改进余地.
-  3. `Scrum Master` 需要引导与会人真实的表达了自己的想法, 达到解决障碍和问题, 改进流程的目的. 
+  3. `Scrum Master` 需要引导与会人真实的表达了自己的想法, 达到解决障碍和问题, 改进流程的目的.
   4. 回顾会议不是为了评估谁好谁坏, 决定日后如何分配奖金. 追求的是共同进步, 一起完成项目, 追求团队的成功.
   5. 这一部分, 我理解的不是很好.
 
@@ -146,8 +147,8 @@ tags: [scrum]
 ![Sprint_backlog_4](https://draapho.github.io/images/1717/Sprint_backlog_4.JPG)
 
 
-  
-  
+
+
 ----------
 
 ***原创于 [DRA&PHO](https://draapho.github.io/)***

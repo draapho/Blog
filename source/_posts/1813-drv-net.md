@@ -3,6 +3,7 @@ title: 驱动之网卡驱动
 date: 2018-02-06
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

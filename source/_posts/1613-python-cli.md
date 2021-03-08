@@ -3,6 +3,7 @@ title: python调用命令行
 date: 2016-10-21
 categories: python
 tags: [python, cli]
+description: 如题.
 ---
 
 # python调用CLI

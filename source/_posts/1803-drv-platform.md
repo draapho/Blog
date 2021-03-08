@@ -3,6 +3,7 @@ title: 驱动之platform概念
 date: 2018-01-08
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 

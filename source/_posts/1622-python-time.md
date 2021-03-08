@@ -3,6 +3,7 @@ title: python 延时及超时
 date: 2016-11-28
 categories: python
 tags: [python, timeout]
+description: 如题.
 ---
 
 # 实用的例子

@@ -3,6 +3,7 @@ title: Python 列表和字典的常见操作
 date: 2017-01-03
 categories: python
 tags: [python, list, dict, tuple, set, collections]
+description: 如题.
 ---
 
 

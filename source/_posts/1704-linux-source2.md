@@ -3,6 +3,7 @@ title: Linux 0.11 源码阅读笔记-启动程序
 date: 2017-01-28
 categories: linux
 tags: [linux]
+description: 如题.
 ---
 
 # 总览

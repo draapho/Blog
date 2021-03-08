@@ -3,6 +3,7 @@ title: 驱动之同步互斥阻塞
 date: 2017-12-13
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 # 总览
@@ -47,27 +48,27 @@ atomic_t canopen = ATOMIC_INIT(1);                  // 定义原子变量canopen
 
 static int drv_key_int_open(struct inode *inode,struct file *filp)
 {
-	int ret;
-    
-    if (!atomic_dec_and_test(&canopen)) {           // 新增的原子操作判断 
+    int ret;
+
+    if (!atomic_dec_and_test(&canopen)) {           // 新增的原子操作判断
         atomic_inc(&canopen);                       // 打开失败, 恢复到0
         return -EBUSY;
     }
-    
+
     ......
 
     // 因为这一句的存在, 就算没有原子操作 应用程序无法调用此驱动多次. 先注释掉.
-	// if (ret) return -EINVAL;                        
-	// else return 0;
+    // if (ret) return -EINVAL;
+    // else return 0;
     return 0;                                       // 为了测试, 直接返回0.
 }
 
 static int drv_key_int_release(struct inode *inode,struct file *filp)
 {
-	......
-    
+    ......
+
     atomic_inc(&canopen);                           // 恢复原子操作为1
-	return 0;
+    return 0;
 }
 ```
 
@@ -80,7 +81,7 @@ static int drv_key_int_release(struct inode *inode,struct file *filp)
 ## Makefile
 
 ``` makefile
-obj-m		:= drv_sem.o            # 目标名称改一下
+obj-m       := drv_sem.o            # 目标名称改一下
 ```
 
 ## 测试文件 test_drv_sem.c
@@ -93,21 +94,21 @@ obj-m		:= drv_sem.o            # 目标名称改一下
 
 int main(int argc, char **argv)
 {
-	int fd;
-	unsigned char keys_val;
+    int fd;
+    unsigned char keys_val;
 
-	fd = open("/dev/drv_sem0", O_RDWR);
-	if (fd < 0) {
-		printf("can't open!\n");
-		return -1;
-	}
+    fd = open("/dev/drv_sem0", O_RDWR);
+    if (fd < 0) {
+        printf("can't open!\n");
+        return -1;
+    }
 
-	while (1) {
-		read(fd, &keys_val, 1);
-		printf("keys_val=0x%x, pid=%d\n", keys_val, getpid());
-	}
-	
-	return 0;
+    while (1) {
+        read(fd, &keys_val, 1);
+        printf("keys_val=0x%x, pid=%d\n", keys_val, getpid());
+    }
+
+    return 0;
 }
 ```
 
@@ -153,7 +154,7 @@ void init_MUTEX(struct semaphore *sem);     // 初始化为0
 
 //获得信号量
 void down(struct semaphore * sem);
-int down_interruptible(struct semaphore * sem); 
+int down_interruptible(struct semaphore * sem);
 int down_trylock(struct semaphore * sem);
 
 //释放信号量
@@ -169,39 +170,39 @@ void up(struct semaphore * sem);
 #define DRV_KEY_INT_NODE_NAME "drv_sem"             // 名称改一下
 
 atomic_t canopen = ATOMIC_INIT(1);                  // 定义原子变量canopen并初始化为1
-static DECLARE_MUTEX(key_lock);                     // 定义互斥锁 
+static DECLARE_MUTEX(key_lock);                     // 定义互斥锁
 
 static int drv_key_int_open(struct inode *inode,struct file *filp)
 {
-	int ret;
+    int ret;
 
 #if 0
-    if (!atomic_dec_and_test(&canopen)) {           // 新增的原子操作判断 
+    if (!atomic_dec_and_test(&canopen)) {           // 新增的原子操作判断
         atomic_inc(&canopen);                       // 打开失败, 恢复到0
         return -EBUSY;
     }
 #else
     down(&key_lock);                                // 获取信号量
 #endif
-    
+
     ......
 
     // 因为这一句的存在, 就算没有原子操作 应用程序无法调用此驱动多次. 先注释掉.
-	// if (ret) return -EINVAL;                        
-	// else return 0;
+    // if (ret) return -EINVAL;
+    // else return 0;
     return 0;                                       // 为了测试, 直接返回0.
 }
 
 static int drv_key_int_release(struct inode *inode,struct file *filp)
 {
-	......
-    
+    ......
+
 #if 0
     atomic_inc(&canopen);                           // 恢复原子操作为1
 #else
     up(&key_lock);                                  // 释放信号量
 #endif
-	return 0;
+    return 0;
 }
 ```
 
@@ -248,7 +249,7 @@ $ top                   # 结束第一个进程, 再看进程表
     - 使用宏定义 `O_NONBLOCK`
     - 进程在不能进行设备操作时并不挂起，它或者放弃，或者不停地查询，直至可以进行操作为止。
 
-    
+
 ## drv_sem.c
 源码基于 [驱动之基于中断设计按键驱动](https://draapho.github.io/2017/12/07/1741-drv-chr3/), 部分修改而来
 只显示新增和修改的部分. 这样更直观易懂.
@@ -258,15 +259,15 @@ $ top                   # 结束第一个进程, 再看进程表
 #define DRV_KEY_INT_NODE_NAME "drv_sem"             // 名称改一下
 
 atomic_t canopen = ATOMIC_INIT(1);                  // 定义原子变量canopen并初始化为1
-static DECLARE_MUTEX(key_lock);                     // 定义互斥锁 
+static DECLARE_MUTEX(key_lock);                     // 定义互斥锁
 
 static int drv_key_int_open(struct inode *inode,struct file *filp)
 {
-	int ret;
+    int ret;
 
 #if 0
     if (!atomic_dec_and_test(&canopen)) {
-        atomic_inc(&canopen); 
+        atomic_inc(&canopen);
         return -EBUSY;
     }
 #else
@@ -277,12 +278,12 @@ static int drv_key_int_open(struct inode *inode,struct file *filp)
         down(&key_lock);                            // 获取信号量, 阻塞
     }
 #endif
-    
+
     ......
 
     // 因为这一句的存在, 就算没有原子操作 应用程序无法调用此驱动多次. 先注释掉.
-	// if (ret) return -EINVAL;                        
-	// else return 0;
+    // if (ret) return -EINVAL;
+    // else return 0;
     return 0;                                       // 为了测试, 直接返回0.
 }
 
@@ -292,7 +293,7 @@ static ssize_t drv_key_int_read(struct file *filp,  // 读取函数也需要修�
     ......
     if (count != 1)
         return -EINVAL;
-    
+
     if (filp->f_flags & O_NONBLOCK) {               // 非阻塞
         if (!ev_press)                              // 无按键, 立刻返回
             return -EAGAIN;
@@ -310,14 +311,14 @@ static ssize_t drv_key_int_read(struct file *filp,  // 读取函数也需要修�
 
 static int drv_key_int_release(struct inode *inode,struct file *filp)
 {
-	......
-    
+    ......
+
 #if 0
     atomic_inc(&canopen);                           // 恢复原子操作为1
 #else
     up(&key_lock);                                  // 释放信号量
 #endif
-	return 0;
+    return 0;
 }
 ```
 
@@ -334,22 +335,22 @@ static int drv_key_int_release(struct inode *inode,struct file *filp)
 
 int main(int argc, char **argv)
 {
-	int ret, fd;
-	unsigned char keys_val;
+    int ret, fd;
+    unsigned char keys_val;
 
-	fd = open("/dev/drv_sem0", O_RDWR | O_NONBLOCK);    // O_NONBLOCK 非阻塞
-	if (fd < 0) {
-		printf("can't open!\n");
-		return -1;
-	}
+    fd = open("/dev/drv_sem0", O_RDWR | O_NONBLOCK);    // O_NONBLOCK 非阻塞
+    if (fd < 0) {
+        printf("can't open!\n");
+        return -1;
+    }
 
-	while (1) {
-		ret = read(fd, &keys_val, 1);                   // 读取函数是否阻塞取决于open函数
-		printf("keys_val=0x%x, ret=%d\n",keys_val,ret);
+    while (1) {
+        ret = read(fd, &keys_val, 1);                   // 读取函数是否阻塞取决于open函数
+        printf("keys_val=0x%x, ret=%d\n",keys_val,ret);
         sleep(3);
-	}
-	
-	return 0;
+    }
+
+    return 0;
 }
 ```
 

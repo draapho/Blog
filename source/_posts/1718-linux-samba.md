@@ -3,6 +3,7 @@ title: Ubuntu下配置支持Windows访问的samba共享
 date: 2017-07-06
 categories: embedded linux
 tags: [uboot, embedded linux, error]
+description: 嵌入式linux环境搭建步骤之一.
 ---
 
 
@@ -134,7 +135,7 @@ $ sudo vim /etc/network/interfaces
     address  192.168.0.100          # 设置静态地址
     netmask  255.255.255.0
     gateway  192.168.0.1            # 网关
-    dns-nameservers   8.8.8.8  192.168.0.1 
+    dns-nameservers   8.8.8.8  192.168.0.1
     # ===== 结束修改, 保存退出vim =====
 ```
 

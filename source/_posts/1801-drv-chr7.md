@@ -3,6 +3,7 @@ title: 驱动之定时器按键防抖
 date: 2018-01-04
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 

@@ -3,6 +3,7 @@ title: QQ物联演示项目
 date: 2017-12-23
 categories: qqiot
 tags: [embedded linux, qqiot]
+description: 如题.
 ---
 
 

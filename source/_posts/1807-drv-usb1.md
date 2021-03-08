@@ -3,6 +3,7 @@ title: 驱动之USB基础概念和框架
 date: 2018-01-18
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

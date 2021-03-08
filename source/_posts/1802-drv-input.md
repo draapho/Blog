@@ -3,6 +3,7 @@ title: 驱动之input子系统
 date: 2018-01-05
 categories: embedded linux
 tags: [linuxembedded linux, drv]
+description: 如题.
 ---
 
 

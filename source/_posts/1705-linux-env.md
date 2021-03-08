@@ -3,6 +3,7 @@ title: 嵌入式linux环境搭建-主机端
 date: 2017-02-16
 categories: embedded linux
 tags: [embedded linux, environment]
+description: 如题.
 ---
 
 # 总览
@@ -227,8 +228,8 @@ exec arm-none-linux-gnueabi-gcc -march=armv4t $*
 
 # 新技术 [Docker](https://docs.docker.com/)
 
-Linux下的环境搭建一直让人比较痛苦, 这也直接使得 `Docker` 优势尽显. 
-简单研究了一下Docker, 这个方案是可行的! 
+Linux下的环境搭建一直让人比较痛苦, 这也直接使得 `Docker` 优势尽显.
+简单研究了一下Docker, 这个方案是可行的!
 可参考 [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 
 基于Docker的ARM交叉编译环境, 已经有人在做了.

@@ -3,6 +3,7 @@ title: 快速读懂 makefile
 date: 2017-04-04
 categories: linux
 tags: [embedded, linux, makefile]
+description: 如题.
 ---
 
 ***转载自 [怎么看懂和编写makefile](http://lucky521.github.io/blog/design/2015/10/01/makefile.html)***

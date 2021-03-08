@@ -3,6 +3,7 @@ title: Windows 软件系列-自定义环境变量
 date: 2016-10-9
 categories: windows
 tags: [windows, path]
+description: Windows环境变量设置.
 ---
 
 
@@ -18,6 +19,7 @@ tags: [windows, path]
 - 借助linux链接的概念, 实验了一下windows的快捷方式是否也可以用命令行执行, 发现是可行的!
 - 譬如创建 `ConEmu.exe` 的快捷方式 `ConEmu.lnk` (.lnk不会显示). 此时, 在cmd内执行 `ConEmu.lnk` 等同于执行 `ConEmu.exe`
 - 这样, 就有办法简化自定义 `PATH` 的数量了, 只需添加一个用户路径到 `PATH` 中, 如`D:\Green\userpath\bin`, 然后把用户软件的 `.exe` 和 `.lnk` 放到这个目录下面就可以了.
+- **注意**, `.lnk`的方法不可靠. 有些情况能用, 有些情况不可用. 带参数肯定不能用.
 
 ## 设置
 - 譬如, 配置 `D:\Green\cli\bin` 到环境变量中.

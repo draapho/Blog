@@ -3,6 +3,7 @@ title: Ubuntu 16.04安装配置NFS
 date: 2017-11-29
 categories: linux
 tags: [linux, nfs]
+description: 如题.
 ---
 
 转载自 [Ubuntu 16.04安装配置NFS](http://blog.topspeedsnail.com/archives/908)
@@ -65,16 +66,16 @@ $ sudo vim /etc/exports
 # /home             122.111.222.111(rw,sync,no_root_squash,no_subtree_check)
 ```
 
-下面是一些NFS共享的常用参数说明： 
+下面是一些NFS共享的常用参数说明：
 
 参数| 说明
----|---    
-rw          | 可读写的权限 
-ro           |    只读的权限 
+---|---
+rw          | 可读写的权限
+ro           |    只读的权限
 no_root_squash | 权限不压缩, 远程客户端拥有root权限. (不安全, 但嵌入式要用!)
 root_squash | 权限压缩, 远程客户端root权限压缩成为匿名使用者(默认)
-sync | 资料同步写入到内存与硬盘当中 
-async | 资料会先暂存于内存当中，而非直接写入硬盘 
+sync | 资料同步写入到内存与硬盘当中
+async | 资料会先暂存于内存当中，而非直接写入硬盘
 hide | 不共享子目录
 no_hide | 共享子目录
 subtree_check | 共享子目录时, 检查父目录的权限(默认)

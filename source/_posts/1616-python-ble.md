@@ -3,6 +3,7 @@ title: 使用python实现BLE通讯
 date: 2016-11-15
 categories: python
 tags: [python, pygatt, BLE]
+description: 如题.
 ---
 
 # 环境与资源

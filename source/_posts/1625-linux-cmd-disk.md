@@ -3,6 +3,7 @@ title: linux 系统文件及磁盘指令
 date: 2016-12-15
 categories: linux
 tags: [linux, command]
+description: 如题.
 ---
 
 # linux 系统文件简要说明

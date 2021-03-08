@@ -3,6 +3,7 @@ title: Windows 软件系列-开发软件
 date: 2016-10-16
 categories: windows
 tags: [windows, eclipse, TrueSTUIDO, mingw]
+description: 无干货, 自己常用开发软件的设置提醒.
 ---
 
 # [eclipse](https://eclipse.org/downloads/)
@@ -30,7 +31,7 @@ tags: [windows, eclipse, TrueSTUIDO, mingw]
   - TrueSTUIDO版的快捷键见TureSTUDIO
 
 
-# [TrueSTUIDO](http://atollic.com/truestudio/)
+# ~~[TrueSTUIDO](http://atollic.com/truestudio/)~~, 已改为 [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html#get-software)
 - [TrueSTUIDO](http://atollic.com/truestudio/)是一款免费的ARM IDE, 基于eclipse. 免费版有5s广告.
 - 快捷键配置文件
   - 我的配置文件 [org.eclipse.ui.workbench.prefs](https://github.com/draapho/Blog/tree/master/_blog_stuff/TrueSTUIDIO/org.eclipse.ui.workbench.prefs)

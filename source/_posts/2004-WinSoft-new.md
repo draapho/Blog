@@ -3,6 +3,7 @@ title: Windows 软件系列-新装系统
 date: 2020-05-02
 categories: windows
 tags: [windows]
+description: 新PC装机过程.
 ---
 
 
@@ -76,22 +77,22 @@ tags: [windows]
         - 启用 搜索本地应用程序
         - 自定义快捷方式目录 `.\Green\setting\uTools\shortcuts`
             - 常用目录和软件助记快捷方式
-    - 在线翻译
-    - 本地搜索. 安装 everything
+    - PDF转换器
     - 网页快开. 设置网页关键字, 以图搜图, 聚合搜索
-    - 剪切板.   剪切板历史
-    - 计算稿纸. 计算器功能
-    - 颜色小助手. 取色, 选色.
-    - 二维码处理
-    - 图床. Markdown图片好帮手
+    - 我的上网IP
+    - 批量重命名
+    - Code计算器. 计算器功能
+    - 程序员手册
+    - 正则编辑器
+    - 编码小助手. 时间转换, UUID, 编码
     - JSON编辑器
-    - 编码小助手
-    - 正则表达式
-    - 文档. 按需安装. 程序员手册
-    - 其他
-        - 我的上网IP
-        - 沙拉查词. 聚合类翻译. 导入设置
-- Listary 快速搜索: 配置文件 `Preferences.json`
+    - 二维码小助手
+    - 颜色助手. 取色, 选色.
+    - 剪切板. 剪切板历史
+    - 聚合翻译
+    - 本地搜索. 安装 everything
+    - 沙拉查词. 翻译. 导入设置
+- ~~Listary 快速搜索: 配置文件 `Preferences.json`~~
     - 取消 所有关键字
     - 精简 动作
     - 快捷键, 下一项目: `Ctrl+J`
@@ -115,15 +116,16 @@ tags: [windows]
     - Excel 插件:
         - 方方格子.
     - PowerPoint 插件:
-        - iSlide.  (需要登录, 模板等需要收费)
+        - ~~iSlide.  (需要登录, 模板等需要收费)~~
     - OneNote 插件
-        - [NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016/releases) 代码高亮
+        - ~~[NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016/releases)~~, 代码高亮. 不支持OneNote2010.
 - Dynalist. 备忘+笔记, 全平台云存储. 支持Markdown. 需要图床才能加载图片.
     - 类似的软件: WorkFlow, 幕布
 - typora. markdown文本编辑器
 - notepad++ (***绿色软件***)
     - 点击bat文件注册右键即可. 已完成[配置](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/).
 - Amazon kindle. 读书软件
+- iReader (***Microsoft Store***). txt读书软件
 - PDF Reader-Xodo (***Microsoft Store***)
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
 - GoldenDict (***绿色软件***). 离线翻译软件.
@@ -136,17 +138,16 @@ tags: [windows]
 
 
 - Audacity (***绿色软件***). 音频编辑
-- 网易云音乐UWP  (***Microsoft Store*** 设置为中国区才有)
+- QQ音乐 (***Microsoft Store*** 设置为中国区才有)
 - Snipaste (***Microsoft Store / 绿色软件***). 截图
-    - 为了便于quicker调用, 建议用 Microsoft Store.
-    - 用绿色版的话, 需要添加环境变量(譬如快捷方式放入ConEmu下cli文件夹).
+    - 用绿色版的话, 需要添加环境变量.
+    - 也可直接从 Microsoft Store 下载.
 - ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.
 - Lightroom CC
 - Photoshop CC
 - HONEYVIEW. 图片查看器
 - PotPlayer. 视频播放器. 设置里关闭自动更新!
 - UWP爱奇艺  (***Microsoft Store***)
-- 哔哩哔哩UWP (***Microsoft Store***)
 
 
 
@@ -160,24 +161,24 @@ tags: [windows]
         - 在特定网站上. 针对特定网站的高频插件, 建议选用此选项.
         - 在所有网站上. 高频通用性插件, 选此选项. 此为Chrome默认选项.
     - Clip to OneNote. 点击时启用
-    - EagleGet Free Download. 点击时启用
+    - ~~EagleGet Free Download. 点击时启用~~
     - Tampermonkey, 油猴. 脚本方式实现多种功能.
         - 尽量用Chrome插件代替脚本. 平时只打开常用的脚本. 低频使用的脚本保持关闭状态.
         - 脚本网站: [greasy fork](https://greasyfork.org/zh-CN)、[openuserJS](https://openuserjs.org/)
         - 设置->通用->配置模式->初学者
         - 设置->同步脚本->启用TESLA->浏览器同步.
         - 这样即可跟随Chrome同步脚本, 但脚本配置不会自动同步!
-    - 破解右键锁. 需要手动使能, 点击时启用
+    - SuperCopy 超级复制. 使能某些顽固网页的复制黏贴. 点击时启用.
     - IE tab. 转为IE内核. 点击时启用
     - Infinity new tab pro. 自建导航网页, 管理插件. 点击时启用
     - Graphitabs. 多标签整理为思维导图模式
     - octotree. github扩展. 启用隐身模式
     - Imagus 图片预览, 设置为ctrl使能. 启用隐身模式
     - AdGuard 广告拦截器, 启用隐身模式
-- eagleget. 下载软件, 网页插件设置为点击时启用
-    - IDM备用, 配合Tampermonkey脚本用于百度网盘的下载
+- eagleget. 下载软件.
+- Motrix. 下载软件
 - 微信PC版. 可用于备份手机微信内容
-- QQ (***Microsoft Store***)
+- QQ. 按需安装
 - 穿梭或快帆, 翻墙到国内. 收费建议用穿梭.
 
 
@@ -212,7 +213,7 @@ tags: [windows]
     - 配置git见: [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
 - Node.js
     - 配置blog见: [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
-- Ubuntu (***Microsoft Store***)
+- ~~Ubuntu (***Microsoft Store***)~~
     - 若安装失败 管理员运行 Powershell `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
     - 不确定稳定性和全功能.
 

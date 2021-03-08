@@ -3,6 +3,7 @@ title: Unix/Linux 命令参考
 date: 2017-01-19
 categories: linux
 tags: [embedded, linux, cheat sheet]
+description: 如题.
 ---
 
 

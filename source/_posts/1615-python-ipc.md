@@ -3,9 +3,10 @@ title: Python线程同步机制(Locks, RLocks, Semaphores, Conditions, Events和
 date: 2016-11-03
 categories: python
 tags: [python, 线程同步]
+description: 如题.
 ---
 
-***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)*** 
+***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)***
 ***翻译自 [Laurent Luce, Python threads synchronization: Locks, RLocks, Semaphores, Conditions, Events and Queues](http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/)***
 
 ---------------------
@@ -849,6 +850,6 @@ def join(self):
 
 ------------------------------
 
-***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)*** 
+***转载自 [Zhou's Blog, Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues](http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/)***
 ***翻译自 [Laurent Luce, Python threads synchronization: Locks, RLocks, Semaphores, Conditions, Events and Queues](http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/)***
 

@@ -3,6 +3,7 @@ title: 嵌入式Linux学习目录
 date: 2017-11-23
 categories: embedded linux
 tags: [embedded linux]
+description: 资料汇总
 ---
 
 # 嵌入式开发环境搭建

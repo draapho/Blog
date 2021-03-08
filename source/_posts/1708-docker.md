@@ -3,6 +3,7 @@ title: Docker 初学笔记
 date: 2017-02-23
 categories: software
 tags: [docker]
+description: 如题.
 ---
 
 # Docker 总览
@@ -29,7 +30,7 @@ tags: [docker]
   当然, 也可以建立自己的私有 Docker Registry
 - **Docker Volume**, Docker的数据服务.
   docker 体系要让自己表现更像应用程序, 就离不开对数据的存储和隔离.
-  而docker容器是非持久化的, 可以随时创建和删除, 无法满足数据存储的基本要求. 
+  而docker容器是非持久化的, 可以随时创建和删除, 无法满足数据存储的基本要求.
   因此提供了Docker Volume. 包括 data volume 和 data volume container
 
 
@@ -49,7 +50,7 @@ tags: [docker]
 - Docker container: Docker容器是Docker架构中服务交付的最终体现形式
   Docker按照业务的需求, 依赖关系和配置文件打包相应的Docker容器
 
-  
+
 ## 初步评估结论
 
 - 感觉docker 的野心和潜力都很大. 如镜像管理, 跨平台, 容器应用化, 功能化, 服务化.
@@ -57,7 +58,7 @@ tags: [docker]
 - 基本已经可以跨平台使用(Docker machine).
 - 我的初衷就是: **一劳永逸的制作一个用于开发2440系列编译环境的pc linux系统**
   就此而言, docker可用, 但初始配置并不轻松.
-  因此暂不急于使用docker来配置这么一个主机编译环境.  
+  因此暂不急于使用docker来配置这么一个主机编译环境.
 
 
 # Docker 的安装
@@ -188,7 +189,7 @@ docker ps -a
 
 # 容器的终止,启动和重启
 docker stop container_ID_or_name
-docker start container_ID_or_name 
+docker start container_ID_or_name
 docker restart container_ID_or_name
 
 # 进入指定容器

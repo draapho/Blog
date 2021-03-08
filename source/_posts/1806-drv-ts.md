@@ -3,6 +3,7 @@ title: 驱动之触摸屏驱动框架和实现
 date: 2018-01-11
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览

@@ -3,6 +3,7 @@ title: 正则表达式
 date: 2016-12-18
 categories: software
 tags: [software, regular, linux, python, cheat sheet]
+description: 正则表达式语法总结.
 ---
 
 # 前言
@@ -118,9 +119,9 @@ BRE只定义了6组元字符：
 - `*`,  零个或多个的前一RE字符
 - `\`,  跳脱/转义字符
 
-在Linux/Unix常用工具中, grep vi sed都属于BRE这一派, 
-为了向前兼容并使用RE的一些新特性, 导致它的语法看起来比较奇怪. `()` `{}` 需要使用 `\` 转义后才有特殊含义. 
-如果直接使用 `a{1,2}`, 只能去匹配 `a{1,2}` 字符串. 只有使用 `a\{1,2\}` 才能匹配为 `a`和`aa`. 
+在Linux/Unix常用工具中, grep vi sed都属于BRE这一派,
+为了向前兼容并使用RE的一些新特性, 导致它的语法看起来比较奇怪. `()` `{}` 需要使用 `\` 转义后才有特殊含义.
+如果直接使用 `a{1,2}`, 只能去匹配 `a{1,2}` 字符串. 只有使用 `a\{1,2\}` 才能匹配为 `a`和`aa`.
 另外, BRE一般不支持 ~~`+` `?` `(...|...)` `\number`~~
 
 
@@ -175,13 +176,13 @@ ERE在BRE上增加了3组元字符的定义：
   - bash下 `{string1,string2,string3}`. 如 `touch a{xyz,123}.txt`, 结果为 `axyz.txt` `a123.txt`
   - re下 `(string1|string2|string3)`. 如 `ls | egrep 'g(la|oo)d'`, 结果为 `glad` `good`
 - 连续字符匹配
-  - bash下, 有两种连续字符表示法 `{0..9}` 和 `[0-9]`, 支持`[1-3a-z]`, ~~不支持`{1..3a..z}`~~, 
-  - bash下 `touch {ex{1..3},ex4}.sh`或`touch {ex{1..3},ex4}.sh`, 结果为 `ex1.sh` `ex2.sh` `ex3.sh` `ex4.sh` 
+  - bash下, 有两种连续字符表示法 `{0..9}` 和 `[0-9]`, 支持`[1-3a-z]`, ~~不支持`{1..3a..z}`~~,
+  - bash下 `touch {ex{1..3},ex4}.sh`或`touch {ex{1..3},ex4}.sh`, 结果为 `ex1.sh` `ex2.sh` `ex3.sh` `ex4.sh`
   - re下 `ls | egrep "(ex[1-3]|ex4).sh"`, 结果为 `ex1.sh` `ex2.sh` `ex3.sh` `ex4.sh`
 - 简单总结, RE的功能远比bash自带的匹配符功能强大. 特别容易弄混的也就是 `*` `?` `[^range]`
 
 
-  
+
 # 参考资料
 
 - [python标准库 7.2 re — 正则表达式操作](http://python.usyiyi.cn/documents/python_278/library/re.html)

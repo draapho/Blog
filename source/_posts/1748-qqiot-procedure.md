@@ -3,6 +3,7 @@ title: QQ物联开发步骤简介
 date: 2017-12-22
 categories: qqiot
 tags: [embedded linux, qqiot]
+description: 如题.
 ---
 
 

@@ -3,6 +3,7 @@ title: uboot之makefile分析
 date: 2017-07-07
 categories: embedded linux
 tags: [embedded linux, uboot, jz2440]
+description: 如题.
 ---
 
 # 总览
@@ -35,7 +36,7 @@ tags: [embedded linux, uboot, jz2440]
   - 网卡
   - USB
   - 串口
-  
+
 # u-boot的README
 
 要了解 u-boot 的架构和设计思路, 建议先看自带的 `README` 文件. 重要信息如下:
@@ -83,17 +84,17 @@ find ./ -name "Makefile" | xargs grep -nw --color "uboot"
 
 ## 'make 100ask24x0_config' 指令分析
 
-`make 100ask24x0_config` 其指令结构和 `make clean` 是一样的. 
+`make 100ask24x0_config` 其指令结构和 `make clean` 是一样的.
 因此在 Makefile 里找到 `100ask24x0_config` 为目标的行即可:
 ``` bash
-1886    100ask24x0_config	:	unconfig    
-1887	    @$(MKCONFIG) $(@:_config=) arm arm920t 100ask24x0 NULL s3c24x0
+1886    100ask24x0_config   :   unconfig
+1887        @$(MKCONFIG) $(@:_config=) arm arm920t 100ask24x0 NULL s3c24x0
 
 # 目标为 100ask24x0_config, 没有依赖
 # 执行 make 100ask24x0_config 后, 实际运行的就是第二行的指令
 # 找到并替换里面的变量:
-#   MKCONFIG	:= $(SRCTREE)/mkconfig
-#   SRCTREE		:= $(CURDIR)
+#   MKCONFIG    := $(SRCTREE)/mkconfig
+#   SRCTREE     := $(CURDIR)
 #   $(@:_config=) 其中 $(@) 表示目标, 即 `100ask24x0_config:_config=空`, 最终得到 `100ask24x0`
 # 整句替换下来的指令就变成了:
     ./mkconfig 100ask24x0 arm arm920t 100ask24x0 NULL s3c24x0
@@ -116,7 +117,7 @@ find ./ -name "Makefile" | xargs grep -nw --color "uboot"
 51  rm -f asm-$2/arch                           # asm-arm/arch
 56  ln -s ${LNPREFIX}arch-$6 asm-$2/arch        # LNPREFIX. 因此 asm-arm/arch->arch-s3c24x0
 60  rm -f asm-$2/proc
-61	ln -s ${LNPREFIX}proc-armv asm-$2/proc      # asm-arm/proc->proc-armv, 
+61  ln -s ${LNPREFIX}proc-armv asm-$2/proc      # asm-arm/proc->proc-armv,
 
 # 创建 config.mk 文件
 67  echo "ARCH   = $2" >  config.mk             # >  新建, "ARCH   = arm"
@@ -139,7 +140,7 @@ find ./ -name "Makefile" | xargs grep -nw --color "uboot"
 ```
 116 # load ARCH, BOARD, and CPU configuration
 117 include $(OBJTREE)/include/config.mk
-118 export	ARCH CPU BOARD VENDOR SOC
+118 export  ARCH CPU BOARD VENDOR SOC
 # ./include/config.mk 这个文件由 `make 100ask24x0_config` 指令生成, 可获得如下变量
 # ARCH   = arm
 # CPU    = arm920t
@@ -158,12 +159,12 @@ find ./ -name "Makefile" | xargs grep -nw --color "uboot"
 # 加载几个板级参数相关的变量值. 特别注意 start.o 这个文件, 是整个u-boot最先运行的文件
 
 239 ALL = $(obj)u-boot.srec $(obj)u-boot.bin $(obj)System.map $(U_BOOT_NAND)
-241 all:		$(ALL)
+241 all:        $(ALL)
 # `make` 指令的入口就在这里. 可以根据 ALL 目标后面的依赖开始看这个 make 的过程
 
-262 $(obj)u-boot:		depend version $(SUBDIRS) $(OBJS) $(LIBS) $(LDSCRIPT)
-263		    UNDEF_SYM=`$(OBJDUMP) -x $(LIBS) |sed  -n -e 's/.*\(__u_boot_cmd_.*\)/-u\1/p'|sort|uniq`;\
-264		    cd $(LNDIR) && $(LD) $(LDFLAGS) $$UNDEF_SYM $(__OBJS) \
+262 $(obj)u-boot:       depend version $(SUBDIRS) $(OBJS) $(LIBS) $(LDSCRIPT)
+263         UNDEF_SYM=`$(OBJDUMP) -x $(LIBS) |sed  -n -e 's/.*\(__u_boot_cmd_.*\)/-u\1/p'|sort|uniq`;\
+264         cd $(LNDIR) && $(LD) $(LDFLAGS) $$UNDEF_SYM $(__OBJS) \
 265             --start-group $(__LIBS) --end-group $(PLATFORM_LIBS) \
 266             -Map u-boot.map -o u-boot
 # 比较重要的一个指令. 可以运行 `make`, 在最后会看到这条指令的展开式, 用这种倒推的方式比较方便. 其展开如下:
@@ -175,13 +176,13 @@ UNDEF_SYM=`arm-linux-objdump -x lib_generic/libgeneric.a board/100ask24x0/lib100
 # 整个语句有点复杂, 用了一系列管道指令, 将最终结果赋值给 UNDEF_SYM 这么一个变量
 # 对 "UNDEF_SYM=`$(OBJDUMP) -x $(LIBS) |sed  -n -e 's/.*\(__u_boot_cmd_.*\)/-u\1/p'|sort|uniq`;\" 的展开
 # 其中 "board/100ask24x0/lib100ask24x0.a cpu/arm920t/libarm920t.a cpu/arm920t/s3c24x0/libs3c24x0.a lib_arm/libarm.a" 就是对 $(LIBS) 的展开
-  
-cd /home/draapho/jz2440/uboot/u-boot-1.1.6 && 
-# "cd $(LNDIR) &&" 的展开, 进入 u-boot-1.1.6 目录. 
+
+cd /home/draapho/jz2440/uboot/u-boot-1.1.6 &&
+# "cd $(LNDIR) &&" 的展开, 进入 u-boot-1.1.6 目录.
 
 arm-linux-ld -Bstatic -T /home/draapho/jz2440/uboot/u-boot-1.1.6/board/100ask24x0/u-boot.lds -Ttext 0x33F80000  $UNDEF_SYM cpu/arm920t/start.o \
 # "$(LD) $(LDFLAGS) $$UNDEF_SYM $(__OBJS) \" 的展开
-# $(LD) 就是 arm-linux-ld 链接指令. 其中 "LD	= $(CROSS_COMPILE)ld", 定义在 "./config.mk", $(CROSS_COMPILE) 在 Makefile 下面. 
+# $(LD) 就是 arm-linux-ld 链接指令. 其中 "LD    = $(CROSS_COMPILE)ld", 定义在 "./config.mk", $(CROSS_COMPILE) 在 Makefile 下面.
 # $(LDFLAGS) 给出了链接指令的参数, 定义在 "./config.mk", 形式为 "LDFLAGS += -Bstatic -T $(LDSCRIPT) -Ttext $(TEXT_BASE) $(PLATFORM_LDFLAGS)"
 # 根据 "cpu/arm920t/start.o", 可以知道 start.s 的文件位置, 便于以后查看. (由u-boot.lds可知, 这是u-boot第一个运行的代码段)
 # !!! 其中 $(LDSCRIPT) 和 $(TEXT_BASE) 很重要 !!!
@@ -197,8 +198,8 @@ arm-linux-ld -Bstatic -T /home/draapho/jz2440/uboot/u-boot-1.1.6/board/100ask24x
 
 根据对 Makefile 的分析, 可以知道uboot代码的偏移地址被设置成了 `-Ttext 0x33F80000` 这么一个值.
 其含义就是, **给u-boot的代码段分配的空间位于SDRAM最顶部的512K.**
-jz2440使用的SDRAM大小为 64M, 即 0x400_0000, 预留512K (0x8_0000)给u-boot代码, 得到地址 0x3F8_0000. 
-因为 s3c24x0 给SDRAM分配的地址是从 0x3000_0000 开始的, 所以有了 0x33F8_0000 这么一个值. 
+jz2440使用的SDRAM大小为 64M, 即 0x400_0000, 预留512K (0x8_0000)给u-boot代码, 得到地址 0x3F8_0000.
+因为 s3c24x0 给SDRAM分配的地址是从 0x3000_0000 开始的, 所以有了 0x33F8_0000 这么一个值.
 
 链接脚本 `./board/100ask24x0/u-boot.lds` 也很重要. 从中可以知道u-boot整个代码段的分配情况. 下面来分析一下:
 链接脚本的作用就是安排目标文件在可执行文件中的顺序, 便于链接器生成最终的可执行文件.
@@ -210,34 +211,34 @@ ENTRY(_start)
 SECTIONS
 {
     // . 表示当前位置, 设置当前位置为 0. 实际物理地址需要加上偏移量 0x33F80000
-	. = 0x00000000;
+    . = 0x00000000;
 
-	. = ALIGN(4);                   // 4字节对齐
-	.text      :                    // 代码段
-	{
-	  cpu/arm920t/start.o	(.text) // 第一段代码放 start.s
+    . = ALIGN(4);                   // 4字节对齐
+    .text      :                    // 代码段
+    {
+      cpu/arm920t/start.o   (.text) // 第一段代码放 start.s
       board/100ask24x0/boot_init.o (.text)  // 第二段代码放 boot_init.c (非必须)
-	  *(.text)                      // 其它的代码段
-	}
+      *(.text)                      // 其它的代码段
+    }
 
-	. = ALIGN(4);
-	.rodata : { *(.rodata) }        // 只读数据段, RO段
+    . = ALIGN(4);
+    .rodata : { *(.rodata) }        // 只读数据段, RO段
 
-	. = ALIGN(4);
-	.data : { *(.data) }            // 数据段, RW段
+    . = ALIGN(4);
+    .data : { *(.data) }            // 数据段, RW段
 
-	. = ALIGN(4);
-	.got : { *(.got) }              // uboot自定义, 非标准段
+    . = ALIGN(4);
+    .got : { *(.got) }              // uboot自定义, 非标准段
 
-	. = .;
-	__u_boot_cmd_start = .;         // 赋值 __u_boot_cmd_start, 命令段起始位置
-	.u_boot_cmd : { *(.u_boot_cmd) }// uboot 命令段, uboot通过宏定义, 将命令放在该段
-	__u_boot_cmd_end = .;           // 赋值 __u_boot_cmd_end, 命令段结束位置
+    . = .;
+    __u_boot_cmd_start = .;         // 赋值 __u_boot_cmd_start, 命令段起始位置
+    .u_boot_cmd : { *(.u_boot_cmd) }// uboot 命令段, uboot通过宏定义, 将命令放在该段
+    __u_boot_cmd_end = .;           // 赋值 __u_boot_cmd_end, 命令段结束位置
 
-	. = ALIGN(4);
-	__bss_start = .;                // 赋值 __bss_start
-	.bss : { *(.bss) }              // bss 段
-	_end = .;                       // 赋值 _end
+    . = ALIGN(4);
+    __bss_start = .;                // 赋值 __bss_start
+    .bss : { *(.bss) }              // bss 段
+    _end = .;                       // 赋值 _end
 }
 
 ```

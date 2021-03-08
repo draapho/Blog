@@ -3,6 +3,7 @@ title: kernel之Makefile分析
 date: 2017-09-14
 categories: embedded linux
 tags: [embedded linux, kernel]
+description: 如题.
 ---
 
 # 总览

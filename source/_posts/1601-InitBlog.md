@@ -3,6 +3,7 @@ title: Windows下使用github和hexo建独立博客
 date: 2016-09-24
 categories: windows
 tags: [windows, hexo]
+description: 如题.
 ---
 
 # 我需要一个[博客](https://draapho.github.io)

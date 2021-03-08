@@ -3,6 +3,7 @@ title: 驱动之字符设备-框架
 date: 2017-11-22
 categories: embedded linux
 tags: [embedded linux, driver]
+description: 如题.
 ---
 
 # 总览
@@ -83,22 +84,22 @@ tags: [embedded linux, driver]
 
 #define DEVICE_NAME "drv_leds"      // 设备类型名称, cat /proc/devices 可以看到
 #define LED_MAJOR   111             // 主设备号
-#define BUFF_LEN    5               // 缓存大小. 这里定小一点便于测试      
+#define BUFF_LEN    5               // 缓存大小. 这里定小一点便于测试
 
 // ===== 驱动的硬件实现部分, 和单片机类似 =====
 
-int drv_leds_open(struct inode *inode, struct file *file) 
+int drv_leds_open(struct inode *inode, struct file *file)
 {
     printk("drv_leds_open\n");
     return 0;
 }
 
-ssize_t drv_leds_write(struct file *file, const char __user *data, size_t len, loff_t *ppos) 
+ssize_t drv_leds_write(struct file *file, const char __user *data, size_t len, loff_t *ppos)
 {
 
     char buff[BUFF_LEN];
     int i, l;
-    
+
     printk("drv_leds_write: ");
     do {
         l = len<BUFF_LEN? len:BUFF_LEN;
@@ -116,23 +117,23 @@ ssize_t drv_leds_write(struct file *file, const char __user *data, size_t len, l
 // 此结构体指定了C库的文件操作函数需要调用的底层驱动的函数名.
 static struct file_operations drv_leds_fops = {
     .owner  =   THIS_MODULE,        // 这是一个宏，指向编译模块时自动创建的__this_module变量. 和平台相关
-    .open   =   drv_leds_open,     
+    .open   =   drv_leds_open,
     .write  =   drv_leds_write,
 };
 
 
 // ===== 加载和卸载内核时, 指定要调用的函数 =====
-int drv_leds_init(void) 
+int drv_leds_init(void)
 {
     register_chrdev(LED_MAJOR, DEVICE_NAME, &drv_leds_fops);// 注册驱动, 包含了函数指针
     printk(DEVICE_NAME " initialized\n");                   // 调试用
     return 0;
 }
 
-void drv_leds_exit(void) 
+void drv_leds_exit(void)
 {
     unregister_chrdev(LED_MAJOR, DEVICE_NAME);
-    printk(DEVICE_NAME " deinitialized\n");     
+    printk(DEVICE_NAME " deinitialized\n");
 }
 
 module_init(drv_leds_init);
@@ -155,15 +156,15 @@ KERN_DIR = ~/jz2440/kernel/linux-2.6.22.6
 # 这是交叉编译, 需要指定嵌入式linux内核地址
 
 all:
-	make -C $(KERN_DIR) M=`pwd` modules 
+    make -C $(KERN_DIR) M=`pwd` modules
 # pwd 表示当前目录, 即驱动代码所在的目录
 # 驱动目录并不需要放在内核目录下面.
 
 clean:
-	make -C $(KERN_DIR) M=`pwd` modules clean
-	rm -rf modules.order
+    make -C $(KERN_DIR) M=`pwd` modules clean
+    rm -rf modules.order
 
-obj-m	+= drv_leds.o
+obj-m   += drv_leds.o
 ```
 
 
@@ -178,12 +179,12 @@ obj-m	+= drv_leds.o
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char **argv) 
+int main(int argc, char **argv)
 {
     int fd;
 
     fd = open("/dev/xxx", O_RDWR);      // 这里设备名字并不重要, 设备和驱动的关联方式是主设备号!
-    if (fd < 0) 
+    if (fd < 0)
         printf("can't open!\n");
     else if (argc >=2) {
         int i;
@@ -222,7 +223,7 @@ $ arm-linux-gcc -o drv_leds_test drv_leds_test.c    # 编译应用程序
 $ cp drv_leds_test ~/jz2440/fs_first/               # 先直接放到文件系统根目录下了.
 
 # 如果此时直接在嵌入式端运行 ./drv_leds_test
-# 会显示 can't open! 因为不存在文件 /dev/xxx 
+# 会显示 can't open! 因为不存在文件 /dev/xxx
 
 # ===== Ubuntu主机端, 创建文件节点 ======
 $ mknod /dev/xxx c 111 0
@@ -257,7 +258,7 @@ drv_leds_write: 123
 
 static int major;                                   // 存储自动分配的主设备号
 static struct class *leds_class;                    // 类, 供mdev用, ls /sys/class/ 可以看到
-static struct class_device	*leds_class_devs[4];    // 类下设备, ls /sys/class/class_name 可以看到
+static struct class_device  *leds_class_devs[4];    // 类下设备, ls /sys/class/class_name 可以看到
 
 static unsigned long gpio_base;                     // gpio 寄存器基础地址
 
@@ -268,56 +269,56 @@ static unsigned long gpio_base;                     // gpio 寄存器基础地�
 
 // ===== 驱动的硬件实现部分, 和单片机类似 =====
 
-static int drv_leds_open(struct inode *inode, struct file *file) 
+static int drv_leds_open(struct inode *inode, struct file *file)
 {
     int minor = MINOR(inode->i_rdev);
-    
+
     // 初始化对应的LED
     if ((minor == 1) || (minor == 0)) {             // led1 或 leds
         GPFCON &= ~(0x3<<(4*2));                    // GPF4 配置为输出
         GPFCON |= (1<<(4*2));
         GPFDAT |= (1<<4);                           // 关灯
-    }      
+    }
     if ((minor == 2) || (minor == 0)) {             // led2 或 leds
         GPFCON &= ~(0x3<<(5*2));                    // GPF5 配置为输出
         GPFCON |= (1<<(5*2));
-        GPFDAT |= (1<<5);     
-    }      
+        GPFDAT |= (1<<5);
+    }
     if ((minor == 3) || (minor == 0)) {             // led3 或 leds
         // GPFCON &= ~(0x3<<(6*2));                    // GPF6 配置为输出
         // GPFCON |= (1<<(6*2));
-        // GPFDAT |= (1<<6);    
-        s3c2410_gpio_cfgpin(S3C2410_GPF6, S3C2410_GPF6_OUTP);   
+        // GPFDAT |= (1<<6);
+        s3c2410_gpio_cfgpin(S3C2410_GPF6, S3C2410_GPF6_OUTP);
         s3c2410_gpio_setpin(S3C2410_GPF6, 1);       // 另外一种方法
-    }      
+    }
     printk("drv_leds_open\n");
     return 0;
 }
 
-static ssize_t drv_leds_write(struct file *file, const char __user *data, size_t len, loff_t *ppos) 
+static ssize_t drv_leds_write(struct file *file, const char __user *data, size_t len, loff_t *ppos)
 {
     int minor = MINOR(file->f_dentry->d_inode->i_rdev);
     char val;
-    
+
     copy_from_user(&val, data, 1);
-    
+
     // 操作对应的LED
     if ((minor == 1) || (minor == 0)) {             // led1 或 leds
         if (val)
             GPFDAT &= ~(1<<4);                      // 开灯
         else
             GPFDAT |= (1<<4);                       // 关灯
-    }      
+    }
     if ((minor == 2) || (minor == 0)) {             // led2 或 leds
         if (val)
-            GPFDAT &= ~(1<<5);   
-        else   
-            GPFDAT |= (1<<5);    
-    }      
-    if ((minor == 3) || (minor == 0)) {             // led3 或 leds        
+            GPFDAT &= ~(1<<5);
+        else
+            GPFDAT |= (1<<5);
+    }
+    if ((minor == 3) || (minor == 0)) {             // led3 或 leds
         // if (val)
-            // GPFDAT &= ~(1<<6);    
-        // else   
+            // GPFDAT &= ~(1<<6);
+        // else
             // GPFDAT |= (1<<6);
         s3c2410_gpio_setpin(S3C2410_GPF6, !val);     // 另外一种方法
     }
@@ -328,13 +329,13 @@ static ssize_t drv_leds_write(struct file *file, const char __user *data, size_t
 // 此结构体指定了C库的文件操作函数需要调用的底层驱动的函数名.
 static struct file_operations drv_leds_fops = {
     .owner  =   THIS_MODULE,        // 这是一个宏，指向编译模块时自动创建的__this_module变量. 和平台相关
-    .open   =   drv_leds_open,     
+    .open   =   drv_leds_open,
     .write  =   drv_leds_write,
 };
 
 
 // ===== 加载和卸载内核时, 指定要调用的函数 =====
-static int drv_leds_init(void) 
+static int drv_leds_init(void)
 {
     int minor;
 
@@ -343,7 +344,7 @@ static int drv_leds_init(void)
     if (!gpio_base) {
         return -EIO;
     }
-    
+
     // 注册驱动, 指定主设备号
 //    minor = register_chrdev(LED_MAJOR, DEVICE_NAME, &s3c24xx_leds_fops);
 //    if (minor < 0) {
@@ -352,39 +353,39 @@ static int drv_leds_init(void)
 //    }
 
     // 注册驱动, 0表示动态分配主设备号
-    major = register_chrdev(0, DEVICE_NAME, &drv_leds_fops);    
-    
+    major = register_chrdev(0, DEVICE_NAME, &drv_leds_fops);
+
     // 生成系统设备信息, 供mdev自动创建设备节点使用
-	leds_class = class_create(THIS_MODULE, "leds");             // 创建 leds 类
-	if (IS_ERR(leds_class))
-		return PTR_ERR(leds_class);
-    
+    leds_class = class_create(THIS_MODULE, "leds");             // 创建 leds 类
+    if (IS_ERR(leds_class))
+        return PTR_ERR(leds_class);
+
     // 创建 leds 类下面的设备. 0表示所有led, 名称为 leds
     leds_class_devs[0] = class_device_create(leds_class, NULL, MKDEV(major, 0), NULL, "leds");
-	
+
     // 1-3 表示3个独立的led, 名称为 led1, led2, led3
     for (minor = 1; minor < 4; minor++) {
-		leds_class_devs[minor] = class_device_create(leds_class, NULL, MKDEV(major, minor), NULL, "led%d", minor);
-		if (unlikely(IS_ERR(leds_class_devs[minor])))
-			return PTR_ERR(leds_class_devs[minor]);
-	}
-    
+        leds_class_devs[minor] = class_device_create(leds_class, NULL, MKDEV(major, minor), NULL, "led%d", minor);
+        if (unlikely(IS_ERR(leds_class_devs[minor])))
+            return PTR_ERR(leds_class_devs[minor]);
+    }
+
     printk(DEVICE_NAME " initialized\n");                       // 调试用
     return 0;
 }
 
-static void drv_leds_exit(void) 
+static void drv_leds_exit(void)
 {
     int minor;
 
-	for (minor = 0; minor < 4; minor++) {                       
-		class_device_unregister(leds_class_devs[minor]);        // 删除设备节点
-	}
-	class_destroy(leds_class);                                  // 删除设备类
-    
+    for (minor = 0; minor < 4; minor++) {
+        class_device_unregister(leds_class_devs[minor]);        // 删除设备节点
+    }
+    class_destroy(leds_class);                                  // 删除设备类
+
     unregister_chrdev(major, DEVICE_NAME);                      // 卸载驱动
     iounmap(gpio_base);
-    printk(DEVICE_NAME " deinitialized\n");     
+    printk(DEVICE_NAME " deinitialized\n");
 }
 
 module_init(drv_leds_init);
@@ -407,15 +408,15 @@ KERN_DIR = ~/jz2440/kernel/linux-2.6.22.6
 # 这是交叉编译, 需要指定嵌入式linux内核地址
 
 all:
-	make -C $(KERN_DIR) M=`pwd` modules 
+    make -C $(KERN_DIR) M=`pwd` modules
 # pwd 表示当前目录, 即驱动代码所在的目录
 # 驱动目录并不需要放在内核目录下面.
 
 clean:
-	make -C $(KERN_DIR) M=`pwd` modules clean
-	rm -rf modules.order
+    make -C $(KERN_DIR) M=`pwd` modules clean
+    rm -rf modules.order
 
-obj-m	+= drv_leds.o
+obj-m   += drv_leds.o
 ```
 
 

@@ -3,6 +3,7 @@ title: 修行总领——明心见性
 date: 2021-02-13
 categories: thoughts
 tags: [thoughts]
+description: 最明确的修行总纲, 部分更新.
 ---
 
 
@@ -20,6 +21,8 @@ tags: [thoughts]
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [推背图, 马前课, 万年歌, 梅花诗](https://draapho.github.io/2021/03/05/2107-tuibeitu/)
+
 
 
 ***转载自 微信公众号 禅医堂 灵天赐 [修行总领——明心见性](https://weixin.sogou.com/weixin?type=2&s_from=input&query=%E4%BF%AE%E8%A1%8C%E6%80%BB%E9%A2%86%E2%80%94%E2%80%94%E6%98%8E%E5%BF%83%E8%A7%81%E6%80%A7)***

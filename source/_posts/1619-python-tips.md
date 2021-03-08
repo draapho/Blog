@@ -3,6 +3,7 @@ title: 30 个有关 Python 的小技巧
 date: 2016-11-22
 categories: python
 tags: [python]
+description: 如题.
 ---
 
 ***转载自 [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)***
