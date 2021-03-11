@@ -146,7 +146,10 @@ description: 重点介绍了NPP的配置 和 Markdown的使用
 [notepad++如何关联到右键菜单](http://jingyan.baidu.com/article/a24b33cd71f2d619ff002b60.html)
 
 
-# ~~[atom][atom]~~
+# ~~已不用[atom][atom]~~
+## 已删除不用
+- 需要维护插件, 开发环境不够稳定可靠.
+- 和专用IDE相比, 没有任何优势.
 
 ## atom简介
 - 界面简洁, 基本上手可用, 无需复杂设置

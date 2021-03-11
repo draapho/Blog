@@ -125,7 +125,8 @@ description: 新PC装机过程.
 - notepad++ (***绿色软件***)
     - 点击bat文件注册右键即可. 已完成[配置](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/).
 - Amazon kindle. 读书软件
-- iReader (***Microsoft Store***). txt读书软件
+- 越飞读书 Fly Reader (***Microsoft Store***). 读书软件, 多格式支持
+    - 替代 ~~iReader (***Microsoft Store***). txt读书软件~~
 - PDF Reader-Xodo (***Microsoft Store***)
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
 - GoldenDict (***绿色软件***). 离线翻译软件.
@@ -139,9 +140,7 @@ description: 新PC装机过程.
 
 - Audacity (***绿色软件***). 音频编辑
 - QQ音乐 (***Microsoft Store*** 设置为中国区才有)
-- Snipaste (***Microsoft Store / 绿色软件***). 截图
-    - 用绿色版的话, 需要添加环境变量.
-    - 也可直接从 Microsoft Store 下载.
+- Snipaste (***绿色软件***). 截图
 - ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.
 - Lightroom CC
 - Photoshop CC
@@ -160,7 +159,7 @@ description: 新PC装机过程.
         - 点击时. 低频使用的插件建议此选项, 增加安全性.
         - 在特定网站上. 针对特定网站的高频插件, 建议选用此选项.
         - 在所有网站上. 高频通用性插件, 选此选项. 此为Chrome默认选项.
-    - Clip to OneNote. 点击时启用
+    - ~~Clip to OneNote. 点击时启用~~, 登录经常发生问题.
     - ~~EagleGet Free Download. 点击时启用~~
     - Tampermonkey, 油猴. 脚本方式实现多种功能.
         - 尽量用Chrome插件代替脚本. 平时只打开常用的脚本. 低频使用的脚本保持关闭状态.
