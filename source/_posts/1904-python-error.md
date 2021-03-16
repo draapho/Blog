@@ -30,6 +30,11 @@ description: Python 疑难错误归纳.
 - 检查是否安装成功. `pyinstaller -v`
 
 
+# 运行编译后的文件, 提示: `Failed to execute script pyibooto1_bootstrap` 进一步提示 `Error: Nonetype object has no attribute write`
+- Python3 下 PyInstaller 自己弄出来的一个错误. 当使能了调试`-d all`, 而又指定 `-w` 不需要调试终端时, 自动生成的 `.spec`文件依旧要求输出sys.stderr. 由于没有终端, 因而提示没法write
+- 参考资料 [Program fails at `pyiboot01_bootstrap` when using `--noconsole`](https://github.com/pyinstaller/pyinstaller/issues/4213)
+- 解决方法: 用`-d all`时, 不能用`-w`.
+
 
 ----------
 

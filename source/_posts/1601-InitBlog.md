@@ -6,6 +6,18 @@ tags: [windows, hexo]
 description: 如题.
 ---
 
+# 内容更新(2021年3月)
+- hexo 的安装方式不变
+    - 先下载安装 Git 和 Node.JS.
+    - `npm install hexo-cli -g` 安装hexo即可.
+- `_config.yml` 文件改了某些地方. 具体参数参考 [Configuration](https://hexo.io/docs/configuration)
+- `images`文件夹直接放到`source`目录下即可, 会自动生成图片网址.
+- [hexo 官方文档](https://hexo.io/docs/)
+- 提供了更为丰富的[主题选择](https://hexo.io/themes/).
+- 依旧选 NexT主题, 改了参数设置. 参考 [NexT 开始使用](https://theme-next.iissnan.com/getting-started.html)
+- 更新结束(2021年3月)
+
+
 # 我需要一个[博客](https://draapho.github.io)
 
 三年前学linux的时候, 深感复杂,  然后也略微记录了些笔记放在电脑里. 但是真要用的时候, 依旧会google或baidu, 原因很简单: 电脑的笔记用起来不方便, 找文档慢不说, 找到后要么是没有格式的txt文档, 有些是花了力气排版好的word, 又觉得打开很慢. 于是觉得需要一个博客, 在CSDN开了博, 坚持不到10篇文章就放弃了, 原因很简单: 太麻烦了. 我的本意只是学习笔记加资料仓库, 但维护它的时间成本太高了. 一晃三年, 工作上进入一个新领域, 需要系统的学习嵌入式linux和python, 再度觉得需要建一个博客来管理和维护一些笔记和资料.
