@@ -3,6 +3,7 @@ title: 你将不会成为一个伟大的投资人
 date: 2019-06-25
 categories: market
 tags: [market]
+description: 马克·塞勒尔：阻碍你成为伟大投资者的七个先天因素
 ---
 
 ***转载自 [马克·塞勒尔：阻碍你成为伟大投资者的七个先天因素](https://zhuanlan.zhihu.com/p/22051177)***

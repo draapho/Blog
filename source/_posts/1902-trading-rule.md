@@ -3,6 +3,7 @@ title: 交易市场思考
 date: 2019-03-26
 categories: market
 tags: [market]
+description: 对交易市场的一些个人思考.
 ---
 
 # 总览

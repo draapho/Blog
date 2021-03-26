@@ -3,6 +3,7 @@ title: 波浪理论口诀
 date: 2020-08-06
 categories: market
 tags: [market]
+description: 波浪理论资料整理.
 ---
 
 # 总览
