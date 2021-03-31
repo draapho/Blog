@@ -43,10 +43,10 @@ description: 基于淘汰了的NUC5i5, 搭建家庭NAS
     - BIOS最好打开`legacy`启动模式. OMV5也支持`UEFI`, 只是系统盘会多一个UEFI区.
     - 将待安装的系统U盘, 用DiskGenius格式化为MBR磁盘. 否则装到一半容易报错, 内容如下:
         - `Partition(s) 1 on /dev/sda have been written, but we have been unable to inform the kernel of the change, probably because it they are in use. As a result, the old part it ion(s) will remain in use. You should reboot now before making further changes ERROR`
-    - 如果出错了, 删除EFI分区需要用到`diskpart`内的`clean`指令. 可参考[DOS命令diskpart格式化磁盘](https://blog.csdn.net/u013005025/article/details/52947632). 务必再三确认, 谨慎操作!!!
+    - 如果出错了, 删除EFI分区需要用到`diskpart`内的`clean`指令. 可参考[DOS命令diskpart格式化磁盘](https://blog.csdn.net/u013005025/article/details/52947632). **务必再三确认, 谨慎操作!!!**
     - 键盘选择 `keymap` 建议选 `British English`, 不选 `American English`. 我遇到了标点符号乱码的情况.
     - `Root password` 要填写并记好.
-    - 安装完毕, 提示`Finsih the installation`, 不要拔出安装用的U盘. 否则可能进不了OMV系统. 进过一次系统后, 可以安全拔出安装U盘.
+    - 安装完毕, 提示`Finsih the installation`, **不要拔出安装用的U盘. 否则可能进不了OMV系统.** 进过一次系统后, 可以安全拔出安装U盘.
 - 第二步, 配置OMV, 过程略, 继续参考 [OMV安装：系统安装设置及一些功能的开启](https://post.smzdm.com/p/av7z2564/). 注意点如下:
     - 配置 `网络->接口`时, DNS必须填, 一般填自己的网关地址即可.
     - `更新管理` 里面有很多是用不到的软件包, 不建议无脑全部安装. 如果驱动没问题, 不更新也可以.
@@ -87,6 +87,7 @@ description: 基于淘汰了的NUC5i5, 搭建家庭NAS
         - [aria2-pro](https://github.com/P3TERX/Aria2-Pro-Docker), 下载工具
         - [syncthing](https://hub.docker.com/r/linuxserver/syncthing), 同步备份软件. 放弃了收费的 Resilio_sync
         - [filebrowser](https://hub.docker.com/r/filebrowser/filebrowser), 文件管理
+        - [wetty](https://github.com/butlerx/wetty)  网页版ssh
     - 外网访问:
         - 方案总结, 见 [内网穿透、远程控制、端口映射，N种方法汇总](https://www.simongong.net/neiwangchuantouyuanchengkongzhiduankouyingshenzhongfangfahuizong/)
         - 不愿意折腾, 一度是放弃的. 我用的是 [Ubiquiti AmpliFi](https://amplifi.com/) 路由器, 支持手机端的远程访问, 但不支持电脑.
@@ -127,6 +128,7 @@ services:
 
 
 ## wetty 网页版ssh
+- [wetty](https://github.com/butlerx/wetty), 使用如下命令安装即可.
 - docker指令安装 `docker run --rm -p 3000:3000 wettyoss/wetty --ssh-host=192.168.xx.xx`
 - 网址登录 `192.168.xx.xx:3000/wetty`
 - android端输入法, 推荐 `Hacker's Keyboard`
@@ -227,7 +229,7 @@ services:
     - 系统设置里, `连接`->反选`全球发现`. 全部配置好后, 可反选所有选项: `启用 NAT 遍历`, `本地发现`, `开启中继`
     - OMV端的文件夹权限需要改成777, 可以在OMV共享文件夹设置里, `Reset Permissions` -> `每个人:读/写.`
     - 设备选项里, 将`NAS-OMV`添加为远程设备时, `高级`->`地址列表`->直接用静态ip `tcp://192.168.xx.xx:22000`
-    - `文件夹选项`. `高级`. 如果是和Android手机同步, 勾选 `忽略文件夹权限`
+    - `文件夹选项`. `高级`. 如果是和Windows/Android同步, 勾选 `忽略文件夹权限`
     - `文件夹选项`. 忽略模式. 忽略Linux隐藏文件, Windows回收站, 系统文件等.
 ```
 .*
@@ -236,8 +238,6 @@ services:
 *Recycle*\
 *\desktop.ini
 *\thumbs.db
-\System*Volume*Information\
-\OneDriveTemp\
 ```
 - 参考资料
     - [(二十三)小众但好用: Syncthing 把手机变成同步网盘](https://zhuanlan.zhihu.com/p/121544814)
@@ -258,8 +258,25 @@ services:
     - `zerotier-cli set 35xxxxxxxxxxxx22 allowManaged=1`
     - `zerotier-cli info` 检查连接状态. 返回值 `200 info 7cXXXXXX6f 1.6.4 ONLINE`
     - 在另外一台设备上, 如windows或手机端. 安装zerotier, 加入网络. 网页端使能加入的网络.
-    - 两个设备相互ping zerotier给出的ip地址. 然后再测试外网的情况.
-- 我这边, 刚开始连内网都ping不通. 最后一通修改, 突然通了. 可能的问题如下:
+    - 两个设备相互ping zerotier给出的ip地址.
+    - 然后再测试外网的情况. 如果外网情况也能相互ping通, 继续设置.
+    - 在zerotier官网管理界面 `Managed Routes`, 添加转发规则 `家庭局域网IP/24 via NAS在zero-tier端的IP`,
+        - 譬如 `192.168.1.0/24 via 10.147.17.111`.
+        - 其中的`192.168.1.0`是家庭局域网地址段,
+        - 其中的`10.147.17.111`是zero-tier分配给NAS的地址.
+    - NAS端打开IP转发 `sudo sysctl -w net.ipv4.ip_forward=1`
+    - 测试: 外网电脑登录OMV控制界面.
+    - 安装完成.
+- 我这边, 一共试了三到四次, 总是失败. 最后发现是路由器的问题.
+    - `Amplifi`需要关闭`硬件NAT`功能, 有线连接的设备才能正常使用第三方VPN.
+    - 参考资料 [UNABLE TO CONNECT TO MY WORK VPN](https://community.amplifi.com/topic/3916/unable-to-connect-to-my-work-vpn)
+    - 把折腾过程也记录一下, 仅供参考.
+
+
+## ~~zerotier 折腾记~~
+- 凭着记忆记录下折腾过程. 没有遇到问题的话, 不需要看.
+- 现象: NAS端显示连接zerotier成功, 有ip地址, 返回200, 显示ONLINE. 但内外网都ping不通.
+- 一通查资料和修改, 突然ping通了内网. 大概的折腾过程如下:
     - `apt-get install net-tools` 安装 netstat.  `netstat -ntulp | grep 9993` 查看9993端口使用情况.
     - `ip link` 查看网卡状态. zerotier的网卡名字为 zt开头的一串数字字母组合.
     - [Make MTU configurable](https://github.com/zerotier/ZeroTierOne/issues/74)
@@ -273,24 +290,26 @@ services:
             - `groupdel group` 删除用户组
         - 后面还提到了添加 `/etc/systemd/network/50-zerotier.conf`文件
             - `Name=zt* Unmanaged=yes`
-        - 这样, 可以ping内网, 但还是ping不通外网.
-    - 其他参考资料
+- 这样可以ping内网, 但还是ping不通外网. 继续瞎折腾
+    - 参考资料.
+        - [设置ZeroTier网络](https://chrisatech.wordpress.com/2020/02/09/setting-up-a-zerotier-network/)
         - [Getting Started with Software-Defined Networking and Creating a VPN with ZeroTier One](https://www.digitalocean.com/community/tutorials/getting-started-software-defined-networking-creating-vpn-zerotier-one)
         - [Zerotier 异地组网问题](https://www.v2ex.com/t/681731)
         - `zerotier-cli listnetworks` 查看状态
         - `zerotier-cli info` 查看是否在线
         - `systemctl restart zerotier-one` 重启服务. 另stop则停止, start则开始.
-    - 最后放弃折腾. 自己的路由器是AmpliFi, 可以很方便的实现手机外网访问.
-    - 彻底卸载 Zerotier-one
-        - 参考 [搭建Zerotier内网穿透网络及彻底删除zerotier方法](https://www.taodudu.cc/news/show-1734416.html)
-        - `sudo dpkg -P zerotier-one`
-        - `sudo rm -rf /var/lib/zerotier-one/`
+    - 最后放弃. 想着自己的路由器是AmpliFi, 可以很方便的实现手机外网访问.
+- 彻底卸载 Zerotier-one 的方法
+    - 参考 [搭建Zerotier内网穿透网络及彻底删除zerotier方法](https://www.taodudu.cc/news/show-1734416.html)
+    - `sudo dpkg -P zerotier-one`
+    - `sudo rm -rf /var/lib/zerotier-one/`
+- 最后一次尝试前, 查了一下路由器端的资料, 关了硬件NAT, 重新安装配置, 一切顺利...
 
 
-# Clonezilla克隆式备份
+# Clonezilla 系统盘备份
 - 防止系统盘损害, 无法启动. 直接替换克隆下的系统U盘即可.
 - 克隆系统U盘方法如下:
-    - NAS-OMV主页->`磁盘`->确定系统盘的序列号, 记录下来
+    - NAS-OMV主页->`磁盘`->**确定系统盘的序列号, 记录下来**
     - 插入目标U盘->方法同上, 记录下序列号.
     - NAS-OMV主页->`OMV-extras`->`内核`->`再生龙 Clonezilla`->安装
     - 然后点击下面的`从再生龙 Clonezilla 启动一次`.
@@ -307,4 +326,3 @@ services:
     - 一路 `y` 就开始克隆了.
     - 拔掉母盘, 输入 `reboot`, 测试是否克隆成功.
 - 参考资料[Clonezilla 克隆系统盘 OMV 无限续命大法 再生龙 | 一台电脑的 NAS 之旅](https://www.bilibili.com/s/video/BV1S7411h7PH)
-
