@@ -129,7 +129,7 @@ services:
 
 ## wetty 网页版ssh
 - [wetty](https://github.com/butlerx/wetty), 使用如下命令安装即可.
-- docker指令安装 `docker run --rm -p 3000:3000 wettyoss/wetty --ssh-host=192.168.xx.xx`
+- docker指令安装 `docker run --restart always -p 3000:3000 wettyoss/wetty --ssh-host=192.168.xx.xx`
 - 网址登录 `192.168.xx.xx:3000/wetty`
 - android端输入法, 推荐 `Hacker's Keyboard`
 
@@ -315,7 +315,7 @@ services:
     - 然后点击下面的`从再生龙 Clonezilla 启动一次`.
     - 重启 NAS-OMV, 等待进入Clonezilla系统.
     - 使用ssh, 登录到Clonezilla界面. 用户名`user`, 密码`live`
-    - 输入指令 `sudo clonezila`, 启动该软件.
+    - 输入指令 `sudo clonezilla`, 启动该软件.
     - 选择第二项, 设备到设备. `device-device work directly from ...`
     - 选初学者模式 `beginner ...`
     - 选磁盘到磁盘 `disk to local disk`

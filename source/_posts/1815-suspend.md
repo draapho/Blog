@@ -22,6 +22,7 @@ description: 人生规划大转弯.
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+- [开悟是怎样一种体验？/ 到底开悟是什么境界？](https://draapho.github.io/2021/04/05/2110-satori2/)
 
 
 
