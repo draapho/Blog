@@ -235,8 +235,8 @@ services:
 !.gitignore
 *RECYCLE*\
 *Recycle*\
-*\desktop.ini
-*\thumbs.db
+**\desktop.ini
+**\thumbs.db
 ```
 - 参考资料
     - [(二十三)小众但好用: Syncthing 把手机变成同步网盘](https://zhuanlan.zhihu.com/p/121544814)
