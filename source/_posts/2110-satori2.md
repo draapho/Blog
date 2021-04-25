@@ -1,7 +1,7 @@
 ---
-title: 开悟是怎样一种体验？/ 到底开悟是什么境界？
+title: 开悟是怎样一种体验？
 date: 2021-04-05
-categories: thoughts
+categories: 灵天赐
 tags: [thoughts]
 description: 灵天赐更新后的体悟和修行总纲.
 ---
@@ -26,11 +26,26 @@ description: 灵天赐更新后的体悟和修行总纲.
 - [开悟是怎样一种体验？/ 到底开悟是什么境界？](https://draapho.github.io/2021/04/05/2110-satori2/)
 
 
+# 天赐问答
+- [天赐问答1: 知行合一, 方为真知.](https://draapho.github.io/2021/04/14/2111-answer1/)
+- [天赐问答2: 总是拖延, 该怎么办?](https://draapho.github.io/2021/04/15/2112-answer2/)
+- [天赐问答3: 凡夫一向动, 小乘一向静](https://draapho.github.io/2021/04/16/2113-answer3/)
+- [天赐问答4: 烦恼名众生, 悟解名菩提](https://draapho.github.io/2021/04/17/2114-answer4/)
+- [天赐问答5: 如何放下对结果的期待](https://draapho.github.io/2021/04/18/2115-answer5/)
+- [天赐问答6: 为什么真正的境界不会退转?](https://draapho.github.io/2021/04/19/2116-answer6/)
+- [天赐问答7: 为什么开悟的似乎都是男人, 女人呢?](https://draapho.github.io/2021/04/20/2117-answer7/)
+- [天赐问答8: 男女欲望该怎么处理?](https://draapho.github.io/2021/04/21/2118-answer8/)
+- [天赐问答9: 不完美, 才会独一无二](https://draapho.github.io/2021/04/22/2119-answer9/)
+- [天赐问答10: 不要辜负你的生命](https://draapho.github.io/2021/04/23/2120-answer10/)
+- [天赐问答11: 100多年前的马克思主义, 过时了吗?](https://draapho.github.io/2021/04/24/2121-answer11/)
+- [我们到底该信什么，不该信什么？](https://draapho.github.io/2021/04/25/2122-believe/)
+
+
 
 ***转载自 [灵天赐的回答](https://www.zhihu.com/people/LingTC/answers)***
 灵天赐在知乎关于开悟的两篇回答, 不断地删改着. 之前一度完全删除. 现发现又有更新, 并加上了许多个人体悟.
 对于第一版的[开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/), 给我的感觉是: "不敢说他一定走到了终点, 但已远远超出绝大部分的修行人. "
-他另有一篇类似的回答放到了微信公众号: [禅医堂](https://mp.weixin.qq.com/s?src=11&timestamp=1613217925&ver=2888&signature=*gV4LcvM0KxeUyME1TXD*5OdCPEqxZtwtUF9P8rfxHPOUT-6rhpgac0bHP4lIE-eZfgzYFQi7oi5G3OJ64hmDDjAg5bRaxjwUFgQz27LkXzGRyg8G8syO5kSqSnsp3KB&new=1), 两篇文章有诸多分别, 我也转载了, 见[修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+他另有一篇类似的回答放到了微信公众号: `禅医堂`, 两篇文章有诸多分别, 我也转载了, 见[修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 
 
 而这一篇对`开悟`的回答, 是灵天赐在删除之后, 于2021年2月23日又重新公开出来. 新增的体悟, 清澈而通透, 不再有普渡众生之类的念头, 无任何执着了. 在我看来: **"他将隐未隐, 完全是个得道者了. 公开的修行之言, 估计这会是灵天赐的最后一篇."**
