@@ -16,7 +16,7 @@ comments: false
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
 # 灵天赐
-- [开悟是怎样一种体验？](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [天赐问答1: 知行合一, 方为真知.](https://draapho.github.io/2021/04/14/2111-answer1/)
 - [天赐问答2: 总是拖延, 该怎么办?](https://draapho.github.io/2021/04/15/2112-answer2/)
 - [天赐问答3: 凡夫一向动, 小乘一向静](https://draapho.github.io/2021/04/16/2113-answer3/)
@@ -48,6 +48,8 @@ comments: false
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 
 
 # Market

@@ -8,7 +8,7 @@ description: 今天，和大家聊聊关于“信”的问题。
 
 
 # 总览
-- [开悟是怎样一种体验？](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [天赐问答1: 知行合一, 方为真知.](https://draapho.github.io/2021/04/14/2111-answer1/)
 - [天赐问答2: 总是拖延, 该怎么办?](https://draapho.github.io/2021/04/15/2112-answer2/)
 - [天赐问答3: 凡夫一向动, 小乘一向静](https://draapho.github.io/2021/04/16/2113-answer3/)
