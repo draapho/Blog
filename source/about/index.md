@@ -15,20 +15,10 @@ comments: false
 `关键字 site:https://draapho.github.io/`
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
-# 灵天赐
-- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
-- [天赐问答1: 知行合一, 方为真知.](https://draapho.github.io/2021/04/14/2111-answer1/)
-- [天赐问答2: 总是拖延, 该怎么办?](https://draapho.github.io/2021/04/15/2112-answer2/)
-- [天赐问答3: 凡夫一向动, 小乘一向静](https://draapho.github.io/2021/04/16/2113-answer3/)
-- [天赐问答4: 烦恼名众生, 悟解名菩提](https://draapho.github.io/2021/04/17/2114-answer4/)
-- [天赐问答5: 如何放下对结果的期待](https://draapho.github.io/2021/04/18/2115-answer5/)
-- [天赐问答6: 为什么真正的境界不会退转?](https://draapho.github.io/2021/04/19/2116-answer6/)
-- [天赐问答7: 为什么开悟的似乎都是男人, 女人呢?](https://draapho.github.io/2021/04/20/2117-answer7/)
-- [天赐问答8: 男女欲望该怎么处理?](https://draapho.github.io/2021/04/21/2118-answer8/)
-- [天赐问答9: 不完美, 才会独一无二](https://draapho.github.io/2021/04/22/2119-answer9/)
-- [天赐问答10: 不要辜负你的生命](https://draapho.github.io/2021/04/23/2120-answer10/)
-- [天赐问答11: 100多年前的马克思主义, 过时了吗?](https://draapho.github.io/2021/04/24/2121-answer11/)
-- [我们到底该信什么，不该信什么？](https://draapho.github.io/2021/04/25/2122-believe/)
+# Dao
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
+- [修道之路-闻道]()
 
 
 # Thoughts
