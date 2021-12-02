@@ -25,6 +25,7 @@ description: 收集了见性者的体验和描述.
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
+- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 
 
 # 前言, 名词说明
@@ -32,6 +33,10 @@ description: 收集了见性者的体验和描述.
 **2021年6月补充**
 之前的逻辑和思辨探索足够多了. 没有进一步证悟的话, 也只是空对空, 流于假设和形式罢了.
 此后我会完全放下逻辑和思辨, 客观观察, 消融自我. 目标为明心见性, 全力修行.
+**2021年12月补充**
+明心见性的目标都可以放下...
+与其说, 要"于人性汇聚之地得自在"
+不如说, 一切本是应是如是, 随时随地观自在...
 **补充结束**
 
 
@@ -1026,4 +1031,11 @@ Enlightenment is the "full comprehension of a situation".
 无论是何境遇，时时刻刻，牢记一个“无”字。
 祝好
 [大笑][大笑]
+
+
+
+# 分享：心的歷險記
+
+[分享：心的歷險記．楊定一博士回應－修行之間 (13)：答覆一位追求真實的朋友](https://www.youtube.com/watch?app=desktop&list=PLaXe71NabX88ifTKv5jSt_ZZGYJm5o8jp&v=RoET8dDLCTA&feature=youtu.be)
+
 

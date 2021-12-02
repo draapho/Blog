@@ -25,6 +25,7 @@ description: 最明确的修行总纲.
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
+- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 
 
 
