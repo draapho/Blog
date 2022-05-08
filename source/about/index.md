@@ -12,7 +12,8 @@ comments: false
 
 # 博文分类概览
 
-`关键字 site:https://draapho.github.io/`
+`EMAIL: draapho@gmail.com`
+`https://github.com/draapho/Blog`
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
 # Dao
