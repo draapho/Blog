@@ -73,6 +73,7 @@ comments: false
 - [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
 
 # python
+- [PyCharm 设置虚拟开发环境](https://draapho.github.io/2022/06/08/2201-pycharm-venv)
 - [Pandas Dataframe 入门](https://draapho.github.io/2019/05/20/1905-python-pandas/)
 - [Python 错误及解决方法](https://draapho.github.io/2019/05/19/1904-python-error/)
 - [Python2和Python3共存时, pip的使用](https://draapho.github.io/2017/11/13/1732-python-pip/)
