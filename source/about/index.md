@@ -16,11 +16,6 @@ comments: false
 `https://github.com/draapho/Blog`
 `https://draapho.github.io/images/21xx/xxx.xxx`
 
-# Dao
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
-- [修道之路-闻道]()
-
 
 # Thoughts
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
@@ -43,17 +38,10 @@ comments: false
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 
-
-# Market
-
-- [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
-- [波浪理论简述](https://draapho.github.io/2019/04/26/1903-wave-principle/)
-- [你将不会成为一个伟大的投资人](https://draapho.github.io/2019/06/25/1907-investor/)
-- [交易市场阶段性探索心得](https://draapho.github.io/2020/02/09/2001-exploration/)
-- [波浪理论口诀](https://draapho.github.io/2020/08/06/2005-wave-mnemonic/)
-- [波浪理论感悟](https://draapho.github.io/2020/08/07/2006-wave-thinking/)
-- [交易市场思路](https://draapho.github.io/2021/02/03/2102-share-skill/)
-
+# Dao
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
+- [修道之路-闻道]()
 
 # 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
@@ -64,13 +52,6 @@ comments: false
 - [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
-
-# embedded
-- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
-- [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
-- [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
-- [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
-- [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
 
 # python
 - [PyCharm 设置虚拟开发环境](https://draapho.github.io/2022/06/08/2201-pycharm-venv)
@@ -105,6 +86,9 @@ comments: false
 [webpy]: http://webpy.org/cookbook/
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
+# 网页开发
+- [HTML和CSS基础](https://draapho.github.io/2022/08/01/2202-html-ccs/)
+- [JavaScript 基础](https://draapho.github.io/2022/08/02/2203-javascript/)
 
 # Windows
 - [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
@@ -129,6 +113,13 @@ comments: false
 [mm]: http://knsv.github.io/mermaid/#flowcharts-basic-syntax
 [latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
+
+# embedded
+- [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
+- [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
+- [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
+- [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
+- [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
 
 
 # linux 基础知识学习
@@ -223,6 +214,17 @@ comments: false
 - [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
+
+
+# Market
+
+- [交易市场思考](https://draapho.github.io/2019/03/26/1902-trading-rule/)
+- [波浪理论简述](https://draapho.github.io/2019/04/26/1903-wave-principle/)
+- [你将不会成为一个伟大的投资人](https://draapho.github.io/2019/06/25/1907-investor/)
+- [交易市场阶段性探索心得](https://draapho.github.io/2020/02/09/2001-exploration/)
+- [波浪理论口诀](https://draapho.github.io/2020/08/06/2005-wave-mnemonic/)
+- [波浪理论感悟](https://draapho.github.io/2020/08/07/2006-wave-thinking/)
+- [交易市场思路](https://draapho.github.io/2021/02/03/2102-share-skill/)
 
 # other
 - [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
