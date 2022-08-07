@@ -74,7 +74,45 @@ h1 {                    /* h1 是选择器 */
     - 属性选择器: `[]` ,匹配特定属性的元素. 譬如 `input[lang|=en]`
     - [伪类选择器](http://c.biancheng.net/css3/pseudo-class.html): `:` ,匹配元素的特殊状态. 譬如 `li:first-child {}`
 
+# scss
+``` scss
+// 新增的单行注释
+// 简单说 scss是css的超集, 但增加了很多编程特性.
 
+/* 1. $ 符号来标识变量 */ 
+$nav-color: #F90;               // 作用域: 当前样式表都可以使用
+    nav {
+        $width: 100px;          // 作用域: 只有nav{}里面才可以使用.
+        width: $width;
+        color: $nav_color;      // 中划线和下划线等价，包括对混合器和Sass函数的命名
+    }
+}
+
+// 编译后, 等同于如下css 
+nav {
+  width: 100px;
+  color: #F90;
+}
+
+/* 2. 选择器嵌套 */
+#content {                 
+    article {
+        h1 { color: #333 }
+        p { margin-bottom: 1.4em }
+    }
+    aside { background-color: #EEE }
+}
+
+// 编译后, 等同于如下css 
+#content article h1 { color: #333 }
+#content article p { margin-bottom: 1.4em }
+#content aside { background-color: #EEE }
+
+/* 3. @extend 支持继承 */
+/* 4. @mixin 混合器, 类似于函数调用概念 */
+/* 5. @import 导入其它css, scss文件 */
+/* 6. 还增加了控制指令, 条件语句, 循环语句, 自定义函数等等, 此处略 */
+```
 
 ----------
 

@@ -50,7 +50,7 @@ description: 介绍学习 JavaScript 的语法
         document.write("Welcome to");
     </script>
 </head>
-<body>    
+<body>
     <script>
         // type 可以省掉, javascript 已经成为script的默认类型
         document.write("<h1>https://draapho.github.io/</h1>");
@@ -62,7 +62,7 @@ description: 介绍学习 JavaScript 的语法
 # JavaScript 基础语法
 
 ## 变量的声明
-- `var` ,常用的变量声明关键字. 由于过于灵活, 也产生了相关问题.    
+- `var` ,常用的变量声明关键字. 由于过于灵活, 也产生了相关问题.
     - 变量提升问题. 声明可以写在最后, 但作用域为整个文件或函数.
     - 允许重复声明相同名称的变量.
     - 作用域不够规范, 在函数中的var声明, 其作用域是函数体的全部.
@@ -74,25 +74,25 @@ description: 介绍学习 JavaScript 的语法
 - JS是弱类型变量. 可随时改变变量的类型. 变量类型由赋值决定.
 
 ## 基本数据类型
-- 判断数据类型: 
+- 判断数据类型:
     - `typeof(x)` 或 `typeof x`, 仅可获得 `number`, `boolean`, `string`, `function`, `object`, `undefined`
     - `x instanceof Array`, 返回 boolean 值. 多用来判断变量是否为 `Array` 数组
     - `instanceof` 只能用来判断对象和函数, **不能用来判断字符串和数字(会直接返回 false)**.
-    - 即 `var b = 'abc'; console.log(typeof b, b instanceof String);`, 返回string, false. 
-    - 即 `var b = new String("123"); console.log(typeof b, b instanceof String);`, 返回object, true. 
+    - 即 `var b = 'abc'; console.log(typeof b, b instanceof String);`, 返回string, false.
+    - 即 `var b = new String("123"); console.log(typeof b, b instanceof String);`, 返回object, true.
 - 基本数据类型
     - string, 字符串. 使用单引号或双引号.
         - 切片(位置)操作: `.slice()`, `.substr()`, `.substring()`, `.charAt()`, `.charCodeAt()`
         - 根据内容的操作: `.trim()`, `.split()`, `.match()`, `.replace()`, `.concat()`
         - 获取位置: `.indexOf()`, `.lastIndexOf()`, `.search()`
         - 获取长度: `.length`; 从编码生成字符串: `.fromCharCode()`
-        - 生成HTML代码: `.anchor()`, `.big()`, `.blink()`, `.bold()`, `.fixed()`, `.fontcolor()`, 
+        - 生成HTML代码: `.anchor()`, `.big()`, `.blink()`, `.bold()`, `.fixed()`, `.fontcolor()`,
         - `fontsize()`, `.italics()`, `.link()`, `small()`, `.strike()`, `.sub()`, `.sup()`
     - number, 数值. 范围: -(2^53 - 1) 到 (2^53 -1), 以及:
         - `Infinity`: 用来表示正无穷大的数值，一般指大于 1.7976931348623157e+308 的数；
         - `-Infinity`: 用来表示负无穷大的数值，一般指小于 5e-324 的数；
         - `NaN`: 即非数值（Not a Number 的缩写）, 数据类型是 number
-    - boolean: ture 和 false, 全部小写.  
+    - boolean: ture 和 false, 全部小写.
     - undefined: 用var声明变量时, 自动初始化为 `undefined`
     - symbol: 转为独一无二的值. 多用于对象的属性
         - 赋值方法 `symValue = Symbol(attr)`
@@ -111,19 +111,19 @@ description: 介绍学习 JavaScript 的语法
         - 遍历迭代: `.filter()`, `.map()`, `.forEach()`, `.reduce()`
         - for遍历: `.entries()`, `.keys()`, `.values()`
         - object转为array, `.from()`; 排序 `.sort()`
-    - function 函数类型. 
-        - 基本形式: `function fun_name(input=defaultValue) {...}` 不需要声明输入输出类型. 
-        - 变量形式: `var fun_name = function(input=defaultValue) {...};` 注意最后的分号. 
+    - function 函数类型.
+        - 基本形式: `function fun_name(input=defaultValue) {...}` 不需要声明输入输出类型.
+        - 变量形式: `var fun_name = function(input=defaultValue) {...};` 注意最后的分号.
         - 匿名函数: `var person = {name: 'draapho', display: function() {console.log(this.name);}}`
         - 箭头函数: `elements.map((element) => {return element.length;});`, `()`为输入参数, `{}`为函数体.
 - JSON 格式
-    - object 与 JSON 格式尽管看起来很相似, 但它们是不同的数据类型. 
+    - object 与 JSON 格式尽管看起来很相似, 但它们是不同的数据类型.
     - JSON中, 所有的属性名必须用双引号; JS的object属性名可以用单引号或双引号.
     - `JSON.parse()`, 解析json语句, 将json转换为object类型
     - `JSON.stringify()`, 将 JavaScript 值转换为 JSON 格式
 - String 对象中的属性
     - `constructor`: 获取创建此对象的 String() 函数的引用
-    - `length`:	获取字符串的长度
+    - `length`: 获取字符串的长度
     - `prototype`: 通过该属性可以向对象中添加自定义属性和方法
 
 ``` javascript
@@ -144,7 +144,7 @@ document.write(str.name);       // 输出：名称
     - `减号 -` 字符串转为数字, 转换失败则赋值为 `NaN`. (字符串没有 `-` 运算)
     - `乘, 除运算` 也会先将字符串转换为数字. (字符串没有乘除运算)
 - 比较运算符
-    - `==` 仅比较数值, 如 24 == '24' 为真. 
+    - `==` 仅比较数值, 如 24 == '24' 为真.
     - `===` 比较数值和类型, 两者都相同才为真
     - `!=` 仅比较数值 `!==` 比较数值和类型.
 - 数据类型的强制转换:
@@ -220,9 +220,9 @@ console.log(funAdd());      // 输出：2
 - [RegExp 对象](http://c.biancheng.net/view/9359.html), 正则表达式的两种创建方法
     - `var patt = new RegExp(pattern, modifiers);`
     - `var patt = /pattern/modifiers;`
-- [JS DOM 对象](http://c.biancheng.net/view/9360.html), 文档对象模型. 
+- [JS DOM 对象](http://c.biancheng.net/view/9360.html), 文档对象模型.
     - 当浏览器加载HTML网页时, 会自动将HTML信息组织成一个逻辑树结构供JS使用.
-        - 该结构树的根节点就是document, 使用方法: `document.attr` 和 `document.fun()` 
+        - 该结构树的根节点就是document, 使用方法: `document.attr` 和 `document.fun()`
         - `xxx.innerHTML` 表示获取或设置xxx标签的内容 / 值
     - [Element 对象](http://c.biancheng.net/view/9361.html), 元素对象
         - 使用JS DOM对象可以获取HTML中的特定Element对象.
@@ -232,7 +232,7 @@ console.log(funAdd());      // 输出：2
         - 主要方法: `item()`, `.getNamedItem()`, `.removeNamedItem()`, `.setNamedItem()`
 - [JS BOM 对象](http://c.biancheng.net/view/9363.html), Browser Object Model 的缩写, 浏览器对象模型.
     - window, 即显示HTML的浏览器界面. 里面都是一些GUI方面的属性和方法. 如窗口大小, 像素移动移动等等.
-        - 一个HTML文档就会创建一个window对象. 这个window是一个全局对象. 
+        - 一个HTML文档就会创建一个window对象. 这个window是一个全局对象.
         - 如果文档中包含`<frame>`或`<iframe>`, 则会为每个frame创建一个独立的window对象
         - BOM属性的调用 `window.xxx`; BOM方法可省去window, 直接用函数名, 如 `alert()`
     - [Navigator 对象](http://c.biancheng.net/view/9364.html), 获取浏览器信息
@@ -252,7 +252,7 @@ console.log(funAdd());      // 输出：2
 
 # JavaScript 交互示例
 ## js event 事件处理
-- 主要分为四类. 
+- 主要分为四类.
     - 鼠标事件: `onclick`, `ondbclick`, `onmousedown`, `onmouseup`, ...
     - 键盘事件: `onkeypress`, `onkeydown`, `onkeyup`
     - 表单事件: `onblur`, `onchange`, `onfocus`, `onreset`, `onsubmit`
@@ -333,7 +333,7 @@ console.log(funAdd());      // 输出：2
 function setCookie(name, value, daysToLive) {
     // 对 cookie 值进行编码以转义其中的分号, 逗号和空格
     var cookie = name + "=" + encodeURIComponent(value);
-   
+
     if(typeof daysToLive === "number") {
         /* 设置 max-age 属性 */
         cookie += "; max-age=" + (daysToLive*24*60*60);
@@ -344,11 +344,11 @@ function setCookie(name, value, daysToLive) {
 function getCookie(name) {
     // 拆分 cookie 字符串
     var cookieArr = document.cookie.split(";");
-   
+
     // 循环遍历数组元素
     for(var i = 0; i < cookieArr.length; i++) {
         var cookiePair = cookieArr[i].split("=");
-       
+
         /* 删除 cookie 名称开头的空白并将其与给定字符串进行比较 */
         if(name == cookiePair[0].trim()) {
             // 解码cookie值并返回
@@ -380,13 +380,13 @@ function getCookie(name) {
         {
             if (request.readyState==4 && request.status==200)
             {
-                // 3. 将来自服务器的响应插入当前页面
+                // 5. 最后, 将来自服务器的响应插入当前页面
                 document.getElementById("myDiv").innerHTML=request.responseText;
             }
         }
-        // 4. 实例化请求对象, 调用网络数据库或文件, 此处略.
+        // 3. 实例化请求对象, 调用网络数据库或文件, 此处略.
         request.open("GET","https://draapho.github.io/images/2203/ajax_test.txt");
-        // 5. 将请求发送到服务器
+        // 4. 将请求发送到服务器
         request.send();
     }
     </script>
@@ -398,12 +398,11 @@ function getCookie(name) {
 </html>
 ```
 
-
-# 开源库
+# 开源库及TypeScript
 - 引用库的方法: `<script src=xxx></script>`, xxx为开源库URL地址
 - 框架类:
     - 框架类库需要专门的搭建过程, 请参考相关库的说明文档
-    - 运行环境: `Node.js`, 
+    - 运行环境: `Node.js`,
     - MVC框架: `vue.js`, `React.js`
 - 基础操作类:
     - DOM 操作: `jQuery`, 语法与CSS非常相似
@@ -414,6 +413,18 @@ function getCookie(name) {
     - 数据库: `TaffyDB`
 - GUI炫酷:
     - 动画: `Anime.js`
+- [`TypeScript`](https://www.typescriptlang.org/)
+    - TypeScript 是添加了类型系统的 JavaScript, 适用于任何规模的项目.
+    - TypeScript 是一门静态类型, 弱类型的语言.
+    - TypeScript 是完全兼容 JavaScript. 可以编译为JavaScript运行.
+    - TypeScript 拥有很多编译选项, 类型检查的严格程度由你决定
+    - TypeScript 增强了编辑器(IDE)的功能, 提供了代码补全, 接口提示, 跳转到定义, 代码重构等能力.
+
+
+# [`vue.js`](https://staging-cn.vuejs.org/)
+- [Vue3 简介](https://staging-cn.vuejs.org/guide/introduction.html)
+- [搭建环境](https://staging-cn.vuejs.org/guide/quick-start.html)
+- [入门教程](https://staging-cn.vuejs.org/tutorial/#step-1)
 
 
 # 参考资料
