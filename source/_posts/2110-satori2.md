@@ -1,7 +1,7 @@
 ---
 title: 开悟是怎样一种体验？(新)
 date: 2021-04-05
-categories: 灵天赐
+categories: thoughts
 tags: [thoughts]
 description: 灵天赐更新后的体悟和修行总纲.
 ---

@@ -1,8 +1,8 @@
 ---
 title: JavaScript 基础
 date: 2022-08-02
-categories: 网页开发
-tags: [网页开发, JavaScript]
+categories: web
+tags: [web, JavaScript]
 description: 介绍学习 JavaScript 的语法
 ---
 

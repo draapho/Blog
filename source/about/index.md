@@ -86,9 +86,10 @@ comments: false
 [webpy]: http://webpy.org/cookbook/
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
-# 网页开发
+# Web
 - [HTML和CSS基础](https://draapho.github.io/2022/08/01/2202-html-ccs/)
 - [JavaScript 基础](https://draapho.github.io/2022/08/02/2203-javascript/)
+- [项目开发方案评选](https://draapho.github.io/2022/08/08/2205-solution-selection/)
 
 # Windows
 - [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
@@ -102,7 +103,7 @@ comments: false
 - [Windows 软件系列-开发软件](https://draapho.github.io/2016/10/16/1611-WinSoft-other/)
 - [Windows 软件系列-新装系统](https://draapho.github.io/2020/05/02/2004-WinSoft-new/)
 - [使用OMV搭建家庭NAS](https://draapho.github.io/2021/03/31/2109-nuc-omv/)
-
+- [Visual Studio Code 环境配置](https://draapho.github.io/2022/08/03/2204-Visual-Studio-Code/)
 
 # Markdown
 - [Markdown语法][md]

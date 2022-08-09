@@ -1,8 +1,8 @@
 ---
 title: HTML和CSS基础
 date: 2022-08-01
-categories: 网页开发
-tags: [网页开发, HTML, CSS]
+categories: web
+tags: [web, HTML, CSS, scss]
 description: 介绍学习HTML和CSS基础
 ---
 

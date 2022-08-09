@@ -1,9 +1,9 @@
 ---
 title: Visual Studio Code 环境配置
 date: 2022-08-03
-categories: 网页开发
-tags: [网页开发, 环境配置, JavaScript, PHP]
-description: 将 Visual Studio Code 配置为网页开发IDE
+categories: windows
+tags: [windows, 环境配置, JavaScript, PHP, 远程开发]
+description: 安装配置 Visual Studio Code
 ---
 
 # IDE 的选择
@@ -20,9 +20,9 @@ description: 将 Visual Studio Code 配置为网页开发IDE
     - 将 VS Code 定位为网页开发和远程开发主力IDE. 并兼容运行单文件其它语言.
     - 支持 markdown 的编辑和打印
     - 支持远程开发, 如 putty 连接远程服务器
-    - 支持运行调试: JavaScript, PHP, Vue
-    - 支持直接运行 c/c++, java, python 等单文件, 直接看结果.
-    - 尽量用默认配置, 并尽可能少的使用插件.
+    - 支持运行调试: PHP, Go, JavaScript, React, Vue
+    - 支持直接运行 c/c++, python 等单文件, 直接看结果.
+    - 尽量用默认配置, 仅使用必要的官方插件/高下载高评价插件.
 - 清空旧有版本
     - 卸载vscode
     - 删除 `C:\Users\xxx\.vscode` 文件夹
@@ -58,15 +58,17 @@ description: 将 Visual Studio Code 配置为网页开发IDE
     - `gitLens`
     - `Git History`
     - `gitignore`
-        - 命令面板输入 `add gitignore`
-- XML和CSV文件:
+        - 使用: 命令面板(`Ctrl+Shift+p`)输入 `add gitignore`
+- XML和CSV:
     - `XML Tools`
     - `Rainbow CSV`
     - `Auto Close Tag`
-    - `Auto Rename Tag`, 偷懒装此扩展(VSCode可配置)
-- PHP 语言:
+    - `Auto Rename Tag`, 偷懒装此扩展(VSCode可修改配置实现)
+- PHP:
     - `PHP Debug`
     - `PHP Intelephense`
+- Golang:
+    - `Go`
 - Node.js, 按需选择
     - `ESLint`
     - `Search node_modules`, 扩展设置中可指定搜索路径
@@ -78,6 +80,13 @@ description: 将 Visual Studio Code 配置为网页开发IDE
     - `File Peek`, 快速跳转到工程内文件.
     - `CSS Peek`
     - `Sass`
+- React, 按需选择
+    - Node.js 的扩展
+    - `ES7+ React/Redux/React-Native snippets`
+    - 参考 [Using React in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+    - 终端运行 `npx create-react-app my-app` 创建项目, 第一次执行会询问是否安装 create-react-app.
+    - 终端按照提示, 依次输入 `cd my-app`, `npm start`
+    - 浏览器打开 http://localhost:3000/ 会显示 React 图标. 创建项目成功.
 - Vue.js, 按需选择
     - Node.js 的扩展
     - `Vue Language Features (Volar)`
@@ -106,7 +115,7 @@ description: 将 Visual Studio Code 配置为网页开发IDE
         - 仅识别`.http`和`.rest`文件, 点击`Send Request`
 - 辅助工具
     - `Todo Tree`
-        - 勾选 `Highlights:Use Colour Scheme`
+        - 扩展设置内勾选 `Highlights:Use Colour Scheme`
         - `General:Tags` 大写改为小写
     - `Code Runner`
         - 打开 `Settings` 或者 `Extension Settings`
@@ -117,12 +126,18 @@ description: 将 Visual Studio Code 配置为网页开发IDE
 
 # VS Code 的配置
 
-## VS Code 扩展(插件)的配置
+## VS Code 扩展运行环境的配置
 - PHP 运行环境:
     - PHP官网解压安装 [VS16 x64 Thread Safe](https://windows.php.net/download/) PHP, 然后配置好环境变量.
     - 如果要全套本地开发环境, 官网推荐安装包: [XAMPP建站集成软件包](https://www.apachefriends.org/index.html).
     - 终端输入 `php --version` 测试. 返回版本号即配置完成
     - 就能顺利使用 `Code Runner` 运行php文件了
+- Golang 运行环境:
+    - [Golang官网](https://go.dev/dl/) 下载并安装.
+    - 终端输入 `go version` 测试. 返回版本号即配置完成
+    - 更新Go工具: 命令面板(`Ctrl+Shift+p`)输入`go tool`, 点击运行 `Go: Install/Update tools`. 
+    - 然后选择所有Go工具, 并等待安装或更新.
+    - 参考: [配置 Visual Studio Code for Go 开发](https://docs.microsoft.com/zh-cn/azure/developer/go/configure-visual-studio-code)
 - JavaScript 运行环境: `Node.js`
     - [Node.js 官网下载](https://nodejs.org/zh-cn/download/) 并安装
     - 终端输入 `node --version` 和 `npm --version` 测试, 返回版本号即配置完成
