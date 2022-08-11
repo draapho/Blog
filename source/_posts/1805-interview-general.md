@@ -12,6 +12,8 @@ description: 面试题集.
 - [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
+- [面试之面向对象](https://draapho.github.io/2022/08/10/2206-interview-oop/)
+- [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
 
 
 我个人面试经验极少, 但这种能力都是需要培养的.

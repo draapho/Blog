@@ -14,7 +14,7 @@ comments: false
 
 `EMAIL: draapho@gmail.com`
 `https://github.com/draapho/Blog`
-`https://draapho.github.io/images/21xx/xxx.xxx`
+`https://draapho.github.io/images/22xx/xxx.xxx`
 
 
 # Thoughts
@@ -52,6 +52,7 @@ comments: false
 - [协程/进程/线程资料收集](https://draapho.github.io/2016/11/14/1615-software-thread/)
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
+- [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
 
 # python
 - [PyCharm 设置虚拟开发环境](https://draapho.github.io/2022/06/08/2201-pycharm-venv)
@@ -215,6 +216,7 @@ comments: false
 - [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
+- [面试之面向对象](https://draapho.github.io/2022/08/10/2206-interview-oop/)
 
 
 # Market
