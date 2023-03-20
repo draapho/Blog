@@ -123,6 +123,12 @@ description: 安装配置 Visual Studio Code
         - 勾选 `Whether to run code in Integrated Terminal.`
         - 需要配置各语言的运行环境
     - ~~IntelliCode~~
+    - Code GPT (2023年3月20日更新)
+        - 打开 [Open AI 账户](https://platform.openai.com/account/api-keys), 生成一个密钥.
+        - VS Code 中按 `command+shift+p`打开面板
+        - 搜索并选择 `CodeGPT: set API key`
+        - 在弹出框中填入密钥, 然后回车
+
 
 # VS Code 的配置
 
