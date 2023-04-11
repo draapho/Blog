@@ -14,7 +14,7 @@ comments: false
 
 `EMAIL: draapho@gmail.com`
 `https://github.com/draapho/Blog`
-`https://draapho.github.io/images/22xx/xxx.xxx`
+`https://draapho.github.io/images/23xx/xxx.xxx`
 
 
 # Thoughts
