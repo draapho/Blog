@@ -37,6 +37,7 @@ comments: false
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
@@ -122,6 +123,7 @@ comments: false
 - [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
 - [ezos简要用户手册](https://draapho.github.io/2017/04/10/1712-ezos/)
 - [stm32选型及资料搜索指南](https://draapho.github.io/2016/10/01/1605-Stm32Selection/)
+- [Zephyr Project 环境配置](https://draapho.github.io/2023/04/25/2302-zephyr-start/)
 
 
 # linux 基础知识学习
