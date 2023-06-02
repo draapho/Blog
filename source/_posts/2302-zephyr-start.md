@@ -1,41 +1,41 @@
 ---
-title: Zephyr Project »·¾³ÅäÖÃ
+title: Zephyr Project ç¯å¢ƒé…ç½®
 date: 2023-04-25
 categories: embedded
 tags: [embedded, zephyr]
-description: ÈçÌâ.
+description: å¦‚é¢˜.
 ---
 
 
-# ¸ÅÊö
+# æ¦‚è¿°
 
-Zephyr Project ÊÇÒ»¸ö¿ÉÀ©Õ¹µÄÊµÊ±²Ù×÷ÏµÍ³, Îª×ÊÔ´ÊÜÏŞµÄÉè±¸Ìá¹©Ö§³Ö. ÓÉ Linux »ù½ğ»áÍĞ¹Ü.
-Òò¶ø¸ÃÏîÄ¿¼«¾ßLinuxÌØµã: ĞÔÄÜÇ¿´ó, Ñ§Ï°ÇúÏß¶¸ÇÍ, ÈëÃÅÀ§ÄÑ. Ö÷ÒªÊ¹ÓÃÃüÁîĞĞ¸ñÊ½, »ùÓÚÀàUnixÏµÍ³²âÊÔ±È½Ï³ä·Ö, WindowÏÂÈİÒ×Óöµ½¸÷ÖÖÄªÃûµÄÎÊÌâ.
-¸ÃÏîÄ¿¸Õ³öÀ´µÄÊ±ºò, Ò²¹Ø×¢¹ı, ¸ù¾İÆäÖ¸µ¼ÊÖ²á, ÔÚwindowsÏÂ¾ÍÃ»ÓĞÅäÖÃ³É¹¦. ÏÖÔÚÓĞ¿ÕÓÖÊÔÁËÒ»ÏÂ, ËãÊÇÔÚwindows»·¾³ÏÂ, ³É¹¦´î½¨ÁËÔËĞĞ»·¾³, ²¢°Ñ·¶ÀıÅÜÁËÆğÀ´.
+Zephyr Project æ˜¯ä¸€ä¸ªå¯æ‰©å±•çš„å®æ—¶æ“ä½œç³»ç»Ÿ, ä¸ºèµ„æºå—é™çš„è®¾å¤‡æä¾›æ”¯æŒ. ç”± Linux åŸºé‡‘ä¼šæ‰˜ç®¡.
+å› è€Œè¯¥é¡¹ç›®æå…·Linuxç‰¹ç‚¹: æ€§èƒ½å¼ºå¤§, å­¦ä¹ æ›²çº¿é™¡å³­, å…¥é—¨å›°éš¾. ä¸»è¦ä½¿ç”¨å‘½ä»¤è¡Œæ ¼å¼, åŸºäºç±»Unixç³»ç»Ÿæµ‹è¯•æ¯”è¾ƒå……åˆ†, Windowä¸‹å®¹æ˜“é‡åˆ°å„ç§è«åçš„é—®é¢˜.
+è¯¥é¡¹ç›®åˆšå‡ºæ¥çš„æ—¶å€™, ä¹Ÿå…³æ³¨è¿‡, æ ¹æ®å…¶æŒ‡å¯¼æ‰‹å†Œ, åœ¨windowsä¸‹å°±æ²¡æœ‰é…ç½®æˆåŠŸ. ç°åœ¨æœ‰ç©ºåˆè¯•äº†ä¸€ä¸‹, ç®—æ˜¯åœ¨windowsç¯å¢ƒä¸‹, æˆåŠŸæ­å»ºäº†è¿è¡Œç¯å¢ƒ, å¹¶æŠŠèŒƒä¾‹è·‘äº†èµ·æ¥.
 
 
 
-# 1. °²×° Chocolatey
+# 1. å®‰è£… Chocolatey
 
-Ê×ÏÈ£¬ĞèÒª°²×° Chocolatey °ü¹ÜÀíÆ÷¡£Çë²ÎÔÄ [Chocolatey °²×°Ò³Ãæ](https://chocolatey.org/install) »ñÈ¡ÏêÏ¸ĞÅÏ¢¡£
+é¦–å…ˆï¼Œéœ€è¦å®‰è£… Chocolatey åŒ…ç®¡ç†å™¨ã€‚è¯·å‚é˜… [Chocolatey å®‰è£…é¡µé¢](https://chocolatey.org/install) è·å–è¯¦ç»†ä¿¡æ¯ã€‚
 
-Ê¹ÓÃ PowerShell ÒÔ**¹ÜÀíÔ±Éí·İ**ÔËĞĞÒÔÏÂÃüÁî£º
+ä½¿ç”¨ PowerShell ä»¥**ç®¡ç†å‘˜èº«ä»½**è¿è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
 
 ```powershell
 Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-Éı¼¶ Chocolatey£º
+å‡çº§ Chocolateyï¼š
 
 ```powershell
 choco upgrade chocolatey
 ```
 
 
-# 2. °²×°ÒÀÀµ
+# 2. å®‰è£…ä¾èµ–
 
-ÒÔ**¹ÜÀíÔ±Éí·İ**´ò¿ªÃüÁîÌáÊ¾·û, ²¢ÔËĞĞÒÔÏÂÃüÁî£¬ÓÃÒÔ°²×° cmake, ninja, gperf, python, git, dtc-msys2, wget, unzip µÈÒÀÀµ¹¤¾ß¡£Èç¹ûÒÑ¾­°²×°¹ı£¬ÇëÈ·±£Éı¼¶µ½×îĞÂ°æ±¾¡£
+ä»¥**ç®¡ç†å‘˜èº«ä»½**æ‰“å¼€å‘½ä»¤æç¤ºç¬¦, å¹¶è¿è¡Œä»¥ä¸‹å‘½ä»¤ï¼Œç”¨ä»¥å®‰è£… cmake, ninja, gperf, python, git, dtc-msys2, wget, unzip ç­‰ä¾èµ–å·¥å…·ã€‚å¦‚æœå·²ç»å®‰è£…è¿‡ï¼Œè¯·ç¡®ä¿å‡çº§åˆ°æœ€æ–°ç‰ˆæœ¬ã€‚
 
 ```cmd
 choco feature enable -n allowGlobalConfirmation
@@ -44,9 +44,9 @@ choco install ninja gperf python git dtc-msys2 wget unzip
 ```
 
 
-# 3. °²×° West ¹¤¾ß
+# 3. å®‰è£… West å·¥å…·
 
-Ê¹ÓÃ Python °²×° West ¹¤¾ß¡£West ×¨ÃÅÓÃÓÚ¹ÜÀí Zephyr ÏîÄ¿£¬Ëü¿ÉÒÔÏÂÔØ²¢¸üĞÂÏîÄ¿¡£
+ä½¿ç”¨ Python å®‰è£… West å·¥å…·ã€‚West ä¸“é—¨ç”¨äºç®¡ç† Zephyr é¡¹ç›®ï¼Œå®ƒå¯ä»¥ä¸‹è½½å¹¶æ›´æ–°é¡¹ç›®ã€‚
 
 ```cmd
 pip3 install -U west
@@ -59,38 +59,38 @@ west zephyr-export
 pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
 ```
 
-# 4. °²×° Zephyr SDK
+# 4. å®‰è£… Zephyr SDK
 
-°²×° Zephyr SDK Ê±£¬Çë´Ó [Zephyr SDK µÄ GitHub Ò³Ãæ](https://github.com/zephyrproject-rtos/sdk-ng/releases) ÏÂÔØ×îĞÂ°æ±¾£¬¶ø²»ÊÇ¹Ù·½ÎÄµµÖĞ, ÃüÁîĞĞÀïµÄ°æ±¾ (¹Ù·½ÎÄµµ¸üĞÂ²»¼°Ê±, ºóÃæ±àÒëÊ±»áÌáÊ¾°æ±¾¹ıµÍ)¡£
+å®‰è£… Zephyr SDK æ—¶ï¼Œè¯·ä» [Zephyr SDK çš„ GitHub é¡µé¢](https://github.com/zephyrproject-rtos/sdk-ng/releases) ä¸‹è½½æœ€æ–°ç‰ˆæœ¬ï¼Œè€Œä¸æ˜¯å®˜æ–¹æ–‡æ¡£ä¸­, å‘½ä»¤è¡Œé‡Œçš„ç‰ˆæœ¬ (å®˜æ–¹æ–‡æ¡£æ›´æ–°ä¸åŠæ—¶, åé¢ç¼–è¯‘æ—¶ä¼šæç¤ºç‰ˆæœ¬è¿‡ä½)ã€‚
 
-ÀıÈç£¬µ±Ç°×îĞÂ°æ±¾Îª Zephyr SDK 0.16.0¡£ÏÂÔØ Windows µÄ FULL °æ±¾£¨[ÏÂÔØÁ´½Ó](https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0/zephyr-sdk-0.16.0_windows-x86_64.7z)£©£¬È»ºó½«ÆäÊÖ¶¯½âÑ¹µ½ÊÊµ±µÄÄ¿Â¼¡£
+ä¾‹å¦‚ï¼Œå½“å‰æœ€æ–°ç‰ˆæœ¬ä¸º Zephyr SDK 0.16.0ã€‚ä¸‹è½½ Windows çš„ FULL ç‰ˆæœ¬ï¼ˆ[ä¸‹è½½é“¾æ¥](https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0/zephyr-sdk-0.16.0_windows-x86_64.7z)ï¼‰ï¼Œç„¶åå°†å…¶æ‰‹åŠ¨è§£å‹åˆ°é€‚å½“çš„ç›®å½•ã€‚
 
-ÔÚ½âÑ¹³öµÄ `zephyr-sdk-0.16.0` Ä¿Â¼ÏÂ£¬Ë«»÷ÔËĞĞ `setup.cmd`¡£
-ÕâÊ±ºò»áÌáÊ¾ `Zephyr SDK setup requires '7z' to be installed and available in the PATH.` ¾ÍÊÇÒª°Ñ7zµÄbin¼ÓÈëµ½»·¾³±äÁ¿PATHÖĞ.
-Ò»¸ö¼òµ¥µÄ·½·¨£¬¿ÉÒÔ½« 7z.exe ºÍ 7z.dll ¸´ÖÆµ½ `zephyr-sdk-0.16.0` Ä¿Â¼ÏÂ£¬È»ºóÔËĞĞ `setup.cmd`¡£
-×¢Òâ: `setup.cmd`, Ö»ĞèÒªÖ´ĞĞÒ»´Î, ²»Òª¶à´ÎÖ´ĞĞ.
+åœ¨è§£å‹å‡ºçš„ `zephyr-sdk-0.16.0` ç›®å½•ä¸‹ï¼ŒåŒå‡»è¿è¡Œ `setup.cmd`ã€‚
+è¿™æ—¶å€™ä¼šæç¤º `Zephyr SDK setup requires '7z' to be installed and available in the PATH.` å°±æ˜¯è¦æŠŠ7zçš„binåŠ å…¥åˆ°ç¯å¢ƒå˜é‡PATHä¸­.
+ä¸€ä¸ªç®€å•çš„æ–¹æ³•ï¼Œå¯ä»¥å°† 7z.exe å’Œ 7z.dll å¤åˆ¶åˆ° `zephyr-sdk-0.16.0` ç›®å½•ä¸‹ï¼Œç„¶åè¿è¡Œ `setup.cmd`ã€‚
+æ³¨æ„: `setup.cmd`, åªéœ€è¦æ‰§è¡Œä¸€æ¬¡, ä¸è¦å¤šæ¬¡æ‰§è¡Œ.
 
 
-# 5. ±àÒëÏîÄ¿
+# 5. ç¼–è¯‘é¡¹ç›®
 
-Òª²é¿´Ö§³ÖµÄ¿ª·¢°åÁĞ±í£¬Çë·ÃÎÊ£º[¹Ù·½Ö§³ÖµÄ¿ª·¢°åÁĞ±í](https://docs.zephyrproject.org/3.1.0/boards/index.html#boards)¡£
+è¦æŸ¥çœ‹æ”¯æŒçš„å¼€å‘æ¿åˆ—è¡¨ï¼Œè¯·è®¿é—®ï¼š[å®˜æ–¹æ”¯æŒçš„å¼€å‘æ¿åˆ—è¡¨](https://docs.zephyrproject.org/3.1.0/boards/index.html#boards)ã€‚
 
-ÎÒÊÖÍ·ÓĞ ST Nucleo L152RE ¿ª·¢°å. ¾ÍÒÔ´ËÎªÀı£¬ÔËĞĞÒÔÏÂÃüÁî£º
+æˆ‘æ‰‹å¤´æœ‰ ST Nucleo L152RE å¼€å‘æ¿. å°±ä»¥æ­¤ä¸ºä¾‹ï¼Œè¿è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
 
 ```cmd
 cd %HOMEPATH%\zephyrproject\zephyr
 west build -p always -b nucleo_l152re samples/basic/blinky
-REM -p always ÊÇÖ¸±àÒëÇ°, Ç¿ÖÆÇåÀí±àÒëÄ¿Â¼. auto ÊÇ×Ô¶¯Ê¶±ğ
+REM -p always æ˜¯æŒ‡ç¼–è¯‘å‰, å¼ºåˆ¶æ¸…ç†ç¼–è¯‘ç›®å½•. auto æ˜¯è‡ªåŠ¨è¯†åˆ«
 
 REM west build -p auto -b nucleo_l152re samples/basic/blinky
 REM west build -p auto -b nucleo_f031k6 samples/basic/blinky
 ```
 
-×¢Òâ£º
-- Èç¹ûÊÇ´ÓÆäËûµØ·½¸´ÖÆµÄ zephyrproject ÎÄ¼ş¼Ğ£¬build ¿ÉÄÜ»á³ö´í¡£´ËÊ±£¬É¾³ı zephyr Ä¿Â¼ÏÂµÄ build ÎÄ¼ş¼Ğ, »òÕßÊ¹ÓÃ `west build -p always ...`
-- Èç¹ûÔÚ±àÒë¹ı³ÌÖĞ³öÏÖ´íÎó£¬Çë×ĞÏ¸¼ì²éÒÀÀµ¹¤¾ßµÄ×îµÍ°æ±¾ÒªÇó£¬È»ºó°´Ğè½â¾öÎÊÌâ¡£
+æ³¨æ„ï¼š
+- å¦‚æœæ˜¯ä»å…¶ä»–åœ°æ–¹å¤åˆ¶çš„ zephyrproject æ–‡ä»¶å¤¹ï¼Œbuild å¯èƒ½ä¼šå‡ºé”™ã€‚æ­¤æ—¶ï¼Œåˆ é™¤ zephyr ç›®å½•ä¸‹çš„ build æ–‡ä»¶å¤¹, æˆ–è€…ä½¿ç”¨ `west build -p always ...`
+- å¦‚æœåœ¨ç¼–è¯‘è¿‡ç¨‹ä¸­å‡ºç°é”™è¯¯ï¼Œè¯·ä»”ç»†æ£€æŸ¥ä¾èµ–å·¥å…·çš„æœ€ä½ç‰ˆæœ¬è¦æ±‚ï¼Œç„¶åæŒ‰éœ€è§£å†³é—®é¢˜ã€‚
 
-±àÒë½á¹û: L152RE ÓÃÁË 14KµÄ flash, 4KµÄ RAM...
+ç¼–è¯‘ç»“æœ: L152RE ç”¨äº† 14Kçš„ flash, 4Kçš„ RAM...
 
 |  Memory region    |  Used Size    |  Region Size    | %age Used     |
 | ---- | ---- | ---- | ---- |
@@ -99,7 +99,7 @@ REM west build -p auto -b nucleo_f031k6 samples/basic/blinky
 |  IDT_LIST:      | 0 GB     |  2 KB    |  0.00%    |
 
 
-»»f031K¿ª·¢°å¿´ÏÂ±àÒë½á¹û: 13KµÄflash, 2KµÄRAM
+æ¢f031Kå¼€å‘æ¿çœ‹ä¸‹ç¼–è¯‘ç»“æœ: 13Kçš„flash, 2Kçš„RAM
 
 |  Memory region    |  Used Size    | Region Size     | %age Used     |
 | ---- | ---- | ---- | ---- |
@@ -107,56 +107,47 @@ REM west build -p auto -b nucleo_f031k6 samples/basic/blinky
 |  RAM:     |  1784 B      |  4 KB     |  43.55%    |
 | IDT_LIST:     |  0 GB     |  2 KB    |  0.00%    |
 
-**¼òµ¥µÄ½áÂÛ**: ¶ÔÓÚÄ³Ğ©³É±¾Ãô¸Ğ, ÓĞ³¬µÍ³É±¾ĞèÇóµÄÓ¦ÓÃ, Zephyr ÒÀ¾ÉÌ«ºÄ×ÊÔ´ÁË. Ö±¹Û¸Ğ¾õ, ÊÊºÏÊ¹ÓÃ Zephyr µÄÏîÄ¿, ºÍ RT-thread µÄÄ¿±êÀàËÆ, ¾ÍÊÇÓĞÁªÍøĞèÇóµÄÇ¶ÈëÊ½Ó¦ÓÃ, ÄÜÖ±½ÓÊ¹ÓÃµ½ÀïÃæ³ÉÊìµÄÄ£¿é»ò·½°¸, ¹¦ÄÜÉÏ±£Ö¤ÁË¿É¿¿ĞÔºÍÎÈ¶¨ĞÔ, ¼ÓËÙÏîÄ¿µÄ¿ª·¢½ø¶È.
+**ç®€å•çš„ç»“è®º**: å¯¹äºæŸäº›æˆæœ¬æ•æ„Ÿ, æœ‰è¶…ä½æˆæœ¬éœ€æ±‚çš„åº”ç”¨, Zephyr ä¾æ—§å¤ªè€—èµ„æºäº†. ç›´è§‚æ„Ÿè§‰, é€‚åˆä½¿ç”¨ Zephyr çš„é¡¹ç›®, å’Œ RT-thread çš„ç›®æ ‡ç±»ä¼¼, å°±æ˜¯æœ‰è”ç½‘éœ€æ±‚çš„åµŒå…¥å¼åº”ç”¨, èƒ½ç›´æ¥ä½¿ç”¨åˆ°é‡Œé¢æˆç†Ÿçš„æ¨¡å—æˆ–æ–¹æ¡ˆ, åŠŸèƒ½ä¸Šä¿è¯äº†å¯é æ€§å’Œç¨³å®šæ€§, åŠ é€Ÿé¡¹ç›®çš„å¼€å‘è¿›åº¦.
 
 
-# 6. ÉÕÂ¼
+# 6. çƒ§å½•
 
-Ê¹ÓÃÒÔÏÂÃüÁî½øĞĞÉÕÂ¼£º
+ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤è¿›è¡Œçƒ§å½•ï¼š
 
 ```cmd
 west flash
 ```
 
-ÕâÊ±, »áÌáÊ¾Î´°²×° openocd »òÎ´ÕıÈ·ÅäÖÃ openocd µÄ»·¾³±äÁ¿.
-Çë·ÃÎÊ [OpenOCD ¹ÙÍø](https://openocd.org/pages/getting-openocd.html) ÏÂÔØÔ´´úÂë£¬
-windows°²×°°æ±¾ÔÚ [OpenOCD µÄ GitHub Ò³Ãæ](https://github.com/openocd-org/openocd/releases/tag/v0.12.0) ¿ÉÒÔÏÂÔØµ½ÏàÓ¦°æ±¾¡£
-ÀıÈç:  [Windows °æ±¾µÄ OpenOCD](https://github.com/openocd-org/openocd/releases/download/v0.12.0/openocd-v0.12.0-i686-w64-mingw32.tar.gz)¡£
-ÏÂÔØ²¢½âÑ¹ºó£¬½«Æä bin Ä¿Â¼Ìí¼Óµ½»·¾³±äÁ¿ PATH ÖĞ¡£
+è¿™æ—¶, ä¼šæç¤ºæœªå®‰è£… openocd æˆ–æœªæ­£ç¡®é…ç½® openocd çš„ç¯å¢ƒå˜é‡.
+è¯·è®¿é—® [OpenOCD å®˜ç½‘](https://openocd.org/pages/getting-openocd.html) ä¸‹è½½æºä»£ç ï¼Œ
+windowså®‰è£…ç‰ˆæœ¬åœ¨ [OpenOCD çš„ GitHub é¡µé¢](https://github.com/openocd-org/openocd/releases/tag/v0.12.0) å¯ä»¥ä¸‹è½½åˆ°ç›¸åº”ç‰ˆæœ¬ã€‚
+ä¾‹å¦‚:  [Windows ç‰ˆæœ¬çš„ OpenOCD](https://github.com/openocd-org/openocd/releases/download/v0.12.0/openocd-v0.12.0-i686-w64-mingw32.tar.gz)ã€‚
+ä¸‹è½½å¹¶è§£å‹åï¼Œå°†å…¶ bin ç›®å½•æ·»åŠ åˆ°ç¯å¢ƒå˜é‡ PATH ä¸­ã€‚
 
-Íê³ÉÉÏÊö²Ù×÷ºó£¬ÔÚĞÂµÄÃüÁîÌáÊ¾·û´°¿ÚÖĞÔËĞĞÒÔÏÂÃüÁîÒÔ²âÊÔ£º
+å®Œæˆä¸Šè¿°æ“ä½œåï¼Œåœ¨æ–°çš„å‘½ä»¤æç¤ºç¬¦çª—å£ä¸­è¿è¡Œä»¥ä¸‹å‘½ä»¤ä»¥æµ‹è¯•ï¼š
 
 ```cmd
 openocd
-REM Èç¹û·µ»Ø Open On-Chip Debugger ... Ôò openocd °²×°³É¹¦
+REM å¦‚æœè¿”å› Open On-Chip Debugger ... åˆ™ openocd å®‰è£…æˆåŠŸ
 ```
 
-È»ºó£¬ÔÙ´Î³¢ÊÔÉÕÂ¼ºÍµ÷ÊÔ£º
+ç„¶åï¼Œå†æ¬¡å°è¯•çƒ§å½•å’Œè°ƒè¯•ï¼š
 
 ```cmd
 west flash
-west debug   
-REM ½øÈë (gdb) µ÷ÊÔÄ£Ê½
+west debug
+REM è¿›å…¥ (gdb) è°ƒè¯•æ¨¡å¼
 ```
 
-Èç¹ûÈÔÈ»³öÏÖÎÊÌâ£¬Çë¸ù¾İÌáÊ¾ĞÅÏ¢×ĞÏ¸¼ì²éÓ²¼şÁ¬½ÓºÍÏµÍ³ÅäÖÃ¡£ÀıÈç£¬Ê×ÏÈ¼ì²éÉÕÂ¼Æ÷£¬È»ºó²é¿´¼ì²âµ½µÄÓ²¼şµçÑ¹µÈ¡£¾ßÌå²Ù×÷ÒòÓ²¼ş¶øÒì£¬ÎŞ·¨Ò»Ò»ÏêÊö¡£
+å¦‚æœä»ç„¶å‡ºç°é—®é¢˜ï¼Œè¯·æ ¹æ®æç¤ºä¿¡æ¯ä»”ç»†æ£€æŸ¥ç¡¬ä»¶è¿æ¥å’Œç³»ç»Ÿé…ç½®ã€‚ä¾‹å¦‚ï¼Œé¦–å…ˆæ£€æŸ¥çƒ§å½•å™¨ï¼Œç„¶åæŸ¥çœ‹æ£€æµ‹åˆ°çš„ç¡¬ä»¶ç”µå‹ç­‰ã€‚å…·ä½“æ“ä½œå› ç¡¬ä»¶è€Œå¼‚ï¼Œæ— æ³•ä¸€ä¸€è¯¦è¿°ã€‚
 
 
 
-# 7. ´î½¨ Zephyr µÄIDE
-
-²Î¿¼ [Coccinelle](https://docs.zephyrproject.org/3.2.0/develop/tools/coccinelle.html)
-²Î¿¼ [Using with PlatformIO](https://docs.zephyrproject.org/3.2.0/develop/tools/platformio/index.html)
-²Î¿¼ [ Zephyr Eclipse ²å¼ş](https://github.com/zephyrproject-rtos/eclipse-plugin)
-ÒÔÉÏÈı¸ö·½°¸, ÊÇ·ñ¿ÉÓÃ, ÊÇ·ñÒ×ÓÚÊ¹ÓÃ, ´ı²â.
-
-
-# ²Î¿¼×ÊÁÏ
+# å‚è€ƒèµ„æ–™
 
 - [Zephyr Getting Started Guide](https://docs.zephyrproject.org/3.1.0/develop/getting_started/index.html)
-- [ChatGPT - Zephyr Project ÓĞ¿ÉÊÓ»¯µÄIDEÂğ](https://chat.openai.com/)
 
 
 ----------
 
-***Ô­´´ÓÚ [DRA&PHO](https://draapho.github.io/)***
+***åŸåˆ›äº [DRA&PHO](https://draapho.github.io/)***

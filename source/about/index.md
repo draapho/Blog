@@ -37,12 +37,15 @@ comments: false
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
-- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
 - [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [修道之路-闻道]()
+
+# AI
+- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
+- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
 
 # 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)

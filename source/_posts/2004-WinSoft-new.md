@@ -17,6 +17,7 @@ description: 新PC装机过程.
 - 系统分区: [分区助手](https://www.disktool.cn/) (***绿色软件***)
     - 设置->搜索Bitlocker->关闭`Bitlocker`
     - 软件盘C, SOFT, 120G-250G
+        - 注意, C盘根目录下创建`Program`目录, 可以命名为`Programs`
     - 数据盘D, DATA
 - 中文以及解决中文乱码
     - 设置->语言/Language->中文
@@ -24,6 +25,9 @@ description: 新PC装机过程.
     - 设置->区域->区域格式->中文.
     - 设置->区域->其他日期,时间和区域设置->弹出传统的控制面板界面
     - 更改日期,时间或数字格式->管理标签->更改系统区域设置...->选中国
+    - 如果要保留英文系统, 但支持中文字符显示, 只需要下述步骤:
+        - 设置里搜索`Region Settings`并进入->`Additional data, time & regional settings`->`Change date, time or number formats`
+        - 弹出框后, 选择`Adminstrative`标签->`Change System locale`->选为中文, UTF-8 不要打勾
 - 性能优化
     - 蓝牙鼠标
         - 右键开始菜单->设备管理器->蓝牙->无线Bluetooth->右键属性->电源选项->禁止节电!
@@ -42,16 +46,16 @@ description: 新PC装机过程.
         - 音乐, 照片, 视频, 电影, 保存到D盘
     - 我的电脑->桌面等7个文件->分别右键属性->位置
         - 3D对象,文档->不修改
-        - 视频,图片,音乐,下载,桌面->移动到D盘
-        - 路径格式举例: `D:\用户名\桌面`
+        - 视频,图片,音乐->移动到D盘
+        - 路径格式举例: `D:\用户名\音乐`
 - 快速访问:
     - 保留最常用的: 下载, 云盘, 用户内容, 生活, 学习, 工作, 家庭, 备份等等
-- 共享 Downloads 文件夹
+- ~~共享 Downloads 文件夹~~, NAS服务器 替代
     - 设置->启用或关闭 windows 功能->勾选 `SMB 1.0/CIFS...`. 顺手开启NFS服务
     - 设置->高级共享设置->启用网络发现, 启用文件和打印机共享. 建议启用密码保护
     - 右键 Downloads 文件夹->属性->共享->共享...->添加`Everyone`->权限改为读取写入.
     - 用无线网络时, 设置->查看网络连接->右键网络适配器->勾选 Microsoft 网络的文件和打印机共享
-- 杀毒软件 ESET
+- ~~杀毒软件 ESET~~, Bitdefender 替代
     - 用国内注册码的话, 区域要改为中国.
     - 依旧不行的话, 用穿梭或快帆翻墙到国内, 变为国内的IP地址.
 
@@ -66,39 +70,32 @@ description: 新PC装机过程.
 - BANDIZIP6.27 (后续版本有广告). 解压软件
     - 7zip 备选
 - quicker. 鼠标工具. 使用鼠标的常用操作.
-    - 快捷键 `鼠标中键` 和 `鼠标画圈`
-    - 免费版只支持2台电脑. 可用多账号. 账号间用本地存储同步应用数据
+    - 快捷键 `鼠标中键`
+    - 免费版只支持2台电脑. 账号间用本地存储同步应用数据
     - quicker->...->工具->应用数据文件夹. `data` `states` 内容
 - uTool. 键盘工具. 使用关键词的常用和低频操作.
-    - 设置
+    - 相关应用可以在设置中, 独立`开启自动分离窗口`
+    - 设置, `开启自动分离窗口`
         - 快捷键 `alt+space`. 支持拼音首字母搜索.
         - 插件分离, 插件固定: `Ctrl+D` 改为 `Alt+V`.
         - 关闭 自动黏贴. 恢复输入框: 1分钟
         - 启用 搜索本地应用程序
         - 自定义快捷方式目录 `.\Green\setting\uTools\shortcuts`
             - 常用目录和软件助记快捷方式
-    - PDF转换器
-    - 网页快开. 设置网页关键字, 以图搜图, 聚合搜索
-    - 我的上网IP
-    - 批量重命名
-    - Code计算器. 计算器功能
-    - 程序员手册
-    - 正则编辑器
-    - 编码小助手. 时间转换, UUID, 编码
-    - JSON编辑器
-    - 二维码小助手
-    - 颜色助手. 取色, 选色.
-    - 剪切板. 剪切板历史
-    - 聚合翻译
-    - 本地搜索. 安装 everything
-    - 沙拉查词. 翻译. 导入设置
-- ~~Listary 快速搜索: 配置文件 `Preferences.json`~~
-    - 取消 所有关键字
-    - 精简 动作
-    - 快捷键, 下一项目: `Ctrl+J`
-    - 快捷键, 前一项目: `Ctrl+K`
+    - OCR文字识别. `开启自动分离窗口`
+    - 超级粘贴板. `开启自动分离窗口`
+    - 计算稿纸
+    - 本地搜索. `开启自动分离窗口`
+    - 编解码与加解密. `开启自动分离窗口`
+    - 编码小助手. `开启自动分离窗口`
+    - 二维码助手. `开启自动分离窗口`
+    - 颜色助手. `开启自动分离窗口`
+    - 批量重命名. `开启自动分离窗口`
+    - 图片压缩. `开启自动分离窗口`
 - 微软输入法
     - 设置->高级键盘设置->反选 使用桌面语言栏(如果可用)
+    - 启用`中文输入英文标点`, `模糊拼音`, 候选词改为5, 开启`自学习`和`云服务`
+    - 关闭`人名输入`
 
 
 
@@ -113,12 +110,6 @@ description: 新PC装机过程.
         - 备份任意文件 (默认只有Desktop, Documents, Pictures):
             - 管理员权限打开cmd: `mklink /d "C:\Users\[Username]\OneDrive\Test" "E:\Test"`
             - 第一个路径为目标路径, 必须是OneDrive本地文件夹. 第二个路径为需要同步的文件夹.
-    - Excel 插件:
-        - 方方格子.
-    - PowerPoint 插件:
-        - ~~iSlide.  (需要登录, 模板等需要收费)~~
-    - OneNote 插件
-        - ~~[NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016/releases)~~, 代码高亮. 不支持OneNote2010.
 - Dynalist. 备忘+笔记, 全平台云存储. 支持Markdown. 需要图床才能加载图片.
     - 类似的软件: WorkFlow, 幕布
 - typora. markdown文本编辑器
@@ -126,8 +117,8 @@ description: 新PC装机过程.
     - 点击bat文件注册右键即可. 已完成[配置](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/).
 - Amazon kindle. 读书软件
 - 越飞读书 Fly Reader (***Microsoft Store***). 读书软件, 多格式支持
-    - 替代 ~~iReader (***Microsoft Store***). txt读书软件~~
-- PDF Reader-Xodo (***Microsoft Store***)
+- pdf Viewer plus (***Microsoft Store***), 轻巧的PDF阅读器
+- PDF Reader-Xodo (***Microsoft Store***), PDF阅读和编辑, 以及格式转换
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
 - GoldenDict (***绿色软件***). 离线翻译软件.
 - 冰点文库下载器 (***绿色软件***). 免积分下载百度文库、道客巴巴、豆丁网上的资料
