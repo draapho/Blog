@@ -66,42 +66,65 @@ description: 新PC装机过程.
 
 
 - quicklook (***Microsoft Store***)
-- Keypass. (***绿色软件***) 密码管理软件
+- Keepass. (***绿色软件***) 密码管理软件
 - BANDIZIP6.27 (后续版本有广告). 解压软件
     - 7zip 备选
-- quicker. 鼠标工具. 使用鼠标的常用操作.
-    - 快捷键 `鼠标中键`
-    - 免费版只支持2台电脑. 账号间用本地存储同步应用数据
-    - quicker->...->工具->应用数据文件夹. `data` `states` 内容
-- uTool. 键盘工具. 使用关键词的常用和低频操作.
-    - 相关应用可以在设置中, 独立`开启自动分离窗口`
-    - 设置, `开启自动分离窗口`
-        - 快捷键 `alt+space`. 支持拼音首字母搜索.
-        - 插件分离, 插件固定: `Ctrl+D` 改为 `Alt+V`.
-        - 关闭 自动黏贴. 恢复输入框: 1分钟
-        - 启用 搜索本地应用程序
-        - 自定义快捷方式目录 `.\Green\setting\uTools\shortcuts`
-            - 常用目录和软件助记快捷方式
-    - OCR文字识别. `开启自动分离窗口`
-    - 超级粘贴板. `开启自动分离窗口`
-    - 计算稿纸
-    - 本地搜索. `开启自动分离窗口`
-    - 编解码与加解密. `开启自动分离窗口`
-    - 编码小助手. `开启自动分离窗口`
-    - 二维码助手. `开启自动分离窗口`
-    - 颜色助手. `开启自动分离窗口`
-    - 批量重命名. `开启自动分离窗口`
-    - 图片压缩. `开启自动分离窗口`
+- ~~uTool. 键盘工具. 使用关键词的常用和低频操作.~~
+    - 插件会强制升级, 用起来不方便
+    - 需要的功能, quicker可以实现.
 - 微软输入法
     - 设置->高级键盘设置->反选 使用桌面语言栏(如果可用)
     - 启用`中文输入英文标点`, `模糊拼音`, 候选词改为5, 开启`自学习`和`云服务`
     - 关闭`人名输入`
-
+- quicker. 鼠标工具. 使用鼠标的常用操作.
+    - 弹出面板->鼠标方式->`鼠标中键`
+    - 功能快捷键->停止运行中的动作->`Alt + Esc`
+    - 功能快捷键->打开搜索框->`Alt + Space`
+    - 免费版只支持2台电脑. 账号间可以用本地存储同步应用数据
+        - quicker->...->工具->应用数据文件夹. `data` `states` 内容
+        - 也可以使用网络添加动作或本地导入动作.
+    - 自用的动作库:
+        - [11. 我的电脑](https://getquicker.net/Sharedaction?code=2a98fd68-6628-4ca5-8edb-08d639a457d1)
+        - [12. 设置](https://getquicker.net/Sharedaction?code=7adf975c-0fa7-4a03-8ed4-08d639a457d1)
+        - [13. 回收站](https://getquicker.net/Sharedaction?code=e162e460-1cab-483c-ee97-08d9ffe2991a)
+        - [21. ChatGPT](https://getquicker.net/Sharedaction?code=78c204ab-174e-45c2-aa6d-08db66a6be43)
+        - [22. Dynalist](https://getquicker.net/Sharedaction?code=2c7c56e0-2dfa-4bc7-38c1-08db65bc27d9)
+        - [23. Notepad++](https://getquicker.net/Sharedaction?code=c6978455-0fc2-4b8b-aa6e-08db66a6be43)
+        - [24. 沙拉翻译](https://getquicker.net/Sharedaction?code=b0d1a134-8284-4a44-d1be-08d746da5869)
+            - 需要沙拉查词的浏览器插件, 并做好相关配置. 参考使用说明.
+            - 首次运行后, 会弹出设置界面. 或按ctrl键运行沙拉查词动作库, 可进行配置
+            - 配置`在独立窗口中搜索剪贴板内容`快捷键: `%L`, 即 Alt+Shift+l
+            - 翻译模式: 划词翻译.
+        - [31. 复制路径](https://getquicker.net/Sharedaction?code=fd36be81-ac53-4ba3-b1c7-08d8a7a50e21)
+        - [32. EVER智识](https://getquicker.net/Sharedaction?code=4f8b0df2-d031-4309-173c-08d7079ea819)
+        - [33. Everything](https://getquicker.net/Sharedaction?code=fd99c3f8-630a-4583-aa55-08db66a6be43)
+            - 配置快捷键 `Alt+f`
+        - [34. 安装目录](https://getquicker.net/Sharedaction?code=5a1fb8df-4540-4da0-4fb4-08d6ba918de2)
+        - [41. 复制](https://getquicker.net/Sharedaction?code=de41c12a-ba97-4e5b-8ec1-08d639a457d1)
+        - [42. 纯文本粘贴](https://getquicker.net/Sharedaction?code=f35761f9-6e2b-4b30-f992-08d6963ca36f)
+        - [43. 剪贴板](https://getquicker.net/Sharedaction?code=9ec53d43-5539-4571-6886-08d8c752bfcb)
+        - [44. 计算器](https://getquicker.net/Sharedaction?code=ae51f6c0-6a08-4ac6-39f2-08d6dd213093)
+        - [51. Snipaste](https://getquicker.net/Sharedaction?code=729a411e-b89b-4e5a-aa6f-08db66a6be43)
+        - [52. 截图OCR](https://getquicker.net/Sharedaction?code=ba82e11a-f845-4ca3-44ee-08d690b5076c)
+        - [53. 图片拼接](https://getquicker.net/Sharedaction?code=40cf6cd5-eccd-4f12-6766-08d7d248d373)
+        - [54. 画图](https://getquicker.net/Sharedaction?code=225c71b9-f5d0-48ec-8edf-08d639a457d1)
+        - [61. 显示桌面](https://getquicker.net/Sharedaction?code=3830c01e-b3b9-42c8-65ff-08d904baa62c)
+        - [62. 置顶](https://getquicker.net/Sharedaction?code=277b6f2c-fd93-4ff2-d53d-08d6d8f7a71c)
+        - [63. 关闭窗口](https://getquicker.net/Sharedaction?code=4e83d856-b866-4019-8ec7-08d639a457d1)
+        - [64. 装模作样](https://getquicker.net/Sharedaction?code=3b6c01cc-e061-4eac-b162-08d6de53af4f)
+            - 配置快捷键 `Alt+Z`
+        - [72. EVER批图](https://getquicker.net/Sharedaction?code=dd54f738-eda1-4a28-5cb2-08d8bb6e7688)
+        - [73. EVER重命名](https://getquicker.net/Sharedaction?code=19fe14e5-ff6d-46fb-efcb-08d72c3bd710)
+        - [74. 输入纠正](https://getquicker.net/Sharedaction?code=3eb7c0ca-9f91-4be5-623b-08d795644eb1)
+            - 配置快捷键 `Alt+回车`
+    - 搜索功能设置
+        - 文件(指定位置和文件类型)->索引目录->`D:\Green\shortcuts`->指定扩展名的文件->`.lnk`
+        - 将常用的软件和目录的快捷方式放入这个文件夹中, 并可以重命名用来助记.
+        - 其它配置如截图:
+![search](https://draapho.github.io/images/2004/search.png)
 
 
 # 文本办公
-
-
 
 - [MicroSoft Office 365](https://www.office.com/)
     - OneDrive 设置:
@@ -121,7 +144,7 @@ description: 新PC装机过程.
 - PDF Reader-Xodo (***Microsoft Store***), PDF阅读和编辑, 以及格式转换
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
 - GoldenDict (***绿色软件***). 离线翻译软件.
-- 冰点文库下载器 (***绿色软件***). 免积分下载百度文库、道客巴巴、豆丁网上的资料
+- ~~冰点文库下载器 (***绿色软件***). 免积分下载百度文库、道客巴巴、豆丁网上的资料~~
 
 
 
@@ -132,7 +155,7 @@ description: 新PC装机过程.
 - Audacity (***绿色软件***). 音频编辑
 - QQ音乐 (***Microsoft Store*** 设置为中国区才有)
 - Snipaste (***绿色软件***). 截图
-- ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.
+- ~~ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.~~
 - Lightroom CC
 - Photoshop CC
 - HONEYVIEW. 图片查看器
@@ -169,18 +192,20 @@ description: 新PC装机过程.
 - Motrix. 下载软件
 - 微信PC版. 可用于备份手机微信内容
 - QQ. 按需安装
-- 穿梭或快帆, 翻墙到国内. 收费建议用穿梭.
+- ~~穿梭或快帆, 翻墙到国内. 收费建议用穿梭.~~
+    - 可以用手机APP版的穿梭, 配合 Every Proxy 代理. 给电脑联网使用.
 
 
 
 # 系统软件
 
 
-- eset. 杀毒软件
-    - 此为收费软件. 可选用如下两个免费方案之一代替
+- ~~eset. 杀毒软件~~
+    - 此为收费软件. 可选用如下的免费方案之一代替
+    - Bitdefender
     - windows defender + Avira
     - windows defender + Malwarebytes
-- Sandboxie 沙盘工具
+- ~~Sandboxie 沙盘工具~~
 - FreeFileSync. 文件备份
 - CCleaner (***绿色软件***) 文件清理
 - rufus (***绿色软件***) 制作启动盘
