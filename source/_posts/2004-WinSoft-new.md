@@ -115,7 +115,7 @@ description: 新PC装机过程.
             - 配置快捷键 `Alt+Z`
         - [72. EVER批图](https://getquicker.net/Sharedaction?code=dd54f738-eda1-4a28-5cb2-08d8bb6e7688)
         - [73. EVER重命名](https://getquicker.net/Sharedaction?code=19fe14e5-ff6d-46fb-efcb-08d72c3bd710)
-        - [74. 输入纠正](https://getquicker.net/Sharedaction?code=3eb7c0ca-9f91-4be5-623b-08d795644eb1)
+        - [74. 输入纠正](https://getquicker.net/Sharedaction?code=d3f2c98f-a37f-4c67-aa72-08db66a6be43)
             - 配置快捷键 `Alt+回车`
     - 搜索功能设置
         - 文件(指定位置和文件类型)->索引目录->`D:\Green\shortcuts`->指定扩展名的文件->`.lnk`

@@ -123,14 +123,14 @@ main.o:main.c
     - Group: `PyQt-cmd`. 用默认值 `External Tools` 也行. Group名称会出现在右键菜单里, 故单独分了个组.
     - Description: 爱填不填.
     - Program, 这是重点! 填入designer.exe的绝对路径. `xxx\Python38-32\Lib\site-packages\qt5_applications\Qt\bin\designer.exe`
-    - Working directory: `$FileDir`, 工作路径设置为文件所在为止
+    - Working directory: `$FileDir$`, 工作路径设置为文件所在为止
     - `OK` 保存配置. 点击第5步的加号, 继续增加配置.
 - 配置 `pyuic`, 用于将 designer生成的`.ui` 文件转化为 python的`.py` 文件
     - 依样画葫芦, 填写 Name, Group, Description. 以下配置才是重点:
     - Program: 填入python.exe的绝对路径 `xxx\Python38-32\python.exe`, 其实直接填入 `python3.exe` 也可以, 因为已经加入环境变量了.
     - Arguments: `-m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtension$.py`
-    - Working directory: `$FileDir`, 工作路径设置为文件所在为止
-    - `OK`保持. 整个配置的意思就是在`$FileDir`目录下, 运行指令 `python -m PyQt5.uic.pyuic gui_file.ui -o gui.file.py`
+    - Working directory: `$FileDir$`, 工作路径设置为文件所在为止
+    - `OK`保持. 整个配置的意思就是在`$FileDir$`目录下, 运行指令 `python -m PyQt5.uic.pyuic gui_file.ui -o gui.file.py`
 - 一套简易的环境就搭好了, 但PyCharm这边还需要配置 `Python Interpreter`, 这是用来维护不同项目的Python虚拟环境用的.
 
 
