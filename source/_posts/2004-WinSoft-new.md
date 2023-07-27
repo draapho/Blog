@@ -104,7 +104,7 @@ description: 新PC装机过程.
         - [42. 纯文本粘贴](https://getquicker.net/Sharedaction?code=f35761f9-6e2b-4b30-f992-08d6963ca36f)
         - [43. 剪贴板](https://getquicker.net/Sharedaction?code=9ec53d43-5539-4571-6886-08d8c752bfcb)
         - [44. 计算器](https://getquicker.net/Sharedaction?code=ae51f6c0-6a08-4ac6-39f2-08d6dd213093)
-        - [51. Snipaste](https://getquicker.net/Sharedaction?code=729a411e-b89b-4e5a-aa6f-08db66a6be43)
+        - [51. Snipaste](https://getquicker.net/Sharedaction?code=6d63d14a-91be-4811-ece7-08d93868de63)
         - [52. 截图OCR](https://getquicker.net/Sharedaction?code=ba82e11a-f845-4ca3-44ee-08d690b5076c)
         - [53. 图片拼接](https://getquicker.net/Sharedaction?code=40cf6cd5-eccd-4f12-6766-08d7d248d373)
         - [54. 画图](https://getquicker.net/Sharedaction?code=225c71b9-f5d0-48ec-8edf-08d639a457d1)
