@@ -14,14 +14,16 @@ description: 只求最好记.
 ![手法](https://draapho.github.io/images/1906/0_1.png)
 
 
-# 一:底层十字
-方法: 现在顶部黄色弄出白色十字小白花, 然后第二层中心颜色对齐
+# 一:底棱归位
+方法: 先在顶部黄色弄出白色十字小白花, 然后转动顶层对齐侧面中心色, 再将白色翻转到底部. 重复每个侧面, 即可完成底棱归位, 底部为白色十字.
 
 ![步骤一](https://draapho.github.io/images/1906/1_1.png)
 
 
 # 二:底角归位
-方法: 底角三色放到右侧顶角处, 反复一次或多次`RUR’`即可
+方法1: 右侧顶角处尽量放置`右面白色`的方块. 反复一次或多次`RUR’`即可.
+方法2: 左侧顶角处尽量放置`左面白色`的方块. 反复一次或多次`L’U’L`即可.
+两者可以灵活搭配使用.
 
 ![步骤二](https://draapho.github.io/images/1906/2_1.png)
 
@@ -76,7 +78,11 @@ description: 只求最好记.
 
 方法: `LF’LB2 L’FLB2 L2`
 
+或者, 找到位置后, 将左侧转到前面.
+方法变为: `FR’FL2 F’RFL2 F2`
+
 ![步骤六2](https://draapho.github.io/images/1906/6_2.png)
+
 
 
 # 七:顶棱归位
@@ -89,6 +95,10 @@ description: 只求最好记.
 # 速记符
 
 ![手法](https://draapho.github.io/images/1906/0_1.png)
+
+
+# 参考资料:
+- [三阶魔方入门教程](http://www.mf100.org/beginner.htm)
 
 
 ----------
