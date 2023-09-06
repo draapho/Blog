@@ -37,6 +37,8 @@ comments: false
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [知乎,者也的想法摘录1](https://draapho.github.io/2023/09/06/2304-zheye1/)
+- [知乎,者也的想法摘录2](https://draapho.github.io/2023/09/06/2305-zheye2/)
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
