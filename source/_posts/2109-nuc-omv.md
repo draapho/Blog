@@ -247,7 +247,9 @@ services:
 
 ## zerotier 外网访问
 - zerotier 建议直接在NAS主机运行, 不要用docker.
+
 - 图文教程, 参考[ZeroTier 的安装与使用](https://blog.csdn.net/RadiantJeral/article/details/104150070).
+
 - 安装指南参考[zerotier官网](https://www.zerotier.com/download/#downloadLinux)
     - 先zerotier官网创建一个账号, `Create A Network`, 获取`Network ID`
     - 安装curl `sudo apt install curl`
@@ -266,10 +268,25 @@ services:
     - NAS端打开IP转发 `sudo sysctl -w net.ipv4.ip_forward=1`
     - 测试: 外网电脑登录OMV控制界面.
     - 安装完成.
+    
 - 我这边, 一共试了三到四次, 总是失败. 最后发现是路由器的问题.
     - `Amplifi`需要关闭`硬件NAT`功能, 有线连接的设备才能正常使用第三方VPN.
     - 参考资料 [UNABLE TO CONNECT TO MY WORK VPN](https://community.amplifi.com/topic/3916/unable-to-connect-to-my-work-vpn)
     - 把折腾过程也记录一下, 仅供参考.
+    
+- 其他用法见下图, 并参考官网说明
+
+    - [Route between ZeroTier and Physical Networks](https://docs.zerotier.com/route-between-phys-and-virt/)
+
+    - [Integrating with Physical Networks](https://docs.zerotier.com/integrating-physical-networks/)
+
+    - 支持openWRT的路由器可以按照 zerotier, 是最灵活的使用方式.
+
+    - zerotier客户端 allowDefault=1, 允许覆写默认路由; allowGlobal=1, 允许全球IP转发.
+
+    - ![zerotier](https://draapho.github.io/images/2109/zerotier.png)
+
+        
 
 
 ## ~~zerotier 折腾记~~
