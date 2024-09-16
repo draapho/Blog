@@ -39,6 +39,10 @@ comments: false
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - [知乎,者也的想法摘录1](https://draapho.github.io/2023/09/06/2304-zheye1/)
 - [知乎,者也的想法摘录2](https://draapho.github.io/2023/09/06/2305-zheye2/)
+- [知乎,者也的想法摘录3](https://draapho.github.io/2023/09/13/2306-zheye3/)
+- [知乎,者也的想法摘录4](https://draapho.github.io/2023/09/14/2307-zheye4/)
+- [知乎,者也的想法摘录5](https://draapho.github.io/2023/09/15/2308-zheye5/)
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
