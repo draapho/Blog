@@ -242,3 +242,5 @@ comments: false
 
 # other
 - [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
+- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
+- [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
