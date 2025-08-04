@@ -65,7 +65,6 @@ description: 新PC装机过程.
 
 
 
-- quicklook (***Microsoft Store***)
 - Keepass. (***绿色软件***) 密码管理软件
 - BANDIZIP6.27 (后续版本有广告). 解压软件
     - 7zip 备选
@@ -118,7 +117,7 @@ description: 新PC装机过程.
         - [74. 输入纠正](https://getquicker.net/Sharedaction?code=d3f2c98f-a37f-4c67-aa72-08db66a6be43)
             - 配置快捷键 `Alt+回车`
     - 搜索功能设置
-        - 文件(指定位置和文件类型)->索引目录->`D:\Green\shortcuts`->指定扩展名的文件->`.lnk`
+        - 文件(指定位置和文件类型)->索引目录->`C:\Green\shortcuts`->指定扩展名的文件->`.lnk`
         - 将常用的软件和目录的快捷方式放入这个文件夹中, 并可以重命名用来助记.
         - 其它配置如截图:
 ![search](https://draapho.github.io/images/2004/search.png)
@@ -133,15 +132,16 @@ description: 新PC装机过程.
         - 备份任意文件 (默认只有Desktop, Documents, Pictures):
             - 管理员权限打开cmd: `mklink /d "C:\Users\[Username]\OneDrive\Test" "E:\Test"`
             - 第一个路径为目标路径, 必须是OneDrive本地文件夹. 第二个路径为需要同步的文件夹.
-- Dynalist. 备忘+笔记, 全平台云存储. 支持Markdown. 需要图床才能加载图片.
+- ~~Dynalist. 备忘+笔记, 全平台云存储. 支持Markdown. 需要图床才能加载图片.~~
     - 类似的软件: WorkFlow, 幕布
 - typora. markdown文本编辑器
 - notepad++ (***绿色软件***)
     - 点击bat文件注册右键即可. 已完成[配置](https://draapho.github.io/2016/09/30/1603-WinSoft-editor/).
-- Amazon kindle. 读书软件
-- 越飞读书 Fly Reader (***Microsoft Store***). 读书软件, 多格式支持
-- pdf Viewer plus (***Microsoft Store***), 轻巧的PDF阅读器
-- PDF Reader-Xodo (***Microsoft Store***), PDF阅读和编辑, 以及格式转换
+- ~~Amazon kindle. 读书软件~~
+- ~~越飞读书 Fly Reader (***Microsoft Store***). 读书软件, 多格式支持~~
+- ~~pdf Viewer plus (***Microsoft Store***), 轻巧的PDF阅读器~~
+- ~~PDF Reader-Xodo (***Microsoft Store***), PDF阅读和编辑, 以及格式转换~~
+- PDFgear
 - SumatraPDF (***绿色软件***). 小巧, 快速, 绿色, 但功能有限.
 - GoldenDict (***绿色软件***). 离线翻译软件.
 - ~~冰点文库下载器 (***绿色软件***). 免积分下载百度文库、道客巴巴、豆丁网上的资料~~
@@ -153,14 +153,14 @@ description: 新PC装机过程.
 
 
 - Audacity (***绿色软件***). 音频编辑
-- QQ音乐 (***Microsoft Store*** 设置为中国区才有)
+- ~~QQ音乐 (***Microsoft Store*** 设置为中国区才有)~~
 - Snipaste (***绿色软件***). 截图
 - ~~ShareX (***Microsoft Store***) 滚动捕捉, 屏幕录制, OCR.~~
 - Lightroom CC
 - Photoshop CC
-- HONEYVIEW. 图片查看器
+- ~~HONEYVIEW. 图片查看器~~
 - PotPlayer. 视频播放器. 设置里关闭自动更新!
-- UWP爱奇艺  (***Microsoft Store***)
+- ~~UWP爱奇艺  (***Microsoft Store***)~~
 
 
 
@@ -173,8 +173,6 @@ description: 新PC装机过程.
         - 点击时. 低频使用的插件建议此选项, 增加安全性.
         - 在特定网站上. 针对特定网站的高频插件, 建议选用此选项.
         - 在所有网站上. 高频通用性插件, 选此选项. 此为Chrome默认选项.
-    - ~~Clip to OneNote. 点击时启用~~, 登录经常发生问题.
-    - ~~EagleGet Free Download. 点击时启用~~
     - Tampermonkey, 油猴. 脚本方式实现多种功能.
         - 尽量用Chrome插件代替脚本. 平时只打开常用的脚本. 低频使用的脚本保持关闭状态.
         - 脚本网站: [greasy fork](https://greasyfork.org/zh-CN)、[openuserJS](https://openuserjs.org/)
@@ -182,12 +180,9 @@ description: 新PC装机过程.
         - 设置->同步脚本->启用TESLA->浏览器同步.
         - 这样即可跟随Chrome同步脚本, 但脚本配置不会自动同步!
     - SuperCopy 超级复制. 使能某些顽固网页的复制黏贴. 点击时启用.
-    - IE tab. 转为IE内核. 点击时启用
-    - Infinity new tab pro. 自建导航网页, 管理插件. 点击时启用
-    - Graphitabs. 多标签整理为思维导图模式
-    - octotree. github扩展. 启用隐身模式
-    - Imagus 图片预览, 设置为ctrl使能. 启用隐身模式
     - AdGuard 广告拦截器, 启用隐身模式
+    - 沉浸式翻译
+    - Boomerang - SOAP & REST Client
 - eagleget. 下载软件.
 - Motrix. 下载软件
 - 微信PC版. 可用于备份手机微信内容
@@ -205,14 +200,13 @@ description: 新PC装机过程.
     - Bitdefender
     - windows defender + Avira
     - windows defender + Malwarebytes
-- ~~Sandboxie 沙盘工具~~
+- Sandboxie-plus 沙盘工具
 - FreeFileSync. 文件备份
 - CCleaner (***绿色软件***) 文件清理
 - rufus (***绿色软件***) 制作启动盘
 - UltraISO (***绿色软件***) ISO映像文件
 - 卡硬工具箱 (***绿色软件***), 包含很多小工具如 Dism++
 - 分区助手 (***绿色软件***)
-- 轻松备份
 
 
 
@@ -220,19 +214,45 @@ description: 新PC装机过程.
 
 
 
-- ConEmu (***绿色软件***)
+- ~~ConEmu (***绿色软件***)~~
     - 已完成[配置](https://draapho.github.io/2016/10/10/1609-WinSoft-terminal/), 相关目录需要加入 `环境变量...`
     - 潜在的替代软件 Windows Terminal (***Microsoft Store***).
-- git
-    - p4vinst64, 只需安装 p4merge.
+    
+- git 和 github, gitee.
     - 配置git见: [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
+    - 生成ssh密钥对. powershell运行: `ssh-keygen -t ed25519 -C "Git SSH Key"`
+      - 命名为 git_key. 可以不要密码.
+    - 生成的两个文件放到用户\xxx\.ssh里面.
+    - 把 git_key.pub中的内容, 拷贝到 gitee 和 github的ssh keys中
+    - github测试: `ssh -T git@github.com`   
+    - gitee测试:  `ssh -T git@gitee.com`
+
 - Node.js
     - 配置blog见: [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
-- ~~Ubuntu (***Microsoft Store***)~~
-    - 若安装失败 管理员运行 Powershell `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-    - 不确定稳定性和全功能.
 
+- WSL - Ubuntu
+    - 打开powershell
 
+    ```bash
+    wsl --set-default-version 2 # 设置为wsl2
+    wsl --list --online 		# 查看安装列表
+    wsl --install -d Ubuntu-24.04
+    wsl --set-default Ubuntu-24.04  # 设为默认
+    wsl -l -v		# 查看安装列表
+    wsl  # 进入Ubuntu
+    
+    sudo nano /etc/wsl.conf
+    # 加上如下内容
+    [user]
+    default=root
+    # 保持推出
+    exit # 退回到 windows powershell
+    
+    wsl --shutdown
+    wsl	# 应该用root登录了.
+    ```
+
+    
 
 # 系统清理:
 
@@ -243,7 +263,6 @@ description: 新PC装机过程.
 - RightMenuMgr->清理右键菜单
 - 管理员运行cmd->执行 `sfc /scannow`.  系统文件检查和修复
 - 右键C盘->属性->磁盘清理->清理系统文件. 可安全释放系统盘空间.
-- 轻松备份->备份C盘
 
 
 

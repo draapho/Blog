@@ -103,20 +103,17 @@ git config --global color.diff.new "green normal bold"
 git config --global core.autocrlf false
 git config --global core.safecrlf false
 
-# set difftool mergetool (need p4merge)
-git config --global diff.tool p4merge
-git config --global difftool.p4merge.cmd '"D:\Program\Perforce\p4merge.exe" "$LOCAL" "$REMOTE"'
+# set difftool mergetool (need vscode)
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff \$LOCAL \$REMOTE"
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd "code --wait --merge \$REMOTE \$LOCAL \$BASE \$MERGED"
 git config --global difftool.prompt false
-git config --global merge.tool p4merge
-git config --global mergetool.p4merge.cmd '"D:\Program\Perforce\p4merge.exe" "$PWD/$BASE" "$PWD/$REMOTE" "$PWD/$LOCAL" "$PWD/$MERGED"'
-git config --global mergetool.p4merge.trustExitCode false
 git config --global mergetool.keepBackup false
 ```
 
 
 - 使用 `git config -e --global` 打开全局配置文件, 设置全局参数.
-- 安装 [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools), 用于支持 `difftool` 和 `mergetool`
-- 安装位置以 `D:\Program\Perforce\p4merge.exe` 为例
 ```
 [user]
     name = https://draapho.github.io/
@@ -139,16 +136,16 @@ git config --global mergetool.keepBackup false
     autocrlf = false
     safecrlf = false
 [diff]
-    tool = p4merge
-[difftool "p4merge"]
-    cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$LOCAL\" \"$REMOTE\"
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [difftool]
     prompt = false
+
 [merge]
-    tool = p4merge
-[mergetool "p4merge"]
-    cmd = \"D:\\Program\\Perforce\\p4merge.exe\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
-    trustExitCode = false
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
 [mergetool]
     keepBackup = false
 ```

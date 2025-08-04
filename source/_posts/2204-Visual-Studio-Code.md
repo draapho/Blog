@@ -67,7 +67,7 @@ description: 安装配置 Visual Studio Code
 - PHP:
     - `PHP Debug`
     - `PHP Intelephense`
-- Golang:
+- ~~Golang:~~
     - `Go`
 - Node.js, 按需选择
     - `ESLint`
@@ -80,20 +80,20 @@ description: 安装配置 Visual Studio Code
     - `File Peek`, 快速跳转到工程内文件.
     - `CSS Peek`
     - `Sass`
-- React, 按需选择
+- ~~React, 按需选择~~
     - Node.js 的扩展
     - `ES7+ React/Redux/React-Native snippets`
     - 参考 [Using React in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
     - 终端运行 `npx create-react-app my-app` 创建项目, 第一次执行会询问是否安装 create-react-app.
     - 终端按照提示, 依次输入 `cd my-app`, `npm start`
     - 浏览器打开 http://localhost:3000/ 会显示 React 图标. 创建项目成功.
-- Vue.js, 按需选择
+- ~~Vue.js, 按需选择~~
     - Node.js 的扩展
     - `Vue Language Features (Volar)`
     - `Vue 3 Snippets`
     - `Vite`, VS Code for Vite
     - 配置请参考: [Vue.js 官方安装文档](https://v3.cn.vuejs.org/guide/installation.html)
-- uniapp, 按需选择
+- ~~uniapp, 按需选择~~
     - Node.js 的扩展
     - `uni-helper`
     - `uni-create-view`
@@ -111,8 +111,9 @@ description: 安装配置 Visual Studio Code
         - 打开 `Settings` 或者 `Extension Settings`
         - 搜索 `@ext:ms-vscode.cpptools C_Cpp.clang_format_fallbackStyle:`
         - 将值改为: `{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}`
-    - `REST Client`
+    - ~~`REST Client`~~
         - 仅识别`.http`和`.rest`文件, 点击`Send Request`
+    - `ESP-IDF`: ESP 芯片开发环境
 - 辅助工具
     - `Todo Tree`
         - 扩展设置内勾选 `Highlights:Use Colour Scheme`
@@ -122,12 +123,6 @@ description: 安装配置 Visual Studio Code
         - 搜索 `@ext:formulahendry.code-runner Code-runner: Run In Terminal`
         - 勾选 `Whether to run code in Integrated Terminal.`
         - 需要配置各语言的运行环境
-    - ~~IntelliCode~~
-    - Code GPT (2023年3月20日更新)
-        - 打开 [Open AI 账户](https://platform.openai.com/account/api-keys), 生成一个密钥.
-        - VS Code 中按 `command+shift+p`打开面板
-        - 搜索并选择 `CodeGPT: set API key`
-        - 在弹出框中填入密钥, 然后回车
 
 
 # VS Code 的配置
@@ -136,9 +131,9 @@ description: 安装配置 Visual Studio Code
 - PHP 运行环境:
     - PHP官网解压安装 [VS16 x64 Thread Safe](https://windows.php.net/download/) PHP, 然后配置好环境变量.
     - 如果要全套本地开发环境, 官网推荐安装包: [XAMPP建站集成软件包](https://www.apachefriends.org/index.html).
-    - 终端输入 `php --version` 测试. 返回版本号即配置完成
+    - 终端输入 `php -v` 测试. 返回版本号即配置完成
     - 就能顺利使用 `Code Runner` 运行php文件了
-- Golang 运行环境:
+- ~~Golang 运行环境:~~
     - [Golang官网](https://go.dev/dl/) 下载并安装.
     - 终端输入 `go version` 测试. 返回版本号即配置完成
     - 更新Go工具: 命令面板(`Ctrl+Shift+p`)输入`go tool`, 点击运行 `Go: Install/Update tools`. 
@@ -152,17 +147,18 @@ description: 安装配置 Visual Studio Code
     - 先搭建好 JavaScript 的运行环境
     - 终端运行 `npm install -g typescript`
     - 终端运行 `npm install -g ts-node`
+    - Powershell 需要允许脚本运行 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
     - 终端输入 `ts-node --version` 测试, 返回版本号即配置完成
     - 就能顺利使用 `Code Runner` 运行ts文件了
 - python 运行环境:
     - [Python 官网](https://www.python.org/downloads/) 下载安装, 然后配置好环境变量.
     - 终端输入 `python --version` 测试, 返回版本号即配置完成
     - 就能顺利使用 `Code Runner` 运行py文件了
-- C/C++ 运行环境:
+- ~~C/C++ 运行环境:~~
     - 下载安装 [MinGW for Windows](https://sourceforge.net/projects/mingw/), 然后配置好环境变量
     - 终端输入 `gcc --version` 测试, 返回版本号即配置完成
     - 就能顺利使用 `Code Runner` 运行c/c++文件了
-- `REST Client`, 保存为`.http`或`.rest`.
+- ~~`REST Client`, 保存为`.http`或`.rest`.~~
     - 点击 Send Request 即可. 或右键选择.
     - 支持转换为curl命令和代码, 支持变量.
     - 更多配置移步: [详细说明和文档](https://github.com/Huachao/vscode-restclient)
