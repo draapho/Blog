@@ -14,11 +14,6 @@ description: 新PC装机过程.
 - 硬件检查: [卡硬工具箱](http://www.kbtool.cn/)  (***绿色软件***)
     - 综合检测
     - 显示器工具
-- 系统分区: [分区助手](https://www.disktool.cn/) (***绿色软件***)
-    - 设置->搜索Bitlocker->关闭`Bitlocker`
-    - 软件盘C, SOFT, 120G-250G
-        - 注意, C盘根目录下创建`Program`目录, 可以命名为`Programs`
-    - 数据盘D, DATA
 - 中文以及解决中文乱码
     - 设置->语言/Language->中文
     - 设置->区域->国家或地区->中国
@@ -28,6 +23,7 @@ description: 新PC装机过程.
     - 如果要保留英文系统, 但支持中文字符显示, 只需要下述步骤:
         - 设置里搜索`Region Settings`并进入->`Additional data, time & regional settings`->`Change date, time or number formats`
         - 弹出框后, 选择`Adminstrative`标签->`Change System locale`->选为中文, UTF-8 不要打勾
+        - 软件开发, 最好勾选 `UTF-8` 但某些应用会乱码, 而且没有好的解决方法! 
 - 性能优化
     - 蓝牙鼠标
         - 右键开始菜单->设备管理器->蓝牙->无线Bluetooth->右键属性->电源选项->禁止节电!
@@ -50,14 +46,20 @@ description: 新PC装机过程.
         - 路径格式举例: `D:\用户名\音乐`
 - 快速访问:
     - 保留最常用的: 下载, 云盘, 用户内容, 生活, 学习, 工作, 家庭, 备份等等
-- ~~共享 Downloads 文件夹~~, NAS服务器 替代
+- 恢复经典界面
+    - 我的电脑默认界面: 
+        - 我的电脑(文件资源管理器) -> 操作了中间的`...`->选项
+        - 弹出框: 打开文件资源管理器时打开: 选择 `此电脑`
+        - 隐私, 全部取消选择.
+    - 右键菜单
+        - 打开终端管理员 Powershell
+        - `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+        - `Stop-Process -Name explorer -Force; Start-Process explorer` 重启资源管理器
+- 共享 Downloads 文件夹
     - 设置->启用或关闭 windows 功能->勾选 `SMB 1.0/CIFS...`. 顺手开启NFS服务
     - 设置->高级共享设置->启用网络发现, 启用文件和打印机共享. 建议启用密码保护
     - 右键 Downloads 文件夹->属性->共享->共享...->添加`Everyone`->权限改为读取写入.
     - 用无线网络时, 设置->查看网络连接->右键网络适配器->勾选 Microsoft 网络的文件和打印机共享
-- ~~杀毒软件 ESET~~, Bitdefender 替代
-    - 用国内注册码的话, 区域要改为中国.
-    - 依旧不行的话, 用穿梭或快帆翻墙到国内, 变为国内的IP地址.
 
 
 
@@ -228,8 +230,9 @@ description: 新PC装机过程.
     - gitee测试:  `ssh -T git@gitee.com`
 
 - Node.js
-    - 配置blog见: [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
-
+    
+- 配置blog见: [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
+    
 - WSL - Ubuntu
     - 打开powershell
 
