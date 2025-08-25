@@ -111,9 +111,9 @@ main.o:main.c
 ## 环境搭建
 - 开发环境: `Win10 + Python 3.8.8 + PyQt5 + PyCharm社区版`. 另有历史项目适用 `Python 2.7 + PyQt4 4.11.4`.
 - 运行安装 [Python 3.8.8](https://www.python.org/downloads/windows/), 记得勾选加入PATH, 确保环境变量的正确配置.
-- `pip install pip install pyqt5-tools`, 会自动下载相关的包如pyqt5, sip.
+- `pip install pyqt5-tools`, 会自动下载相关的包如pyqt5, sip.
     - 查了下, 当前版本是 `PyQt5 5.15.2`, 是能保证正常运行的.
-    - 指定版本安装的话, 使用`pip install pip install pyqt5-tools==5.15.2`
+    - 指定版本安装的话, 使用`pip install pyqt5-tools==5.15.2`
 - `pip install xxx`, 安装其它常用包, 略过不表.
 - 运行安装 [PyCharm社区版](https://www.jetbrains.com/pycharm/download/#section=windows), 略过不表
 - 如下图, 将PyQt5的两个命令工具整合进PyCharm.
@@ -155,6 +155,9 @@ main.o:main.c
     - `virtualenv venv` 建立了新环境名为venv，在项目文件夹中可以看到增加的文件
     - `xxx\venv\Scripts>activate` 进入venv\Scripts下运行, 激活此虚拟环境
     - `(venv) xxx\venv\Scripts>activate` 出现(venv), 说明激活成功. 继续敲命令行即可
+- 如果加载venv中的python路径错误 (新电脑重新安装了)
+    - 打开venv文件夹下的pyvenv.cfg文件, 修改home路径地址即可
+    - 建议python统一安装地址到 "C:\Programs\Python\PythonXX-XX"
 
 
 ## PyInstaller

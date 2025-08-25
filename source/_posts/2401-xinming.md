@@ -176,10 +176,8 @@ description: 记录自己的修行体会
 即便说真有个见性, 有个开悟. 那能走到哪里, 不重要. 要花几年, 几十年, 还是几辈子, 也不重要.
 这些, 也只是头脑的东西.
 
+
+
 ----------
 
 ***原创于 [DRA&PHO](https://draapho.github.io/)***
-
-
-
-***转载自 [知乎, 者也, 想法](https://www.zhihu.com/people/wei-mo-zhi-se/pins)***
