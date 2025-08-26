@@ -8,8 +8,13 @@ description: 克拉克的经历
 
 
 # 总览
+
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 - [【江湖姐訪談】克拉克1](https://draapho.github.io/2025/08/20/2503-ClarkCao1/)
+- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
+- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
+- [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 
 
 
@@ -24,7 +29,7 @@ description: 克拉克的经历
 
 # 我们都是"西西弗斯"吗?
 
-***[克拉克]***   (后略, 非引用字段就是克拉克的叙述)
+[克拉克]   (后略, 非引用字段就是克拉克的叙述)
 
 当时上中学的时候读这种课外读物吧, 有一个记者采访一个放羊的孩子.
 你为什么要放羊? 孩子说放羊为了赚钱
@@ -843,4 +848,4 @@ description: 克拉克的经历
 
 
 
-***转载自 [【江湖姐訪談】克拉克1 : 不用修行、不用服致幻劑，還有一條路可以體驗真相......](https://www.youtube.com/watch?v=D2XwBJorbNY&list=PLt24yNGYFhq5V3UuseYxnKQIO46bTuf2i)***
+***转载自 [【江湖姐訪談】克拉克1 : 不用修行、不用服致幻劑，還有一條路可以體驗真相......](https://www.youtube.com/watch?v=D2XwBJorbNY)***

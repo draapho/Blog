@@ -32,6 +32,11 @@ description: 记录自己的修行体会
 - [知乎,者也的想法摘录4](https://draapho.github.io/2023/09/14/2307-zheye4/)
 - [知乎,者也的想法摘录5](https://draapho.github.io/2023/09/15/2308-zheye5/)
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [【江湖姐訪談】克拉克1](https://draapho.github.io/2025/08/20/2503-ClarkCao1/)
+- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
+- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
+- [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 
 
 
