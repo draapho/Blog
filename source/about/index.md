@@ -49,7 +49,13 @@ comments: false
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 
+# 学习
+- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
+- [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
+- [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
+
 # Dao
+
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
 - [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [修道之路-闻道]()
@@ -247,5 +253,5 @@ comments: false
 
 # other
 - [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
-- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
-- [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
+
+  
