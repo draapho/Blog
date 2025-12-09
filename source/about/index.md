@@ -54,7 +54,7 @@ comments: false
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
 - [卜卦实例](https://draapho.github.io/2025/12/09/2510-case/)
-- [序卦传][https://draapho.github.io/2025/12/10/2511-preface/]
+- [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 
 # Dao
 
