@@ -48,6 +48,14 @@ comments: false
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [关于 Bahiya Sutta  / 巴希亚经 / 婆希耶经](https://draapho.github.io/2025/12/12/2514-BahiyaSutta)
+- [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
+- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
+- [「我是」的四个面向](https://draapho.github.io/2025/12/12/2517-iam)
+- ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
+- [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
 
 # 学习
 - [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
