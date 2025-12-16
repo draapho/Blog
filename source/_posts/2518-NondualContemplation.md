@@ -18,6 +18,7 @@ description: I AM 之后的两种非二元观照
 - [「我是」的四个面向](https://draapho.github.io/2025/12/12/2517-iam)
 - ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
 - [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
+- [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
 
 
 
@@ -245,5 +246,5 @@ TD Unmanifest: 由于执着于解离和那个体验，我被困在‘我是’�
 
 -----------
 
-***转载摘录自网站 [Awakening to Reality](https://www.awakeningtoreality.com/) 之 [ "I AM" 之后的两种非二元观照](https://www.awakeningtoreality.com/2025/11/i-am.html), 略有删改 ***
+***转载摘录自网站 [Awakening to Reality](https://www.awakeningtoreality.com/) 之 [ "I AM" 之后的两种非二元观照](https://www.awakeningtoreality.com/2025/11/i-am.html), 略有删改***
 

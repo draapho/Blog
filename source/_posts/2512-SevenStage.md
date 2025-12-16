@@ -19,6 +19,7 @@ description: 了知我是, 明心见性后, 如何修炼
 - [「我是」的四个面向](https://draapho.github.io/2025/12/12/2517-iam)
 - ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
 - [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
+- [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
 
 
 
@@ -529,4 +530,4 @@ Thusness在2006年对此有如下描述：
 
 
 
-***转载摘录自网站 [Awakening to Reality](https://www.awakeningtoreality.com/) 之 [真如（Thusness）/过路人（PasserBy）的七阶段开悟之路](https://www.awakeningtoreality.com/2025/04/thusness-passerby-chinese-translation.html) ***
+***转载摘录自网站 [Awakening to Reality](https://www.awakeningtoreality.com/) 之 [真如（Thusness）/过路人（PasserBy）的七阶段开悟之路](https://www.awakeningtoreality.com/2025/04/thusness-passerby-chinese-translation.html)***
