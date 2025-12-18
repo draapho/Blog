@@ -9,6 +9,7 @@ description: I AM 之后的两种非二元观照
 
 # 总览
 
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
