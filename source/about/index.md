@@ -57,6 +57,12 @@ comments: false
 - ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
 - [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
+- [大手印的皇印、自行解脱：堪楚仁波切三世](https://draapho.github.io/2025/12/19/2521-SelfLiberation)
+- [发起动词，无需名词](https://draapho.github.io/2025/12/19/2522-NoNouns)
+- [从不同角度看“证悟与体验以及不二体验](https://draapho.github.io/2025/12/19/2523-RealizationExperience)
+- [「我是」的体验/瞥见/认出 vs 「我是」的证悟（存在的确信）](https://draapho.github.io/2025/12/19/2524-ImDifference)
+- [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
+- [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 
 
 # 学习

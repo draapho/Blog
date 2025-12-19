@@ -45,7 +45,7 @@ Soh 今天把这个发给了另一个人，这个人处于 Thusness 阶段四，
 
 
 
-在练习 Thusness 的内观（Vipassana）时，同时进行这些观照。
+在练习 [Thusness的内观 (Thusness's Vipassana)](https://www.awakeningtoreality.com/2025/12/thusness-thusnesss-vipassana.html) 时，同时进行这些观照。
 
 正如 Thusness 之前所写，一个好的方法应该提供一种： “有效的方法，让修行者能够充分体验觉知的生动性、真实感和临在感，并在迁流中完全体验这些特质。 如果没有这一点，就不容易体悟到‘生灭的感觉正是觉知本身’。 因此需要一种平衡，否则修行者可能会体验到舍（equanimity），但会偏向于冷漠（dispassion）而缺乏证悟。”
 
