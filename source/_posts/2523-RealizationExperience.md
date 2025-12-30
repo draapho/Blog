@@ -25,6 +25,7 @@ description: 从不同角度看“证悟与体验以及不二体验
 - [「我是」的体验/瞥见/认出 vs 「我是」的证悟（存在的确信）](https://draapho.github.io/2025/12/19/2524-ImDifference)
 - [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
 - [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 
 
 

@@ -21,6 +21,7 @@ description: 论无我、空性、摩诃（大）、平常与自然圆成
 - ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
 - [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 
 
 
@@ -43,7 +44,7 @@ description: 论无我、空性、摩诃（大）、平常与自然圆成
 
 > **于思，仅有念**
 > **于闻，仅有声**
-> **于见，仅有形色。 **
+> **于见，仅有形色**
 
 
 
@@ -105,7 +106,7 @@ description: 论无我、空性、摩诃（大）、平常与自然圆成
 
 > **于思，仅有念**
 > **于闻，仅有声**
-> **于见，仅有形色。 **
+> **于见，仅有形色**
 
 
 
