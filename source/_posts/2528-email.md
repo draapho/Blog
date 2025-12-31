@@ -397,9 +397,9 @@ Soh师又额外给了很多佛教唯识观的说明. 但我并没有接触了解
 修行次第: 小我, 大我及无我.
 - 小我, 自我, 世俗
   ![iLowcase.png](https://draapho.github.io/images/2528/iLowcase.png)
-- 大我, 一心, 自性, 明心见性(阶段一至阶段四)
+- 大我, 一心, 自性, 明心见性(阶段一至阶段四), 有镜的比喻. 容易安住于此, 认为是终点.
   ![iCaptial.png](https://draapho.github.io/images/2528/iCaptial.png)
-- 无我, 入道, 无门之门(阶段五及以上)
+- 无我, 入道, 无门之门(阶段五及以上). 真空妙有, 直觉现象, 无执无住.
   ![anatta.png](https://draapho.github.io/images/2528/anatta.png)
 
 
