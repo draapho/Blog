@@ -73,9 +73,9 @@ comments: false
 - [卜卦实例](https://draapho.github.io/2025/12/09/2510-case/)
 - [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 - [卜卦进阶之爻的入门](https://draapho.github.io/2025/12/26/2527-yao/)
+- [卜卦实例2](https://draapho.github.io/2026/01/08/2601-case2/)
 
 # Dao
-
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
 - [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [修道之路-闻道]()
