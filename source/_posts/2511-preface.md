@@ -11,10 +11,12 @@ description: 周易序卦
 - [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
-- [卜卦实例](https://draapho.github.io/2025/12/09/2510-case/)
+- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
 - [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 - [卜卦进阶之爻的入门](https://draapho.github.io/2025/12/26/2527-yao/)
-- [卜卦实例2](https://draapho.github.io/2026/01/08/2601-case2/)
+- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
+- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 
 
 

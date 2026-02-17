@@ -48,6 +48,7 @@ comments: false
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [关于婆希耶经(Bahiya Sutta)](https://draapho.github.io/2025/12/12/2514-BahiyaSutta)
@@ -66,23 +67,33 @@ comments: false
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 
 
+
+
 # 学习
 - [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
-- [卜卦实例](https://draapho.github.io/2025/12/09/2510-case/)
+- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
 - [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 - [卜卦进阶之爻的入门](https://draapho.github.io/2025/12/26/2527-yao/)
-- [卜卦实例2](https://draapho.github.io/2026/01/08/2601-case2/)
+- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
+- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+
+
 
 # Dao
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
 - [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [修道之路-闻道]()
 
+
+
 # AI
 - [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
 - [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
+
+
 
 # 通用软件技能
 - [Git 初始设置及常用命令](https://draapho.github.io/2016/10/24/1614-CheatSheet-git/)
@@ -94,6 +105,8 @@ comments: false
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
 - [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
+
+
 
 # python
 - [PyCharm 设置虚拟开发环境](https://draapho.github.io/2022/06/08/2201-pycharm-venv)
@@ -128,12 +141,18 @@ comments: false
 [webpy]: http://webpy.org/cookbook/
 [psg]: http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/#id16
 
+
+
 # Web
+
 - [HTML和CSS基础](https://draapho.github.io/2022/08/01/2202-html-ccs/)
 - [JavaScript 基础](https://draapho.github.io/2022/08/02/2203-javascript/)
 - [项目开发方案评选](https://draapho.github.io/2022/08/08/2205-solution-selection/)
 
+
+
 # Windows
+
 - [Windows快捷键](https://draapho.github.io/2016/10/08/1607-CheatSheet-win/)
 - [Windows下使用github和hexo建独立博客](https://draapho.github.io/2016/09/24/1601-InitBlog/)
 - [Windows 软件系列-提高效率](https://draapho.github.io/2016/09/28/1602-WinSoft-efficiency/)
@@ -147,7 +166,10 @@ comments: false
 - [使用OMV搭建家庭NAS](https://draapho.github.io/2021/03/31/2109-nuc-omv/)
 - [Visual Studio Code 环境配置](https://draapho.github.io/2022/08/03/2204-Visual-Studio-Code/)
 
+
+
 # Markdown
+
 - [Markdown语法][md]
 - [mermaid制图][mm]
 - [LaTeX数学公式][latex]
@@ -157,7 +179,9 @@ comments: false
 [latex]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 
+
 # embedded
+
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [Android中Activity、Service和线程之间的通信](https://draapho.github.io/2016/12/14/1624-android-ipc/)
 - [BLE基础概念](https://draapho.github.io/2017/04/19/1713-ble/)
@@ -166,7 +190,9 @@ comments: false
 - [Zephyr Project 环境配置](https://draapho.github.io/2023/04/25/2302-zephyr-start/)
 
 
+
 # linux 基础知识学习
+
 - [Bash Shell及环境变量][bash]
 - [Unix/Linux 命令参考][lcmd]
 - [linux系统及磁盘指令][ldisk]
@@ -182,7 +208,9 @@ comments: false
 [lcmd]: https://draapho.github.io/2017/01/19/1703-linux-command/
 
 
+
 # Linux 0.11 源码阅读笔记
+
 - [Linux 0.11 源码阅读笔记-总览](https://draapho.github.io/2017/01/23/1704-linux-source/)
 - [Linux 0.11 源码阅读笔记-内存的基础概念](https://draapho.github.io/2017/01/26/1704-linux-source1/)
 - [Linux 0.11 源码阅读笔记-启动程序](https://draapho.github.io/2017/01/28/1704-linux-source2/)
@@ -192,7 +220,9 @@ comments: false
 - [Linux 0.11 源码阅读笔记-内存管理](https://draapho.github.io/2017/02/15/1704-linux-source6/)
 
 
+
 # jz2440开发板学习
+
 - [Embedded Linux 入门有感](https://draapho.github.io/2017/01/18/1702-linux-hard/)
 - [嵌入式linux学习目录](https://draapho.github.io/2017/11/23/1734-linux-content/)
 - [嵌入式linux环境搭建-主机端](https://draapho.github.io/2017/02/16/1705-linux-env/)
@@ -252,13 +282,16 @@ comments: false
 - [Yocto 的安装与体验](https://draapho.github.io/2017/12/15/1745-yocto-install/)
 
 
+
 # 面试集锦
+
 - [逻辑|这样表达，事半功倍](https://draapho.github.io/2017/05/04/1714-expression/)
 - [面试之常规问题](https://draapho.github.io/2018/01/10/1805-interview-general/)
 - [面试之嵌入式C语言](https://draapho.github.io/2018/05/07/1816-interview-c/)
 - [C语言知识巩固](https://draapho.github.io/2017/05/17/1715-c/)
 - [面试之嵌入式Linux](https://draapho.github.io/2018/05/08/1817-interview-linux/)
 - [面试之面向对象](https://draapho.github.io/2022/08/10/2206-interview-oop/)
+
 
 
 # Market
@@ -271,7 +304,10 @@ comments: false
 - [波浪理论感悟](https://draapho.github.io/2020/08/07/2006-wave-thinking/)
 - [交易市场思路](https://draapho.github.io/2021/02/03/2102-share-skill/)
 
+
+
 # other
+
 - [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
 
   
