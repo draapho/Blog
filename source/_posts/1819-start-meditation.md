@@ -20,11 +20,19 @@ description: 基于元吾氏的修行方法总结, 偏道家.
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

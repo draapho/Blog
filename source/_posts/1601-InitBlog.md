@@ -16,6 +16,8 @@ description: 如题.
 - 提供了更为丰富的[主题选择](https://hexo.io/themes/).
 - 依旧选 NexT主题, 改了参数设置. 参考 [NexT 开始使用](https://theme-next.iissnan.com/getting-started.html)
 - 更新结束(2021年3月)
+- 解决 `Powershell` 无权限执行的问题： 
+    - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 
 # 我需要一个[博客](https://draapho.github.io)

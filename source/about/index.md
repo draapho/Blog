@@ -17,7 +17,9 @@ comments: false
 `https://draapho.github.io/images/23xx/xxx.xxx`
 
 
+
 # Thoughts
+
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
@@ -32,6 +34,9 @@ comments: false
 - [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
@@ -61,15 +66,19 @@ comments: false
 - [大手印的皇印、自行解脱：堪楚仁波切三世](https://draapho.github.io/2025/12/19/2521-SelfLiberation)
 - [发起动词，无需名词](https://draapho.github.io/2025/12/19/2522-NoNouns)
 - [从不同角度看“证悟与体验以及不二体验](https://draapho.github.io/2025/12/19/2523-RealizationExperience)
-- [「我是」的体验/瞥见/认出 vs 「我是」的证悟（存在的确信）](https://draapho.github.io/2025/12/19/2524-ImDifference)
 - [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
 - [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+- [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
 
 # 学习
+- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
+- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
 - [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
@@ -79,19 +88,6 @@ comments: false
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
 - [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
-
-
-
-# Dao
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- [修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
-- [修道之路-闻道]()
-
-
-
-# AI
-- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
-- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
 
 
 

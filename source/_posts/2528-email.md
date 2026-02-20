@@ -10,6 +10,7 @@ description: 老师来找我
 
 # 总览
 
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
@@ -23,11 +24,12 @@ description: 老师来找我
 - [大手印的皇印、自行解脱：堪楚仁波切三世](https://draapho.github.io/2025/12/19/2521-SelfLiberation)
 - [发起动词，无需名词](https://draapho.github.io/2025/12/19/2522-NoNouns)
 - [从不同角度看“证悟与体验以及不二体验](https://draapho.github.io/2025/12/19/2523-RealizationExperience)
-- [「我是」的体验/瞥见/认出 vs 「我是」的证悟（存在的确信）](https://draapho.github.io/2025/12/19/2524-ImDifference)
 - [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
 - [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+- [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

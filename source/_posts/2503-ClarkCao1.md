@@ -15,7 +15,11 @@ description: 克拉克的经历
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

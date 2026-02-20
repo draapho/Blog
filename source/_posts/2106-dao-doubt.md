@@ -1,16 +1,42 @@
 ---
-title: 修道之路-起疑
+title: 介绍本位方法论
 date: 2021-03-01
-categories: dao
-tags: [dao]
-description: 自我破茧, 化蛹成蝶.
+categories: thoughts
+tags: [thoughts]
+description: 修道之路-起疑. 自我破茧, 化蛹成蝶.
 ---
 
 
 # 总览
-
+- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
+- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
+- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
+- [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
+- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
+- [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
+- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
+- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
+- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
+- [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
+- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
+- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 - [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- **[修道之路-起疑](https://draapho.github.io/2021/03/01/2106-dao-doubt/)**
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
+- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
+- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
+- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+
+
 
 
 # 起疑

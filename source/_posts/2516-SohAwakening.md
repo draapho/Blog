@@ -11,6 +11,11 @@ description: 体验/觉受、证悟、知见、修行与果位
 
 # 总览
 
+- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
@@ -22,7 +27,15 @@ description: 体验/觉受、证悟、知见、修行与果位
 - ["I AM" 之后的两种非二元观照](https://draapho.github.io/2025/12/12/2518-NondualContemplation)
 - [佛陀的启示-无我论](https://draapho.github.io/2025/12/12/2519-BuddhaTaught)
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
+- [大手印的皇印、自行解脱：堪楚仁波切三世](https://draapho.github.io/2025/12/19/2521-SelfLiberation)
+- [发起动词，无需名词](https://draapho.github.io/2025/12/19/2522-NoNouns)
+- [从不同角度看“证悟与体验以及不二体验](https://draapho.github.io/2025/12/19/2523-RealizationExperience)
+- [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
+- [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+- [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
+- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
@@ -365,7 +378,7 @@ Nisargadatta的“I AM”更多地与Ramana Maharshi的“我念”（I-thought�
 
 - 存在（“有”）和非存在（“无”）的知见
 
-我在2011年中期对知见在日常生活中的影响有了一个新的领悟。** 我现在看到每一个执着都是对知见的执着，无论它是什么，都归结为两个基本的执取：‘有’的知见和‘无’的知见。**
+我在2011年中期对知见在日常生活中的影响有了一个新的领悟。**我现在看到每一个执着都是对知见的执着，无论它是什么，都归结为两个基本的执取：‘有’的知见和‘无’的知见。**
 
 “有”的知见……自我、身体、心、觉知、世界，无论什么。 因为这种对事物存在的执取，它们对我们来说显得真实，我们便执着于它们。 根除这种执取的唯一方法是移除执取的根源：‘有’和‘无’的知见。
 
