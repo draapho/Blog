@@ -32,7 +32,7 @@ description: 放下迷茫和焦虑, 认定方向前行.
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

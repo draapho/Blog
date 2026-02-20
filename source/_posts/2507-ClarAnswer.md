@@ -26,7 +26,7 @@ description: 自己和克拉克的问答与一些感想
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- ["我是",明心见性之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
