@@ -20,11 +20,20 @@ description: 人生规划大转弯.
 - [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
 - [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
+- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
@@ -46,7 +55,7 @@ description: 人生规划大转弯.
     - 一切出发点是基本生命体的相互关系, 这种相互关系就是本源, 不随级别改变.
     - 环境的影响首先作用于心, 心影响生命体的相互关系, 从而影响整个群体的行为和特性.
 - 主观上, 我认为佛教的世界观是正确的; 但受限于"客观"的观察要求, 要证明比较困难.
-    - 所谓大千世界, 是指不同级别包含生命体的世界. 每个人, 每朵花, 每个细胞都是一世界. 
+    - 所谓大千世界, 是指不同级别包含生命体的世界. 每个人, 每朵花, 每个细胞都是一世界.
     - 世界就是玻璃缸, 人是没有什么"客观"的方法去观察玻璃缸外的情况的.
     - 人之所以稍微特殊一点, 是因为以人为基础单位, 明显已经发展出多样的更高层次的生命体(企业, 国家等各种形态的组织)
     - 更重要的, 人有潜能进行星际殖民, 从而把星球发展成为更高级的"基础细胞".

@@ -32,7 +32,7 @@ description: 基于元吾氏的修行方法总结, 偏道家.
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

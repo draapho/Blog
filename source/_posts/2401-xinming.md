@@ -29,21 +29,12 @@ description: 记录自己的修行体会
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
-- [【江湖姐訪談】克拉克1](https://draapho.github.io/2025/08/20/2503-ClarkCao1/)
-- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
-- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
-- [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
-- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
-- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
-- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
@@ -161,7 +152,7 @@ description: 记录自己的修行体会
 
 关于文中介绍的修行方法, 我是确信无疑地可以一路用到底的.
 就如同做一个实验, 有了直觉和理论支持的预期结果, 也相信方法是对的, 就心无旁骛的坚持.
-因而后续的经历和体验都不重要, 后续随着本心, 看要不要记录吧. 
+因而后续的经历和体验都不重要, 后续随着本心, 看要不要记录吧.
 
 即便说真有个见性, 有个开悟. 那能走到哪里, 不重要. 要花几年, 几十年, 还是几辈子, 也不重要.
 这些, 也只是头脑的东西.

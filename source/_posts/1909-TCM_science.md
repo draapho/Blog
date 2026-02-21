@@ -26,7 +26,13 @@ description: 开放自己的思维!
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
-
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
+- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 ***转载自 [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](http://bbs.tianya.cn/post-free-5088705-1.shtml)***

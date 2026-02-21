@@ -31,8 +31,9 @@ description: 思考破信息茧房, 闻道辨实修核心.
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 

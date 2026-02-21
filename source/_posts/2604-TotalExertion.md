@@ -1,6 +1,6 @@
 ---
 title: 道元《一法究尽》——超越整体与部分的全体
-date: 2025-02-19
+date: 2026-02-19
 categories: thoughts
 tags: [thoughts]
 description: 道元《一法究尽》——超越整体与部分的全体

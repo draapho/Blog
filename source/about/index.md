@@ -71,7 +71,7 @@ comments: false
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 - [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
-- [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
 
 
