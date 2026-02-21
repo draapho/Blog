@@ -120,6 +120,7 @@ description: 边修行边总结, 故有修道之路系列.
 以达到每时每刻, 不忘不丢, 内化为习惯的"觉知".
 
 参考:
+- [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
