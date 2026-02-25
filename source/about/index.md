@@ -102,6 +102,7 @@ comments: false
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
 - [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
+- [本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 
 
 
