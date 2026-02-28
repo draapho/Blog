@@ -8,7 +8,6 @@ description: 讨论卜卦中遇到的问题, 以及关于易经发展的猜想
 
 # 总览
 
-- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
 - [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
@@ -17,6 +16,7 @@ description: 讨论卜卦中遇到的问题, 以及关于易经发展的猜想
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
 - [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+- [八卦的常见映射](https://draapho.github.io/2026/03/01/2608-mapping/)
 
 
 
