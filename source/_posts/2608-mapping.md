@@ -34,7 +34,7 @@ description: 八卦的常见映射
 
 
 
-![五行辟卦图](https://draapho.github.io/images/2608/wxbgt.png)
+![五行辟卦图](https://draapho.github.io/images/2608/wxbgt.jpg)
 
 
 
