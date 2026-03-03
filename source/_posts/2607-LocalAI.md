@@ -8,6 +8,17 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 
 
 
+# 总览
+
+- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
+- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
+- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
+- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
+- [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
+
 
 
 # 需求
@@ -17,7 +28,6 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 台式机配置是: 5070ti, AMD Ryzen 7 7800X3D, 32GB,1tb+2tb硬盘
 
 要求：
-
 - 本地AI能回答常识性知识，如如何种菜等等，
 - 可以给他已有的知识库学习， 譬如PDF版本的书籍和文件。
 - 主要用于灾备，即断网情况下的自救知识。
@@ -81,14 +91,15 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 - 注意: **AnythingLLM 目前没有支持 Intel AI Playground**
 - 安装: 直接从 [useanything.com](https://useanything.com/download) 下载安装包。
 - 安装完成后, 打开 AnythingLLM 界面后，按照以下顺序配置：
-  1. **LLM Setup (大语言模型)**：
+  1. **LLM Setup** (大语言模型)：
      - **LLM Provider**: 选择 `Ollama` 或者 `Intel AI Playground`
      - **Model**: 选择 `qwen3:14b`  (请按实际需求选择)
      - **Ollama URL**: `http://127.0.0.1:11434`。
-  2. **Embedder (嵌入器)**：
+  2. **Embedder** (嵌入器)：
      - **Embedding Provider**: 选择 `Ollama`
-     - **Model**: 选择 `bge-m3` (中文或多语言推荐)  或 `nomic-embed-text` (英文最强) 
-  3. **Vector Database (数据库)**：
+     - **Model**: 选择 `bge-m3` (中文或多语言推荐) 
+     - 如果是英语, 选择默认 `AnythingLLM Embedder` 的 `nomic-embed-text-v1` 即可
+  3. **Vector Database** (数据库)：
      - 选择 `LanceDB` (这是内置的，直接存在硬盘里，无需额外安装)。
 
 
@@ -101,7 +112,7 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 - 它能让意思相近的话，在数字空间里的“位置”也非常接近。比如“怎么找喝的水”和“野外水源净化”，虽然字面上没一个字相同，但在嵌入器眼里，它们的数字坐标挨得很近。
 - `nomic-embed-text`：是这个“翻译官”的名字。它是目前公认的**离线性能最强、速度最快**的小模型之一。
   - 主要针对单语言使用. 譬如导入英文资料, 查询也是使用英文. 
-- bge-m3：另一个“翻译官”。特点是**多语言, 多功能, 多维度**
+- `bge-m3`：另一个“翻译官”。特点是**多语言, 多功能, 多维度**
   - 从设计上就强调多语言，在中文检索、语义相似度等任务上 常年领先。
   - 适合中文为主或中英文混用的 RAG、本地知识库等场景。
 
@@ -299,7 +310,6 @@ Windows Registry Editor Version 5.00
 | **Qwen3-VL:8B**          | 6.4GB    | ⭐            | ⭐⭐           | ⭐⭐⭐          | 图像解析          | 能够理解复杂图表并生成代码或描述。   |
 | **TranslateGemma:12B**   | 8.4GB    | ⭐⭐           | ⭐⭐⭐⭐⭐        | 无           | 翻译专用          | 翻译能力超过通用模型，带术语库支持。 |
 | **微小模型**             | 大小     |              |              |              | **端应用,嵌入式** | 成本和资源受限的情况                 |
-| **Qwen3-VL:2B**          | 1.8GB    | ⭐⭐           | ⭐⭐           | ⭐⭐⭐⭐         | 端侧视觉          | 视觉解析同级别顶尖                   |
 | **GLM-OCR:q8_0**         | 1.6GB    | ⭐            | ⭐            | ⭐⭐⭐⭐⭐        | 极致OCR           | 复杂图文的OCR高度还原。              |
 | **LFM2.5-Thinking:1.2B** | 0.8GB    | ⭐⭐⭐⭐⭐        | ⭐⭐           | 无           | 指令过滤          | 解析并拆解复杂的任务指令。           |
 
@@ -344,6 +354,7 @@ Windows Registry Editor Version 5.00
 
 - [Hugging Face](https://huggingface.co/).  AI 界的 GitHub. 用于存储、分享模型和数据集的标准云端仓库。
 - GGUF 文件格式：本地化部署的标准文件格式，通过“量化”技术让大模型能塞进家用显存里。
+- OpenVINO 文件格式: Intel 针对自家芯片优化的大模型格式.
 
 
 

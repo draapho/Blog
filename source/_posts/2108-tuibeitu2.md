@@ -2,7 +2,7 @@
 title: 万年歌, 马前课, 梅花诗, 推背图 (下)
 date: 2021-03-18
 categories: thoughts
-tags: [thoughts]
+tags: [crisis, thoughts]
 description: 著名的四种中国预言, 分析和预判.
 ---
 

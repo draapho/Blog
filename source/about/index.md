@@ -76,6 +76,19 @@ comments: false
 
 
 
+# 预测和灾备
+
+- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
+- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
+- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
+- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
+- [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
+
+
+
 
 # 学习
 - [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
@@ -104,6 +117,7 @@ comments: false
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
 - [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 
 
 

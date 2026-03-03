@@ -1,8 +1,8 @@
 ---
 title: 三战预测
 date: 2025-10-16
-categories: thoughts
-tags: [thoughts]
+categories: crisis
+tags: [crisis, thoughts]
 description: 三战预测, 仅供参考
 ---
 
@@ -10,22 +10,14 @@ description: 三战预测, 仅供参考
 
 # 总览
 
-- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
-- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
-- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
-- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
-- [【江湖姐訪談】克拉克1](https://draapho.github.io/2025/08/20/2503-ClarkCao1/)
-- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
-- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
-- [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
-- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
+- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
-- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
-- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
-- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
+- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
+- [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
 
 
 
