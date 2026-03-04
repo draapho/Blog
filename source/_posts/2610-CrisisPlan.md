@@ -18,6 +18,7 @@ description: 灾备资料的获取, 以及如何利用
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 - [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
+- [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
 
 
 
@@ -61,6 +62,7 @@ https://zh.z-library.sk/
   - 野外生存手册 (风间麟平)
   - 户外医学：野外急救与医学应急求生宝典（第5版）
   - 军地两用人才之友
+  - 心理急救手冊 (高振傑、蘇逸人)
 
 
 

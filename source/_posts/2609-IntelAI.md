@@ -10,14 +10,8 @@ description: 探索Intel的本地AI玩法
 
 # 总览
 
-- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
-- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
-- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
-- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
-- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 - [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
-- [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
 
 
 
@@ -84,7 +78,6 @@ description: 探索Intel的本地AI玩法
   - 由于自己的电脑分配给了WSL大量的内存. 如果运行过WSL, 需要确保Windows下的可用内存
   - `wsl --shutdown` 确保关闭wsl
   - `C:\Users\<你的用户名>\` 创建或修改 `.wslconfig` 文件, 让其自动归还内存
-
     ```ini
     [wsl2]
     memory=32GB
@@ -164,7 +157,6 @@ Intel AI Playground 已经按照常用的应用需求配置好了所需的大模
 ## 删除下载的大模型
 
 目前软件界面没有提供大模型删除功能, 只能进入按照目录, 手动删除模型.
-
 - `...\AI Playground\resources\models`
   - `ComfyUI` 存放图片和视频大模型的路径. 
     - 如果确认某个模型不需要了, 可以按需删除里面的文件夹.

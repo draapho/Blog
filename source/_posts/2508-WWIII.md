@@ -18,6 +18,7 @@ description: 三战预测, 仅供参考
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 - [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
+- [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
 
 
 
