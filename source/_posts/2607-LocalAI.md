@@ -276,7 +276,7 @@ Windows Registry Editor Version 5.00
 
 
 
-# 整体操作流程
+# RAG整体操作流程
 
 - 预处理阶段（把扫描图变文本）
   - 将扫描版的PDF书籍放入 `fileDocling.py` 所在的文件夹.
@@ -293,14 +293,67 @@ Windows Registry Editor Version 5.00
 
 
 
+# VS Code 添加AI辅助编程
+- 在VS Code扩展市场搜索并安装 Continue 插件
+- 点击进入 Continue 的`Local Config`, 打开 `config.yaml`文件. 
+  - models 下为对话聊天, 可询问和调试代码. 可设置多个, 手动切换.
+  - tabAutocompleteModel 下为代码补全用的模型
+- 由于本地AI, 显卡内存有限,  有如下两种可行方案
+  - 使用大小模型, 如对话用 `qwen3.5:9b` ; 代码补全用 `qwen2.5-coder:1.5b` 
+  - 使用同一个模型, 如 `qwen2.5-coder:7b`
+  - 上下文长度默认只有4K或8K. 根据显存大小, 可增加到32K
+- 使用说明: 
+  - 对话框内, 可以直接@文件等. 
+  - 选中代码块, 快捷键 `Ctrl+L` 聊天, `Ctrl+I` 编辑修改
+    - `Ctrl+L` 快捷键有冲突, 左下角的设置图标 -> `keyboard shortcut` -> 删除`Eclipse keymap`避免冲突
+  - `Chat` 为普通聊天, 给出建议.  
+  - `Plan` 是对复杂任务给出分解步骤. 
+  - `Agent` 是给出任务尝试自动完成.
+```yaml
+name: Local Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: "qwen3.5:9b"
+    provider: ollama
+    model: qwen3.5:9b
+    contextLength: 32000
+    roles:
+      - chat
+      - edit
+      - apply
+      - summarize
+  - name: "qwen2.5-coder:1.5b"
+    provider: ollama
+    model: qwen2.5-coder:1.5b
+    roles:
+      - autocomplete
+  - name: "qwen2.5-coder:7b"
+    provider: ollama
+    model: qwen2.5-coder:7b
+    contextLength: 32000
+    roles:
+      - chat
+      - edit
+      - apply
+      - summarize
+      - autocomplete
+```
+
+  
+
+
+
 # 本地化AI模型比较(2026年初)
 
 | **大模型**               | **大小** | **逻辑推理** | **文本能力** | **多模视觉** | **核心定位**      | **主要特点**                         |
 | ------------------------ | -------- | ------------ | ------------ | ------------ | ----------------- | ------------------------------------ |
 | **Qwen3.5:9B**            | 6.5GB    | ⭐⭐⭐⭐         | ⭐⭐⭐⭐         | ⭐⭐⭐ | 全能型          | 自带视觉识别      |
 | **DeepSeek-R1:14B**      | 9.5GB    | ⭐⭐⭐⭐         | ⭐⭐           | 无           | 深度思考          | 逻辑推理天花板，自带“思考链”。       |
-| **Qwen2.5-Coder:7B**     | 4.7GB    | ⭐⭐           | ⭐            | 无           | 辅助编程          | 代码生成，代码自动补全               |
 | **Qwen3-VL:8B**          | 6.4GB    | ⭐            | ⭐⭐           | ⭐⭐⭐          | 图像解析          | 能够理解复杂图表并生成代码或描述。   |
+| **Qwen2.5-Coder:7B**     | 4.7GB    | ⭐⭐           | ⭐            | 无           | 辅助编程          | 代码生成，代码补全               |
+| **Qwen2.5-Coder:1.5B**   | 986MB | ⭐           | ⭐            | 无           | 代码补全     | 代码补全，轻量急速 |
 | **TranslateGemma:12B**   | 8.4GB    | ⭐⭐           | ⭐⭐⭐⭐⭐        | 无           | 翻译专用          | 翻译能力超过通用模型，带术语库支持。 |
 | **小微模型**            | 大小     |              |              |              | **端应用,嵌入式** | 成本和资源受限的情况                 |
 | **GLM-OCR:q8_0**         | 1.6GB    | ⭐            | ⭐            | ⭐⭐⭐⭐⭐        | 极致OCR           | 复杂图文的OCR高度还原。              |
