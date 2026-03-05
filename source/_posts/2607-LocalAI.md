@@ -26,20 +26,34 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 
 准备安装可以离线的本地AI，主要用于灾备，存储知识，可以离线问答。
 次要目标是学习了解AI嵌入式本地化的实用性情况
-台式机配置是: 5070ti, AMD Ryzen 7 7800X3D, 32GB,1tb+2tb硬盘
+机器1, 台式机配置: 5070ti, AMD Ryzen 7 7800X3D, 32GB,1tb+2tb硬盘
+机器2, 笔记本配置: Intel Ultra 7 255H, 64GB, 1tb+2tb硬盘
 
-要求：
-- 本地AI能回答常识性知识，如如何种菜等等，
-- 可以给他已有的知识库学习， 譬如PDF版本的书籍和文件。
-- 主要用于灾备，即断网情况下的自救知识。
-- 顺便学习一下本地AI的发展情况和工具集, 评估嵌入式AI的应用前景.
-
+- 要求：
+  - 本地AI能回答常识性知识，如如何种菜等等，
+  - 可以给他已有的知识库学习， 譬如PDF版本的书籍和文件。
+  - 主要用于灾备，即断网情况下的自救知识。
+  - 顺便学习一下本地AI的发展情况和工具集, 评估嵌入式AI的应用前景.
+- 注意: WSL的内存占用
+  - 由于自己的电脑分配给了WSL大量的内存. 如果运行过WSL, 需要确保Windows下的可用内存
+  - `wsl --shutdown` 确保关闭wsl
+  - `C:\Users\<用户名>\` 创建或修改 `.wslconfig` 文件, 让其自动归还内存
+    ```ini
+    [wsl2]
+    memory=24GB
+    # ......
+    # 以上, 为原有的设置
+    # 新增, 闲置时自动归还内存给Windows
+    autoMemoryReclaim=gradual
+    ```
 
 
 
 # 安装 Ollama
 
-1. Ollama 支持的硬件
+## NV卡安装Ollama
+
+1. Ollama 直接支持的硬件
     - 完美支持 NVIDIA 独立显卡 (CUDA协议).
     - 良好支持 AMD RX6000系列及以上的显卡 (ROCm协议).
     - 完美支持 苹果电脑(M1/M2/M3/M4)
@@ -65,6 +79,61 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
       - `ollama ps`     运行模型的情况及占用内存
       - `ollama stop <模型名称>`  停止指定的模型,释放内存
       - `ollama show <模型名称>`  显示模型的详细信息
+
+## Intel 芯片安装 Ollama
+
+1. Intel Ultra 系列的三脑架构
+
+| **核心单元**             | **核心优势**                                     | **255H 的硬核参数**                     |
+| ------------------------ | ------------------------------------------------ | --------------------------------------- |
+| **CPU (中央处理器)**     | 处理突发、复杂的指令，调度全局。                 | 16核/16线程，主频高达 **5.1 GHz**。     |
+| **GPU (集成显卡)**       | **暴力输出**。处理大规模并行数据，速度极快。     | 8个Xe核心，AI 算力高达 **74 TOPS**。    |
+| **NPU (神经网络处理器)** | **极致节能**。专门应付需要长效、静默运行的任务。 | 2026 年新一代 NPU，算力约 **13 TOPS**。 |
+
+2. 安装或更新Intel驱动
+    - 安装或更新 **Intel Graphics Driver** 显卡驱动
+      - 下载地址 [Intel® Arc™ & Iris® Xe Graphics - Windows*](https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html)
+      - 注意选择 "Clean Install（全新安装）"
+
+3. 安装Ollama. 
+    - 访问 [IPEX-LLM Ollama GitHub](https://github.com/intel/ipex-llm/blob/main/README.zh-CN.md) 下载适用于 Windows 的Ollama。
+    - 参考 [使用 IPEX-LLM 在 Intel GPU 运行 llama.cpp Portable Zip](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/Quickstart/llamacpp_portable_zip_gpu_quickstart.zh-CN.md), 推荐使用
+        - 下载 [ollama-ipex-llm-2.2.0-win.zip](https://github.com/ipex-llm/ipex-llm/releases/tag/v2.2.0), 建议选最新版本, 此处只是示例.
+        - 解压到Ollama目标文件夹
+        - 运行 `start-ollama.bat` (可能需要右键管理员运行), 会自动启动一个针对Intel GPU优化的Ollama服务. 
+        - 在Ollama文件夹打开 cmd 或 powershell, 就能运行调用指令了. 如 `.\ollama ls` 
+    - 备选, 正常安装Ollama软件, 使用 Vulkan支持, 目前为实验性质
+        - 新建系统的环境变量, 变量名 `OLLAMA_VULKAN`, 变量值 `1`
+        - 退出Ollama, 然后重新打开. 查看运行大模型时, GPU的占用率情况, 确定是CPU在工作还是GPU在工作
+        - 缺点: 性能不如 IPEX-LLM, 只有70%左右. 优点是兼容性好.
+    
+4. 配置Ollama.
+
+    - 打开系统环境变量 `Path`. 
+      - 点击进入环境变量 `Path`, 增加Ollama文件夹. 便于直接调用ollama指令.
+      - 添加环境变量 `OLLAMA_MODELS`, 为大模型路径, 譬如 `D:\xxx\Ollama\models`
+    - 文本模式打开 `ollama-serve.bat`, 其中的`set`语句都是设置参数的, 可按需调节.
+      - 新手可以不去修改. 可以考虑如下优化设置
+      - 修改 `set OLLAMA_KEEP_ALIVE=60m`  模型常驻时间, 默认为10m.
+      - 添加 `set OLLAMA_MAX_LOADED_MODELS=2`  最多同时加载两个大模型
+      - 添加 `set OLLAMA_INTEL_GPU=1` 使用INTEL GPU
+	- 为了开机无窗口自启动 ollama服务. 可如下操作
+	  - 在Ollama文件夹下, 新建记事本, 写入如下内容. 然后另存为 `start-ollama-silent.vbs`
+      - 打开 `startup`目录 
+        - 方法1: `Win+R` 输入`shell:startup`可直达
+        - 方法2: `everything`搜索文件夹 `Start Menu\` 找到正确的 `startup` 文件夹
+      - 创建一份 `start-ollama-silent.vbs` 快捷方式, 并放入`startup`文件夹即可.
+        ```vbscript
+        Set WshShell = CreateObject("WScript.Shell")
+
+        ' 获取当前 VBS 文件夹
+        Dim currentFolder
+        currentFolder = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
+
+        ' 在当前文件夹启动 BAT，窗口完全隐藏
+        WshShell.Run """" & currentFolder & "\ollama-serve.bat""", 0, False
+        ```
+
 
 
 
