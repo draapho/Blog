@@ -17,10 +17,13 @@ description: 探索Intel的本地AI玩法
 
 # 需求
 
-另有一台笔记本配置是: 无独立显卡, Intel Ultra7 255H, 64G,1tb+2tb硬盘
-也想一并探索安装一下本地AI.
+~~另有一台笔记本配置是: 无独立显卡, Intel Ultra7 255H, 64G,1tb+2tb硬盘~~
+~~也想一并探索安装一下本地AI.~~
 
-然后发现, 要Ollama 去支持Intel的集成显卡, 配置较为复杂. 最后还是决定直接安装Intel AI Playground, 可以灵活的选择CPU, GPU, NPU. 故决定能简单应用即可. 毕竟不是本地AI主力机.
+~~然后发现, 要Ollama 去支持Intel的集成显卡, 配置较为复杂. 最后还是决定直接安装Intel AI Playground, 可以灵活的选择CPU, GPU, NPU. 故决定能简单应用即可. 毕竟不是本地AI主力机.~~
+
+不推荐安装 `Intel AI Playground`
+参考 [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/), 推荐安装使用 [llama.cpp Portable Zip](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/Quickstart/llamacpp_portable_zip_gpu_quickstart.zh-CN.md)
 
 
 
