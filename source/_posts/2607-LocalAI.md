@@ -385,10 +385,6 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
           - summarize
           - autocomplete
     ```
-  ```
-  
-  
-  ```
 
 
 
