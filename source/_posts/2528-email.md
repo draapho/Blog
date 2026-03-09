@@ -401,10 +401,9 @@ Soh师又额外给了很多佛教唯识观的说明. 但我并没有接触了解
   ![iLowcase.png](https://draapho.github.io/images/2528/iLowcase.png)
 - 大我, 一心, 自性, 明心(阶段一至阶段四), 有镜的比喻. 容易安住于此, 认为是终点.
   ![iCaptial.png](https://draapho.github.io/images/2528/iCaptial.png)
-- 无我, 无门之门(阶段五及以上). 真空妙有, 直觉现象, 无执无住.
-- 禅宗见性之说, 应该是身心脱落的初次体验(小我暂时性的彻底消亡), 至少是明心(阶段一). 
+- 无我(阶段五), 见空性(阶段六). 真空妙有, 直觉现象, 无执无住.
   ![anatta.png](https://draapho.github.io/images/2528/anatta.png)
-  
+
   
 
 
