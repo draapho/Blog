@@ -19,7 +19,7 @@ description: 应急基础物资清单
 - [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
-- [中国中期预测](https://draapho.github.io/2026/03/08/2614_predict/)
+- [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
 
 
 

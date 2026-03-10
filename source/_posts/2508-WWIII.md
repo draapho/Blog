@@ -19,6 +19,9 @@ description: 三战预测, 仅供参考
 - [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
 - [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
+- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
+- [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
+- [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
 
 
 
