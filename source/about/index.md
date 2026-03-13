@@ -75,7 +75,9 @@ comments: false
 - [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
-
+- [太极浑圆桩站桩要领](https://draapho.github.io/2026/03/12/2615-Standing/)
+- [见性、“我是”的觉醒与无我的亲证](https://draapho.github.io/2026/03/13/2616-Jianxing/)
+- [禅宗路线图与无我证悟：打破实体化的不二知见](https://draapho.github.io/2026/03/13/2617-zen/)
 
 
 # 预测和灾备
