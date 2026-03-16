@@ -1,8 +1,8 @@
 ---
 title: 佛陀教法的极佳资源
 date: 2025-12-19
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 佛陀教法的极佳资源
 ---
 

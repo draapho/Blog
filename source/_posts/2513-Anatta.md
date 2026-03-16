@@ -1,8 +1,8 @@
 ---
 title: 论无我、空性、摩诃（大）、平常与自然圆成
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 论无我、空性、摩诃（大）、平常与自然圆成
 ---
 

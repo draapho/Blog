@@ -1,8 +1,8 @@
 ---
 title: 关于婆希耶经(Bahiya Sutta)
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description:  关于婆希耶经(Bahiya Sutta)
 ---
 

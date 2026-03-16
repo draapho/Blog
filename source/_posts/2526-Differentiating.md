@@ -1,8 +1,8 @@
 ---
 title: 辨析 I AM、一心、无心与无我
 date: 2025-12-19
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 辨析 I AM、一心、无心与无我
 ---
 

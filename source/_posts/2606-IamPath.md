@@ -1,8 +1,8 @@
 ---
 title: 超越“体验”：自我参究/话头与“我是”证悟的详尽指南
 date: 2026-02-21
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 初关明心,"我是“的证悟指南
 ---
 

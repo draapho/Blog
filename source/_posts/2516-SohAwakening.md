@@ -1,8 +1,8 @@
 ---
 title: 体验/觉受、证悟、知见、修行与果位
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 体验/觉受、证悟、知见、修行与果位
 ---
 

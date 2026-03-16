@@ -1,8 +1,8 @@
 ---
 title: 易经的发展猜想
 date: 2026-02-13
-categories: 学习
-tags: [学习]
+categories: Bagua
+tags: [Bagua, 学习]
 description: 讨论卜卦中遇到的问题, 以及关于易经发展的猜想
 ---
 

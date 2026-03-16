@@ -1,8 +1,8 @@
 ---
 title: 佛陀的启示之无我论
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 佛陀的启示之无我论
 ---
 

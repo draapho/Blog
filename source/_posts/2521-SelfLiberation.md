@@ -1,8 +1,8 @@
 ---
 title: 大手印的皇印、自行解脱：堪楚仁波切三世
 date: 2025-12-19
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 大手印的皇印、自行解脱：堪楚仁波切三世
 ---
 

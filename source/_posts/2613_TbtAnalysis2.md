@@ -3,7 +3,7 @@ title: 金圣叹版推背图数字的整理和分析
 date: 2026-03-07
 categories: thoughts
 tags: [crisis, thoughts]
-dedescription: 金圣叹版推背图数字的整理和分析
+description: 金圣叹版推背图数字的整理和分析
 ---
 
 

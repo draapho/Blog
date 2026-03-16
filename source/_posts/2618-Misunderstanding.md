@@ -1,8 +1,8 @@
 ---
 title: 不同程度的无我：无作者感、不二、无我、一法究尽以及应对误区
 date: 2026-03-14
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 不同程度的无我：无作者感、不二、无我、一法究尽以及应对误区
 ---
 

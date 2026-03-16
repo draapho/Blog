@@ -19,7 +19,6 @@ comments: false
 
 
 # Thoughts
-
 - [开博序](https://draapho.github.io/2016/09/23/1600-Preface/)
 - [AI和物联网的潜在应用](https://draapho.github.io/2017/05/29/1716-AI-IoT/)
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
@@ -62,7 +61,6 @@ comments: false
 
 
 # ATR修行
-
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [关于婆希耶经(Bahiya Sutta)](https://draapho.github.io/2025/12/12/2514-BahiyaSutta)
@@ -88,27 +86,16 @@ comments: false
 
 
 # 预测和灾备
-
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
-
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
-
 - [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
-
 - [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
-
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
-
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
-
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
-
 - [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
-
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
-
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
-
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
 
   
@@ -127,6 +114,7 @@ comments: false
 - [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 - [八卦的常见映射](https://draapho.github.io/2026/03/01/2608-mapping/)
+- [卜卦进阶之互卦综卦和错卦](https://draapho.github.io/2026/03/16/2619-gua/)
 
 
 

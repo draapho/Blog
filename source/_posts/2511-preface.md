@@ -1,8 +1,8 @@
 ---
 title: 序卦传
 date: 2025-12-10
-categories: 学习
-tags: [学习]
+categories: Bagua
+tags: [Bagua, 学习]
 description: 周易序卦
 ---
 

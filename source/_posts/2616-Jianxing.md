@@ -1,8 +1,8 @@
 ---
 title: 见性、“我是”的觉醒与无我的亲证
 date: 2026-03-13
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 问答：见性、“我是”的觉醒与无我的亲证
 ---
 

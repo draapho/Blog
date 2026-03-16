@@ -1,8 +1,8 @@
 ---
 title: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》
 ---
 

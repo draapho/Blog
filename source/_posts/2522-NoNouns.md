@@ -1,8 +1,8 @@
 ---
 title: 发起动词，无需名词
 date: 2025-12-19
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 发起动词，无需名词
 ---
 

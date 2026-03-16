@@ -1,8 +1,8 @@
 ---
 title: 卜卦入门
 date: 2025-12-08
-categories: 学习
-tags: [学习]
+categories: Bagua
+tags: [Bagua, 学习]
 description: 基于高岛易断和梅花易数, 学习卜卦.
 ---
 

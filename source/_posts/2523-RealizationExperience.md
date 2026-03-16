@@ -1,8 +1,8 @@
 ---
 title: 从不同角度看“证悟与体验以及不二体验
 date: 2025-12-19
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 从不同角度看“证悟与体验以及不二体验
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 初关明心(我是)之后的路
 date: 2026-02-20
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 初关明心(我是)之后的路
 ---
 

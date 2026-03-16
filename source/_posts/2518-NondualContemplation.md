@@ -1,8 +1,8 @@
 ---
 title: I AM 之后的两种非二元观照
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: I AM 之后的两种非二元观照
 ---
 

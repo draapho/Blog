@@ -1,8 +1,8 @@
 ---
 title: Thusness / PasserBy 的七阶段开悟之路
 date: 2025-12-12
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: 了知我是, 明心见性后, 如何修炼
 ---
 

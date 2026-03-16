@@ -1,8 +1,8 @@
 ---
 title: <自说经> 第一品
 date: 2025-12-16
-categories: thoughts
-tags: [thoughts]
+categories: atr
+tags: [atr]
 description: <自说经> 第一品 菩提品
 ---
 
