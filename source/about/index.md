@@ -54,6 +54,15 @@ comments: false
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
+- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
+- [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
+- [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
+- [太极浑圆桩站桩要领](https://draapho.github.io/2026/03/12/2615-Standing/)
+
+
+
+# ATR修行
+
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [关于婆希耶经(Bahiya Sutta)](https://draapho.github.io/2025/12/12/2514-BahiyaSutta)
@@ -69,13 +78,9 @@ comments: false
 - [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
 - [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 - [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 - [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
-- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
-- [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
-- [太极浑圆桩站桩要领](https://draapho.github.io/2026/03/12/2615-Standing/)
 - [见性、“我是”的觉醒与无我的亲证](https://draapho.github.io/2026/03/13/2616-Jianxing/)
 - [禅宗路线图与无我证悟：打破实体化的不二知见](https://draapho.github.io/2026/03/13/2617-zen/)
 - [不同程度的无我：无作者感、不二、无我、一法究尽以及应对误区](https://draapho.github.io/2026/03/14/2618-Misunderstanding/)
@@ -85,21 +90,31 @@ comments: false
 # 预测和灾备
 
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
+
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
+
 - [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
+
 - [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
+
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
+
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
+
 - [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
+
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
+
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
-- [中国中期预测](https://draapho.github.io/2026/03/08/2614_predict/)
+
+- [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
+
+  
 
 
-
-
-# 学习
+# 八卦和学习
 - [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
 - [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
 - [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)

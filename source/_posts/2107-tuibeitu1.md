@@ -27,6 +27,11 @@ description: 著名的四种中国预言, 分析和预判.
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
 - [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
+- [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
+- [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
+
+
 
 
 ***转载自 [大金人 - YouTube](https://www.youtube.com/c/%E5%A4%A7%E9%87%91%E4%BA%BA/videos)***, 略有删改.
