@@ -115,6 +115,7 @@ comments: false
 - [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 - [八卦的常见映射](https://draapho.github.io/2026/03/01/2608-mapping/)
 - [卜卦进阶之互卦综卦和错卦](https://draapho.github.io/2026/03/16/2619-gua/)
+- [皇极经世和先天64卦](https://draapho.github.io/2026/03/17/2620-xt64gua/)
 
 
 
