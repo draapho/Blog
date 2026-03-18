@@ -1,8 +1,8 @@
 ---
 title: 知识革命：AI赋能未来，重塑人类历史
 date: 2023-04-11
-categories: 学习
-tags: [学习]
+categories: AI
+tags: [AI]
 description: chat-gpt 的历史地位
 ---
 

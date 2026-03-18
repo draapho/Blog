@@ -1,8 +1,8 @@
 ---
 title: Intel的本地AI玩法
 date: 2026-03-03
-categories: software
-tags: [crisis, software]
+categories: AI
+tags: [crisis, AI]
 description: 探索Intel的本地AI玩法
 ---
 
@@ -10,6 +10,8 @@ description: 探索Intel的本地AI玩法
 
 # 总览
 
+- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
+- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 - [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 

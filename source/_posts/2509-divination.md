@@ -2,21 +2,23 @@
 title: 卜卦入门
 date: 2025-12-08
 categories: Bagua
-tags: [Bagua, 学习]
+tags: [Bagua]
 description: 基于高岛易断和梅花易数, 学习卜卦.
 ---
 
 # 总览
 
-- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
 - [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
 - [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 - [卜卦进阶之爻的入门](https://draapho.github.io/2025/12/26/2527-yao/)
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
-- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
+- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-development/)
 - [八卦的常见映射](https://draapho.github.io/2026/03/01/2608-mapping/)
+- [卜卦进阶之互卦综卦和错卦](https://draapho.github.io/2026/03/16/2619-gua/)
+- [皇极经世和先天64卦](https://draapho.github.io/2026/03/17/2620-xt64gua/)
+- [八宫卦和六亲世应图](https://draapho.github.io/2026/03/18/2621-bagonggua/)
 
 
 
@@ -165,6 +167,15 @@ description: 基于高岛易断和梅花易数, 学习卜卦.
     - 第一反应是天气, 便对应了天气. 卜卦里, 无需稳定可复现的关系, 核心是心有所感.
     - 换句话说, 下一次我看一眼时间, 心有所感之内容我自己也不知道, 听天由命!
     - 因而, 要强调重复实验, 是否能维持天人感应的状态才是重点. 这需要修心修行.
+
+
+
+## 梅花易数-数字起卦法
+
+- 让求测者在心诚无杂念的情况下, 随意翻书两次取书页, 或报两个数字.
+- 第一个数除以8的余数为上卦, 0则取8.
+- 第二个数除以8的余数为下卦, 0则取8.
+- 最后, 两数之和除以6的余数为动爻, 0则取6.
 
 
 

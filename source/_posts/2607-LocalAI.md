@@ -1,8 +1,8 @@
 ---
 title: 基于Ollama的本地AI配置教程
 date: 2026-02-25
-categories: software
-tags: [crisis, software]
+categories: AI
+tags: [crisis, AI]
 description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 ---
 

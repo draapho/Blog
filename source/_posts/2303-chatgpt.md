@@ -1,8 +1,8 @@
 ---
 title: 拆解追溯 GPT-3.5 各项能力的起源
 date: 2023-5-3
-categories: 学习
-tags: [学习]
+categories: AI
+tags: [AI]
 description: 转载, 作者符尧
 ---
 

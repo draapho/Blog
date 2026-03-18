@@ -101,21 +101,26 @@ comments: false
   
 
 
-# 八卦和学习
-- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
-- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
-- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
+# 八卦
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)
 - [卜卦入门](https://draapho.github.io/2025/12/08/2509-divination/)
 - [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
 - [序卦传](https://draapho.github.io/2025/12/10/2511-preface/)
 - [卜卦进阶之爻的入门](https://draapho.github.io/2025/12/26/2527-yao/)
 - [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
-- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-xiaoxi/)
-- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
+- [易经的发展猜想](https://draapho.github.io/2026/02/13/2602-development/)
 - [八卦的常见映射](https://draapho.github.io/2026/03/01/2608-mapping/)
 - [卜卦进阶之互卦综卦和错卦](https://draapho.github.io/2026/03/16/2619-gua/)
 - [皇极经世和先天64卦](https://draapho.github.io/2026/03/17/2620-xt64gua/)
+- [八宫卦和六亲世应图](https://draapho.github.io/2026/03/18/2621-bagonggua/)
+
+
+
+# AI
+- [知识革命](https://draapho.github.io/2023/04/11/2301-revolution-of-knowledge/)
+- [拆解追溯 GPT-3.5 各项能力的起源](https://draapho.github.io/2023/05/03/2303-chatgpt/)
+- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
+- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 
 
 
@@ -129,8 +134,6 @@ comments: false
 - [Docker 初学笔记](https://draapho.github.io/2017/02/23/1708-docker/)
 - [敏捷开发 Scrum 学习](https://draapho.github.io/2017/05/31/1717-scrum/)
 - [设计模式概要](https://draapho.github.io/2022/08/11/2207-design-patterns/)
-- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
-- [Intel的本地AI玩法](https://draapho.github.io/2026/03/03/2609-IntelAI/)
 
 
 
@@ -335,5 +338,7 @@ comments: false
 # other
 
 - [魔方简易步骤](https://draapho.github.io/2019/06/03/1906-rubik/)
+
+- [MBTI 学习](https://draapho.github.io/2025/07/22/2501-mbti/)
 
   
