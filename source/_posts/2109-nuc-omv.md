@@ -6,6 +6,8 @@ tags: [NAS, OMV]
 description: 基于淘汰了的NUC5i5, 搭建家庭NAS
 ---
 
+[TOC]
+
 # 前言
 5年前写过一篇 [Windows 软件系列-基于NFS的家庭网](https://draapho.github.io/2016/10/03/1606-WinSoft-cloud/), 就有了搭建一个较为理想的NAS的愿望. 正好利用起淘汰下来的NUC5i5, 尝试自建.
 优先级由高到低, 需求如下:

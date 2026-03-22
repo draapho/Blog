@@ -6,7 +6,7 @@ tags: [thoughts]
 description: 什么是修行, 以及潜在的坑
 ---
 
-
+[TOC]
 
 # 总览
 

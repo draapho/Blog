@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 记录自己的修行体会
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

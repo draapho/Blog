@@ -6,7 +6,7 @@ tags: [thoughts]
 description: 认识真神0的四个阶段
 ---
 
-
+[TOC]
 
 # 总览
 

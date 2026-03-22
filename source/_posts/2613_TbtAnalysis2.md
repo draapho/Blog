@@ -6,7 +6,7 @@ tags: [crisis, thoughts]
 description: 金圣叹版推背图数字的整理和分析
 ---
 
-
+[TOC]
 
 # 总览
 

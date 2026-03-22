@@ -6,7 +6,7 @@ tags: [crisis, AI]
 description: 探索Intel的本地AI玩法
 ---
 
-
+[TOC]
 
 # 总览
 

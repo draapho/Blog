@@ -6,6 +6,8 @@ tags: [atr]
 description:  关于婆希耶经(Bahiya Sutta)
 ---
 
+[TOC]
+
 # 总览
 
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)

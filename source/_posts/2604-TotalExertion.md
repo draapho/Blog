@@ -6,7 +6,7 @@ tags: [atr]
 description: 道元《一法究尽》——超越整体与部分的全体
 ---
 
-
+[TOC]
 
 # 总览
 

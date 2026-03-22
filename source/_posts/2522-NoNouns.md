@@ -6,6 +6,7 @@ tags: [atr]
 description: 发起动词，无需名词
 ---
 
+[TOC]
 
 # 总览
 

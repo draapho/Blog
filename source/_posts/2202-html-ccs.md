@@ -6,6 +6,8 @@ tags: [web, HTML, CSS, scss]
 description: 介绍学习HTML和CSS基础
 ---
 
+[TOC]
+
 # HTML 参考资料
 - [HTML 教程](http://c.biancheng.net/html/)
 - [HTML 参考手册](https://www.runoob.com/tags/html-reference.html)
@@ -16,7 +18,7 @@ description: 介绍学习HTML和CSS基础
 <html lang="en">
 <!-- 这是注释 -->
 <head>
-    <meta charset="utf-8">		<!-- 当前文档采用UTF-8编码 -->
+    <meta charset="utf-8">      <!-- 当前文档采用UTF-8编码 -->
     <title>HTML网页布局</title>
     <h1 style="color:blue;text-align:center;">This is a heading</h1>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -79,7 +81,7 @@ h1 {                    /* h1 是选择器 */
 // 新增的单行注释
 // 简单说 scss是css的超集, 但增加了很多编程特性.
 
-/* 1. $ 符号来标识变量 */ 
+/* 1. $ 符号来标识变量 */
 $nav-color: #F90;               // 作用域: 当前样式表都可以使用
     nav {
         $width: 100px;          // 作用域: 只有nav{}里面才可以使用.
@@ -88,14 +90,14 @@ $nav-color: #F90;               // 作用域: 当前样式表都可以使用
     }
 }
 
-// 编译后, 等同于如下css 
+// 编译后, 等同于如下css
 nav {
   width: 100px;
   color: #F90;
 }
 
 /* 2. 选择器嵌套 */
-#content {                 
+#content {
     article {
         h1 { color: #333 }
         p { margin-bottom: 1.4em }
@@ -103,7 +105,7 @@ nav {
     aside { background-color: #EEE }
 }
 
-// 编译后, 等同于如下css 
+// 编译后, 等同于如下css
 #content article h1 { color: #333 }
 #content article p { margin-bottom: 1.4em }
 #content aside { background-color: #EEE }

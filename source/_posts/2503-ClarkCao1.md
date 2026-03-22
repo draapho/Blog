@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 克拉克的经历
 ---
 
+[TOC]
 
 # 总览
 

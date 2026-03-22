@@ -6,7 +6,7 @@ tags: [atr]
 description: 初关明心(我是)之后的路
 ---
 
-
+[TOC]
 
 # 总览
 

@@ -6,6 +6,8 @@ tags: [Bagua]
 description: 讨论卜卦中遇到的问题, 以及关于易经发展的猜想
 ---
 
+[TOC]
+
 # 总览
 
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)

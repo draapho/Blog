@@ -6,6 +6,8 @@ tags: [thoughts]
 description: 边修行边总结, 故有修道之路系列.
 ---
 
+[TOC]
+
 # 总览
 
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

@@ -6,8 +6,7 @@ tags: [atr]
 description: 体验/觉受、证悟、知见、修行与果位
 ---
 
-
-
+[TOC]
 
 # 总览
 

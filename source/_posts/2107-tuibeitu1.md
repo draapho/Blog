@@ -6,6 +6,7 @@ tags: [crisis, thoughts]
 description: 著名的四种中国预言, 分析和预判.
 ---
 
+[TOC]
 
 # 总览
 

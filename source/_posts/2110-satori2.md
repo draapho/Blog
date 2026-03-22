@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 灵天赐更新后的体悟和修行总纲.
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

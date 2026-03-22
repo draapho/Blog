@@ -6,6 +6,7 @@ tags: [atr]
 description: I AM 之后的两种非二元观照
 ---
 
+[TOC]
 
 # 总览
 

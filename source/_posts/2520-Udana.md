@@ -6,6 +6,7 @@ tags: [atr]
 description: <自说经> 第一品 菩提品
 ---
 
+[TOC]
 
 # 总览
 

@@ -6,7 +6,7 @@ tags: [atr]
 description: 初关明心,"我是“的证悟指南
 ---
 
-
+[TOC]
 
 # 总览
 

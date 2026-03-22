@@ -6,6 +6,7 @@ tags: [python]
 description: 设置python的虚拟开发环境, 项目资源独立化.
 ---
 
+[TOC]
 
 # 概述
 介绍了python的虚拟开发环境的建立和配置.

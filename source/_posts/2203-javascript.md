@@ -6,6 +6,8 @@ tags: [web, JavaScript]
 description: 介绍学习 JavaScript 的语法
 ---
 
+[TOC]
+
 # 参考资料
 - [JavaScript 和 HTML DOM 参考手册](https://www.runoob.com/jsref/jsref-tutorial.html)
 - [JavaScript 学习指南](http://c.biancheng.net/js/)

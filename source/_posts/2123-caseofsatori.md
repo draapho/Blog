@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 收集了见性者的体验和描述.
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

@@ -6,6 +6,8 @@ tags: [Bagua]
 description: 基于高岛易断和梅花易数, 学习卜卦.
 ---
 
+[TOC]
+
 # 总览
 
 - [初学易经](https://draapho.github.io/2025/07/30/2502-yi/)

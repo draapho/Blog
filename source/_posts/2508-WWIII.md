@@ -6,7 +6,7 @@ tags: [crisis, thoughts]
 description: 三战预测, 仅供参考
 ---
 
-
+[TOC]
 
 # 总览
 

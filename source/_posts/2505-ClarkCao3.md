@@ -6,7 +6,7 @@ tags: [thoughts]
 description: 渐修的路, 轮回以及大方向
 ---
 
-
+[TOC]
 
 # 总览
 

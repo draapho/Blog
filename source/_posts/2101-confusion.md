@@ -6,6 +6,8 @@ tags: [thoughts]
 description: 记录下理性和灵性之间的矛盾和冲突.
 ---
 
+[TOC]
+
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
 - [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)

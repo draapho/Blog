@@ -6,7 +6,7 @@ tags: [atr]
 description: 了知我是, 明心见性后, 如何修炼
 ---
 
-
+[TOC]
 
 # 总览
 

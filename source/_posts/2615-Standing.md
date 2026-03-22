@@ -6,7 +6,7 @@ tags: [thoughts]
 description: 太极浑圆桩（浑元桩、松静桩）站桩要领
 ---
 
-
+[TOC]
 
 # 总览
 

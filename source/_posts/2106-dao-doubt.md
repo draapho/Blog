@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 修道之路-起疑. 自我破茧, 化蛹成蝶.
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

@@ -6,8 +6,7 @@ tags: [crisis, thoughts]
 description: 金圣叹版推背图45象的推测, 以及中期未来的综合预测.
 ---
 
-
-
+[TOC]
 
 # 总览
 

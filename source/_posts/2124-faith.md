@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 一切法皆无矛盾, 放下理论, 拾起信仰
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

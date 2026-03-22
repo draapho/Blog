@@ -6,6 +6,7 @@ tags: [thoughts]
 description: 最明确的修行总纲, 部分更新.
 ---
 
+[TOC]
 
 # 总览
 - [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)

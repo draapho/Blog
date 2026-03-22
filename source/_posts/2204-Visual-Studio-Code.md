@@ -6,6 +6,8 @@ tags: [windows, 环境配置, JavaScript, PHP, 远程开发]
 description: 安装配置 Visual Studio Code
 ---
 
+[TOC]
+
 # IDE 的选择
 - 不太好的Atom使用经验
     - 之前有过 atom 的使用和配置经验.
