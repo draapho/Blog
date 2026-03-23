@@ -1,6 +1,6 @@
 ---
 title: 六爻占卜的解卦步骤
-date: 2026-03-19
+date: 2026-03-20
 categories: Bagua
 tags: [Bagua]
 description: 六爻占卜的解卦步骤, 以及示例
@@ -21,6 +21,9 @@ description: 六爻占卜的解卦步骤, 以及示例
 - [卜卦进阶之互卦综卦和错卦](https://draapho.github.io/2026/03/16/2619-gua/)
 - [皇极经世和先天64卦](https://draapho.github.io/2026/03/17/2620-xt64gua/)
 - [八宫卦和六亲世应图](https://draapho.github.io/2026/03/18/2621-bagonggua/)
+- [六爻占卜的卜卦和解卦](https://draapho.github.io/2026/03/19/2622-jiegua/)
+- [六爻占卜的解卦步骤](https://draapho.github.io/2026/03/20/2623-jiegua2/)
+- [以十二消息卦为家园卦的一种思路](https://draapho.github.io/2026/03/21/2624-jiayuangua/)
 
 
 
@@ -41,6 +44,7 @@ description: 六爻占卜的解卦步骤, 以及示例
 - 已婚占婚姻质量：世应关系为主
 
 **判断要点**：
+
 - 世应相生合主感情好
 - 妻财/官鬼旺相主对方条件好
 - 兄弟动克妻财不利男占婚姻
@@ -337,3 +341,4 @@ description: 六爻占卜的解卦步骤, 以及示例
 ----------
 
 ***原创于 [DRA&PHO](https://draapho.github.io/)***
+
