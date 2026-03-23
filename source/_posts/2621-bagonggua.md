@@ -272,7 +272,7 @@ description: 京房八宫卦和六亲世应图的基础知识
 # 参考资料
 
 - [什么是八宫卦？八宫卦的变爻规律; 八宫卦如何定世应? 六爻如何安六亲](https://2743.com/archives/12537)
-- [八宫卦六亲世应图 (图表）](https://2743.com/archives/12926)  注意: 图表乾宫火地晋有错误.
+- [八宫卦六亲世应图 (图表）](https://2743.com/archives/12926)  注意: 图表有诸多错误.
 - [尊聖普隆佛閣-京氏易学](https://www.pulung.com/fungshu_12_simp.php)
 
 
