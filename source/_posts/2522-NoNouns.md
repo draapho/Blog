@@ -32,7 +32,6 @@ description: 发起动词，无需名词
 - [佛陀教法的极佳资源](https://draapho.github.io/2025/12/19/2525-resource)
 - [辨析 I AM、一心、无心与无我](https://draapho.github.io/2025/12/19/2526-Differentiating)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [卜卦实例3之修行相关](https://draapho.github.io/2026/02/16/2603-case3/)
 - [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
 - [明心见性(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
