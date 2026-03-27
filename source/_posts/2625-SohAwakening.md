@@ -40,6 +40,9 @@ description: Soh的觉悟之路：2010~2013年的心性体悟录
 - [禅宗路线图与无我证悟：打破实体化的不二知见](https://draapho.github.io/2026/03/13/2617-zen/)
 - [不同程度的无我：无作者感、不二、无我、一法究尽以及应对误区](https://draapho.github.io/2026/03/14/2618-Misunderstanding/)
 - [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
+- [本觉与修证一如](https://draapho.github.io/2026/03/27/2626-OriginalEnlightenment/)
+- [觉与缘起](https://draapho.github.io/2026/03/27/2627-DependentOrigination/)
+- [Thusness / PasserBy 各阶段的区别](https://draapho.github.io/2026/03/27/2628-stageDiff/)
 
 
 
