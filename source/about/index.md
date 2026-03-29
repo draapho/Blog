@@ -88,7 +88,9 @@ comments: false
 - [Thusness / PasserBy 各阶段的区别](https://draapho.github.io/2026/03/27/2628-stageDiff/)
 
 
+
 # 预测和灾备
+
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
 - [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
@@ -119,6 +121,7 @@ comments: false
 - [六爻占卜的卜卦和解卦](https://draapho.github.io/2026/03/19/2622-jiegua/)
 - [六爻占卜的解卦步骤](https://draapho.github.io/2026/03/20/2623-jiegua2/)
 - [以十二消息卦为家园卦的一种思路](https://draapho.github.io/2026/03/21/2624-jiayuangua/)
+- [六爻解卦AI模板](https://draapho.github.io/2026/03/28/2629-jiegua3/)
 
 
 

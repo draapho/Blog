@@ -24,6 +24,7 @@ description: 易经52卦由十二消息卦卦变而来, 十二辟卦来自乾坤
 - [六爻占卜的卜卦和解卦](https://draapho.github.io/2026/03/19/2622-jiegua/)
 - [六爻占卜的解卦步骤](https://draapho.github.io/2026/03/20/2623-jiegua2/)
 - [以十二消息卦为家园卦的一种思路](https://draapho.github.io/2026/03/21/2624-jiayuangua/)
+- [六爻解卦AI模板](https://draapho.github.io/2026/03/28/2629-jiegua3/)
 
 
 

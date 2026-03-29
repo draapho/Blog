@@ -24,16 +24,44 @@ description: 八卦的常见映射
 - [六爻占卜的卜卦和解卦](https://draapho.github.io/2026/03/19/2622-jiegua/)
 - [六爻占卜的解卦步骤](https://draapho.github.io/2026/03/20/2623-jiegua2/)
 - [以十二消息卦为家园卦的一种思路](https://draapho.github.io/2026/03/21/2624-jiayuangua/)
+- [六爻解卦AI模板](https://draapho.github.io/2026/03/28/2629-jiegua3/)
 
 
 
-# 64卦高岛断易索引
+# 先天64卦
 
-![64卦图](https://draapho.github.io/images/2608/64gua.png)
+- 表内数字为: 先天64卦数.序卦数
+
+|             | 1 乾天☰           | 2 兑泽☱           | 3 离火☲           | 4 震雷☳           | 5 巽风☴           | 6 坎水☵           | 7 艮山☶           | 8 坤地☷           |
+| ----------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| **1 乾天☰** | ䷀ 乾为天 11.1    | ䷪ 泽天夬 12.43   | ䷍ 火天大有 13.14 | ䷡ 雷天大壮 14.34 | ䷈ 风天小畜 15.9  | ䷄ 水天需 16.5    | ䷙ 山天大畜 17.26 | ䷊ 地天泰 18.11   |
+| **2 兑泽☱** | ䷉ 天泽履 21.10   | ䷹ 兑为泽 22.58   | ䷥ 火泽睽 23.38   | ䷵ 雷泽归妹 24.54 | ䷼ 风泽中孚 25.61 | ䷻ 水泽节 26.60   | ䷨ 山泽损 27.41   | ䷒ 地泽临 28.19   |
+| **3 离火☲** | ䷌ 天火同人 31.13 | ䷰ 泽火革 32.49   | ䷝ 离为火 33.30   | ䷶ 雷火丰 34.55   | ䷤ 风火家人 35.37 | ䷾ 水火既济 36.63 | ䷕ 山火贲 37.22   | ䷣ 地火明夷 38.36 |
+| **4 震雷☳** | ䷘ 天雷无妄 41.25 | ䷐ 泽雷随 42.17   | ䷔ 火雷噬嗑 43.21 | ䷲ 震为雷 44.51   | ䷩ 风雷益 45.42   | ䷂ 水雷屯 46.3    | ䷚ 山雷颐 47.27   | ䷗ 地雷复 48.24   |
+| **5 巽风☴** | ䷫ 天风姤 51.44   | ䷛ 泽风大过 52.28 | ䷱ 火风鼎 53.50   | ䷟ 雷风恒 54.32   | ䷸ 巽为风 55.57   | ䷯ 水风井 56.48   | ䷑ 山风蛊 57.18   | ䷭ 地风升 58.46   |
+| **6 坎水☵** | ䷅ 天水讼 61.6    | ䷮ 泽水困 62.47   | ䷿ 火水未济 63.64 | ䷧ 雷水解 64.40   | ䷺ 风水涣 65.59   | ䷜ 坎为水 66.29   | ䷃ 山水蒙 67.4    | ䷆ 地水师 68.7    |
+| **7 艮山☶** | ䷠ 天山遁 71.33   | ䷞ 泽山咸 72.31   | ䷷ 火山旅 73.56   | ䷽ 雷山小过 74.62 | ䷴ 风山渐 75.53   | ䷦ 水山蹇 76.39   | ䷳ 艮为山 77.52   | ䷎ 地山谦 78.15   |
+| **8 坤地☷** | ䷋ 天地否 81.12   | ䷬ 泽地萃 82.45   | ䷢ 火地晋 83.35   | ䷏ 雷地豫 84.16   | ䷓ 风地观 85.20   | ䷇ 水地比 86.8    | ䷖ 山地剥 87.23   | ䷁ 坤为地 88.2    |
+
+
+
+
+|             | 1 乾天☰                           | 2 兑泽☱                           | 3 离火☲                           | 4 震雷☳                           | 5 巽风☴                           | 6 坎水☵                           | 7 艮山☶                           | 8 坤地☷                           |
+| ----------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
+| **1 乾天☰** | ![乾为天](https://draapho.github.io/images/2608/111111.png)    | ![泽天夬](https://draapho.github.io/images/2608/011111.png)    | ![火天大有](https://draapho.github.io/images/2608/101111.png)  | ![雷天大壮](https://draapho.github.io/images/2608/001111.png) | ![风天小畜](https://draapho.github.io/images/2608/110111.png) | ![水天需](https://draapho.github.io/images/2608/010111.png)   | ![山天大畜](https://draapho.github.io/images/2608/100111.png) | ![地天泰](https://draapho.github.io/images/2608/000111.png)   |
+| **2 兑泽☱** | ![天泽履](https://draapho.github.io/images/2608/111011.png)   | ![兑为泽](https://draapho.github.io/images/2608/011011.png)   | ![火泽睽](https://draapho.github.io/images/2608/101011.png)   | ![雷泽归妹](https://draapho.github.io/images/2608/001011.png) | ![风泽中孚](https://draapho.github.io/images/2608/110011.png) | ![水泽节](https://draapho.github.io/images/2608/010011.png)   | ![山泽损](https://draapho.github.io/images/2608/100011.png)   | ![地泽临](https://draapho.github.io/images/2608/000011.png)   |
+| **3 离火☲** | ![天火同人](https://draapho.github.io/images/2608/111101.png) | ![泽火革](https://draapho.github.io/images/2608/011101.png)   | ![离为火](https://draapho.github.io/images/2608/101101.png)   | ![雷火丰](https://draapho.github.io/images/2608/001101.png)   | ![风火家人](https://draapho.github.io/images/2608/110101.png) | ![水火既济](https://draapho.github.io/images/2608/010101.png) | ![山火贲](https://draapho.github.io/images/2608/100101.png)   | ![地火明夷](https://draapho.github.io/images/2608/000101.png) |
+| **4 震雷☳** | ![天雷无妄](https://draapho.github.io/images/2608/111001.png) | ![泽雷随](https://draapho.github.io/images/2608/011001.png)   | ![火雷噬嗑](https://draapho.github.io/images/2608/101001.png) | ![震为雷](https://draapho.github.io/images/2608/001001.png)   | ![风雷益](https://draapho.github.io/images/2608/110001.png)   | ![水雷屯](https://draapho.github.io/images/2608/010001.png)   | ![山雷颐](https://draapho.github.io/images/2608/100001.png)   | ![地雷复](https://draapho.github.io/images/2608/000001.png)   |
+| **5 巽风☴** | ![天风姤](https://draapho.github.io/images/2608/111110.png)   | ![泽风大过](https://draapho.github.io/images/2608/011110.png) | ![火风鼎](https://draapho.github.io/images/2608/101110.png)   | ![雷风恒](https://draapho.github.io/images/2608/001110.png)   | ![巽为风](https://draapho.github.io/images/2608/110110.png)   | ![水风井](https://draapho.github.io/images/2608/010110.png)   | ![山风蛊](https://draapho.github.io/images/2608/100110.png)   | ![地风升](https://draapho.github.io/images/2608/000110.png)   |
+| **6 坎水☵** | ![天水讼](https://draapho.github.io/images/2608/111010.png)   | ![泽水困](https://draapho.github.io/images/2608/011010.png)   | ![火水未济](https://draapho.github.io/images/2608/101010.png) | ![雷水解](https://draapho.github.io/images/2608/001010.png)   | ![风水涣](https://draapho.github.io/images/2608/110010.png)   | ![坎为水](https://draapho.github.io/images/2608/010010.png)   | ![山水蒙](https://draapho.github.io/images/2608/100010.png)   | ![地水师](https://draapho.github.io/images/2608/000010.png)   |
+| **7 艮山☶** | ![天山遁](https://draapho.github.io/images/2608/111100.png)   | ![泽山咸](https://draapho.github.io/images/2608/011100.png)   | ![火山旅](https://draapho.github.io/images/2608/101100.png)   | ![雷山小过](https://draapho.github.io/images/2608/001100.png) | ![风山渐](https://draapho.github.io/images/2608/110100.png)   | ![水山蹇](https://draapho.github.io/images/2608/010100.png)   | ![艮为山](https://draapho.github.io/images/2608/100100.png)   | ![地山谦](https://draapho.github.io/images/2608/000100.png)   |
+| **8 坤地☷** | ![天地否](https://draapho.github.io/images/2608/111000.png)   | ![泽地萃](https://draapho.github.io/images/2608/011000.png)   | ![火地晋](https://draapho.github.io/images/2608/101000.png)   | ![雷地豫](https://draapho.github.io/images/2608/001000.png)   | ![风地观](https://draapho.github.io/images/2608/110000.png)   | ![水地比](https://draapho.github.io/images/2608/010000.png)   | ![山地剥](https://draapho.github.io/images/2608/100000.png)   | ![坤为地](https://draapho.github.io/images/2608/000000.png)   |
+
 
 
 
 # 京房八宫卦
+
 
 | 变爻  | 卦名       | 乾宫        | 兑宫        | 离宫        | 震宫        | 巽宫        | 坎宫        | 艮宫        | 坤宫        |
 | ----- | ---------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -45,6 +73,20 @@ description: 八卦的常见映射
 | +五爻 | **五世卦** | ䷖ 山地剥   | ䷎ 地山谦   | ䷺ 风水涣   | ䷯ 水风井   | ䷔ 火雷噬嗑 | ䷶ 雷火丰   | ䷉ 天泽履   | ䷪ 泽天夬   |
 | -四爻 | **游魂卦** | ䷢ 火地晋   | ䷽ 雷山小过 | ䷅ 天水讼   | ䷛ 泽风大过 | ䷚ 山雷颐   | ䷣ 地火明夷 | ䷼ 风泽中孚 | ䷄ 水天需   |
 | 五爻  | **归魂卦** | ䷍ 火天大有 | ䷵ 雷泽归妹 | ䷌ 天火同人 | ䷐ 泽雷随   | ䷑ 山风蛊   | ䷆ 地水师   | ䷴ 风山渐   | ䷇ 水地比   |
+
+
+
+| 变爻  | 卦名       | 乾宫                        | 兑宫                        | 离宫                        | 震宫                        | 巽宫                        | 坎宫                        | 艮宫                        | 坤宫                        |
+| ----- | ---------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| 基准  | **宫主**   | ![img](https://draapho.github.io/images/2608/111111.png) | ![img](https://draapho.github.io/images/2608/011011.png) | ![img](https://draapho.github.io/images/2608/101101.png) | ![img](https://draapho.github.io/images/2608/001001.png) | ![img](https://draapho.github.io/images/2608/110110.png) | ![img](https://draapho.github.io/images/2608/010010.png) | ![img](https://draapho.github.io/images/2608/100100.png) | ![img](https://draapho.github.io/images/2608/000000.png) |
+| 初爻  | **一世卦** | ![img](https://draapho.github.io/images/2608/111110.png) | ![img](https://draapho.github.io/images/2608/011010.png) | ![img](https://draapho.github.io/images/2608/101100.png) | ![img](https://draapho.github.io/images/2608/001000.png) | ![img](https://draapho.github.io/images/2608/110111.png) | ![img](https://draapho.github.io/images/2608/010011.png) | ![img](https://draapho.github.io/images/2608/100101.png) | ![img](https://draapho.github.io/images/2608/000001.png) |
+| +二爻 | **二世卦** | ![img](https://draapho.github.io/images/2608/111100.png) | ![img](https://draapho.github.io/images/2608/011000.png) | ![img](https://draapho.github.io/images/2608/101110.png) | ![img](https://draapho.github.io/images/2608/001010.png) | ![img](https://draapho.github.io/images/2608/110101.png) | ![img](https://draapho.github.io/images/2608/010001.png) | ![img](https://draapho.github.io/images/2608/100111.png) | ![img](https://draapho.github.io/images/2608/000011.png) |
+| +三爻 | **三卦**   | ![img](https://draapho.github.io/images/2608/111000.png) | ![img](https://draapho.github.io/images/2608/011100.png) | ![img](https://draapho.github.io/images/2608/101010.png) | ![img](https://draapho.github.io/images/2608/001110.png) | ![img](https://draapho.github.io/images/2608/110001.png) | ![img](https://draapho.github.io/images/2608/010101.png) | ![img](https://draapho.github.io/images/2608/100011.png) | ![img](https://draapho.github.io/images/2608/000111.png) |
+| +四爻 | **四世卦** | ![img](https://draapho.github.io/images/2608/110000.png) | ![img](https://draapho.github.io/images/2608/010100.png) | ![img](https://draapho.github.io/images/2608/100010.png) | ![img](https://draapho.github.io/images/2608/000110.png) | ![img](https://draapho.github.io/images/2608/111001.png) | ![img](https://draapho.github.io/images/2608/011101.png) | ![img](https://draapho.github.io/images/2608/101011.png) | ![img](https://draapho.github.io/images/2608/001111.png) |
+| +五爻 | **五世卦** | ![img](https://draapho.github.io/images/2608/100000.png) | ![img](https://draapho.github.io/images/2608/000100.png) | ![img](https://draapho.github.io/images/2608/110010.png) | ![img](https://draapho.github.io/images/2608/010110.png) | ![img](https://draapho.github.io/images/2608/101001.png) | ![img](https://draapho.github.io/images/2608/001101.png) | ![img](https://draapho.github.io/images/2608/111011.png) | ![img](https://draapho.github.io/images/2608/011111.png) |
+| -四爻 | **游魂卦** | ![img](https://draapho.github.io/images/2608/101000.png) | ![img](https://draapho.github.io/images/2608/001100.png) | ![img](https://draapho.github.io/images/2608/111010.png) | ![img](https://draapho.github.io/images/2608/011110.png) | ![img](https://draapho.github.io/images/2608/100001.png) | ![img](https://draapho.github.io/images/2608/000101.png) | ![img](https://draapho.github.io/images/2608/110011.png) | ![img](https://draapho.github.io/images/2608/010111.png) |
+| 五爻  | **归魂卦** | ![img](https://draapho.github.io/images/2608/101111.png) | ![img](https://draapho.github.io/images/2608/001011.png) | ![img](https://draapho.github.io/images/2608/111101.png) | ![img](https://draapho.github.io/images/2608/011001.png) | ![img](https://draapho.github.io/images/2608/100110.png) | ![img](https://draapho.github.io/images/2608/000010.png) | ![img](https://draapho.github.io/images/2608/110100.png) | ![img](https://draapho.github.io/images/2608/010000.png) |
+
 
 
 
@@ -97,7 +139,7 @@ description: 八卦的常见映射
 
 
 
-# 十二辟卦(消息卦)常见映射
+# 十二辟卦, 五行, 天干地支映射表
 
 | **辟卦** |     复 ䷗     |     临 ䷒     |     泰 ䷊     |    大壮 ䷡    |     夬 ䷪     |     乾 ䷀     |     姤 ䷫     |     遁 ䷠     |     否 ䷋     |     观 ䷓     |     剥 ䷖     |     坤 ䷁     |
 | :------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -110,12 +152,11 @@ description: 八卦的常见映射
 | **农历** |  **十一月**   |  **十二月**   |   **正月**    |   **二月**    |   **三月**    |   **四月**    |   **五月**    |   **六月**    |   **七月**    |   **八月**    |   **九月**    |   **十月**    |
 | **节气** | 大雪,**冬至** | 小寒,**大寒** | **立春**,雨水 | 惊蛰,**春分** | 清明,**谷雨** | **立夏**,小满 | 芒种,**夏至** | 小暑,**大暑** | **立秋**,处暑 | 白露,**秋分** | 寒露,**霜降** | **立冬**,小雪 |
 | **阳历** |     12月      |      1月      |      2月      |      3月      |      4月      |      5月      |      6月      |      7月      |      8月      |      9月      |     10月      |     11月      |
+| **人体** | **耳**,肾,膀胱,生殖 | **肚**,脾,腹,关节 | **手**,胆,筋,脉 | **指**,肝,神经,目 | **肩**,胃,皮肤,胸 | **面**,心,牙,血 | **眼**,心,神,舌 | **脊**,脾,肌肉,腹 | **经络**,大肠,骨,肺 | **精血**,肺,咽喉,皮肤 | **腿**,胃,命门,关节 | **头**(后),肾,髓,足 |
 
 说明: 五行仅与十二地支有映射关联, 不能对应到辟卦. 六十四卦的五行一般参考京房易学.
 
 
-
-# 五行常见映射
 
 |   五行    | 阳木 | 阴木  | 阳火 | 阴火 | 阳土 | 阴土 | 阳金 | 阴金 | 阳水 | 阴水 |
 | :-------: | :------: | :-------: | :------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -125,10 +166,77 @@ description: 八卦的常见映射
 | **方位** | 东 | 东偏南 | 南 | 南偏西 | 中央 | 中央 | 西偏北 | 西 | 北 | 北偏东 |
 | **季节** | 立春 | 春分 | 夏至 | 立夏 | 季末 | 季末 | 立秋 | 秋分 | 冬至 | 立冬 |
 | **核心**  |  动,起  |  入,顺   | 显,烈 |   守,明    |    止,硬     |    顺,软     |    刚,大     |    柔,小     |    动,流     |    静,藏     |
-| **脏腑 ** |    胆    |    肝     |   小肠   |      心       |      胃       |      脾       |     大肠      |      肺       |     膀胱      |      肾       |
+| **人体** |   头,    | 颈,喉,肝 | 肩,小肠  | 心,舌,血 | 胃,鼻,肌肉 | 脾,唇,腹 | 肋,骨,大肠 | 肺,皮肤,咽喉 | 肾(阳),膀胱,耳 | 肾(阴),足,髓 |
 | **意象**  | 参天大树 | 花草藤蔓  | 太阳烈火 |   灯烛星光    |   高山厚土    |   田园湿土    |   刀剑矿石    |   珠宝首饰    |   江河湖海    |   雨露泉水    |
 | **情志**  | 怒(刚)  |  怒(郁)  | 喜(狂)  |    喜(乐)    |    思(固)    |    思(虑)    |    忧(悲)    |    忧(哀)    |    恐(惊)    |    恐(怯)    |
 | **颜色**  | 深青 |  浅绿  | 赤红 |    粉紫    |    深黄    |    浅棕    |    亮白    |    哑银    |    深黑    |    浅蓝    |
+
+
+
+| 地支   | 藏干（主→次） | 五行组合 | 特点                 |
+| ------ | ------------- | -------- | -------------------- |
+| **子** | 癸            | 纯阴水   | 专气，主智慧、隐秘   |
+| **丑** | 己癸辛        | 土+水+金 | 金库，主收藏、湿寒   |
+| **寅** | 甲丙戊        | 木+火+土 | 火长生，主生发、行动 |
+| **卯** | 乙            | 纯阴木   | 专气，主柔和、细腻   |
+| **辰** | 戊乙癸        | 土+木+水 | 水库，主变化、包容   |
+| **巳** | 丙戊庚        | 火+土+金 | 金长生，主文明、转化 |
+| **午** | 丁己          | 火+土    | 火帝旺，主热烈、显达 |
+| **未** | 己丁乙        | 土+火+木 | 木库，主滋养、缓和   |
+| **申** | 庚壬戊        | 金+水+土 | 水长生，主刚健、流动 |
+| **酉** | 辛            | 纯阴金   | 专气，主精致、收敛   |
+| **戌** | 戊辛丁        | 土+金+火 | 火库，主终结、守护   |
+| **亥** | 壬甲          | 水+木    | 木长生，主潜藏、孕育 |
+
+
+
+# 六爻相关映射表
+
+| 问测事项                         | 取用神（六亲） | 逻辑                           |
+| -------------------------------- | -------------- | ------------------------------ |
+| **父母、房产、文书、交通、天气** | **父母爻**     | 父母为生(**支撑,庇护**)我之物  |
+| **官职、疾病、工作、丈夫、盗贼** | **官鬼爻**     | 官鬼为克(**管束,克制**)我之物  |
+| **子孙、晚辈、宠物、解忧、医治** | **子孙爻**     | 子孙为我生(**拥有,抚养**)之物  |
+| **妻子、钱财、货物、饮食、工具** | **妻财爻**     | 妻财为我克(**欲望,追求**)之物  |
+| **兄弟、朋友、竞争、破财**       | **兄弟爻**     | 兄弟为比和(**分享、竞争**)之物 |
+
+
+
+| 六神 | 五行 | 主要象征               |
+| ---- | ---- | ---------------------- |
+| 青龙 | 木   | 喜庆、婚姻、贵人、文书 |
+| 朱雀 | 火   | 口舌、文书、信息、争吵 |
+| 勾陈 | 土   | 田土、迟滞、牢狱、稳定 |
+| 腾蛇 | 土   | 虚惊、怪异、缠绕、变化 |
+| 白虎 | 金   | 血光、疾病、丧事、威严 |
+| 玄武 | 水   | 暧昧、盗贼、隐私、智慧 |
+
+
+
+# 数字的映射
+
+八卦中的数字映射很复杂, 没有固定标准, 只能根据实际情况灵活应用, 交叉验证取数为主.
+- 用八卦取数: 
+  - **优先使用先天八卦数, 即乾1, 兑2, 离3, 震4, 巽5, 坎6, 艮7, 坤8**
+  - 后天八卦的数字融合了洛书的概念. 缺中数5. 更偏向五行使用.
+- 用爻取数: 
+  - **初爻到上爻, 分别对应1,2,3,4,5,6**
+- 天干地支取数: 
+  - 天干: **甲1 乙2 丙3 丁4 戊5 己6 庚7 辛8 壬9 癸10**
+  - 地支: **子1 丑2 寅3 卯4 辰5 巳6 午7 未8 申9 酉10 戌11 亥12**
+  - 太玄数: **甲己子午9,乙庚丑未8,丙辛寅申7,丁壬卯酉6,戊癸辰戌5,巳亥常为4,干支合读或相加.**
+    - 如甲9寅7. 单独取数7或9, 合读为97, 相加为16, 归元为7
+    - 如果地支寅为动爻, 可以考虑读为79, 否则不可逆序.
+    - 对于相加得到的16, 可进一步相加, 归元为7.
+    - 因而可能的取值是: 97(合读), 79(极少情况), 16(相加), 7(归元)
+- 五行取数:
+  - **水1/6, 火2/7, 木3/8, 金4/9, 土5/10, 旺取大数, 衰取小数, 阴阳辅助**
+- 用64重卦取数:
+  - **十二辟卦**, 或对应到十二辟卦.
+  - **先天重卦数: 下卦上卦合读**
+  - 序卦传的排序数 (乾坤屯蒙需讼师...)
+  - 64卦圆图顺序(去掉四个统领卦, 60卦顺时针排序)
+  - 查阅本文中的 **五行辟卦图** 和**先天64卦方圆图** 
 
 
 
