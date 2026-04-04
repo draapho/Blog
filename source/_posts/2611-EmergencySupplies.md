@@ -20,6 +20,10 @@ description: 应急基础物资清单
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
+- [卜卦实例4之危机预测再解](https://draapho.github.io/2026/04/01/2631-case4/)
+- [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)
+- [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
+- [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
 
 
 

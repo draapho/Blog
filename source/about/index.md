@@ -102,8 +102,11 @@ comments: false
 - [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
+- [卜卦实例4之危机预测再解](https://draapho.github.io/2026/04/01/2631-case4/)
+- [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)
+- [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
+- [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
 
-  
 
 
 # 八卦
@@ -122,6 +125,11 @@ comments: false
 - [六爻占卜的解卦步骤](https://draapho.github.io/2026/03/20/2623-jiegua2/)
 - [以十二消息卦为家园卦的一种思路](https://draapho.github.io/2026/03/21/2624-jiayuangua/)
 - [六爻解卦AI模板](https://draapho.github.io/2026/03/28/2629-jiegua3/)
+- [古代对星空的分析三垣、四象、二十八宿](https://draapho.github.io/2026/03/29/2630-mansions/)
+- [卜卦实例4之危机预测再解](https://draapho.github.io/2026/04/01/2631-case4/)
+- [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)
+- [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
+- [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
 
 
 
