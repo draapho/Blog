@@ -57,6 +57,7 @@ comments: false
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
 - [太极浑圆桩站桩要领](https://draapho.github.io/2026/03/12/2615-Standing/)
+- [玄学的本质以及与AI的结合](https://draapho.github.io/2026/04/06/2638-xuanxueAI/)
 
 
 
@@ -107,7 +108,7 @@ comments: false
 - [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
 - [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
 - [卜卦实例国运之澳洲](https://draapho.github.io/2026/04/05/2636-case8/)
-- [卜卦实例之中国百姓](https://draapho.github.io/2026/04/06/2637-case9/)
+- [卜卦实例之中国百姓](https://draapho.github.io/2026/04/05/2637-case9/)
 
 
 
@@ -132,6 +133,7 @@ comments: false
 - [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)
 - [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
 - [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
+- [玄学的本质以及与AI的结合](https://draapho.github.io/2026/04/06/2638-xuanxueAI/)
 
 
 
