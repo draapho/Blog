@@ -116,7 +116,7 @@ description: 如题.
 
   > \---
   > title: categories
-  > top: 1  
+  > date: 2016-09-08
   > type: "categories"
   > comments: false
   > \---
@@ -176,14 +176,14 @@ description: 如题.
   然后打开文件, 添加并修改如下内容:
   > \---
   > title: Windows下使用github和hexo建独立博客
-  > top: 100
+  > top: 99
   > date: 2016-09-24
   > categories: windows
   > tags: [windows, hexo]
   > description: 如题.
   > \---
   
-  其中top, 表示置顶.1为最高优先级. 仅对需要置顶的内容添加top项.
+  其中top, 表示置顶. 值越大越靠前. 仅对需要置顶的内容添加top项.
 - Hexo的常用指令
   ``` shell
   hexo clean    #更换hexo主题后, 建议先执行此条命令清空
