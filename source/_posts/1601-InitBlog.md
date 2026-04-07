@@ -57,6 +57,7 @@ description: 如题.
   npm install hexo-generator-feed --save    # 不装, 生成atom.xml, 供RSS使用
   npm install hexo-generator-sitemap --save # 不装, 生成sitemap.xml, 用于提高搜索量
   npm install hexo-generator-search --save  # 用于本地搜索
+  npm uninstall hexo-generator-index --save # 删除默认的
   npm install hexo-generator-index-pin-top --save # 用于文章置顶
   ```
 - 本地查看效果, 输入`hexo s`成功后登录 `localhost:4000`查看效果
