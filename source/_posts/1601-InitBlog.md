@@ -57,6 +57,7 @@ description: 如题.
   npm install hexo-generator-feed --save    # 不装, 生成atom.xml, 供RSS使用
   npm install hexo-generator-sitemap --save # 不装, 生成sitemap.xml, 用于提高搜索量
   npm install hexo-generator-search --save  # 用于本地搜索
+  npm install hexo-generator-index-pin-top --save # 用于文章置顶
   ```
 - 本地查看效果, 输入`hexo s`成功后登录 `localhost:4000`查看效果
   这里, 我遇到了错误, 提示是 4000 端口已经被占用.
@@ -115,12 +116,12 @@ description: 如题.
 
   > \---
   > title: categories
-  > date: 2016-09-08
+  > top: 1  
   > type: "categories"
   > comments: false
   > \---
 
-  在`Blog\source`下, 新建文件夹tags, 然后新建文件index.md, 用于生成标签页面
+在`Blog\source`下, 新建文件夹tags, 然后新建文件index.md, 用于生成标签页面
 
   > \---
   > title: tags
@@ -173,10 +174,16 @@ description: 如题.
 
 - 习惯于直接在 \Blog\source\_posts\ 下面直接新建文件 xxx.md
   然后打开文件, 添加并修改如下内容:
-  > title: Windows下使用github和hexo建立自己的博客
-  > date: 2016-09-08
-  > categories: environment
-  > tags: [blog, hexo, next]
+  > \---
+  > title: Windows下使用github和hexo建独立博客
+  > top: 100
+  > date: 2016-09-24
+  > categories: windows
+  > tags: [windows, hexo]
+  > description: 如题.
+  > \---
+  
+  其中top, 表示置顶.1为最高优先级. 仅对需要置顶的内容添加top项.
 - Hexo的常用指令
   ``` shell
   hexo clean    #更换hexo主题后, 建议先执行此条命令清空
