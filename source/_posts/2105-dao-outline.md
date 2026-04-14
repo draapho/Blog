@@ -1,5 +1,6 @@
 ---
 title: 修道之路-总纲
+top: 8
 date: 2021-02-14
 categories: thoughts
 tags: [thoughts]
@@ -128,7 +129,8 @@ description: 边修行边总结, 故有修道之路系列.
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - 推荐杨定一博士, <全部生命>系列
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
-- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
+- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
+- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 
 
 
@@ -139,12 +141,17 @@ description: 边修行边总结, 故有修道之路系列.
 必须真正亲自, 去感受道, 去体验道. 这是一段旅程, 这是一份经历.
 
 参考:
+- [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
+- [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
+- [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
 - [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
+- [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
 
 
 
@@ -155,21 +162,23 @@ description: 边修行边总结, 故有修道之路系列.
 
 参考:
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
+
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
+
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+
 - [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
-- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
-- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 
+- [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
 
+- 道德经
 
-# 悟后起修
+- 心经 / 金刚经
 
+- 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, 悟性论, 血脉论)
 
+  
 
+----
 
-# 参考资料
-- [《论语》详解：给所有曲解孔子的人](https://www.cnblogs.com/wancy86/p/lunyu.html)
-- [杂谈 - 一切皆相对](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
-- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
+***原创于 [DRA&PHO](https://draapho.github.io/)***
