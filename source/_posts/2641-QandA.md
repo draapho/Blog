@@ -639,3 +639,4 @@ Soh根据John Tan所写的内容于2007年写道：
 -----------
 
 - ***转载摘录自网站 [Awakening to Reality](https://www.awakeningtoreality.com/) 之 [一位修行者的来信：关于开悟阶段、无心、宇宙意识与能所双亡的探讨](https://www.awakeningtoreality.com/2026/04/blog-post_18.html)***
+
