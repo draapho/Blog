@@ -101,6 +101,14 @@ description: 边修行边总结, 故有修道之路系列.
             - 至此, 逻辑上便是到头了.
             - 再言便是: 无孤独无缺失, 无合一无完美; 无本, 无位; 无对立, 无统一; 无有, 无无, 无他, 无我.
             - 万物当下都展示着自己应有的相面, 处于自己应有的位置, 既完美又缺失, 既天堂又地狱.
+    - 修行合道涅槃. 破一起本位概念!!! 无本无位, 如是而已.
+        - 道可道也，非恒道也。名可名也，非恒名也。
+        - 空即是色, 色即是空. (本就是位, 位就是本)
+        - 龙树中论的八不中道. 只是在尽力堵各个逻辑出口, 却又强命为"中"...本无两边, 又何来中?
+        - **一切修行法, 也只是药. 是药三分毒, 能对证下药为方为良师.**
+        - **大病一场,  如梦初醒. 本就安好, 病药两忘! ** 万不可将药设为"本", 宗教的核心问题, 就是有个"本".
+
+
 
 
 # 起疑
@@ -123,14 +131,15 @@ description: 边修行边总结, 故有修道之路系列.
 以达到每时每刻, 不忘不丢, 内化为习惯的"觉知".
 
 参考:
-- [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
-- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
-- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- 王了了《醒醒了喂》. (原文见微信公众号: "王了了如是说", 本博客有转载)
 - 推荐杨定一博士, <全部生命>系列
-- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 - [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
+- [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
+- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
+- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
+- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 
 
 
@@ -152,6 +161,7 @@ description: 边修行边总结, 故有修道之路系列.
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 - [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
+- 王了了《无路》(原文见微信公众号: "王了了如是说", 本博客有转载)
 
 
 
@@ -163,6 +173,10 @@ description: 边修行边总结, 故有修道之路系列.
 参考:
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
 
+- 道德经 / 心经 / 金刚经
+
+- 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, 悟性论, 血脉论)
+
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
@@ -170,12 +184,6 @@ description: 边修行边总结, 故有修道之路系列.
 - [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
 
 - [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
-
-- 道德经
-
-- 心经 / 金刚经
-
-- 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, 悟性论, 血脉论)
 
   
 
