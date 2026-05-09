@@ -1,6 +1,6 @@
 ---
 title: 修道之路-总纲
-top: 8
+top: 90
 date: 2021-02-14
 categories: thoughts
 tags: [thoughts]
@@ -8,38 +8,6 @@ description: 边修行边总结, 故有修道之路系列.
 ---
 
 [TOC]
-
-# 总览
-
-- [我的终极思考](https://draapho.github.io/2017/10/09/1728-ultimatethink/)
-- [博客暂停更新](https://draapho.github.io/2018/04/12/1815-suspend/)
-- [佛教学习资料及一些感想](https://draapho.github.io/2018/07/08/1818-buddhism/)
-- [实修开始](https://draapho.github.io/2018/11/29/1819-start-meditation/)
-- [闻思修](https://draapho.github.io/2018/12/27/1820-meditation-LCP/)
-- [杂谈](https://draapho.github.io/2019/03/19/1901-tittle-tattle/)
-- [各种【一元化思维】的谬误——从“星座理论”到“共产主义社会”](https://draapho.github.io/2019/07/05/1908-unified/)
-- [好吧，我们就从头聊一聊科学、中医、东西方文明及其不同思维模式的话题](https://draapho.github.io/2019/07/25/1909-TCM_science/)
-- [开悟是怎样一种体验？](https://draapho.github.io/2019/07/26/1910-satori/)
-- [解构<让子弹飞>](https://draapho.github.io/2020/04/15/2003-letthebulletsfly/)
-- [与神对话读后感-矛盾与困惑](https://draapho.github.io/2021/01/28/2101-confusion/)
-- [一张简单图片演示的“甚深佛法”](https://draapho.github.io/2021/02/09/2102-intermittent/)
-- [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
-- [修道之路-总纲](https://draapho.github.io/2021/02/14/2105-dao-outline/)
-- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/)
-- [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
-- [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
-- [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
-- [见性者体验收集](https://draapho.github.io/2021/04/26/2123-caseofsatori/)
-- [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
-- [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
-- [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
-- [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
-- [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
-- [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
-- [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
-- [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
-
-
 
 # 方法论
 最先要强调的就是方法论, 因为这是思维/认知的本.
@@ -101,12 +69,6 @@ description: 边修行边总结, 故有修道之路系列.
             - 至此, 逻辑上便是到头了.
             - 再言便是: 无孤独无缺失, 无合一无完美; 无本, 无位; 无对立, 无统一; 无有, 无无, 无他, 无我.
             - 万物当下都展示着自己应有的相面, 处于自己应有的位置, 既完美又缺失, 既天堂又地狱.
-    - 修行合道涅槃. 破一起本位概念!!! 无本无位, 如是而已.
-        - 道可道也，非恒道也。名可名也，非恒名也。
-        - 空即是色, 色即是空. (本就是位, 位就是本)
-        - 龙树中论的八不中道. 只是在尽力堵各个逻辑出口, 却又强命为"中"...本无两边, 又何来中?
-        - **一切修行法, 也只是药. 是药三分毒, 能对证下药为方为良师.**
-        - **大病一场,  如梦初醒. 本就安好, 病药两忘! ** 万不可将药设为"本", 宗教的核心问题, 就是有个"本".
 
 
 
@@ -131,20 +93,20 @@ description: 边修行边总结, 故有修道之路系列.
 以达到每时每刻, 不忘不丢, 内化为习惯的"觉知".
 
 参考:
+- [王了了如是说《醒醒了喂》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MjM5ODU2MTA2OQ==&action=getalbum&album_id=2049024060377841665)
 - [修行总领——明心见性](https://draapho.github.io/2021/02/13/2104-satori/)
-- 王了了《醒醒了喂》. (原文见微信公众号: "王了了如是说", 本博客有转载)
-- 推荐杨定一博士, <全部生命>系列
 - [【江湖姐訪談】克拉克2](https://draapho.github.io/2025/08/25/2504-ClarkCao2/)
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 - [超越“体验”：自我参究/话头与“我是”证悟的详尽指南](https://draapho.github.io/2026/02/21/2606-IamPath/)
 - [开悟是怎样一种体验？(新)](https://draapho.github.io/2021/04/05/2110-satori2/)
+- 推荐杨定一博士, <全部生命>系列
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
 
 
 
 # 见性
-携诚心, 寻真师, 消融自我.
+携诚心, 真师自来, 消融自我.
 烦恼即是无上菩提, 人世方为究竟道场.
 所谓"得道", 不是知识, 不是用来学习和理解的, 是超出思维领域的.
 必须真正亲自, 去感受道, 去体验道. 这是一段旅程, 这是一份经历.
@@ -161,7 +123,7 @@ description: 边修行边总结, 故有修道之路系列.
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
 - [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
-- 王了了《无路》(原文见微信公众号: "王了了如是说", 本博客有转载)
+- [王了了如是说《无路》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MjM5ODU2MTA2OQ==&action=getalbum&album_id=3837601462050357248)
 
 
 
@@ -170,22 +132,29 @@ description: 边修行边总结, 故有修道之路系列.
 不好为人师, 不求改变世界, 无善无恶, 众生平等.
 无我, 无所求, 无分别, 真正的活在每一个当下.
 
+
+
 参考:
+
 - [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
-
 - 道德经 / 心经 / 金刚经
-
 - 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, 悟性论, 血脉论)
-
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
-
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
-
 - [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
-
 - [道元《一法究尽》——超越整体与部分的全体](https://draapho.github.io/2026/02/19/2604-TotalExertion/)
 
-  
+
+
+目前自己粗浅的观点和看法是:
+
+- 合道涅槃. 破所有概念和执着!!! 无本无位(不能概念化, 否则进一步否定: 非无本无位), 如是而已.
+- 道可道也，非恒道也。名可名也，非恒名也。
+- 龙树中论的八不中道. 只是在尽力堵各个逻辑出口, 却又强命为"中"...本无两边, 又何来中? 这是逻辑的困顿.
+- **一切修行法, 也只是药. 是药三分毒, 能对证下药为方为良师.**
+- **大病一场,  如梦初醒. 本就安好, 病药两忘! ** 万不可将药设为"本". 宗教的核心问题, 是有个"本".
+
+
 
 ----
 

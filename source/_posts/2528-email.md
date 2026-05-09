@@ -2,7 +2,7 @@
 title: 老师来找我
 date: 2025-12-29
 categories: atr
-tags: [atr]
+tags: [atr, thoughts]
 description: 老师来找我
 ---
 
