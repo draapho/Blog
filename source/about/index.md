@@ -14,3 +14,9 @@ comments: false
 
 `EMAIL: draapho@gmail.com`
 `https://github.com/draapho/Blog`
+
+
+
+# 图片路径备忘: 
+
+`https://draapho.github.io/images/26xx/xxx.xxx`
