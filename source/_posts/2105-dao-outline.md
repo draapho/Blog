@@ -79,6 +79,8 @@ description: 边修行边总结, 故有修道之路系列.
 这个茧, 他人是破不得的, 从外部破, 那是暴力强拆, 只会激发起自我和思维的抗拒和害怕, 把自己包裹的更紧.
 只有自己破茧而出, 才能化蛹成蝶.
 
+- [介绍本位方法论](https://draapho.github.io/2021/03/01/2106-dao-doubt/), 其中介绍了知的局限性, 对科学, 宗教, 哲学, 数学的一些个人观点, 仅供参考.
+
 
 
 # 闻道
@@ -102,6 +104,7 @@ description: 边修行边总结, 故有修道之路系列.
 - 推荐杨定一博士, <全部生命>系列
 - [带着信仰行到底](https://draapho.github.io/2021/11/29/2124-faith/)
 - [心得体会-明心](https://draapho.github.io/2024/09/16/2401-xinming/)
+- [念头和我不是问题](https://draapho.github.io/2026/05/12/2669-face2self/)
 
 
 
@@ -116,14 +119,15 @@ description: 边修行边总结, 故有修道之路系列.
 - [【江湖姐訪談】克拉克3](https://draapho.github.io/2025/08/26/2505-ClarkCao3/)
 - [【江湖姐訪談】克拉克4](https://draapho.github.io/2025/08/27/2506-ClarkCao4/)
 - [克拉克的问答与自己的感想](https://draapho.github.io/2025/08/28/2507-ClarAnswer/)
+- [王了了如是说《无路》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MjM5ODU2MTA2OQ==&action=getalbum&album_id=3837601462050357248)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
+- [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
 - [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
 - [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
-- [Soh的觉悟之路：2010~2013年的心性体悟录](https://draapho.github.io/2026/03/26/2625-SohAwakening/)
-- [王了了如是说《无路》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MjM5ODU2MTA2OQ==&action=getalbum&album_id=3837601462050357248)
+- [念头和我不是问题](https://draapho.github.io/2026/05/12/2669-face2self/)
 
 
 
@@ -136,9 +140,9 @@ description: 边修行边总结, 故有修道之路系列.
 
 参考:
 
-- [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
 - 道德经 / 心经 / 金刚经
-- 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, 悟性论, 血脉论)
+- [<自说经> 第一品](https://draapho.github.io/2025/12/16/2520-Udana)
+- 菩提达摩: [無心論](https://zh.wikisource.org/wiki/%E7%84%A1%E5%BF%83%E8%AB%96) / [少室六門](https://zh.wikisource.org/wiki/%E5%B0%91%E5%AE%A4%E5%85%AD%E9%96%80) (心经颂, 破相论, 二入四行, 安心法门, **悟性论**, 血脉论)
 - [Thusness / PasserBy 的七阶段开悟之路](https://draapho.github.io/2025/12/12/2512-SevenStage/)
 - [论无我、空性、摩诃（大）、平常与自然圆成](https://draapho.github.io/2025/12/12/2513-Anatta/)
 - [白话优化版: 不可得的圆满：鼓声、虹光与海市蜃楼如何开启《心经》](https://draapho.github.io/2025/12/12/2515-HeartSutra)
@@ -148,13 +152,13 @@ description: 边修行边总结, 故有修道之路系列.
 
 目前自己粗浅的观点和看法是:
 
-- 合道涅槃. 破所有概念和执着!!! 无本无位(不能概念化, 否则进一步否定: 非无本无位), 如是而已.
-- 道可道也，非恒道也。名可名也，非恒名也。
+- 道可道也，非恒道也。名可名也，非恒名也。有物混成/真空妙有(对世界本质是直接体验的)
+- 合道涅槃. 破所有概念和执着. 无本无位(不能概念化, 否则进一步否定: 非无本无位), 如是而已.
 - 龙树中论的八不中道. 只是在尽力堵各个逻辑出口, 却又强命为"中"...本无两边, 又何来中? 这是逻辑的困顿.
 - **一切修行法, 也只是药. 是药三分毒, 能对证下药为方为良师.**
 - **大病一场,  如梦初醒. 本就安好, 病药两忘! ** 万不可将药设为"本". 
 - 入道涅槃, 是非常简单直接的. 无门之门, 不是去探索寻求门在哪里, 而是某种完全的释放, 释然...
-- 读"婆希耶经(Bahiya Sutta)"就够了, 用简化再简化的方法, 去感受去体悟. 并不需要去理解"真空秒有", "缘起", "中道" 等概念. 如果这些谈论是必要的和正确的, 某个恰当的时机自然会知道.
+- 读"婆希耶经(Bahiya Sutta)"就够了, 用简化再简化的方法, 去感受去体悟. 并不需要去理解"真空秒有", "缘起", "中道" 等概念. 如果这些谈论是必要和正确的, 某个恰当的时机自然会明了.
 - 在自己探索的自修者中, 可关注[知乎-九天雷动](https://www.zhihu.com/people/de-zhong-gui-shen-qin), 和他交流, 他的回答我领悟不了. 但占卜所得, 他离涅槃入道是最接近的...
 
 
