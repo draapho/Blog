@@ -67,7 +67,7 @@ description: 边修行边总结, 故有修道之路系列.
 - [体验/觉受、证悟、知见、修行与果位](https://draapho.github.io/2025/12/12/2516-SohAwakening)
 - [老师来找我](https://draapho.github.io/2025/12/29/2528-email)
 - [初关明心(我是)之后的路](https://draapho.github.io/2026/02/20/2605-NewPath/)
-- [念头和我不是问题](https://draapho.github.io/2026/05/12/2669-face2self/)
+- [大道至简, 勿增实体](https://draapho.github.io/2026/05/17/2671-conceptualization/)
 
 
 
