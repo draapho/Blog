@@ -2,7 +2,7 @@
 title: 生克作用路径和因境取象
 date: 2026-05-24
 categories: Bagua
-tags: [Bagua]
+tags: [Bagua, Bazi]
 description: 生克作用路径和因境取象
 ---
 

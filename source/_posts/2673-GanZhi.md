@@ -2,7 +2,7 @@
 title: 炁, 五行, 天干地支的基础知识
 date: 2026-05-19
 categories: Bagua
-tags: [Bagua]
+tags: [Bagua, Bazi]
 description: 炁, 五行, 天干地支的特性,关系和映射
 ---
 
