@@ -12,19 +12,9 @@ description: 金圣叹版推背图数字的整理和分析
 
 - [万年歌, 马前课, 梅花诗, 推背图 (上)](https://draapho.github.io/2021/03/05/2107-tuibeitu1/)
 - [万年歌, 马前课, 梅花诗, 推背图 (下)](https://draapho.github.io/2021/03/18/2108-tuibeitu2/)
-- [三战预测](https://draapho.github.io/2025/10/16/2508-WWIII/)
-- [卜卦实例之危机预测](https://draapho.github.io/2025/12/09/2510-case/)
-- [卜卦实例2之各国运势](https://draapho.github.io/2026/01/08/2601-case2/)
-- [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
-- [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
-- [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
-- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
+- [金圣叹版推背图框架和结构的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
 - [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
-- [卜卦实例4之危机预测再解](https://draapho.github.io/2026/04/01/2631-case4/)
-- [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)
-- [卜卦实例国运之俄欧地区](https://draapho.github.io/2026/04/03/2634-case6/)
-- [卜卦实例国运之北美地区](https://draapho.github.io/2026/04/04/2635-case7/)
 
 
 

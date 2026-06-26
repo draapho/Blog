@@ -18,8 +18,6 @@ description: 基于Ollama的AI配置教程. 目前仅支持NV卡或CPU.
 - [基于Ollama的本地AI配置教程](https://draapho.github.io/2026/02/25/2607-LocalAI/)
 - [灾备资料获取](https://draapho.github.io/2026/03/04/2610-CrisisPlan/)
 - [应急基础物资清单](https://draapho.github.io/2026/03/05/2611-EmergencySupplies/)
-- [金圣叹版推背图卦象的整理和分析](https://draapho.github.io/2026/03/06/2612_TbtAnalysis1/)
-- [金圣叹版推背图数字的整理和分析](https://draapho.github.io/2026/03/07/2613_TbtAnalysis2/)
 - [金圣叹版推背图45象的推测](https://draapho.github.io/2026/03/08/2614_predict/)
 - [卜卦实例4之危机预测再解](https://draapho.github.io/2026/04/01/2631-case4/)
 - [卜卦实例国运之东亚地区](https://draapho.github.io/2026/04/02/2633-case5/)

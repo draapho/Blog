@@ -248,7 +248,7 @@ description: 周易序卦
 | **27** | ䷁ 坤为地   | ![img](https://draapho.github.io/images/2608/100001.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/011110.png)     | ䷀ 乾为天   | **28** |
 | **29** | ䷚ 山雷颐   | ![img](https://draapho.github.io/images/2608/010010.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/101101.png)     | ䷛ 泽风大过 | **30** |
 | **31** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/011100.png)->41 | 综卦          | ![img](https://draapho.github.io/images/2608/001110.png)->42 | ䷪ 泽天夬   | **32** |
-| **33   | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/111100.png)->19 | 综卦          | ![img](https://draapho.github.io/images/2608/001111.png)->20 | ䷪ 泽天夬   | **34** |
+| **33** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/111100.png)->19 | 综卦          | ![img](https://draapho.github.io/images/2608/001111.png)->20 | ䷪ 泽天夬   | **34** |
 | **35** | ䷦ 水山蹇   | ![img](https://draapho.github.io/images/2608/101000.png)->5  | 综卦          | ![img](https://draapho.github.io/images/2608/000101.png)->6  | ䷧ 雷水解   | **36** |
 | **37** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/110101.png)->40 | 综卦          | ![img](https://draapho.github.io/images/2608/101011.png)->39 | ䷾ 水火既济 | **38** |
 | **39** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/010100.png)->38 | 综卦          | ![img](https://draapho.github.io/images/2608/001010.png)->37 | ䷾ 水火既济 | **40** |
@@ -272,6 +272,7 @@ description: 周易序卦
 叙事顺序非常多样和复杂, 应"错综复杂"之说. 序卦传为顺叙, 但个人更倾向于使用 **阳数顺叙, 然后阴数顺叙** 的方式. 这从其互卦也可窥得一二:
 - 阳数互卦从乾为天, 自强不息, 努力精进开始, 互卦多有遇到困难, 主动克服之深意, 直到63卦互卦火水未济, 此路径为精神之盛阳, 逐步实现希望, 变为实体之既济. 
 - 然后转为序二卦坤为地, 其互卦从水火既济开始, 转到互卦坤为地, 此过程为精神盛阳用尽, 承平以久, 精神上享乐为主. 尽管内部冲突矛盾加剧, 派系林立, 但物质实体上, 自然还有强大的沉淀和惯性, 处理得当, 尚可有二三次的繁荣中兴之象. 直到最终到火水未济, 物质实体耗尽, 百废待兴. 经历过困苦的人们, 内心再次充满了希望, 持有乾天自强不息之精神.
+- 太极图是先天, 连续平滑的阴阳转换. 而序卦阴阳之发展变化过程, 就是有生命参与, 是后天之字形折线的阴阳转换. 阳数序卦, 从乾为天开始, 是阳之始, 到水火既济, 是阳之终. 极而转阴, 转到阴数序卦, 从坤为地开始, 一路发展到阴之极的火水未济. 但由于生命体是逆熵增的, 有储能功能, 故发展过程不平滑, 而是随着愿力的隐忍和释放, 会形成跌宕起伏, 一波三折的走势过程.
 
 
 
