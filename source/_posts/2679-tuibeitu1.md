@@ -185,8 +185,11 @@ description: 金圣叹推背图卦象分析之始末, 第一象和第六十象.
 
 # 参考资料
 
-- [推背圖 - 金聖歎 批註](https://zh.wikisource.org/wiki/%E6%8E%A8%E8%83%8C%E5%9C%96_(%E8%A2%81%E5%A4%A9%E7%BD%A1%E3%80%81%E6%9D%8E%E6%B7%B3%E9%A2%A8))
+- [推背圖之考證閒談 第一集(1/3)](https://www.youtube.com/watch?v=igWxd6ZThdw)
+- [推背圖之考證閒談 第二集(2/3)](https://www.youtube.com/watch?v=tFy3kjqcMks)
+- [推背圖考證與閒談 第三集(3/3)](https://www.youtube.com/watch?v=EcS-9bIhiVc)
 - [见证历史的一刻——中华文化渊源“河图”的首次破解](https://www.bilibili.com/video/BV15J5u6HEP8/)
+- [推背圖 - 金聖歎 批註](https://zh.wikisource.org/wiki/%E6%8E%A8%E8%83%8C%E5%9C%96_(%E8%A2%81%E5%A4%A9%E7%BD%A1%E3%80%81%E6%9D%8E%E6%B7%B3%E9%A2%A8))
 
 
 
