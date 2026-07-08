@@ -1,8 +1,8 @@
 ---
 title: 金圣叹推背图卦象分析之元朝
 date: 2026-07-05
-categories: Bagua
-tags: [Bagua, crisis]
+categories: prophecy
+tags: [prophecy]
 description: 金圣叹推背图卦象分析之元朝, 第二五到第二六象.
 ---
 

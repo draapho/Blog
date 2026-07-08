@@ -1,8 +1,8 @@
 ---
 title: 金圣叹版推背图框架和结构的整理和分析
 date: 2026-03-06
-categories: thoughts
-tags: [crisis, thoughts]
+categories: prophecy
+tags: [prophecy]
 description: 金圣叹版推背图框架和结构的整理和分析
 ---
 

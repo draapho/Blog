@@ -1,8 +1,8 @@
 ---
 title: 金圣叹推背图卦象分析之始末
 date: 2026-06-21
-categories: Bagua
-tags: [Bagua, crisis]
+categories: prophecy
+tags: [prophecy]
 description: 金圣叹推背图卦象分析之始末, 第一象和第六十象.
 ---
 

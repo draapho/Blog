@@ -1,8 +1,8 @@
 ---
 title: 金圣叹版推背图45象的推测
 date: 2026-03-08
-categories: crisis
-tags: [crisis, thoughts]
+categories: prophecy
+tags: [prophecy]
 description: 金圣叹版推背图45象的推测, 以及中期未来的综合预测.
 ---
 

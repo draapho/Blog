@@ -1,8 +1,8 @@
 ---
 title: 美伊战争的恐怖宗教暗线
 date: 2026-05-18
-categories: thoughts
-tags: [thoughts]
+categories: crisis
+tags: [crisis, thoughts]
 description: 美伊战争竟为献祭以色列？冲突背后的恐怖宗教暗线-前千禧年派
 ---
 
