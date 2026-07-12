@@ -1,16 +1,16 @@
 ---
-title: 金圣叹推背图卦象分析之清朝
+title: 金圣叹推背图综合分析之清朝
 date: 2026-07-08
 categories: prophecy
 tags: [prophecy]
-description: 金圣叹推背图卦象分析之清朝, 第三三到第三六象.
+description: 金圣叹推背图综合分析之清朝, 第三三到第三六象.
 ---
 
 
 
 [TOC]
 
-# 总览
+# 总览,待修善
 
 - [金圣叹推背图卦象分析之始末](https://draapho.github.io/2026/06/21/2679-tuibeitu1/)
 - [金圣叹推背图卦象分析之唐朝](https://draapho.github.io/2026/06/22/2680-tuibeitu2/)
