@@ -230,40 +230,40 @@ description: 周易序卦
 ## 序卦阴阳分列表
 
 单双之间, 有严格的对立关系, 阴阳平衡. 优先采用综卦, 对于八组自综卦, 则采用错卦处理.
-| 卦序   | 互卦        | 卦名 ->错卦                                                  | 左右错综关系  | 卦名 ->错卦                                                  | 互卦        | 卦序   |
-| :----- | :---------- | :----------------------------------------------------------- | :------------ | :----------------------------------------------------------- | :---------- | :----- |
-| **1**  | ䷀ 乾为天   | ![img](https://draapho.github.io/images/2608/111111.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/000000.png)     | ䷁ 坤为地   | **2**  |
-| **3**  | ䷖ 山地剥   | ![img](https://draapho.github.io/images/2608/010001.png)->50 | 综卦          | ![img](https://draapho.github.io/images/2608/100010.png)->49 | ䷗ 地雷复   | **4**  |
-| **5**  | ䷥ 火泽睽   | ![img](https://draapho.github.io/images/2608/010111.png)->35 | 综卦          | ![img](https://draapho.github.io/images/2608/111010.png)->36 | ䷤ 风火家人 | **6**  |
-| **7**  | ䷗ 地雷复   | ![img](https://draapho.github.io/images/2608/000010.png)->13 | 综卦          | ![img](https://draapho.github.io/images/2608/010000.png)->14 | ䷖ 山地剥   | **8**  |
-| **9**  | ䷥ 火泽睽   | ![img](https://draapho.github.io/images/2608/110111.png)->16 | 综卦          | ![img](https://draapho.github.io/images/2608/111011.png)->15 | ䷤ 风火家人 | **10** |
-| **11** | ䷵ 雷泽归妹 | ![img](https://draapho.github.io/images/2608/000111.png)     | 综卦,**错卦** | ![img](https://draapho.github.io/images/2608/111000.png)     | ䷴ 风山渐   | **12** |
-| **13** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/111101.png)->7  | 综卦          | ![img](https://draapho.github.io/images/2608/101111.png)->8  | ䷪ 泽天夬   | **14** |
-| **15** | ䷧ 雷水解   | ![img](https://draapho.github.io/images/2608/000100.png)->10 | 综卦          | ![img](https://draapho.github.io/images/2608/001000.png)->9  | ䷦ 水山蹇   | **16** |
-| **17** | ䷴ 风山渐   | ![img](https://draapho.github.io/images/2608/011001.png)     | 综卦,**错卦** | ![img](https://draapho.github.io/images/2608/100110.png)     | ䷵ 雷泽归妹 | **18** |
-| **19** | ䷗ 地雷复   | ![img](https://draapho.github.io/images/2608/000011.png)->33 | 综卦          | ![img](https://draapho.github.io/images/2608/110000.png)->34 | ䷖ 山地剥   | **20** |
-| **21** | ䷦ 水山蹇   | ![img](https://draapho.github.io/images/2608/101001.png)->48 | 综卦          | ![img](https://draapho.github.io/images/2608/100101.png)->47 | ䷧ 雷水解   | **22** |
-| **23** | ䷁ 坤为地   | ![img](https://draapho.github.io/images/2608/100000.png)->43 | 综卦          | ![img](https://draapho.github.io/images/2608/000001.png)->44 | ䷁ 坤为地   | **24** |
-| **25** | ䷴ 风山渐   | ![img](https://draapho.github.io/images/2608/111001.png)->46 | 综卦          | ![img](https://draapho.github.io/images/2608/100111.png)->45 | ䷵ 雷泽归妹 | **26** |
-| **27** | ䷁ 坤为地   | ![img](https://draapho.github.io/images/2608/100001.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/011110.png)     | ䷀ 乾为天   | **28** |
-| **29** | ䷚ 山雷颐   | ![img](https://draapho.github.io/images/2608/010010.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/101101.png)     | ䷛ 泽风大过 | **30** |
-| **31** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/011100.png)->41 | 综卦          | ![img](https://draapho.github.io/images/2608/001110.png)->42 | ䷪ 泽天夬   | **32** |
-| **33** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/111100.png)->19 | 综卦          | ![img](https://draapho.github.io/images/2608/001111.png)->20 | ䷪ 泽天夬   | **34** |
-| **35** | ䷦ 水山蹇   | ![img](https://draapho.github.io/images/2608/101000.png)->5  | 综卦          | ![img](https://draapho.github.io/images/2608/000101.png)->6  | ䷧ 雷水解   | **36** |
-| **37** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/110101.png)->40 | 综卦          | ![img](https://draapho.github.io/images/2608/101011.png)->39 | ䷾ 水火既济 | **38** |
-| **39** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/010100.png)->38 | 综卦          | ![img](https://draapho.github.io/images/2608/001010.png)->37 | ䷾ 水火既济 | **40** |
-| **41** | ䷗ 地雷复   | ![img](https://draapho.github.io/images/2608/100011.png)->31 | 综卦          | ![img](https://draapho.github.io/images/2608/110001.png)->32 | ䷖ 山地剥   | **42** |
-| **43** | ䷀ 乾为天   | ![img](https://draapho.github.io/images/2608/011111.png)->23 | 综卦          | ![img](https://draapho.github.io/images/2608/111110.png)->24 | ䷀ 乾为天   | **44** |
-| **45** | ䷴ 风山渐   | ![img](https://draapho.github.io/images/2608/011000.png)->26 | 综卦          | ![img](https://draapho.github.io/images/2608/000110.png)->25 | ䷵ 雷泽归妹 | **46** |
-| **47** | ䷤ 风火家人 | ![img](https://draapho.github.io/images/2608/011010.png)->22 | 综卦          | ![img](https://draapho.github.io/images/2608/010110.png)->21 | ䷥ 火泽睽   | **48** |
-| **49** | ䷫ 天风姤   | ![img](https://draapho.github.io/images/2608/011101.png)->4  | 综卦          | ![img](https://draapho.github.io/images/2608/101110.png)->3  | ䷪ 泽天夬   | **50** |
-| **51** | ䷦ 水山蹇   | ![img](https://draapho.github.io/images/2608/001001.png)->57 | 综卦          | ![img](https://draapho.github.io/images/2608/100100.png)->58 | ䷧ 雷水解   | **52** |
-| **53** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/110100.png)     | 综卦,**错卦** | ![img](https://draapho.github.io/images/2608/001011.png)     | ䷾ 水火既济 | **54** |
-| **55** | ䷛ 泽风大过 | ![img](https://draapho.github.io/images/2608/001101.png)->59 | 综卦          | ![img](https://draapho.github.io/images/2608/101100.png)->60 | ䷛ 泽风大过 | **56** |
-| **57** | ䷥ 火泽睽   | ![img](https://draapho.github.io/images/2608/110110.png)->51 | 综卦          | ![img](https://draapho.github.io/images/2608/011011.png)->52 | ䷤ 风火家人 | **58** |
-| **59** | ䷚ 山雷颐   | ![img](https://draapho.github.io/images/2608/110010.png)->55 | 综卦          | ![img](https://draapho.github.io/images/2608/010011.png)->56 | ䷚ 山雷颐   | **60** |
-| **61** | ䷚ 山雷颐   | ![img](https://draapho.github.io/images/2608/110011.png)     | 自综,**错卦** | ![img](https://draapho.github.io/images/2608/001100.png)     | ䷛ 泽风大过 | **62** |
-| **63** | ䷿ 火水未济 | ![img](https://draapho.github.io/images/2608/010101.png)     | 综卦,**错卦** | ![img](https://draapho.github.io/images/2608/101010.png)     | ䷾ 水火既济 | **64** |
+| 卦序   | 卦名 ->错卦                                                  | 互卦        | 左右错综关系  | 互卦        | 卦名 ->错卦                                                  | 卦序   |
+| :----- | :----------------------------------------------------------- | :---------- | :------------ | :---------- | :----------------------------------------------------------- | :----- |
+| **1**  | ![img](https://draapho.github.io/images/2608/111111.png)     | ䷀ 乾为天   | 自综,**错卦** | ䷁ 坤为地   | ![img](https://draapho.github.io/images/2608/000000.png)     | **2**  |
+| **3**  | ![img](https://draapho.github.io/images/2608/010001.png)->50 | ䷖ 山地剥   | 综卦          | ䷗ 地雷复   | ![img](https://draapho.github.io/images/2608/100010.png)->49 | **4**  |
+| **5**  | ![img](https://draapho.github.io/images/2608/010111.png)->35 | ䷥ 火泽睽   | 综卦          | ䷤ 风火家人 | ![img](https://draapho.github.io/images/2608/111010.png)->36 | **6**  |
+| **7**  | ![img](https://draapho.github.io/images/2608/000010.png)->13 | ䷗ 地雷复   | 综卦          | ䷖ 山地剥   | ![img](https://draapho.github.io/images/2608/010000.png)->14 | **8**  |
+| **9**  | ![img](https://draapho.github.io/images/2608/110111.png)->16 | ䷥ 火泽睽   | 综卦          | ䷤ 风火家人 | ![img](https://draapho.github.io/images/2608/111011.png)->15 | **10** |
+| **11** | ![img](https://draapho.github.io/images/2608/000111.png)     | ䷵ 雷泽归妹 | 综卦,**错卦** | ䷴ 风山渐   | ![img](https://draapho.github.io/images/2608/111000.png)     | **12** |
+| **13** | ![img](https://draapho.github.io/images/2608/111101.png)->7  | ䷫ 天风姤   | 综卦          | ䷪ 泽天夬   | ![img](https://draapho.github.io/images/2608/101111.png)->8  | **14** |
+| **15** | ![img](https://draapho.github.io/images/2608/000100.png)->10 | ䷧ 雷水解   | 综卦          | ䷦ 水山蹇   | ![img](https://draapho.github.io/images/2608/001000.png)->9  | **16** |
+| **17** | ![img](https://draapho.github.io/images/2608/011001.png)     | ䷴ 风山渐   | 综卦,**错卦** | ䷵ 雷泽归妹 | ![img](https://draapho.github.io/images/2608/100110.png)     | **18** |
+| **19** | ![img](https://draapho.github.io/images/2608/000011.png)->33 | ䷗ 地雷复   | 综卦          | ䷖ 山地剥   | ![img](https://draapho.github.io/images/2608/110000.png)->34 | **20** |
+| **21** | ![img](https://draapho.github.io/images/2608/101001.png)->48 | ䷦ 水山蹇   | 综卦          | ䷧ 雷水解   | ![img](https://draapho.github.io/images/2608/100101.png)->47 | **22** |
+| **23** | ![img](https://draapho.github.io/images/2608/100000.png)->43 | ䷁ 坤为地   | 综卦          | ䷁ 坤为地   | ![img](https://draapho.github.io/images/2608/000001.png)->44 | **24** |
+| **25** | ![img](https://draapho.github.io/images/2608/111001.png)->46 | ䷴ 风山渐   | 综卦          | ䷵ 雷泽归妹 | ![img](https://draapho.github.io/images/2608/100111.png)->45 | **26** |
+| **27** | ![img](https://draapho.github.io/images/2608/100001.png)     | ䷁ 坤为地   | 自综,**错卦** | ䷀ 乾为天   | ![img](https://draapho.github.io/images/2608/011110.png)     | **28** |
+| **29** | ![img](https://draapho.github.io/images/2608/010010.png)     | ䷚ 山雷颐   | 自综,**错卦** | ䷛ 泽风大过 | ![img](https://draapho.github.io/images/2608/101101.png)     | **30** |
+| **31** | ![img](https://draapho.github.io/images/2608/011100.png)->41 | ䷫ 天风姤   | 综卦          | ䷪ 泽天夬   | ![img](https://draapho.github.io/images/2608/001110.png)->42 | **32** |
+| **33** | ![img](https://draapho.github.io/images/2608/111100.png)->19 | ䷫ 天风姤   | 综卦          | ䷪ 泽天夬   | ![img](https://draapho.github.io/images/2608/001111.png)->20 | **34** |
+| **35** | ![img](https://draapho.github.io/images/2608/101000.png)->5  | ䷦ 水山蹇   | 综卦          | ䷧ 雷水解   | ![img](https://draapho.github.io/images/2608/000101.png)->6  | **36** |
+| **37** | ![img](https://draapho.github.io/images/2608/110101.png)->40 | ䷿ 火水未济 | 综卦          | ䷾ 水火既济 | ![img](https://draapho.github.io/images/2608/101011.png)->39 | **38** |
+| **39** | ![img](https://draapho.github.io/images/2608/010100.png)->38 | ䷿ 火水未济 | 综卦          | ䷾ 水火既济 | ![img](https://draapho.github.io/images/2608/001010.png)->37 | **40** |
+| **41** | ![img](https://draapho.github.io/images/2608/100011.png)->31 | ䷗ 地雷复   | 综卦          | ䷖ 山地剥   | ![img](https://draapho.github.io/images/2608/110001.png)->32 | **42** |
+| **43** | ![img](https://draapho.github.io/images/2608/011111.png)->23 | ䷀ 乾为天   | 综卦          | ䷀ 乾为天   | ![img](https://draapho.github.io/images/2608/111110.png)->24 | **44** |
+| **45** | ![img](https://draapho.github.io/images/2608/011000.png)->26 | ䷴ 风山渐   | 综卦          | ䷵ 雷泽归妹 | ![img](https://draapho.github.io/images/2608/000110.png)->25 | **46** |
+| **47** | ![img](https://draapho.github.io/images/2608/011010.png)->22 | ䷤ 风火家人 | 综卦          | ䷥ 火泽睽   | ![img](https://draapho.github.io/images/2608/010110.png)->21 | **48** |
+| **49** | ![img](https://draapho.github.io/images/2608/011101.png)->4  | ䷫ 天风姤   | 综卦          | ䷪ 泽天夬   | ![img](https://draapho.github.io/images/2608/101110.png)->3  | **50** |
+| **51** | ![img](https://draapho.github.io/images/2608/001001.png)->57 | ䷦ 水山蹇   | 综卦          | ䷧ 雷水解   | ![img](https://draapho.github.io/images/2608/100100.png)->58 | **52** |
+| **53** | ![img](https://draapho.github.io/images/2608/110100.png)     | ䷿ 火水未济 | 综卦,**错卦** | ䷾ 水火既济 | ![img](https://draapho.github.io/images/2608/001011.png)     | **54** |
+| **55** | ![img](https://draapho.github.io/images/2608/001101.png)->59 | ䷛ 泽风大过 | 综卦          | ䷛ 泽风大过 | ![img](https://draapho.github.io/images/2608/101100.png)->60 | **56** |
+| **57** | ![img](https://draapho.github.io/images/2608/110110.png)->51 | ䷥ 火泽睽   | 综卦          | ䷤ 风火家人 | ![img](https://draapho.github.io/images/2608/011011.png)->52 | **58** |
+| **59** | ![img](https://draapho.github.io/images/2608/110010.png)->55 | ䷚ 山雷颐   | 综卦          | ䷚ 山雷颐   | ![img](https://draapho.github.io/images/2608/010011.png)->56 | **60** |
+| **61** | ![img](https://draapho.github.io/images/2608/110011.png)     | ䷚ 山雷颐   | 自综,**错卦** | ䷛ 泽风大过 | ![img](https://draapho.github.io/images/2608/001100.png)     | **62** |
+| **63** | ![img](https://draapho.github.io/images/2608/010101.png)     | ䷿ 火水未济 | 综卦,**错卦** | ䷾ 水火既济 | ![img](https://draapho.github.io/images/2608/101010.png)     | **64** |
 
 
 
