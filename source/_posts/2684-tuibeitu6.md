@@ -583,5 +583,5 @@ description: 金圣叹推背图综合分析之明朝, 第二七到第三二象.
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) @2026. All rights reserved. 未经授权禁止转载***
 

@@ -346,5 +346,5 @@ description: 金圣叹推背图综合分析之尧舜, 第五一到第五八象.
 
 ----------
 
-***原创于 [DRA&PHO](https://draapho.github.io/)***
+***原创于 [DRA&PHO](https://draapho.github.io/) @2026. All rights reserved. 未经授权禁止转载***
 
