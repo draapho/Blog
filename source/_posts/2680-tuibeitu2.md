@@ -10,7 +10,7 @@ description: 金圣叹推背图综合分析之唐朝, 第二到第九象.
 
 [TOC]
 
-# 总览,待修善
+# 总览
 
 - [金圣叹推背图综合分析之始末](https://draapho.github.io/2026/06/21/2679-tuibeitu1/)
 - [金圣叹推背图综合分析之唐朝](https://draapho.github.io/2026/06/22/2680-tuibeitu2/)
