@@ -76,6 +76,7 @@ description: 如题.
   > description: Embedded System, IoT, M2M  # 博客描述
   > author: draapho                 # 作者
   > language: en        # 语言, 中文为 zh-Hans, 需设置category_map和tag_map
+  > timezone: 'UTC'
   >
   > \# URL
   > url: https://YourGitHubName.github.io/  # 替换***YourGitHubName***
