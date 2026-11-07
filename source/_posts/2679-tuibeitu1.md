@@ -388,7 +388,7 @@ description: 金圣叹推背图综合分析之始末, 第一象和第六十象.
 
 ## 卦象分析
 
-![天风姤](https://draapho.github.io/images/2608/011000.png)
+![泽地萃](https://draapho.github.io/images/2608/011000.png)
 
 互卦: ䷴ 风山渐;   错卦: ䷙ 山天大畜;   综卦: ䷭ 地风升.
 
